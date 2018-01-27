@@ -1,2 +1,30 @@
-* task
-hi
+#+title: Sprint Backlog 00 for Niam
+#+options: date:nil toc:nil author:nil num:nil
+#+todo: STARTED | COMPLETED CANCELLED POSTPONED
+#+tags: { story(s) epic(e) }
+
+* Mission Statement
+
+- what you want to achieve this sprint
+
+* Stories
+
+Stories you are working on this sprint.
+
+** Active
+
+#+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
+#+CAPTION: Clock summary at [2018-01-27 Sat 14:27]
+| <75>                                                                        |        |   |   |     |
+| Headline                                                                    | Time   |   |   |   % |
+|-----------------------------------------------------------------------------+--------+---+---+-----|
+| *Total time*                                                                | *0:00* |   |   | 0.0 |
+#+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
+#+end:
+
+
+*** Sprint and product backlog grooming                               :story:
+
+Updates to sprint and product backlog.
+
+** Deprecated

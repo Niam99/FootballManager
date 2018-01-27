@@ -27,3 +27,5 @@ For example:
 : Option: _
 :
 : _
+
+Ensure the user has entered a valid option./
