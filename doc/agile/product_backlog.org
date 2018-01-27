@@ -1,0 +1,29 @@
+#+options: date:nil toc:nil author:nil num:nil
+#+title: Product Backlog
+#+tags: { reviewing(r) }
+#+tags: { story(s) epic(e) }
+
+* Stories
+
+This document contains the [[http://www.mountaingoatsoftware.com/agile/scrum/product-backlog][product backlog]] for Football Manager.
+
+** Create a class for a menu
+
+We need a generic class that allows one to define a menu, with the
+following shape:
+
+: description
+: menu options
+: prompt
+
+For example:
+
+: Main Menu
+:
+: [1] Choose a team
+: [2] View nres
+: [0] QUit game
+:
+: Option: _
+:
+: _
