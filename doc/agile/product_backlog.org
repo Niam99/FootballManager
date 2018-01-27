@@ -21,7 +21,7 @@ For example:
 : Main Menu
 :
 : [1] Choose a team
-: [2] View nres
+: [2] View news
 : [0] QUit game
 :
 : Option: _
