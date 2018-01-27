@@ -28,4 +28,36 @@ For example:
 :
 : _
 
-Ensure the user has entered a valid option./
+Ensure the user has entered a valid option.
+
+** Add Travis support for project
+
+Travis automatically builds your project every time you do a commit.
+
+- Log in to travis using your github account (this has to be done by
+  Niam): https://travis-ci.org/. Create a project for Football
+  Manager.
+- Create a file called .travis.yml on the top directory of your
+  project. See [[https://ledentsov.de/2013/07/06/setting-travis-ci-with-github-for-a-c-project-for-the-first-time-cpp/][Setting travis-ci with github for a c++ project for the
+  first time]]
+- add an emblem to your readme file. This should appear on your travis
+  project, as per article above.
+
+** Create a local branch using magit
+
+In git you should never commit locally to branch master. Look for
+tutorials on using multiple branches.
+
+Links:
+
+- [[https://github.com/jkitchin/magit-tutorial][Magit Tutorial]]
+- [[https://vickychijwani.me/magit-part-i/][Other Magit Tutorial part I]], [[https://vickychijwani.me/magit-part-ii/][Part II]]
+
+** Create a simple main for project
+
+In projects, create a project called:
+
+: football_manager.game
+
+Add a simple main and CMakeLists, and make sure it builds. Commit
+this.
