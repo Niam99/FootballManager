@@ -5,7 +5,7 @@
 
 
 * Notes
-..
+
 ** branch
 Simple branching workflow:
  +
@@ -41,16 +41,17 @@ https://github.com/jkitchin/magit-tutorial
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-29 Mon 11:28]
+#+CAPTION: Clock summary at [2018-01-29 Mon 12:35]
 | <75>                                                                        |        |      |   |       |
 | Headline                                                                    | Time   |      |   |     % |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
-| *Total time*                                                                | *2:21* |      |   | 100.0 |
+| *Total time*                                                                | *3:26* |      |   | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
-| Stories                                                                     | 2:21   |      |   | 100.0 |
-| gpg, magit, test branch                                                     |        | 1:32 |   |  65.2 |
-| test commits to branch                                                      |        | 0:28 |   |  19.9 |
-| test verification                                                           |        | 0:21 |   |  14.9 |
+| Stories                                                                     | 3:26   |      |   | 100.0 |
+| gpg, magit, test branch                                                     |        | 1:32 |   |  44.7 |
+| test commits to branch                                                      |        | 0:28 |   |  13.6 |
+| test verification                                                           |        | 0:21 |   |  10.2 |
+| practice branches, travis, fix branch                                       |        | 1:05 |   |  31.6 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -69,10 +70,8 @@ Updates to sprint and product backlog.
 
 
 
-** practice branches
-   CLOCK: [2018-01-29 Mon 11:25]
-
-
+** practice branches, travis, fix branch
+   CLOCK: [2018-01-29 Mon 11:30]--[2018-01-29 Mon 12:35] =>  1:05
 
 
 ** Deprecated
