@@ -14,17 +14,22 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-27 Sat 14:27]
-| <75>                                                                        |        |   |   |     |
-| Headline                                                                    | Time   |   |   |   % |
-|-----------------------------------------------------------------------------+--------+---+---+-----|
-| *Total time*                                                                | *0:00* |   |   | 0.0 |
+#+CAPTION: Clock summary at [2018-01-29 Mon 10:32]
+| <75>                                                                        |        |      |   |       |
+| Headline                                                                    | Time   |      |   |     % |
+|-----------------------------------------------------------------------------+--------+------+---+-------|
+| *Total time*                                                                | *1:32* |      |   | 100.0 |
+|-----------------------------------------------------------------------------+--------+------+---+-------|
+| Stories                                                                     | 1:32   |      |   | 100.0 |
+| gpg, magit, test branch                                                     |        | 1:32 |   | 100.0 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** Sprint and product backlog grooming                               :story:
-
 Updates to sprint and product backlog.
+
+** gpg, magit, test branch
+   CLOCK: [2018-01-29 Mon 9:00]--[2018-01-29 Mon 10:32] =>  1:32
 
 ** Deprecated
