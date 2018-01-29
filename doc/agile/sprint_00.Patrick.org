@@ -1,4 +1,4 @@
-#+title: Sprint Backlog 00 for Niam
+#+title: Sprint Backlog 00 for Patrick
 #+options: date:nil toc:nil author:nil num:nil
 #+todo: STARTED | COMPLETED CANCELLED POSTPONED
 #+tags: { story(s) epic(e) }
@@ -36,14 +36,14 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-29 Mon 13:16]
+#+CAPTION: Clock summary at [2018-01-29 Mon 17:24]
 | <75>                                                                        |        |      |   |       |
 | Headline                                                                    | Time   |      |   |     % |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
-| *Total time*                                                                | *2:56* |      |   | 100.0 |
+| *Total time*                                                                | *5:07* |      |   | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
-| Stories                                                                     | 2:56   |      |   | 100.0 |
-| Understanding Essentials of MaGit                                           |        | 2:56 |   | 100.0 |
+| Stories                                                                     | 5:07   |      |   | 100.0 |
+| Understanding Some Essentials of MaGit                                      |        | 5:07 |   | 100.0 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -51,9 +51,8 @@ Stories you are working on this sprint.
 *** Sprint and product backlog grooming                               :story:
 
 ** Understanding Some Essentials of MaGit
+   CLOCK: [2018-01-29 Mon 14:36]--[2018-01-29 Mon 16:47] =>  2:11
    CLOCK: [2018-01-29 Mon 09:52]--[2018-01-29 Mon 12:48] =>  2:56
 
-
-Updates to sprint and product backlog.
 
 ** Deprecated
