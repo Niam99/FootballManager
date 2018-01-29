@@ -79,3 +79,9 @@ In projects, create a project called:
 
 Add a simple main and CMakeLists, and make sure it builds. Commit
 this.
+
+*** Pull the C++ docker image
+
+On a shell run:
+
+: docker pull domaindrivenconsulting/cpp_web_development:latest
