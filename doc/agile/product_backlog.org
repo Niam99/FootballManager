@@ -85,3 +85,8 @@ this.
 On a shell run:
 
 : docker pull domaindrivenconsulting/cpp_web_development:latest
+
+*** Move diagrams into the correct location
+
+The file =uml.dia= was added to the folder =doc=, it should be in
+=projects/football_manager.models=
