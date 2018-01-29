@@ -57,6 +57,7 @@ Stories you are working on this sprint.
 *** Sprint and product backlog grooming                               :story:
 
 ** Understanding Some Essentials of MaGit
+   CLOCK: [2018-01-29 Mon 17:56]--[2018-01-29 Mon 18:19] =>  0:23
    CLOCK: [2018-01-29 Mon 17:14]--[2018-01-29 Mon 17:54] =>  0:40
    CLOCK: [2018-01-29 Mon 14:36]--[2018-01-29 Mon 16:47] =>  2:11
    CLOCK: [2018-01-29 Mon 09:52]--[2018-01-29 Mon 12:48] =>  2:56
