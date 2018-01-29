@@ -74,7 +74,19 @@ Updates to sprint and product backl
 *** COMPLETED test verification
     CLOSED: [2018-01-29 Mon 14:39]
    CLOCK: [2018-01-29 Mon 11:00]--[2018-01-29 Mon 11:21] =>  0:21
+*** COMPLETED Add Travis support for project
+    CLOSED: [2018-01-29 Mon 16:54]
 
+Travis automatically builds your project every time you do a commit.
+
+- Log in to travis using your github account (this has to be done by
+  Niam): https://travis-ci.org/. Create a project for Football
+  Manager.
+- Create a file called .travis.yml on the top directory of your
+  project. See [[https://ledentsov.de/2013/07/06/setting-travis-ci-with-github-for-a-c-project-for-the-first-time-cpp/][Setting travis-ci with github for a c++ project for the
+  first time]]
+- add an emblem to your readme file. This should appear on your travis
+  project, as per article above.
 *** COMPLETED practice branches, travis, fix branch
     CLOSED: [2018-01-29 Mon 14:39]
    CLOCK: [2018-01-29 Mon 11:30]--[2018-01-29 Mon 12:35] =>  1:05
