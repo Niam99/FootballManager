@@ -2,8 +2,10 @@
 #+options: date:nil toc:nil author:nil num:nil
 #+todo: STARTED | COMPLETED CANCELLED POSTPONED
 #+tags: { story(s) epic(e) }
+
+
 * Notes
-test
+
 ** branch
 Simple branching workflow:
  +
@@ -23,26 +25,29 @@ Simple branching workflow:
  +  - 8. if all has gone well, you can push master to remote: P u.
  +  - 9. go back to your branch and do work.
  +
+
+
 * Mission Statement
 
-- what you want to achieve this sprint
+- create football manager program
+
+
 
 * Stories
-
-Stories you are working on this sprint.
 
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-29 Mon 11:01]
+#+CAPTION: Clock summary at [2018-01-29 Mon 11:21]
 | <75>                                                                        |        |      |   |       |
 | Headline                                                                    | Time   |      |   |     % |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
-| *Total time*                                                                | *2:00* |      |   | 100.0 |
+| *Total time*                                                                | *2:21* |      |   | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
-| Stories                                                                     | 2:00   |      |   | 100.0 |
-| gpg, magit, test branch                                                     |        | 1:32 |   |  76.7 |
-| test commits to branch                                                      |        | 0:28 |   |  23.3 |
+| Stories                                                                     | 2:21   |      |   | 100.0 |
+| gpg, magit, test branch                                                     |        | 1:32 |   |  65.2 |
+| test commits to branch                                                      |        | 0:28 |   |  19.9 |
+| test verification                                                           |        | 0:21 |   |  14.9 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -54,5 +59,19 @@ Updates to sprint and product backlog.
 
 ** test commits to branch
    CLOCK: [2018-01-29 Mon 10:32]--[2018-01-29 Mon 11:00] =>  0:28
+
+** test verification
+   CLOCK: [2018-01-29 Mon 11:00]--[2018-01-29 Mon 11:21] =>  0:21
+
+
+
+
+
+
+
+
+
+
+
 
 ** Deprecated
