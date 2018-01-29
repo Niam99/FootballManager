@@ -2,7 +2,7 @@ language: cpp
 
 branches:
   only:
-   - catchmoci
+   - master
 
 before_script: ls
 
