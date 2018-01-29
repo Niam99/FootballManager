@@ -71,7 +71,7 @@ Links:
 - [[https://github.com/jkitchin/magit-tutorial][Magit Tutorial]]
 - [[https://vickychijwani.me/magit-part-i/][Other Magit Tutorial part I]], [[https://vickychijwani.me/magit-part-ii/][Part II]]
 
-** Create a simple main for project
+*** Create a simple main for project
 
 In projects, create a project called:
 
