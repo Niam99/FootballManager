@@ -41,42 +41,48 @@ https://github.com/jkitchin/magit-tutorial
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-29 Mon 13:08]
-| <75>                                                                        |        |      |   |       |
-| Headline                                                                    | Time   |      |   |     % |
-|-----------------------------------------------------------------------------+--------+------+---+-------|
-| *Total time*                                                                | *3:59* |      |   | 100.0 |
-|-----------------------------------------------------------------------------+--------+------+---+-------|
-| Stories                                                                     | 3:59   |      |   | 100.0 |
-| gpg, magit, test branch                                                     |        | 1:32 |   |  38.5 |
-| test commits to branch                                                      |        | 0:28 |   |  11.7 |
-| test verification                                                           |        | 0:21 |   |   8.8 |
-| practice branches, travis, fix branch                                       |        | 1:05 |   |  27.2 |
-| fix travis                                                                  |        | 0:33 |   |  13.8 |
+#+CAPTION: Clock summary at [2018-01-29 Mon 14:40]
+| <75>                                                                        |        |      |      |       |
+| Headline                                                                    | Time   |      |      |     % |
+|-----------------------------------------------------------------------------+--------+------+------+-------|
+| *Total time*                                                                | *4:25* |      |      | 100.0 |
+|-----------------------------------------------------------------------------+--------+------+------+-------|
+| Stories                                                                     | 4:25   |      |      | 100.0 |
+| Active                                                                      |        | 4:25 |      | 100.0 |
+| COMPLETED gpg, magit, test branch                                           |        |      | 1:32 |  34.7 |
+| COMPLETED test commits to branch                                            |        |      | 0:28 |  10.6 |
+| COMPLETED test verification                                                 |        |      | 0:21 |   7.9 |
+| COMPLETED practice branches, travis, fix branch                             |        |      | 1:05 |  24.5 |
+| COMPLETED fix travis                                                        |        |      | 0:33 |  12.5 |
+| create main                                                                 |        |      | 0:26 |   9.8 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 *
-*** Sprint and product backlog grooming                               :story:
-Updates to sprint and product backlog.
-
-** gpg, magit, test branch
+*** COMPLETED Sprint and product backlog grooming                     :story:
+    CLOSED: [2018-01-29 Mon 14:35]
+Updates to sprint and product backl
+*** COMPLETED gpg, magit, test branch
+    CLOSED: [2018-01-29 Mon 14:38]
    CLOCK: [2018-01-29 Mon 9:00]--[2018-01-29 Mon 10:32] =>  1:32
 
-** test commits to branch
+*** COMPLETED test commits to branch
+    CLOSED: [2018-01-29 Mon 14:38]
    CLOCK: [2018-01-29 Mon 10:32]--[2018-01-29 Mon 11:00] =>  0:28
 
-** test verification
+*** COMPLETED test verification
+    CLOSED: [2018-01-29 Mon 14:39]
    CLOCK: [2018-01-29 Mon 11:00]--[2018-01-29 Mon 11:21] =>  0:21
 
-
-** practice branches, travis, fix branch
+*** COMPLETED practice branches, travis, fix branch
+    CLOSED: [2018-01-29 Mon 14:39]
    CLOCK: [2018-01-29 Mon 11:30]--[2018-01-29 Mon 12:35] =>  1:05
 
-** fix travis
+*** COMPLETED fix travis
+    CLOSED: [2018-01-29 Mon 14:39]
    CLOCK: [2018-01-29 Mon 12:35]--[2018-01-29 Mon 13:08] =>  0:33
 
-** creating main
-   CLOCK: [2018-01-29 Mon 14:26]
-
-** Deprecated
+*** STARTED Create a simple main for project                          :story:...
+*** create main
+   CLOCK: [2018-01-29 Mon 14:10]--[2018-01-29 Mon 14:36] =>  0:26
+** depracated
