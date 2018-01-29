@@ -42,14 +42,14 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-29 Mon 17:55]
+#+CAPTION: Clock summary at [2018-01-29 Mon 18:19]
 | <75>                                                                        |        |      |   |       |
 | Headline                                                                    | Time   |      |   |     % |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
-| *Total time*                                                                | *5:47* |      |   | 100.0 |
+| *Total time*                                                                | *6:10* |      |   | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
-| Stories                                                                     | 5:47   |      |   | 100.0 |
-| Understanding Some Essentials of MaGit                                      |        | 5:47 |   | 100.0 |
+| Stories                                                                     | 6:10   |      |   | 100.0 |
+| Understanding Some Essentials of MaGit                                      |        | 6:10 |   | 100.0 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
