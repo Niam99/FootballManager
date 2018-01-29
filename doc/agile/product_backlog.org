@@ -58,7 +58,7 @@ Simple branching workflow:
   - 1. first make sure all files have been either committed or
     stashed.
   - 2. Then in magit type b b master to change to master.
-  - 3. Then pull master with P u.
+  - 3. Then pull master with F u.
   - 4. Then go back to your branch with b b development.
   - 5. Rebase the branch. In magit r e master.
   - 6. now go back to master b b master.
