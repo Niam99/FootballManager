@@ -41,7 +41,7 @@ https://github.com/jkitchin/magit-tutorial
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-29 Mon 14:40]
+#+CAPTION: Clock summary at [2018-01-29 Mon 15:16]
 | <75>                                                                        |        |      |      |       |
 | Headline                                                                    | Time   |      |      |     % |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
@@ -83,6 +83,11 @@ Updates to sprint and product backl
    CLOCK: [2018-01-29 Mon 12:35]--[2018-01-29 Mon 13:08] =>  0:33
 
 *** STARTED Create a simple main for project                          :story:...
-*** create main
+*** COMPLETED create main
+    CLOSED: [2018-01-29 Mon 16:10]
    CLOCK: [2018-01-29 Mon 14:10]--[2018-01-29 Mon 14:36] =>  0:26
-** depracated
+*** build main
+    CLOCK: [2018-01-29 Mon 14:40]
+
+
+** Deprecated
