@@ -26,6 +26,9 @@ Simple branching workflow:
  +  - 9. go back to your branch and do work.
  +
 
+** links
+https://github.com/jkitchin/magit-tutorial
+
 
 * Mission Statement
 
@@ -38,7 +41,7 @@ Simple branching workflow:
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-29 Mon 11:21]
+#+CAPTION: Clock summary at [2018-01-29 Mon 11:28]
 | <75>                                                                        |        |      |   |       |
 | Headline                                                                    | Time   |      |   |     % |
 |-----------------------------------------------------------------------------+--------+------+---+-------|
@@ -54,6 +57,7 @@ Simple branching workflow:
 *
 *** Sprint and product backlog grooming                               :story:
 Updates to sprint and product backlog.
+
 ** gpg, magit, test branch
    CLOCK: [2018-01-29 Mon 9:00]--[2018-01-29 Mon 10:32] =>  1:32
 
@@ -65,11 +69,8 @@ Updates to sprint and product backlog.
 
 
 
-
-
-
-
-
+** practice branches
+   CLOCK: [2018-01-29 Mon 11:25]
 
 
 
