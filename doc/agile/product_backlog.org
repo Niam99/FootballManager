@@ -86,6 +86,11 @@ On a shell run:
 
 : docker pull domaindrivenconsulting/cpp_web_development:latest
 
+Options for running:
+
+: =v volume (-v "$HOME:$HOME")
+: =e environment (-e "USER_NAME=$(whoami) -e USER_ID=$(id -u) -e GROUP_ID=$(id -g)")
+
 *** Move diagrams into the correct location
 
 The file =uml.dia= was added to the folder =doc=, it should be in
