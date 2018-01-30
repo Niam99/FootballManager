@@ -18,6 +18,10 @@ menu create_main_menu() {
     quit.setup("Quit");
     items.push_back(quit);
 
+    menu_item test;
+    test.setup("test");
+    items.push_back(test);
+
     menu main_menu;
     main_menu.setup("Main Menu", "Choose an option: ", items);
     return main_menu;
@@ -32,10 +36,10 @@ int main()
     int result = main_menu.run();
 
     // handle the result of the menu.
-    if (result == 0) {
+    if (result == 2) {
         std::cout << "User exited.";
     } else {
-        std::cout << "user choose: " << result;
+        std::cout << "user choose: " << result << std::endl;
     }
     return 0;
 }

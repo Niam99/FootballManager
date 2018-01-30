@@ -12,24 +12,27 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-30 Tue 11:23]
-| <75>                                                                        |        |      |      |       |
-| Headline                                                                    | Time   |      |      |     % |
-|-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *8:56* |      |      | 100.0 |
-|-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 8:56   |      |      | 100.0 |
-| Active                                                                      |        | 8:56 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |        |      | 0:58 |  10.8 |
-| COMPLETED Add gpg                                                           |        |      | 1:32 |  17.2 |
-| COMPLETED Test commits to branch                                            |        |      | 0:28 |   5.2 |
-| COMPLETED Test verification                                                 |        |      | 0:21 |   3.9 |
-| COMPLETED Practice branches                                                 |        |      | 1:05 |  12.1 |
-| COMPLETED Fix travis                                                        |        |      | 0:33 |   6.2 |
-| COMPLETED Create main                                                       |        |      | 0:26 |   4.9 |
-| COMPLETED Build main                                                        |        |      | 2:10 |  24.3 |
-| COMPLETED Discuss task                                                      |        |      | 0:31 |   5.8 |
-| COMPLETED Create a Menu class                                               |        |      | 0:52 |   9.7 |
+#+CAPTION: Clock summary at [2018-01-30 Tue 15:48]
+| <75>                                                                        |         |       |      |       |
+| Headline                                                                    | Time    |       |      |     % |
+|-----------------------------------------------------------------------------+---------+-------+------+-------|
+| *Total time*                                                                | *12:18* |       |      | 100.0 |
+|-----------------------------------------------------------------------------+---------+-------+------+-------|
+| Stories                                                                     | 12:18   |       |      | 100.0 |
+| Active                                                                      |         | 12:18 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   7.9 |
+| COMPLETED Add gpg                                                           |         |       | 1:32 |  12.5 |
+| COMPLETED Test commits to branch                                            |         |       | 0:28 |   3.8 |
+| COMPLETED Test verification                                                 |         |       | 0:21 |   2.8 |
+| COMPLETED Practice branches                                                 |         |       | 1:05 |   8.8 |
+| COMPLETED Fix travis                                                        |         |       | 0:33 |   4.5 |
+| COMPLETED Create main                                                       |         |       | 0:26 |   3.5 |
+| COMPLETED Build main                                                        |         |       | 2:10 |  17.6 |
+| COMPLETED Discuss task                                                      |         |       | 0:31 |   4.2 |
+| COMPLETED Create a Menu class                                               |         |       | 0:52 |   7.0 |
+| COMPLETED Fix menu class                                                    |         |       | 1:41 |  13.7 |
+| POSTPONED Research classes                                                  |         |       | 1:22 |  11.1 |
+| COMPLETED Add new option to list                                            |         |       | 0:19 |   2.6 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -134,5 +137,18 @@ Create a main.cpp - output hello
 *** COMPLETED Create a Menu class
     CLOSED: [2018-01-30 Tue 11:23]
     CLOCK: [2018-01-30 Tue 10:31]--[2018-01-30 Tue 11:23] =>  0:52
+
+*** COMPLETED Fix menu class
+    CLOSED: [2018-01-30 Tue 14:04]
+    CLOCK: [2018-01-30 Tue 11:23]--[2018-01-30 Tue 13:04] =>  1:41
+
+*** POSTPONED Research classes
+    CLOSED: [2018-01-30 Tue 15:26]
+    CLOCK: [2018-01-30 Tue 14:04]--[2018-01-30 Tue 15:26] =>  1:22
+
+*** COMPLETED Add new option to list
+    CLOSED: [2018-01-30 Tue 15:46]
+    CLOCK: [2018-01-30 Tue 15:27]--[2018-01-30 Tue 15:46] =>  0:19
+
 
 ** Deprecated
