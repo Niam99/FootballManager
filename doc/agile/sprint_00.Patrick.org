@@ -7,7 +7,7 @@
 
 ** MC Quotes
 
-MaGit Pushing------------------------------------------------------
+MaGit Pushing
 
 1. first make sure all files have been either committed or stashed.
 2. Then in magit type b b master to change to master.
@@ -18,8 +18,6 @@ MaGit Pushing------------------------------------------------------
 7. merge your branch into master: m m development.
 8. if all has gone well, you can push master to remote: P u.
 9. go back to your branch and do work.
-
-------------------------------------------------------------------
 
 ** links
 https://github.com/jkitchin/magit-tutorial
@@ -56,11 +54,11 @@ Stories you are working on this sprint.
 
 *** Sprint and product backlog grooming                               :story:
 
-** Understanding Some Essentials of MaGit
-   CLOCK: [2018-01-29 Mon 17:56]--[2018-01-29 Mon 18:19] =>  0:23
-   CLOCK: [2018-01-29 Mon 17:14]--[2018-01-29 Mon 17:54] =>  0:40
-   CLOCK: [2018-01-29 Mon 14:36]--[2018-01-29 Mon 16:47] =>  2:11
-   CLOCK: [2018-01-29 Mon 09:52]--[2018-01-29 Mon 12:48] =>  2:56
+*** Understanding Some Essentials of MaGit
+    CLOCK: [2018-01-29 Mon 17:56]--[2018-01-29 Mon 18:19] =>  0:23
+    CLOCK: [2018-01-29 Mon 17:14]--[2018-01-29 Mon 17:54] =>  0:40
+    CLOCK: [2018-01-29 Mon 14:36]--[2018-01-29 Mon 16:47] =>  2:11
+    CLOCK: [2018-01-29 Mon 09:52]--[2018-01-29 Mon 12:48] =>  2:56
 
 
 ** Deprecated
