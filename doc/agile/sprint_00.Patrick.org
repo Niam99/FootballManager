@@ -29,6 +29,7 @@ Stories you are working on this sprint.
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-01-30 Tue 12:10]--[2018-01-30 Tue 12:19] =>  0:09
     CLOCK: [2018-01-30 Tue 09:01]--[2018-01-30 Tue 09:54] =>  0:53
 
 Updates to sprint and product backlog.
@@ -75,5 +76,33 @@ Simple branching workflow:
   7. merge your branch into master: m m development.
   8. if all has gone well, you can push master to remote: P u.
   9. go back to your branch and do work.
+
+*** COMPLETED Create League.cpp/hpp
+    CLOSED: [2018-01-30 Tue 11:25]
+    CLOCK: [2018-01-30 Tue 10:26]--[2018-01-30 Tue 11:25] =>  0:59
+
+Created league.cpp/hpp
+Connected it to main.cpp
+Updated CMakeLists.txt
+Compile
+Test to see if working
+
+*** COMPLETED Create game.cpp/hpp
+    CLOSED: [2018-01-30 Tue 12:18]
+    CLOCK: [2018-01-30 Tue 11:26]--[2018-01-30 Tue 12:09] =>  0:43
+
+Created game.cpp/hpp
+Connected it to main.cpp
+Updated CMakeLists.txt
+Compile
+Test to see if working
+
+*** STARTED Create teams and players
+
+Make appropriate cpp files
+Use diagram on Dia for correct vars
+Use for players: https://www.premierleague.com/players
+Input players and teams
+If all goes well see if you can create a table in league and place vars from teams
 
 ** Deprecated
