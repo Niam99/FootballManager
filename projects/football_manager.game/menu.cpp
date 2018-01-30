@@ -1,13 +1,6 @@
 #include <iostream>
 #include <string>
 
-class Menu {
-public:
-    std::string name;
-    int choice;
-    std::string prompt;
-};
-
 int callMenu()
 {
     Menu chooseTeam;
@@ -46,7 +39,7 @@ int callMenu()
             choiceValid = true;
         } else if (userChoice == 0) {
             std::cout << quit.prompt << std::endl;
-            exit(0);
+            return(0);
         } else {
             std::cout << "Please enter a valid menu choice, e.g 0, 1, 2" << std::endl;
         }
