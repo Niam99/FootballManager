@@ -84,9 +84,13 @@ Simple branching workflow:
     CLOCK: [2018-01-30 Tue 10:26]--[2018-01-30 Tue 11:25] =>  0:59
 
 -Created league.cpp/hpp
+
 -Connected it to main.cpp
+
 -Updated CMakeLists.txt
+
 -Compile
+
 -Test to see if working
 
 *** COMPLETED Create game.cpp/hpp
@@ -94,17 +98,26 @@ Simple branching workflow:
     CLOCK: [2018-01-30 Tue 11:26]--[2018-01-30 Tue 12:09] =>  0:43
 
 -Created game.cpp/hpp
+
 -Connected it to main.cpp
+
 -Updated CMakeLists.txt
+
 -Compile
+
 -Test to see if working
 
 *** STARTED Create teams and players
 
 -Make appropriate cpp files
+
 -Use diagram on Dia for correct vars
+
 -Use for players: https://www.premierleague.com/players
+
 -Input players and teams
+
 -If all goes well see if you can create a table in league and place vars from teams
+
 
 ** Deprecated
