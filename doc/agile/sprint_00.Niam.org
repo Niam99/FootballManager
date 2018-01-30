@@ -12,27 +12,28 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-30 Tue 15:48]
+#+CAPTION: Clock summary at [2018-01-30 Tue 16:52]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *12:18* |       |      | 100.0 |
+| *Total time*                                                                | *13:06* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 12:18   |       |      | 100.0 |
-| Active                                                                      |         | 12:18 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   7.9 |
-| COMPLETED Add gpg                                                           |         |       | 1:32 |  12.5 |
-| COMPLETED Test commits to branch                                            |         |       | 0:28 |   3.8 |
-| COMPLETED Test verification                                                 |         |       | 0:21 |   2.8 |
-| COMPLETED Practice branches                                                 |         |       | 1:05 |   8.8 |
-| COMPLETED Fix travis                                                        |         |       | 0:33 |   4.5 |
-| COMPLETED Create main                                                       |         |       | 0:26 |   3.5 |
-| COMPLETED Build main                                                        |         |       | 2:10 |  17.6 |
-| COMPLETED Discuss task                                                      |         |       | 0:31 |   4.2 |
-| COMPLETED Create a Menu class                                               |         |       | 0:52 |   7.0 |
-| COMPLETED Fix menu class                                                    |         |       | 1:41 |  13.7 |
-| POSTPONED Research classes                                                  |         |       | 1:22 |  11.1 |
-| COMPLETED Add new option to list                                            |         |       | 0:19 |   2.6 |
+| Stories                                                                     | 13:06   |       |      | 100.0 |
+| Active                                                                      |         | 13:06 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   7.4 |
+| COMPLETED Add gpg                                                           |         |       | 1:32 |  11.7 |
+| COMPLETED Test commits to branch                                            |         |       | 0:28 |   3.6 |
+| COMPLETED Test verification                                                 |         |       | 0:21 |   2.7 |
+| COMPLETED Practice branches                                                 |         |       | 1:05 |   8.3 |
+| COMPLETED Fix travis                                                        |         |       | 0:33 |   4.2 |
+| COMPLETED Create main                                                       |         |       | 0:26 |   3.3 |
+| COMPLETED Build main                                                        |         |       | 2:10 |  16.5 |
+| COMPLETED Discuss task                                                      |         |       | 0:31 |   3.9 |
+| COMPLETED Create a Menu class                                               |         |       | 0:52 |   6.6 |
+| COMPLETED Fix menu class                                                    |         |       | 1:41 |  12.8 |
+| POSTPONED Research classes                                                  |         |       | 1:49 |  13.9 |
+| COMPLETED Add new option to list                                            |         |       | 0:19 |   2.4 |
+| COMPLETED Create players class                                              |         |       | 0:21 |   2.7 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
