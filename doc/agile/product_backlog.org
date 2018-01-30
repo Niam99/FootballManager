@@ -37,6 +37,7 @@ Name : string
 Players : array
 Points : integer
 Display teams before user selects
+
 ** Create a class for players
 
 Name : string
@@ -46,7 +47,10 @@ defense : int
 position : string
 
 - display details when user chooses to view players of selected team
+- where to source player data: https://www.premierleague.com/players
+
 ** Create a class for leagues
+
 League
 Team
 Wins
@@ -54,10 +58,13 @@ Draws
 Losses
 points
 played
+
 ** Create a class for games
+
 Team
 Time
 Score
+
 ** Pull the C++ docker image
 
 On a shell run:
