@@ -12,22 +12,24 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-30 Tue 10:00]
+#+CAPTION: Clock summary at [2018-01-30 Tue 11:23]
 | <75>                                                                        |        |      |      |       |
 | Headline                                                                    | Time   |      |      |     % |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *7:33* |      |      | 100.0 |
+| *Total time*                                                                | *8:56* |      |      | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 7:33   |      |      | 100.0 |
-| Active                                                                      |        | 7:33 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |        |      | 0:58 |  12.8 |
-| COMPLETED Add gpg                                                           |        |      | 1:32 |  20.3 |
-| COMPLETED Test commits to branch                                            |        |      | 0:28 |   6.2 |
-| COMPLETED Test verification                                                 |        |      | 0:21 |   4.6 |
-| COMPLETED Practice branches                                                 |        |      | 1:05 |  14.3 |
-| COMPLETED Fix travis                                                        |        |      | 0:33 |   7.3 |
-| COMPLETED Create main                                                       |        |      | 0:26 |   5.7 |
-| COMPLETED Build main                                                        |        |      | 2:10 |  28.7 |
+| Stories                                                                     | 8:56   |      |      | 100.0 |
+| Active                                                                      |        | 8:56 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |        |      | 0:58 |  10.8 |
+| COMPLETED Add gpg                                                           |        |      | 1:32 |  17.2 |
+| COMPLETED Test commits to branch                                            |        |      | 0:28 |   5.2 |
+| COMPLETED Test verification                                                 |        |      | 0:21 |   3.9 |
+| COMPLETED Practice branches                                                 |        |      | 1:05 |  12.1 |
+| COMPLETED Fix travis                                                        |        |      | 0:33 |   6.2 |
+| COMPLETED Create main                                                       |        |      | 0:26 |   4.9 |
+| COMPLETED Build main                                                        |        |      | 2:10 |  24.3 |
+| COMPLETED Discuss task                                                      |        |      | 0:31 |   5.8 |
+| COMPLETED Create a Menu class                                               |        |      | 0:52 |   9.7 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -124,5 +126,13 @@ Create a main.cpp - output hello
 - move folders
 - push, pull
 - fix travis file
+
+*** COMPLETED Discuss task
+    CLOSED: [2018-01-30 Tue 10:31]
+    CLOCK: [2018-01-30 Tue 10:00]--[2018-01-30 Tue 10:31] =>  0:31
+
+*** COMPLETED Create a Menu class
+    CLOSED: [2018-01-30 Tue 11:23]
+    CLOCK: [2018-01-30 Tue 10:31]--[2018-01-30 Tue 11:23] =>  0:52
 
 ** Deprecated
