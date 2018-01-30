@@ -31,44 +31,6 @@ For example:
 Ensure the user has entered a valid option.
 
 
-
-** Create a local branch using magit
-
-In git you should never commit locally to branch master. Look for
-tutorials on using multiple branches.
-
-Simple branching workflow:
-
-- make sure you have ido-mode on as it makes it much easier to select
-  the branches.
-- create a new branch in magit: Type b c. The starting point should be
-  master. Then give it a name (e.g. development).
-- do work as usual, commit etc. When you want to push:
-  - 1. first make sure all files have been either committed or
-    stashed.
-  - 2. Then in magit type b b master to change to master.
-  - 3. Then pull master with F u.
-  - 4. Then go back to your branch with b b development.
-  - 5. Rebase the branch. In magit r e master.
-  - 6. now go back to master b b master.
-  - 7. merge your branch into master: m m development.
-  - 8. if all has gone well, you can push master to remote: P u.
-  - 9. go back to your branch and do work.
-
-Links:
-
-- [[https://github.com/jkitchin/magit-tutorial][Magit Tutorial]]
-- [[https://vickychijwani.me/magit-part-i/][Other Magit Tutorial part I]], [[https://vickychijwani.me/magit-part-ii/][Part II]]
-
-*** Create a simple main for project
-
-In projects, create a project called:
-
-: football_manager.game
-
-Add a simple main and CMakeLists, and make sure it builds. Commit
-this.
-
 *** Pull the C++ docker image
 
 On a shell run:
@@ -79,8 +41,3 @@ Options for running:
 
 : =v volume (-v "$HOME:$HOME")
 : =e environment (-e "USER_NAME=$(whoami) -e USER_ID=$(id -u) -e GROUP_ID=$(id -g)")
-
-*** Move diagrams into the correct location
-
-The file =uml.dia= was added to the folder =doc=, it should be in
-=projects/football_ma

@@ -7,8 +7,6 @@
 
 - create football manager program
 
-
-
 * Stories
 
 ** Active
@@ -34,8 +32,8 @@
 
 *
 *** STARTED Sprint and product backlog grooming                       :story:
-    CLOCK: [2018-01-30 Tue 09:13]
-Updates to sprint and product backl
+    CLOCK: [2018-01-30 Tue 09:00]
+Updates to sprint and product backlog
 *** COMPLETED magit
     CLOSED: [2018-01-30 Tue 09:20]
 Simple branching workflow:
@@ -55,6 +53,10 @@ Simple branching workflow:
  +  - 7. merge your branch into master: m m development.
  +  - 8. if all has gone well, you can push master to remote: P u.
  +  - 9. go back to your branch and do work.
+Links:
+
+- [[https://github.com/jkitchin/magit-tutorial][Magit Tutorial]]
+- [[https://vickychijwani.me/magit-part-i/][Other Magit Tutorial part I]], [[https://vickychijwani.me/magit-part-ii/][Part II]]
 
 *** COMPLETED add gpg
     CLOSED: [2018-01-29 Mon 14:38]
@@ -90,7 +92,7 @@ Travis automatically builds your project every time you do a commit.
     CLOSED: [2018-01-29 Mon 14:39]
    CLOCK: [2018-01-29 Mon 12:35]--[2018-01-29 Mon 13:08] =>  0:33
 - changed travis.yml file - chnaged to master(branch).
-*** COMPLETED Create a simple main for project                          :story:
+*** COMPLETED Create a simple main for project                        :story:
     CLOSED: [2018-01-29 Mon 16:50]
 - buil program using main file, CMakeLists, and .travis.yml
 *** COMPLETED create main
