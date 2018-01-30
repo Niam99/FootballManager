@@ -32,7 +32,7 @@
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
-    CLOCK: [2018-01-30 Tue 09:00]
+    CLOCK: [2018-01-30 Tue 09:00]--[2018-01-30 Tue 09:58] =>  0:58
 Updates to sprint and product backlog
 *** COMPLETED Magit
     CLOSED: [2018-01-30 Tue 09:20]
