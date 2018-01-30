@@ -30,8 +30,14 @@ For example:
 
 Ensure the user has entered a valid option.
 
+** Create a class for teams
 
-*** Pull the C++ docker image
+Teams
+Name : string
+Players : array
+Points : integer
+
+** Pull the C++ docker image
 
 On a shell run:
 
