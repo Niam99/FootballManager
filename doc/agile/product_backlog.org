@@ -36,7 +36,6 @@ Teams
 Name : string
 Players : array
 Points : integer
-
 Display teams before user selects
 ** Create a class for players
 
