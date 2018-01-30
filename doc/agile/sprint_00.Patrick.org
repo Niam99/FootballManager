@@ -14,16 +14,18 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-30 Tue 09:54]
-| <75>                                                                        |        |      |      |       |
-| Headline                                                                    | Time   |      |      |     % |
-|-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *8:21* |      |      | 100.0 |
-|-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 8:21   |      |      | 100.0 |
-| Active                                                                      |        | 8:21 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |        |      | 0:53 |  10.6 |
-| COMPLETED Understanding Some Essentials of MaGit                            |        |      | 7:28 |  89.4 |
+#+CAPTION: Clock summary at [2018-01-30 Tue 12:27]
+| <75>                                                                        |         |       |      |       |
+| Headline                                                                    | Time    |       |      |     % |
+|-----------------------------------------------------------------------------+---------+-------+------+-------|
+| *Total time*                                                                | *10:12* |       |      | 100.0 |
+|-----------------------------------------------------------------------------+---------+-------+------+-------|
+| Stories                                                                     | 10:12   |       |      | 100.0 |
+| Active                                                                      |         | 10:12 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 1:02 |  10.1 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 7:28 |  73.2 |
+| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   9.6 |
+| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   7.0 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -81,28 +83,28 @@ Simple branching workflow:
     CLOSED: [2018-01-30 Tue 11:25]
     CLOCK: [2018-01-30 Tue 10:26]--[2018-01-30 Tue 11:25] =>  0:59
 
-Created league.cpp/hpp
-Connected it to main.cpp
-Updated CMakeLists.txt
-Compile
-Test to see if working
+-Created league.cpp/hpp
+-Connected it to main.cpp
+-Updated CMakeLists.txt
+-Compile
+-Test to see if working
 
 *** COMPLETED Create game.cpp/hpp
     CLOSED: [2018-01-30 Tue 12:18]
     CLOCK: [2018-01-30 Tue 11:26]--[2018-01-30 Tue 12:09] =>  0:43
 
-Created game.cpp/hpp
-Connected it to main.cpp
-Updated CMakeLists.txt
-Compile
-Test to see if working
+-Created game.cpp/hpp
+-Connected it to main.cpp
+-Updated CMakeLists.txt
+-Compile
+-Test to see if working
 
 *** STARTED Create teams and players
 
-Make appropriate cpp files
-Use diagram on Dia for correct vars
-Use for players: https://www.premierleague.com/players
-Input players and teams
-If all goes well see if you can create a table in league and place vars from teams
+-Make appropriate cpp files
+-Use diagram on Dia for correct vars
+-Use for players: https://www.premierleague.com/players
+-Input players and teams
+-If all goes well see if you can create a table in league and place vars from teams
 
 ** Deprecated
