@@ -144,11 +144,15 @@ Create a main.cpp - output hello
 
 *** POSTPONED Research classes
     CLOSED: [2018-01-30 Tue 15:26]
+    CLOCK: [2018-01-30 Tue 16:00]--[2018-01-30 Tue 16:27] =>  0:27
     CLOCK: [2018-01-30 Tue 14:04]--[2018-01-30 Tue 15:26] =>  1:22
 
 *** COMPLETED Add new option to list
     CLOSED: [2018-01-30 Tue 15:46]
     CLOCK: [2018-01-30 Tue 15:27]--[2018-01-30 Tue 15:46] =>  0:19
 
+*** COMPLETED Create players class
+    CLOSED: [2018-01-30 Tue 16:50]
+    CLOCK: [2018-01-30 Tue 16:28]--[2018-01-30 Tue 16:49] =>  0:21
 
 ** Deprecated
