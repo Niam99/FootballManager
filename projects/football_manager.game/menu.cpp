@@ -1,47 +1,34 @@
 #include <iostream>
 #include <string>
+#include "menu.hpp"
 
-int callMenu()
-{
-    Menu chooseTeam;
-    chooseTeam.name = "Choose a team";
-    chooseTeam.choice = 1;
-    chooseTeam.prompt = "Here are the teams: ";
+void menu::draw() {
+    std::cout << name_ << std::endl;
+    for (int i = 0; i < items_.size(); ++i) {
+        items_[i].draw(i);
+    }
+    std::cout << prompt_;
+}
 
-    Menu info;
-    info.name = "Information";
-    info.choice = 2;
-    info.prompt = "Information: ";
 
-    Menu quit;
-    quit.name = "Quit";
-    quit.choice = 0;
-    quit.prompt = "Thanks for playing!";
+void menu::setup(std::string name, std::string prompt,
+    std::vector<menu_item> items) {
+    name_ = name;
+    prompt_ = prompt;
+    items_ = items;
+}
 
-    std::cout << "Main Menu" << std::endl;
-    std::cout << "[" << chooseTeam.choice << "]" << " " << chooseTeam.name << std::endl;
-    std::cout << "[" << info.choice << "]" << " " << info.name << std::endl;
-    std::cout << "[" << quit.choice << "]" << " " << quit.name << std::endl;
-    std::cout << std::endl;
+int menu::run() {
+    int user_choice;
+    bool choice_valid = false;
 
-    int userChoice;
-    bool choiceValid = false;
-
-    do{
-        std::cout << "Enter your choice: ";
-        std::cin >> userChoice;
-        if (userChoice == 1) {
-            std::cout << chooseTeam.prompt << std::endl;
-            // view teams function
-            choiceValid = true;
-        } else if (userChoice == 2) {
-            std::cout << info.prompt << std::endl;
-            choiceValid = true;
-        } else if (userChoice == 0) {
-            std::cout << quit.prompt << std::endl;
-            return(0);
-        } else {
-            std::cout << "Please enter a valid menu choice, e.g 0, 1, 2" << std::endl;
-        }
-    } while (choiceValid == false);
+    do {
+        draw();
+        std::cin >> user_choice;
+        choice_valid = user_choice < items_.size();
+        if (choice_valid)
+            return user_choice;
+        else
+            std::cout << "Please enter a valid menu choice." << std::endl;
+    } while (choice_valid == false);
 }
