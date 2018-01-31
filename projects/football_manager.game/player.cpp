@@ -13,5 +13,7 @@ void player::setup(std::string name, std::string team, int attack, int defense,
 }
 
 void player::display() {
-    // std::cout << De_Gea.position << "-" << De_Gea.name << std::endl;
+    std::cout << "Name: " << name_ << std::endl;
+    std::cout << "Team: " << team_ << std::endl;
+    // and so forth
 }

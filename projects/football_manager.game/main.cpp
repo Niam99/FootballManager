@@ -58,8 +58,14 @@ int main()
     // "run" it
     int result = main_menu.run();
     if (result == 0 ){
-            choose_teams();
-            choose_player();
+        // FIXME: not the right place, quick hack
+        std::vector<player> players = create_players();
+        for (int i = 0; i < players.size(); ++i)
+            players[0].display();
+
+        // end FIXME
+        choose_teams();
+        choose_player();
     } else {
         std::cout << "user choose: " << result << std::endl;
     }
