@@ -2,7 +2,7 @@
 #include <string>
 #include "player.hpp"
 
-void players::setup(std::string name, std::string team, int attack, int defense,
+void player::setup(std::string name, std::string team, int attack, int defense,
     std::string position) {
 
     name_ = name;
@@ -12,6 +12,6 @@ void players::setup(std::string name, std::string team, int attack, int defense,
     position_ = position;
 }
 
-void players::display() {
+void player::display() {
     // std::cout << De_Gea.position << "-" << De_Gea.name << std::endl;
 }

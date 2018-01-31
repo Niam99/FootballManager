@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-class players {
+class player {
 public:
     void setup(std::string name, std::string team, int attack, int defense,
         std::string position);

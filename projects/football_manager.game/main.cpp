@@ -30,9 +30,23 @@ menu create_main_menu() {
     return main_menu;
 }
 
-players showplayers() {
-    // players setup();
-    // players display;
+std::vector<player> create_players() {
+    player De_Gea;
+    De_Gea.setup("David De Gea", "Man-Utd", 24, 95, "GK");
+
+    // OR
+    player De_Gea2;
+    De_Gea2.name_ = "David De Gea";
+    De_Gea2.team_ = "Man-Utd";
+    De_Gea2.attack_ = 24;
+    De_Gea2.defense_ = 95;
+    De_Gea2.position_ = "GK";
+
+    std::vector<player> players;
+    players.push_back(De_Gea);
+    // OR
+    // players.push_back(De_Gea2);
+    return players;
 }
 
 int main()
