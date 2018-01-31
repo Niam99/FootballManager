@@ -5,4 +5,5 @@ add_executable(football_manager.game
   game.cpp
   main.cpp
   menu.cpp
-  menu_item.cpp)
+  menu_item.cpp
+  choose_teams.cpp)

@@ -2,6 +2,7 @@
 #include <iostream>
 #include "menu.hpp"
 #include "menu_item.hpp"
+#include "choose_teams.hpp"
 
 menu create_main_menu() {
     std::vector<menu_item> items;
@@ -34,7 +35,12 @@ int main()
 
     // "run" it
     int result = main_menu.run();
-
+    if (result == 0 ){
+            choose_teams();
+    } else {
+        std::cout << "user choose: " << result << std::endl;
+    }
+    return 0;
     // handle the result of the menu.
     if (result == 2) {
         std::cout << "User exited.";
