@@ -66,6 +66,9 @@ int main()
         // end FIXME
         choose_teams();
         choose_player();
+
+        //choose_teams();
+
     } else {
         std::cout << "user choose: " << result << std::endl;
     }
