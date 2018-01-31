@@ -8,3 +8,4 @@ void menu_item::setup(std::string name) {
 void menu_item::draw(int position) {
     std::cout << "[" << position << "]" << " " << name_ << std::endl;
 }
+  
