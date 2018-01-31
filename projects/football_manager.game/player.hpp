@@ -6,7 +6,8 @@
 
 class players {
 public:
-    void setup();
+    void setup(std::string name, std::string team, int attack, int defense,
+        std::string position);
     void display();
 
     std::string name_;

@@ -3,8 +3,8 @@
 #include "menu.hpp"
 #include "menu_item.hpp"
 #include "choose_teams.hpp"
-#include "players.hpp"
 #include "choose_player.hpp"
+#include "player.hpp"
 
 menu create_main_menu() {
     std::vector<menu_item> items;
@@ -31,8 +31,8 @@ menu create_main_menu() {
 }
 
 players showplayers() {
-    players setup();
-    players display;
+    // players setup();
+    // players display;
 }
 
 int main()
