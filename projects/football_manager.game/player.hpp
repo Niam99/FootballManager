@@ -5,8 +5,10 @@
 #include <string>
 
 class players {
+public:
     void setup();
     void display();
+
     std::string name;
     std::string team;
     int attack;
