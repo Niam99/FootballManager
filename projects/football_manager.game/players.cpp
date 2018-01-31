@@ -1,13 +1,7 @@
 #include <iostream>
 #include <string>
+#include "players.hpp"
 
-void players() {
-
-    class Players {
-        std::string name;
-        std::string team;
-        int attack;
-        int defense;
-        std::string position;
-    };
+void players::setup() {
+    std::cout << "test" << std::endl;
 }
