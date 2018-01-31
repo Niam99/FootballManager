@@ -3,6 +3,7 @@
 #include "menu.hpp"
 #include "menu_item.hpp"
 #include "choose_teams.hpp"
+#include "players.hpp"
 
 menu create_main_menu() {
     std::vector<menu_item> items;
@@ -28,10 +29,16 @@ menu create_main_menu() {
     return main_menu;
 }
 
+players showplayers() {
+    players setup();
+    players display;
+}
+
 int main()
 {
     // create an instance of the menu class.
     menu main_menu = create_main_menu();
+    //showplayers();
 
     // "run" it
     int result = main_menu.run();
