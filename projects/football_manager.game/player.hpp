@@ -9,11 +9,11 @@ public:
     void setup();
     void display();
 
-    std::string name;
-    std::string team;
-    int attack;
-    int defense;
-    std::string position;
+    std::string name_;
+    std::string team_;
+    int attack_;
+    int defense_;
+    std::string position_;
 };
 
 #endif
