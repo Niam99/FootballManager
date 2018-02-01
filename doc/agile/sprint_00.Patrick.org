@@ -14,25 +14,27 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-31 Wed 17:17]
+#+CAPTION: Clock summary at [2018-02-01 Thu 12:33]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *16:03* |       |      | 100.0 |
+| *Total time*                                                                | *18:55* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 16:03   |       |      | 100.0 |
-| Active                                                                      |         | 16:03 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 1:54 |  11.8 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  34.1 |
-| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   6.1 |
-| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   4.5 |
-| COMPLETED Create teams and players                                          |         |       | 2:12 |  13.7 |
-| COMPLETED Read more on Classes                                              |         |       | 0:36 |   3.7 |
-| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   7.5 |
-| POSTPONED Try an make changes using MC's work                               |         |       | 0:20 |   2.1 |
-| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   5.3 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       | 1:21 |   8.4 |
-| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   2.8 |
+| Stories                                                                     | 18:55   |       |      | 100.0 |
+| Active                                                                      |         | 18:55 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 1:54 |  10.0 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  28.9 |
+| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   5.2 |
+| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   3.8 |
+| COMPLETED Create teams and players                                          |         |       | 2:12 |  11.6 |
+| COMPLETED Read more on Classes                                              |         |       | 0:36 |   3.2 |
+| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   6.3 |
+| POSTPONED Try an make changes using MC's work                               |         |       | 0:20 |   1.8 |
+| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   4.5 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       | 1:21 |   7.1 |
+| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   2.4 |
+| STARTED Practice Classes                                                    |         |       | 1:52 |   9.9 |
+| COMPLETED Having trouble with Magit                                         |         |       | 1:00 |   5.3 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -171,7 +173,12 @@ Links:
 
 *** Magit and attempting to fix first conflict
     CLOCK: [2018-01-31 Wed 15:57]--[2018-01-31 Wed 16:24] =>  0:27
-*** Practice Classes
+*** STARTED Practice Classes
+    CLOCK: [2018-02-01 Thu 12:01]--[2018-02-01 Thu 12:31] =>  0:30
+    CLOCK: [2018-02-01 Thu 10:09]--[2018-02-01 Thu 10:56] =>  0:47
+    CLOCK: [2018-02-01 Thu 09:01]--[2018-02-01 Thu 09:36] =>  0:35
+
+
 Reading material:
 - http://www.dev-hq.net/c++/10--simple-classes
 - http://www.learncpp.com/cpp-tutorial/82-classes-and-class-members/
@@ -181,4 +188,26 @@ Reading material:
 - Create some practice files in NI's repo
 - Make test.cpp/hpp
 - Use these files to practice what you just learnt
+*** COMPLETED Having trouble with Magit
+    CLOSED: [2018-02-01 Thu 11:56]
+    CLOCK: [2018-02-01 Thu 10:56]--[2018-02-01 Thu 11:56] =>  1:00
+
+- so you need to drop the commits you have merged already into master
+- for that you do
+- l l
+- this is a process basically
+- do ll (lower case L)
+- find the last commit that was in master
+- put the cursor over it
+- and press x
+- magit will then say something like master~2
+- 2 being how many commits back you are going
+- if you press enter it will then revert those commits in the current branch - should always be master
+- you can then stash whatever is in the index
+- z z "some name"
+- at this point you are now in a place where master can pull again
+- the rest is more or less as usual
+- so write down this process - call it handling master conflicts or something
+- and always make sure you are paying a lot of attention to what magit is saying
+
 ** Deprecated
