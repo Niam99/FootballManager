@@ -184,4 +184,6 @@ add both functions to main
     CLOCK: [2018-02-01 Thu 10:25]--[2018-02-01 Thu 12:00] =>  1:35
     CLOCK: [2018-02-01 Thu 09:00]--[2018-02-01 Thu 10:21] =>  1:21
 
+
+*** fix git
 ** Deprecated
