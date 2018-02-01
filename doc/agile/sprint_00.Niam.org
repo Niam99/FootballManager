@@ -12,33 +12,34 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-01-31 Wed 16:52]
+#+CAPTION: Clock summary at [2018-02-01 Thu 12:00]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *19:03* |       |      | 100.0 |
+| *Total time*                                                                | *21:59* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 19:03   |       |      | 100.0 |
-| Active                                                                      |         | 19:03 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   5.1 |
-| COMPLETED Add gpg                                                           |         |       | 1:32 |   8.0 |
-| COMPLETED Test commits to branch                                            |         |       | 0:28 |   2.4 |
-| COMPLETED Test verification                                                 |         |       | 0:21 |   1.8 |
-| COMPLETED Practice branches                                                 |         |       | 1:05 |   5.7 |
-| COMPLETED Fix travis                                                        |         |       | 0:33 |   2.9 |
-| COMPLETED Create main                                                       |         |       | 0:26 |   2.3 |
-| COMPLETED Build main                                                        |         |       | 2:10 |  11.4 |
-| COMPLETED Discuss task                                                      |         |       | 0:31 |   2.7 |
-| COMPLETED Create a Menu class                                               |         |       | 0:52 |   4.5 |
-| COMPLETED Fix menu class                                                    |         |       | 1:41 |   8.8 |
-| POSTPONED Research classes                                                  |         |       | 1:49 |   9.5 |
-| COMPLETED Add new option to list                                            |         |       | 0:19 |   1.7 |
-| COMPLETED Create players class                                              |         |       | 0:21 |   1.8 |
-| POSTPONED Fix player class                                                  |         |       | 2:00 |  10.5 |
-| STARTED create setup function in player class                               |         |       | 1:30 |   7.9 |
-| STARTED create display function in player class                             |         |       | 0:20 |   1.7 |
-| COMPLETED Create vector for players                                         |         |       | 1:00 |   5.2 |
-| COMPLETED Read through fixed player class                                   |         |       | 1:07 |   5.9 |
+| Stories                                                                     | 21:59   |       |      | 100.0 |
+| Active                                                                      |         | 21:59 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   4.4 |
+| COMPLETED Add gpg                                                           |         |       | 1:32 |   7.0 |
+| COMPLETED Test commits to branch                                            |         |       | 0:28 |   2.1 |
+| COMPLETED Test verification                                                 |         |       | 0:21 |   1.6 |
+| COMPLETED Practice branches                                                 |         |       | 1:05 |   4.9 |
+| COMPLETED Fix travis                                                        |         |       | 0:33 |   2.5 |
+| COMPLETED Create main                                                       |         |       | 0:26 |   2.0 |
+| COMPLETED Build main                                                        |         |       | 2:10 |   9.9 |
+| COMPLETED Discuss task                                                      |         |       | 0:31 |   2.4 |
+| COMPLETED Create a Menu class                                               |         |       | 0:52 |   3.9 |
+| COMPLETED Fix menu class                                                    |         |       | 1:41 |   7.7 |
+| COMPLETED Research classes                                                  |         |       | 1:49 |   8.3 |
+| COMPLETED Add new option to list                                            |         |       | 0:19 |   1.4 |
+| COMPLETED Create players class                                              |         |       | 0:21 |   1.6 |
+| POSTPONED Fix player class                                                  |         |       | 2:00 |   9.1 |
+| STARTED create setup function in player class                               |         |       | 1:30 |   6.8 |
+| STARTED create display function in player class                             |         |       | 0:20 |   1.5 |
+| COMPLETED Create vector for players                                         |         |       | 1:00 |   4.5 |
+| COMPLETED Read through fixed player class                                   |         |       | 1:07 |   5.1 |
+| Research classes                                                            |         |       | 2:56 |  13.3 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -180,6 +181,7 @@ add both functions to main
     CLOCK: [2018-01-31 Wed 15:45]--[2018-01-31 Wed 16:52] =>  1:07
 
 *** Research classes
+    CLOCK: [2018-02-01 Thu 10:25]--[2018-02-01 Thu 12:00] =>  1:35
     CLOCK: [2018-02-01 Thu 09:00]--[2018-02-01 Thu 10:21] =>  1:21
 
 ** Deprecated
