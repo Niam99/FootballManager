@@ -148,8 +148,8 @@ Create a main.cpp - output hello
     CLOSED: [2018-01-30 Tue 14:04]
     CLOCK: [2018-01-30 Tue 11:23]--[2018-01-30 Tue 13:04] =>  1:41
 
-*** POSTPONED Research classes
-    CLOSED: [2018-01-30 Tue 15:26]
+*** COMPLETED Research classes
+    CLOSED: [2018-02-01 Thu 09:21]
     CLOCK: [2018-01-30 Tue 16:00]--[2018-01-30 Tue 16:27] =>  0:27
     CLOCK: [2018-01-30 Tue 14:04]--[2018-01-30 Tue 15:26] =>  1:22
 
@@ -178,5 +178,8 @@ add both functions to main
 *** COMPLETED Read through fixed player class
     CLOSED: [2018-01-31 Wed 16:52]
     CLOCK: [2018-01-31 Wed 15:45]--[2018-01-31 Wed 16:52] =>  1:07
+
+*** Research classes
+    CLOCK: [2018-02-01 Thu 09:00]--[2018-02-01 Thu 10:21] =>  1:21
 
 ** Deprecated
