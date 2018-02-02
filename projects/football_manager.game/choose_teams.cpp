@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 #include<bits/stdc++.h>
-#include "choose_teams.hpp"
+#include "menu.hpp"
 
-void choose_teams(){
+menu choose_teams(){
 
     bool teamSelected = false;
 
@@ -26,10 +26,17 @@ void choose_teams(){
         // std::cout<< "[" << i << "] " << team[i] << "\n";
 
         // }
-
+        
         std::cout << "Choose a team: ";
         std::cin >> selection;
 
+        // create an instance of the menu class.
+        menu main_menu = choose_teams();
+        //showplayers()
+
+        // "run" it
+        int result = main_menu.run();
+        
         if (selection == 1){
             // std::cout << "\nYou have selected:\n\n" << team[1] << std::endl
             //<< std::endl;
@@ -53,7 +60,7 @@ void choose_teams(){
 
             if (selection == 0) {
                 teamSelected = true;
-                return;
+                return main_menu;
             }
 
             if (selection == 1) {

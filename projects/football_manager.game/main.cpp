@@ -80,4 +80,12 @@ int main()
         std::cout << "user choose: " << result << std::endl;
     }
     return 0;
+
+    if (result == 3) {
+        std::cout << "This is working!" << std::endl;
+        choose_teams();
+    } else {
+        std::cout << "user choose: " << result << std::endl;
+    }
+    return 0;
 }
