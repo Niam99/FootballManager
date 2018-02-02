@@ -33,6 +33,8 @@ menu create_main_menu() {
 std::vector<player> create_players() {
     player De_Gea;
     De_Gea.setup("David De Gea", "Man-Utd", 24, 95, "GK");
+    player Daley_Blind;
+    Daley_Blind.setup("Daley Blind", "Manu-Utd", 41, 80, "CB");
 
     // OR
     player De_Gea2;
@@ -44,6 +46,7 @@ std::vector<player> create_players() {
 
     std::vector<player> players;
     players.push_back(De_Gea);
+    players.push_back(Daley_Blind);
     // OR
     // players.push_back(De_Gea2);
     return players;
@@ -58,15 +61,13 @@ int main()
     // "run" it
     int result = main_menu.run();
     if (result == 0 ){
-        // FIXME: not the right place, quick hack
-        std::vector<player> players = create_players();
-        for (int i = 0; i < players.size(); ++i)
-            players[0].display();
-
-        // end FIXME
         //choose_teams();
         choose_player();
-
+        std::vector<player> players = create_players();
+        for (int i = 0; i < players.size(); ++i){
+            players[i].display();
+            std::cout << std::endl;
+        }
         //choose_teams();
 
     } else {
