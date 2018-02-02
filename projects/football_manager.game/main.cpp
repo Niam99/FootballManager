@@ -64,7 +64,7 @@ int main()
             players[0].display();
 
         // end FIXME
-        choose_teams();
+        //choose_teams();
         choose_player();
 
         //choose_teams();
