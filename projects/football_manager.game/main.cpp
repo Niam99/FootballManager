@@ -21,10 +21,6 @@ menu create_main_menu() {
     quit.setup("Quit");
     items.push_back(quit);
 
-    menu_item test;
-    test.setup("test");
-    items.push_back(test);
-
     menu main_menu;
     main_menu.setup("Main Menu", "Choose an option: ", items);
     return main_menu;
@@ -33,8 +29,26 @@ menu create_main_menu() {
 std::vector<player> create_players() {
     player De_Gea;
     De_Gea.setup("David De Gea", "Man-Utd", 24, 95, "GK");
-    player Daley_Blind;
-    Daley_Blind.setup("Daley Blind", "Manu-Utd", 41, 80, "CB");
+    player Blind;
+    Blind.setup("Daley Blind", "Man-Utd", 41, 80, "LB");
+    player Valencia;
+    Valencia.setup("Antonio_Valencia", "Man-Utd", 70, 80, "RB");
+    player Lindelof;
+    Lindelof.setup("Victor Lindelöf", "Man-Utd", 45, 75, "CB");
+    player Jones;
+    Jones.setup("Phil Jones", "Man-Utd", 38, 82, "CB");
+    player Sanchez;
+    Sanchez.setup("Alexis Sanchez", "Man-Utd", 89, 40, "LW");
+    player Martial;
+    Martial.setup("Anthony Martial", "Man-Utd", 86, 42, "RW");
+    player Fellaini;
+    Fellaini.setup("Marouane Fellaini", "Man-Utd", 78, 68, "CM");
+    player Pogba;
+    Pogba.setup("Paul Pogba", "Man-Utd", 89, 75, "CM");
+    player Lukaku;
+    Lukaku.setup("Romelu Lukaku", "Man-Utd", 84, 40, "CF");
+    player Ibrahimovic;
+    Ibrahimovic.setup("Zlatan Ibrahimovic", "Man-Utd", 89, 38, "CF");
 
     // OR
     player De_Gea2;
@@ -46,7 +60,16 @@ std::vector<player> create_players() {
 
     std::vector<player> players;
     players.push_back(De_Gea);
-    players.push_back(Daley_Blind);
+    players.push_back(Blind);
+    players.push_back(Valencia);
+    players.push_back(Lindelof);
+    players.push_back(Jones);
+    players.push_back(Sanchez);
+    players.push_back(Martial);
+    players.push_back(Fellaini);
+    players.push_back(Pogba);
+    players.push_back(Lukaku);
+    players.push_back(Ibrahimovic);
     // OR
     // players.push_back(De_Gea2);
     return players;
@@ -85,7 +108,7 @@ int main()
     if (result == 2) {
         std::cout << "User exited.";
     } else {
-        std::cout << "user choose: " << result << std::endl;
+        std::cout << "user chose: " << result << std::endl;
     }
     return 0;
 
