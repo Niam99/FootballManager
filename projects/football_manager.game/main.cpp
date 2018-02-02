@@ -63,11 +63,18 @@ int main()
     if (result == 0 ){
         //choose_teams();
         choose_player();
+        int playerChoice;
+        std::cout << "Choose a player to see details: ";
+        std::cin >> playerChoice;
+        std::cout << std::endl;
         std::vector<player> players = create_players();
-        for (int i = 0; i < players.size(); ++i){
-            players[i].display();
-            std::cout << std::endl;
-        }
+        players[playerChoice].display();
+
+        //for (int i = 0; i < players.size(); ++i){
+        //    players[i].display();
+        //    std::cout << std::endl;
+        // }
+
         //choose_teams();
 
     } else {
