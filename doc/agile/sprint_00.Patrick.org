@@ -14,32 +14,35 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-01 Thu 16:55]
+#+CAPTION: Clock summary at [2018-02-02 Fri 18:26]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *22:05* |       |      | 100.0 |
+| *Total time*                                                                | *29:05* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 22:05   |       |      | 100.0 |
-| Active                                                                      |         | 22:05 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 2:02 |   9.2 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  24.8 |
-| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   4.5 |
-| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   3.2 |
-| COMPLETED Create teams and players                                          |         |       | 2:12 |  10.0 |
-| COMPLETED Read more on Classes                                              |         |       | 0:36 |   2.7 |
-| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   5.4 |
-| POSTPONED Try an make changes using MC's work                               |         |       | 0:20 |   1.5 |
-| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   3.8 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       | 1:21 |   6.1 |
-| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   2.0 |
-| COMPLETED Practice Classes                                                  |         |       | 2:39 |  12.0 |
-| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |  14.7 |
+| Stories                                                                     | 29:05   |       |      | 100.0 |
+| Active                                                                      |         | 29:05 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 2:32 |   8.7 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  18.8 |
+| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   3.4 |
+| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   2.5 |
+| COMPLETED Create teams and players                                          |         |       | 2:12 |   7.6 |
+| COMPLETED Read more on Classes                                              |         |       | 0:36 |   2.1 |
+| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   4.1 |
+| CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   1.1 |
+| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   2.9 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       | 3:27 |  11.9 |
+| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   1.5 |
+| Practice Classes                                                            |         |       | 5:27 |  18.7 |
+| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |  11.2 |
+| Discussing the task at hand                                                 |         |       | 1:22 |   4.7 |
+| COMPLETED Fix the build                                                     |         |       | 0:14 |   0.8 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-02 Fri 17:46]--[2018-02-02 Fri 18:16] =>  0:30
     CLOCK: [2018-02-01 Thu 16:47]--[2018-02-01 Thu 16:55] =>  0:08
     CLOCK: [2018-01-31 Wed 16:51]--[2018-01-31 Wed 17:17] =>  0:26
     CLOCK: [2018-01-31 Wed 13:12]--[2018-01-31 Wed 13:23] =>  0:11
@@ -152,8 +155,8 @@ Notes:
 - Need work on Vectors (100%)
 - and referencing other files (not so much)
 
-*** POSTPONED Try an make changes using MC's work
-    CLOSED: [2018-01-31 Wed 13:12]
+*** CANCELLED Try an make changes using MC's work
+    CLOSED: [2018-02-02 Fri 17:57]
     CLOCK: [2018-01-30 Tue 15:28]--[2018-01-30 Tue 15:48] =>  0:20
 
 - Discuss with NI what MC wrote
@@ -167,6 +170,9 @@ Links:
 - Vectors (not so good, but helps) https://syntaxdb.com/ref/cpp/vectors
 - Vectors (better, more complicated) https://www.geeksforgeeks.org/vector-in-cpp-stl/
 *** STARTED Use Menu Classes for Teams menu
+    CLOCK: [2018-02-02 Fri 13:23]--[2018-02-02 Fri 14:40] =>  1:17
+    CLOCK: [2018-02-02 Fri 11:56]--[2018-02-02 Fri 12:17] =>  0:21
+    CLOCK: [2018-02-02 Fri 10:40]--[2018-02-02 Fri 11:08] =>  0:28
     CLOCK: [2018-01-31 Wed 14:34]--[2018-01-31 Wed 15:55] =>  1:21
 - Create team class (in .hpp)
 - Member called name
@@ -174,8 +180,11 @@ Links:
 
 *** Magit and attempting to fix first conflict
     CLOCK: [2018-01-31 Wed 15:57]--[2018-01-31 Wed 16:24] =>  0:27
-*** COMPLETED Practice Classes
-    CLOSED: [2018-02-01 Thu 16:54]
+*** Practice Classes
+    CLOCK: [2018-02-02 Fri 16:52]--[2018-02-02 Fri 17:46] =>  0:54
+    CLOCK: [2018-02-02 Fri 16:14]--[2018-02-02 Fri 16:34] =>  0:20
+    CLOCK: [2018-02-02 Fri 15:24]--[2018-02-02 Fri 16:00] =>  0:36
+    CLOCK: [2018-02-02 Fri 09:39]--[2018-02-02 Fri 10:37] =>  0:58
     CLOCK: [2018-02-01 Thu 15:55]--[2018-02-01 Thu 16:42] =>  0:47
     CLOCK: [2018-02-01 Thu 12:01]--[2018-02-01 Thu 12:31] =>  0:30
     CLOCK: [2018-02-01 Thu 10:09]--[2018-02-01 Thu 10:56] =>  0:47
@@ -198,6 +207,15 @@ Create and Employee wage displayer
 - touch main.cpp
 - Use: http://www.learncpp.com/cpp-tutorial/82-classes-and-class-members/
 - Successfully push work with no conflicts
+
+Watch Youtube video:
+- https://www.youtube.com/watch?v=J17xa1zu9UI
+
+Complete quiz's based on classes
+- https://www.geeksforgeeks.org/c-plus-plus-gq/class-and-object-gq/
+- https://www.cprogramming.com/tutorial/quiz/quiz12.html
+- http://gplsi.dlsi.ua.es/proyectos/examinador/test.php?id=16&lang=en
+
 *** COMPLETED Having trouble with Magit
     CLOSED: [2018-02-01 Thu 11:56]
     CLOCK: [2018-02-01 Thu 14:45]--[2018-02-01 Thu 15:41] =>  0:56
@@ -221,5 +239,19 @@ Create and Employee wage displayer
 - the rest is more or less as usual
 - so write down this process - call it handling master conflicts or something
 - and always make sure you are paying a lot of attention to what magit is saying
+
+*** Discussing the task at hand
+    CLOCK: [2018-02-02 Fri 16:34]--[2018-02-02 Fri 16:40] =>  0:06
+    CLOCK: [2018-02-02 Fri 16:01]--[2018-02-02 Fri 16:03] =>  0:02
+    CLOCK: [2018-02-02 Fri 14:51]--[2018-02-02 Fri 15:13] =>  0:22
+    CLOCK: [2018-02-02 Fri 11:08]--[2018-02-02 Fri 11:39] =>  0:31
+    CLOCK: [2018-02-02 Fri 09:30]--[2018-02-02 Fri 09:37] =>  0:07
+    CLOCK: [2018-02-02 Fri 09:01]--[2018-02-02 Fri 09:15] =>  0:14
+
+*** COMPLETED Fix the build
+    CLOSED: [2018-02-02 Fri 09:29]
+    CLOCK: [2018-02-02 Fri 09:15]--[2018-02-02 Fri 09:29] =>  0:14
+
+- remove line: //choose_teams();
 
 ** Deprecated

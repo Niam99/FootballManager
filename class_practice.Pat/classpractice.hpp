@@ -1,16 +1,17 @@
-//#ifndef CLASSPRACTICE_HPP
-//#define CLASSPRACTICE_HPP
+#ifndef CLASSPRACTICE_HPP
+#define CLASSPRACTICE_HPP
 
 #include <iostream>
 #include <string>
 
 class Employee {
 public:
-    std::string name;
+
+    std::vector <std::string> name;
     int id;
-    double wage;
+    double wage[2];
 
     void print();
 };
 
-//#endif
+#endif

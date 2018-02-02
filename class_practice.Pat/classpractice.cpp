@@ -4,10 +4,11 @@
 
 void Employee::print(){
     {
-
+        Employee em;
         std::cout << "Employee Name: " << name
                   << "  ID: " << id
-                  << "  Wage: £" << wage;
+                  << "  Wage: £" << wage
+                  << std::endl ;
     }
 
 }
