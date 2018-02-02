@@ -15,5 +15,7 @@ void player::setup(std::string name, std::string team, int attack, int defense,
 void player::display() {
     std::cout << "Name: " << name_ << std::endl;
     std::cout << "Team: " << team_ << std::endl;
-    // and so forth
+    std::cout << "Attack: " << attack_ << std::endl;
+    std::cout << "Defense: " << defense_ << std::endl;
+    std::cout << "Position: " << position_ << std::endl;
 }
