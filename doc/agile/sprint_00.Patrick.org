@@ -14,36 +14,38 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-05 Mon 12:15]
+#+CAPTION: Clock summary at [2018-02-05 Mon 17:42]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *31:08* |       |      | 100.0 |
+| *Total time*                                                                | *34:26* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 31:08   |       |      | 100.0 |
-| Active                                                                      |         | 31:08 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 3:05 |   9.9 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  17.6 |
-| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   3.2 |
-| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   2.3 |
-| COMPLETED Create teams and players                                          |         |       | 2:12 |   7.1 |
-| COMPLETED Read more on Classes                                              |         |       | 0:36 |   1.9 |
-| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   3.9 |
-| CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   1.1 |
-| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   2.7 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       | 3:27 |  11.1 |
-| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   1.4 |
-| Practice Classes                                                            |         |       | 5:27 |  17.5 |
-| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |  10.4 |
-| Discussing the task at hand                                                 |         |       | 1:22 |   4.4 |
+| Stories                                                                     | 34:26   |       |      | 100.0 |
+| Active                                                                      |         | 34:26 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 3:25 |   9.9 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  15.9 |
+| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   2.9 |
+| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   2.1 |
+| COMPLETED Create teams and players                                          |         |       | 2:12 |   6.4 |
+| COMPLETED Read more on Classes                                              |         |       | 0:36 |   1.7 |
+| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   3.5 |
+| CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   1.0 |
+| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   2.5 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       | 3:27 |  10.0 |
+| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   1.3 |
+| Practice Classes                                                            |         |       | 5:27 |  15.8 |
+| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |   9.4 |
+| Discussing the task at hand                                                 |         |       | 2:04 |   6.0 |
 | COMPLETED Fix the build                                                     |         |       | 0:14 |   0.7 |
-| Searching for research material                                             |         |       | 0:19 |   1.0 |
-| Learn about pointers                                                        |         |       | 1:11 |   3.8 |
+| Searching for research material                                             |         |       | 0:19 |   0.9 |
+| COMPLETED Learn about pointers                                              |         |       | 1:39 |   4.8 |
+| COMPLETED Attempt to use pointers                                           |         |       | 1:48 |   5.2 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-05 Mon 17:19]--[2018-02-05 Mon 17:39] =>  0:20
     CLOCK: [2018-02-05 Mon 11:54]--[2018-02-05 Mon 12:07] =>  0:13
     CLOCK: [2018-02-05 Mon 10:26]--[2018-02-05 Mon 10:46] =>  0:20
     CLOCK: [2018-02-02 Fri 17:46]--[2018-02-02 Fri 18:16] =>  0:30
@@ -245,6 +247,8 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-05 Mon 16:57]--[2018-02-05 Mon 17:19] =>  0:22
+    CLOCK: [2018-02-05 Mon 15:17]--[2018-02-05 Mon 15:37] =>  0:20
     CLOCK: [2018-02-02 Fri 16:34]--[2018-02-02 Fri 16:40] =>  0:06
     CLOCK: [2018-02-02 Fri 16:01]--[2018-02-02 Fri 16:03] =>  0:02
     CLOCK: [2018-02-02 Fri 14:51]--[2018-02-02 Fri 15:13] =>  0:22
@@ -261,7 +265,9 @@ Complete quiz's based on classes
 *** Searching for research material
     CLOCK: [2018-02-05 Mon 09:50]--[2018-02-05 Mon 10:09] =>  0:19
 
-*** Learn about pointers
+*** COMPLETED Learn about pointers
+    CLOSED: [2018-02-05 Mon 17:41]
+    CLOCK: [2018-02-05 Mon 13:20]--[2018-02-05 Mon 13:48] =>  0:28
     CLOCK: [2018-02-05 Mon 11:21]--[2018-02-05 Mon 11:54] =>  0:33
     CLOCK: [2018-02-05 Mon 10:46]--[2018-02-05 Mon 11:13] =>  0:27
     CLOCK: [2018-02-05 Mon 09:12]--[2018-02-05 Mon 09:23] =>  0:11
@@ -287,7 +293,12 @@ Quiz:
 - https://www.cprogramming.com/tutorial/quiz/quiz6.html
 - https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/
 
-*** Attempt to use pointers
+*** COMPLETED Attempt to use pointers
+    CLOSED: [2018-02-05 Mon 17:41]
+    CLOCK: [2018-02-05 Mon 16:50]--[2018-02-05 Mon 16:57] =>  0:07
+    CLOCK: [2018-02-05 Mon 15:51]--[2018-02-05 Mon 16:35] =>  0:44
+    CLOCK: [2018-02-05 Mon 14:59]--[2018-02-05 Mon 15:17] =>  0:18
+    CLOCK: [2018-02-05 Mon 13:52]--[2018-02-05 Mon 14:31] =>  0:39
 
 - Has employees (2 for now)
 - Different postions in company with different pay rates
@@ -298,4 +309,9 @@ Quiz:
 - Attempt to include more employees in goes well
 - Try (hard) to use vectors to list employees
 
+*** Attempt to use pointers solo
+
+- Test yourself
+- Create something similar to yesterday
+- use little to no help from the internet
 ** Deprecated

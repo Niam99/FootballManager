@@ -5,7 +5,7 @@ using namespace std;
 
 void set_pointer(float* point){
     
-    *point = 0.2 * *point;
+    //*point = 0.2 * *point;
 }
 
 void final_ouput(){
@@ -21,7 +21,10 @@ int main(){
     float weeksPay;
     float tax = 0.2;
     double hours;
+    float pg;
     float* pointer1;
+
+    pointer1 = &pg;
 
     cout << "Insert Employee No.1:";
     cin >> name1;
@@ -36,10 +39,11 @@ int main(){
     cout << endl << endl;
     weeksPay = wage * hours;
     set_pointer(pointer1);
+    pg = weeksPay;
     weeksPay = weeksPay - (tax * weeksPay);
-    //final_ouput();
+    final_ouput();
     cout << name1 << "'s weeks wage is = "
-         << *pointer1 << endl;
+     << *pointer1 << endl;
     cout <<  "After tax = " << weeksPay
          << endl;
 
