@@ -254,4 +254,33 @@ Complete quiz's based on classes
 
 - remove line: //choose_teams();
 
+*** Learn about pointers
+
+Watch Youtube videos about pointers:
+- Introduction to Pointers  https://www.youtube.com/watch?v=W0aE-w61Cb8
+- Pointers and Dynamic Memory https://www.youtube.com/watch?v=CSVRA4_xOkw
+
+Text tutorials for pointers:
+- https://gist.github.com/ericandrewlewis/720c374c29bbafadedc9
+- http://www.learncpp.com/cpp-tutorial/67-introduction-to-pointers/
+
+Use for examples:
+- http://www.hellgeeks.com/pointers-in-c/
+
+Quiz:
+- http://digital.cs.usu.edu/~bugs/quizzes/pointers.html
+- https://www.cprogramming.com/tutorial/quiz/quiz6.html
+- https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/
+
+*** Attempt to use pointers
+
+- Has employees (2 for now)
+- Different postions in company with different pay rates
+- Input how many hours person worked
+- Use pointers to point to the different wages
+- After pointing to hr/rate, sum with hours worked
+- Output name and paycheck
+- Attempt to include more employees in goes well
+- Try (hard) to use vectors to list employees
+
 ** Deprecated
