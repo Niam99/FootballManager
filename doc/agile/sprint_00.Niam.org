@@ -249,4 +249,13 @@ tested changes to program
     CLOCK: [2018-02-05 Mon 11:30]--[2018-02-05 Mon 12:30] =>  1:00
  http://www.cplusplus.com/doc/tutorial/pointers/
  http://www.learncpp.com/cpp-tutorial/67-introduction-to-pointers/
+*** COMPLETED Pointers - examples
+    CLOSED: [2018-02-05 Mon 15:46]
+    CLOCK: [2018-02-05 Mon 14:00]--[2018-02-05 Mon 14:45] =>  0:45
+Researching program examples of pointers - best one:http://www.cplusplus.com/forum/beginner/8894/
+
+*** COMPLETED Pointers - program
+    CLOSED: [2018-02-05 Mon 15:47]
+    CLOCK: [2018-02-05 Mon 15:00]--[2018-02-05 Mon 15:46] =>  0:46
+Implemented program, showing how pointers work.
 ** Deprecated
