@@ -14,34 +14,38 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-02 Fri 18:26]
+#+CAPTION: Clock summary at [2018-02-05 Mon 12:15]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *29:05* |       |      | 100.0 |
+| *Total time*                                                                | *31:08* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 29:05   |       |      | 100.0 |
-| Active                                                                      |         | 29:05 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 2:32 |   8.7 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  18.8 |
-| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   3.4 |
-| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   2.5 |
-| COMPLETED Create teams and players                                          |         |       | 2:12 |   7.6 |
-| COMPLETED Read more on Classes                                              |         |       | 0:36 |   2.1 |
-| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   4.1 |
+| Stories                                                                     | 31:08   |       |      | 100.0 |
+| Active                                                                      |         | 31:08 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 3:05 |   9.9 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  17.6 |
+| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   3.2 |
+| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   2.3 |
+| COMPLETED Create teams and players                                          |         |       | 2:12 |   7.1 |
+| COMPLETED Read more on Classes                                              |         |       | 0:36 |   1.9 |
+| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   3.9 |
 | CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   1.1 |
-| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   2.9 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       | 3:27 |  11.9 |
-| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   1.5 |
-| Practice Classes                                                            |         |       | 5:27 |  18.7 |
-| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |  11.2 |
-| Discussing the task at hand                                                 |         |       | 1:22 |   4.7 |
-| COMPLETED Fix the build                                                     |         |       | 0:14 |   0.8 |
+| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   2.7 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       | 3:27 |  11.1 |
+| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   1.4 |
+| Practice Classes                                                            |         |       | 5:27 |  17.5 |
+| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |  10.4 |
+| Discussing the task at hand                                                 |         |       | 1:22 |   4.4 |
+| COMPLETED Fix the build                                                     |         |       | 0:14 |   0.7 |
+| Searching for research material                                             |         |       | 0:19 |   1.0 |
+| Learn about pointers                                                        |         |       | 1:11 |   3.8 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-05 Mon 11:54]--[2018-02-05 Mon 12:07] =>  0:13
+    CLOCK: [2018-02-05 Mon 10:26]--[2018-02-05 Mon 10:46] =>  0:20
     CLOCK: [2018-02-02 Fri 17:46]--[2018-02-02 Fri 18:16] =>  0:30
     CLOCK: [2018-02-01 Thu 16:47]--[2018-02-01 Thu 16:55] =>  0:08
     CLOCK: [2018-01-31 Wed 16:51]--[2018-01-31 Wed 17:17] =>  0:26
@@ -254,7 +258,18 @@ Complete quiz's based on classes
 
 - remove line: //choose_teams();
 
+*** Searching for research material
+    CLOCK: [2018-02-05 Mon 09:50]--[2018-02-05 Mon 10:09] =>  0:19
+
 *** Learn about pointers
+    CLOCK: [2018-02-05 Mon 11:21]--[2018-02-05 Mon 11:54] =>  0:33
+    CLOCK: [2018-02-05 Mon 10:46]--[2018-02-05 Mon 11:13] =>  0:27
+    CLOCK: [2018-02-05 Mon 09:12]--[2018-02-05 Mon 09:23] =>  0:11
+
+
+Pointer Notes:
+
+- "So how do we modify the value of a local variable of a function inside another function. Pointer is the solution to such problems."
 
 Watch Youtube videos about pointers:
 - Introduction to Pointers  https://www.youtube.com/watch?v=W0aE-w61Cb8
