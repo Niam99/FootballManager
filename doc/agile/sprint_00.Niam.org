@@ -12,43 +12,46 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-05 Mon 09:14]
+#+CAPTION: Clock summary at [2018-02-05 Mon 14:15]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *30:52* |       |      | 100.0 |
+| *Total time*                                                                | *34:22* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 30:52   |       |      | 100.0 |
-| Active                                                                      |         | 30:52 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   3.1 |
-| COMPLETED Add gpg                                                           |         |       | 1:32 |   5.0 |
-| COMPLETED Test commits to branch                                            |         |       | 0:28 |   1.5 |
-| COMPLETED Test verification                                                 |         |       | 0:21 |   1.1 |
-| COMPLETED Practice branches                                                 |         |       | 1:05 |   3.5 |
-| COMPLETED Fix travis                                                        |         |       | 0:33 |   1.8 |
-| COMPLETED Create main                                                       |         |       | 0:26 |   1.4 |
-| COMPLETED Build main                                                        |         |       | 2:10 |   7.0 |
-| COMPLETED Discuss task                                                      |         |       | 0:31 |   1.7 |
-| COMPLETED Create a Menu class                                               |         |       | 0:52 |   2.8 |
-| COMPLETED Fix menu class                                                    |         |       | 1:41 |   5.5 |
-| COMPLETED Research classes                                                  |         |       | 1:49 |   5.9 |
-| COMPLETED Add new option to list                                            |         |       | 0:19 |   1.0 |
-| COMPLETED Create players class                                              |         |       | 0:21 |   1.1 |
-| POSTPONED Fix player class                                                  |         |       | 2:00 |   6.5 |
-| STARTED create setup function in player class                               |         |       | 1:30 |   4.9 |
-| STARTED create display function in player class                             |         |       | 0:20 |   1.1 |
-| COMPLETED Create vector for players                                         |         |       | 1:00 |   3.2 |
-| COMPLETED Read through fixed player class                                   |         |       | 1:07 |   3.6 |
-| COMPLETED Research classes                                                  |         |       | 2:56 |   9.5 |
-| COMPLETED Dealing with conflicts in magit                                   |         |       | 2:19 |   7.5 |
-| COMPLETED Practice implementing class with functions                        |         |       | 0:26 |   1.4 |
-| COMPLETED Research classes                                                  |         |       | 1:41 |   5.5 |
-| COMPLETED Add detail to players                                             |         |       | 1:00 |   3.2 |
-| COMPLETED Add new player                                                    |         |       | 0:46 |   2.5 |
-| COMPLETED Show detail of select player only                                 |         |       | 0:29 |   1.6 |
-| COMPLETED Discuss task                                                      |         |       | 0:33 |   1.8 |
-| COMPLETED Add the rest of the players                                       |         |       | 0:39 |   2.1 |
-| COMPLETED Testing program                                                   |         |       | 1:00 |   3.2 |
+| Stories                                                                     | 34:22   |       |      | 100.0 |
+| Active                                                                      |         | 34:22 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   2.8 |
+| COMPLETED Add gpg                                                           |         |       | 1:32 |   4.5 |
+| COMPLETED Test commits to branch                                            |         |       | 0:28 |   1.4 |
+| COMPLETED Test verification                                                 |         |       | 0:21 |   1.0 |
+| COMPLETED Practice branches                                                 |         |       | 1:05 |   3.2 |
+| COMPLETED Fix travis                                                        |         |       | 0:33 |   1.6 |
+| COMPLETED Create main                                                       |         |       | 0:26 |   1.3 |
+| COMPLETED Build main                                                        |         |       | 2:10 |   6.3 |
+| COMPLETED Discuss task                                                      |         |       | 0:31 |   1.5 |
+| COMPLETED Create a Menu class                                               |         |       | 0:52 |   2.5 |
+| COMPLETED Fix menu class                                                    |         |       | 1:41 |   4.9 |
+| COMPLETED Research classes                                                  |         |       | 1:49 |   5.3 |
+| COMPLETED Add new option to list                                            |         |       | 0:19 |   0.9 |
+| COMPLETED Create players class                                              |         |       | 0:21 |   1.0 |
+| POSTPONED Fix player class                                                  |         |       | 2:00 |   5.8 |
+| STARTED create setup function in player class                               |         |       | 1:30 |   4.4 |
+| STARTED create display function in player class                             |         |       | 0:20 |   1.0 |
+| COMPLETED Create vector for players                                         |         |       | 1:00 |   2.9 |
+| COMPLETED Read through fixed player class                                   |         |       | 1:07 |   3.2 |
+| COMPLETED Research classes                                                  |         |       | 2:56 |   8.5 |
+| COMPLETED Dealing with conflicts in magit                                   |         |       | 2:19 |   6.7 |
+| COMPLETED Practice implementing class with functions                        |         |       | 0:26 |   1.3 |
+| COMPLETED Research classes                                                  |         |       | 1:41 |   4.9 |
+| COMPLETED Add detail to players                                             |         |       | 1:00 |   2.9 |
+| COMPLETED Add new player                                                    |         |       | 0:46 |   2.2 |
+| COMPLETED Show detail of select player only                                 |         |       | 0:29 |   1.4 |
+| COMPLETED Discuss task                                                      |         |       | 0:33 |   1.6 |
+| COMPLETED Add the rest of the players                                       |         |       | 0:39 |   1.9 |
+| COMPLETED Testing program                                                   |         |       | 1:00 |   2.9 |
+| COMPLETED Learning about pointers- videos                                   |         |       | 1:00 |   2.9 |
+| COMPLETED Pointers - research                                               |         |       | 1:30 |   4.4 |
+| COMPLETED Pointers - tutorials                                              |         |       | 1:00 |   2.9 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -230,4 +233,20 @@ Added the rest of the players that can be selected
     CLOSED: [2018-02-05 Mon 09:12]
     CLOCK: [2018-02-02 Fri 16:00]--[2018-02-02 Fri 17:00] => 1:0
 tested changes to program
+*** COMPLETED Learning about pointers- videos
+    CLOSED: [2018-02-05 Mon 14:10]
+    CLOCK: [2018-02-05 Mon 09:00]--[2018-02-05 Mon 10:00] =>  1:00
+  https://www.youtube.com/watch?v=W0aE-w61Cb8
+  https://www.youtube.com/watch?v=CSVRA4_xOkw
+*** COMPLETED Pointers - research
+    CLOSED: [2018-02-05 Mon 14:12]
+    CLOCK: [2018-02-05 Mon 10:00]--[2018-02-05 Mon 11:30] =>  1:30
+ https://gist.github.com/ericandrewlewis/720c374c29bbafadedc9
+ http://www.learncpp.com/cpp-tutorial/67-introduction-to-pointers/
+ http://www.hellgeeks.com/pointers-in-c/
+*** COMPLETED Pointers - tutorials
+    CLOSED: [2018-02-05 Mon 14:14]
+    CLOCK: [2018-02-05 Mon 11:30]--[2018-02-05 Mon 12:30] =>  1:00
+ http://www.cplusplus.com/doc/tutorial/pointers/
+ http://www.learncpp.com/cpp-tutorial/67-introduction-to-pointers/
 ** Deprecated
