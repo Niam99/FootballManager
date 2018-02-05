@@ -3,15 +3,25 @@
 
 using namespace std;
 
+void set_pointer(float* point){
+    
+    *point = 0.2 * *point;
+}
+
+void final_ouput(){
+
+    
+}
+
 int main(){
 
     string name1;
-    float* pointer1;
     string name2;
     double wage = 8.39;
     float weeksPay;
     float tax = 0.2;
     double hours;
+    float* pointer1;
 
     cout << "Insert Employee No.1:";
     cin >> name1;
@@ -25,11 +35,12 @@ int main(){
     cin >> hours;
     cout << endl << endl;
     weeksPay = wage * hours;
-    pointer1 = &weeksPay;
+    set_pointer(pointer1);
     weeksPay = weeksPay - (tax * weeksPay);
-
+    //final_ouput();
     cout << name1 << "'s weeks wage is = "
          << *pointer1 << endl;
     cout <<  "After tax = " << weeksPay
          << endl;
+
 }
