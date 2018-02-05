@@ -26,7 +26,7 @@ int main(){
     cout << endl << endl;
     weeksPay = wage * hours;
     pointer1 = &weeksPay;
-    weeksPay = tax * weeksPay;
+    weeksPay = weeksPay - (tax * weeksPay);
 
     cout << name1 << "'s weeks wage is = "
          << *pointer1 << endl;
