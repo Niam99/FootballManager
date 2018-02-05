@@ -12,42 +12,43 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-02 Fri 15:51]
+#+CAPTION: Clock summary at [2018-02-05 Mon 09:14]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *29:52* |       |      | 100.0 |
+| *Total time*                                                                | *30:52* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 29:52   |       |      | 100.0 |
-| Active                                                                      |         | 29:52 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   3.2 |
-| COMPLETED Add gpg                                                           |         |       | 1:32 |   5.1 |
-| COMPLETED Test commits to branch                                            |         |       | 0:28 |   1.6 |
-| COMPLETED Test verification                                                 |         |       | 0:21 |   1.2 |
-| COMPLETED Practice branches                                                 |         |       | 1:05 |   3.6 |
+| Stories                                                                     | 30:52   |       |      | 100.0 |
+| Active                                                                      |         | 30:52 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:58 |   3.1 |
+| COMPLETED Add gpg                                                           |         |       | 1:32 |   5.0 |
+| COMPLETED Test commits to branch                                            |         |       | 0:28 |   1.5 |
+| COMPLETED Test verification                                                 |         |       | 0:21 |   1.1 |
+| COMPLETED Practice branches                                                 |         |       | 1:05 |   3.5 |
 | COMPLETED Fix travis                                                        |         |       | 0:33 |   1.8 |
-| COMPLETED Create main                                                       |         |       | 0:26 |   1.5 |
-| COMPLETED Build main                                                        |         |       | 2:10 |   7.3 |
+| COMPLETED Create main                                                       |         |       | 0:26 |   1.4 |
+| COMPLETED Build main                                                        |         |       | 2:10 |   7.0 |
 | COMPLETED Discuss task                                                      |         |       | 0:31 |   1.7 |
-| COMPLETED Create a Menu class                                               |         |       | 0:52 |   2.9 |
-| COMPLETED Fix menu class                                                    |         |       | 1:41 |   5.6 |
-| COMPLETED Research classes                                                  |         |       | 1:49 |   6.1 |
-| COMPLETED Add new option to list                                            |         |       | 0:19 |   1.1 |
-| COMPLETED Create players class                                              |         |       | 0:21 |   1.2 |
-| POSTPONED Fix player class                                                  |         |       | 2:00 |   6.7 |
-| STARTED create setup function in player class                               |         |       | 1:30 |   5.0 |
+| COMPLETED Create a Menu class                                               |         |       | 0:52 |   2.8 |
+| COMPLETED Fix menu class                                                    |         |       | 1:41 |   5.5 |
+| COMPLETED Research classes                                                  |         |       | 1:49 |   5.9 |
+| COMPLETED Add new option to list                                            |         |       | 0:19 |   1.0 |
+| COMPLETED Create players class                                              |         |       | 0:21 |   1.1 |
+| POSTPONED Fix player class                                                  |         |       | 2:00 |   6.5 |
+| STARTED create setup function in player class                               |         |       | 1:30 |   4.9 |
 | STARTED create display function in player class                             |         |       | 0:20 |   1.1 |
-| COMPLETED Create vector for players                                         |         |       | 1:00 |   3.3 |
-| COMPLETED Read through fixed player class                                   |         |       | 1:07 |   3.7 |
-| COMPLETED Research classes                                                  |         |       | 2:56 |   9.8 |
-| COMPLETED Dealing with conflicts in magit                                   |         |       | 2:19 |   7.8 |
-| COMPLETED Practice implementing class with functions                        |         |       | 0:26 |   1.5 |
-| COMPLETED Research classes                                                  |         |       | 1:41 |   5.6 |
-| COMPLETED Add detail to players                                             |         |       | 1:00 |   3.3 |
-| COMPLETED Add new player                                                    |         |       | 0:46 |   2.6 |
+| COMPLETED Create vector for players                                         |         |       | 1:00 |   3.2 |
+| COMPLETED Read through fixed player class                                   |         |       | 1:07 |   3.6 |
+| COMPLETED Research classes                                                  |         |       | 2:56 |   9.5 |
+| COMPLETED Dealing with conflicts in magit                                   |         |       | 2:19 |   7.5 |
+| COMPLETED Practice implementing class with functions                        |         |       | 0:26 |   1.4 |
+| COMPLETED Research classes                                                  |         |       | 1:41 |   5.5 |
+| COMPLETED Add detail to players                                             |         |       | 1:00 |   3.2 |
+| COMPLETED Add new player                                                    |         |       | 0:46 |   2.5 |
 | COMPLETED Show detail of select player only                                 |         |       | 0:29 |   1.6 |
 | COMPLETED Discuss task                                                      |         |       | 0:33 |   1.8 |
-| COMPLETED Add the rest of the players                                       |         |       | 0:39 |   2.2 |
+| COMPLETED Add the rest of the players                                       |         |       | 0:39 |   2.1 |
+| COMPLETED Testing program                                                   |         |       | 1:00 |   3.2 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -212,17 +213,21 @@ Made it so that it shows all player properties
 *** COMPLETED Add new player
     CLOSED: [2018-02-02 Fri 14:06]
     CLOCK: [2018-02-02 Fri 11:44]--[2018-02-02 Fri 12:30] =>  0:46
-
+Added a new player to the program using player class
 *** COMPLETED Show detail of select player only
     CLOSED: [2018-02-02 Fri 14:36]
     CLOCK: [2018-02-02 Fri 14:07]--[2018-02-02 Fri 14:36] =>  0:29
-
+when selecting a player only that players details are shown
 *** COMPLETED Discuss task
     CLOSED: [2018-02-02 Fri 15:09]
     CLOCK: [2018-02-02 Fri 14:36]--[2018-02-02 Fri 15:09] =>  0:33
-
+Discussing next task
 *** COMPLETED Add the rest of the players
     CLOSED: [2018-02-02 Fri 15:51]
     CLOCK: [2018-02-02 Fri 15:12]--[2018-02-02 Fri 15:51] =>  0:39
-
+Added the rest of the players that can be selected
+*** COMPLETED Testing program
+    CLOSED: [2018-02-05 Mon 09:12]
+    CLOCK: [2018-02-02 Fri 16:00]--[2018-02-02 Fri 17:00] => 1:0
+tested changes to program
 ** Deprecated
