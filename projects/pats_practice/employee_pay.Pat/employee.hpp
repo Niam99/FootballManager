@@ -6,6 +6,12 @@
 
 class Employee{
 
-}
+public:
+    std::string name;
+    int id;
+    double wage;
+
+    void print();
+};
 
 #endif
