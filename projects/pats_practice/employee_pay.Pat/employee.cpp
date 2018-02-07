@@ -2,7 +2,7 @@
 #include <string>
 #include "employee.hpp"
 
-public void Employee::print(){
+void Employee::print(){
     {
         std::cout << "Employee Name: " << name
                   << "\nID: " << id
