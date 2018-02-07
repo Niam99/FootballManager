@@ -325,4 +325,7 @@ http://www.worldbestlearningcenter.com/index_files/cpp-pointers-exercises.htm
     CLOSED: [2018-02-07 Wed 12:15]
     CLOCK: [2018-02-07 Wed 11:19]--[2018-02-07 Wed 12:15] =>  0:56
 
+*** Split employee program into files
+    CLOCK: [2018-02-07 Wed 13:52]
+
 ** Deprecated
