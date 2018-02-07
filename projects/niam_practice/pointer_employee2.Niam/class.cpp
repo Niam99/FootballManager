@@ -1,7 +1,7 @@
 #include <iostream>
 #include "class.hpp"
 
-double Employee::Employee(double w = 8.0, double h = 12.0, double b = 2.0) {
+Employee::Employee(double w, double h, double b) {
         std::cout << "Constructor called." << std::endl;
         wage = w;
         bonus = b;
