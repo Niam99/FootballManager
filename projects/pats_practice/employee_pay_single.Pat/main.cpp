@@ -32,7 +32,7 @@ int main(){
     Employee pat {em.name, em.role, em.rate, *point};
     
     std::cout << "Employee Name: " << em.name
-                  << "\nWage: £" << *point
+              << "\nWage: £" << point
                   << std::endl ;
 }
 
