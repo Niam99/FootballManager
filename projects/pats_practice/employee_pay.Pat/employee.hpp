@@ -8,10 +8,13 @@ class Employee{
 
 public:
     std::string name;
-    int id;
-    double wage;
+    std::string role;
+    int hours;
+    int overTime;
+    float wage[3] = {8.39, 10.49, 12.59};
+    float weeksPay;
 
-    void print();
+    //void print();
 };
 
 #endif
