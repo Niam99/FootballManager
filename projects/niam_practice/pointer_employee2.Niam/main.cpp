@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "class.hpp"
 
 int main() {
@@ -26,5 +27,29 @@ int main() {
     p = ptrEmployee->Pay();
     std::cout << "Money after tax: £ " << ptrEmployee->Tax(p) << std::endl;
     std::cout << "------------------------" << std::endl;
+    std::cout << "Would you like to add another employee? yes/no" << std::endl;
+    std::string answer;
+    std::cin >> answer;
+    double wage;
+    double hours;
+    double bonus;
+    double tax;
+    if (answer == "yes") {
+        std::cout << "Please enter wage" << std::endl;
+        std::cin >> wage;
+        std::cout << "Please enter hours" << std::endl;
+        std::cin >> hours;
+        std::cout << "Please enter bonus" << std::endl;
+        std::cin >> bonus;
+        std::cout << "Please enter tax rate" << std::endl;
+        std::cin >> tax;
+        Employee Employee4(wage, hours, bonus,tax);
+        ptrEmployee = &Employee4;
+
+        std::cout << "Employee 4 pay: £ " << ptrEmployee->Pay() << std::endl;
+        p = ptrEmployee->Pay();
+        std::cout << "Money after tax: £ " << ptrEmployee->Tax(p) << std::endl;
+        std::cout << "------------------------" << std::endl;
+    }
     return 0;
 }
