@@ -14,7 +14,7 @@ public:
     float wage[3] = {8.39, 10.49, 12.59};
     float weeksPay;
 
-    //void print();
+    void print();
 };
 
 #endif

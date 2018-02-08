@@ -4,13 +4,14 @@
 
 void Employee::print(){
     {
-        std::cout << "\nName: " << em.name
-                  << "\nJob: " << em.role
-                  << "\nHours: " << em.hours
-                  << "\nOvertime: " << em.overTime
-                  << "\nPaycheck: £" << em.weeksPay
-                  << "\nPaycheck after Tax: £" << em.weeksPay - (0.2 * em.weeksPay)
-                  << std::endl << std::endl;
+        //Employee em;
+         std::cout << "\nName: " << name
+                   << "\nJob: " << role
+                   << "\nHours: " << hours
+                   << "\nOvertime: " << overTime
+                   << "\nPaycheck: £" << weeksPay
+                   << "\nPaycheck after Tax: £" << weeksPay - (0.2 * weeksPay)
+                   << std::endl << std::endl;
     }
 
 }
