@@ -14,43 +14,44 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-07 Wed 17:05]
+#+CAPTION: Clock summary at [2018-02-08 Thu 11:01]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *44:14* |       |      | 100.0 |
+| *Total time*                                                                | *46:01* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 44:14   |       |      | 100.0 |
-| Active                                                                      |         | 44:14 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 4:30 |  10.2 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  12.4 |
-| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   2.2 |
+| Stories                                                                     | 46:01   |       |      | 100.0 |
+| Active                                                                      |         | 46:01 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 4:39 |  10.1 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  11.9 |
+| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   2.1 |
 | COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   1.6 |
-| COMPLETED Create teams and players                                          |         |       | 2:12 |   5.0 |
-| COMPLETED Read more on Classes                                              |         |       | 0:36 |   1.4 |
-| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   2.7 |
-| CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   0.8 |
-| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   1.9 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       | 3:27 |   7.8 |
+| COMPLETED Create teams and players                                          |         |       | 2:12 |   4.8 |
+| COMPLETED Read more on Classes                                              |         |       | 0:36 |   1.3 |
+| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   2.6 |
+| CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   0.7 |
+| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   1.8 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       | 3:27 |   7.5 |
 | Magit and attempting to fix first conflict                                  |         |       | 0:27 |   1.0 |
-| Practice Classes                                                            |         |       | 5:36 |  12.7 |
-| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |   7.3 |
-| Discussing the task at hand                                                 |         |       | 3:24 |   7.7 |
+| Practice Classes                                                            |         |       | 5:36 |  12.2 |
+| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |   7.1 |
+| Discussing the task at hand                                                 |         |       | 3:32 |   7.7 |
 | COMPLETED Fix the build                                                     |         |       | 0:14 |   0.5 |
 | Searching for research material                                             |         |       | 0:41 |   1.5 |
-| COMPLETED Learn about pointers                                              |         |       | 1:39 |   3.7 |
-| COMPLETED Attempt to use pointers                                           |         |       | 1:48 |   4.1 |
-| COMPLETED Attempt to use pointers solo                                      |         |       | 0:20 |   0.8 |
-| STARTED Learn more about data structures                                    |         |       | 1:43 |   3.9 |
-| COMPLETED Watch Youtube tutorials                                           |         |       | 1:16 |   2.9 |
-| COMPLETED Write pointer and array                                           |         |       | 0:39 |   1.5 |
+| COMPLETED Learn about pointers                                              |         |       | 1:39 |   3.6 |
+| COMPLETED Attempt to use pointers                                           |         |       | 1:48 |   3.9 |
+| COMPLETED Attempt to use pointers solo                                      |         |       | 0:20 |   0.7 |
+| STARTED Learn more about data structures                                    |         |       | 1:43 |   3.7 |
+| COMPLETED Watch Youtube tutorials                                           |         |       | 1:16 |   2.8 |
+| COMPLETED Write pointer and array                                           |         |       | 0:39 |   1.4 |
 | Review yesterdays work                                                      |         |       | 0:38 |   1.4 |
-| Attempt to use pointer, array and classes                                   |         |       | 2:16 |   5.1 |
+| STARTED Attempt to use pointer, array and classes                           |         |       | 3:46 |   8.2 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-08 Thu 10:52]--[2018-02-08 Thu 11:01] =>  0:09
     CLOCK: [2018-02-07 Wed 16:52]--[2018-02-07 Wed 17:05] =>  0:13
     CLOCK: [2018-02-07 Wed 11:18]--[2018-02-07 Wed 11:53] =>  0:35
     CLOCK: [2018-02-06 Tue 16:57]--[2018-02-06 Tue 17:09] =>  0:12
@@ -258,6 +259,7 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-08 Thu 10:18]--[2018-02-08 Thu 10:26] =>  0:08
     CLOCK: [2018-02-07 Wed 16:03]--[2018-02-07 Wed 16:34] =>  0:31
     CLOCK: [2018-02-07 Wed 15:39]--[2018-02-07 Wed 15:41] =>  0:02
     CLOCK: [2018-02-07 Wed 14:44]--[2018-02-07 Wed 14:50] =>  0:06
@@ -371,7 +373,10 @@ Links:
 *** Review yesterdays work
     CLOCK: [2018-02-07 Wed 09:05]--[2018-02-07 Wed 09:43] =>  0:38
 
-*** Attempt to use pointer, array and classes
+*** STARTED Attempt to use pointer, array and classes
+    CLOCK: [2018-02-08 Thu 10:26]--[2018-02-08 Thu 10:52] =>  0:26
+    CLOCK: [2018-02-08 Thu 09:48]--[2018-02-08 Thu 10:18] =>  0:30
+    CLOCK: [2018-02-08 Thu 09:04]--[2018-02-08 Thu 09:38] =>  0:34
     CLOCK: [2018-02-07 Wed 16:34]--[2018-02-07 Wed 16:52] =>  0:18
     CLOCK: [2018-02-07 Wed 15:41]--[2018-02-07 Wed 16:03] =>  0:22
     CLOCK: [2018-02-07 Wed 14:50]--[2018-02-07 Wed 15:27] =>  0:37
