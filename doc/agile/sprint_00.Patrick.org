@@ -14,43 +14,45 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-08 Thu 17:33]
+#+CAPTION: Clock summary at [2018-02-09 Fri 18:17]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *50:28* |       |      | 100.0 |
+| *Total time*                                                                | *55:50* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 50:28   |       |      | 100.0 |
-| Active                                                                      |         | 50:28 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 5:03 |  10.0 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |  10.8 |
-| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   1.9 |
-| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   1.4 |
-| COMPLETED Create teams and players                                          |         |       | 2:12 |   4.4 |
-| COMPLETED Read more on Classes                                              |         |       | 0:36 |   1.2 |
-| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   2.4 |
-| CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   0.7 |
-| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   1.7 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       | 3:27 |   6.8 |
-| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   0.9 |
-| Practice Classes                                                            |         |       | 5:36 |  11.1 |
-| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |   6.4 |
-| Discussing the task at hand                                                 |         |       | 4:40 |   9.2 |
-| COMPLETED Fix the build                                                     |         |       | 0:14 |   0.5 |
-| Searching for research material                                             |         |       | 0:41 |   1.4 |
-| COMPLETED Learn about pointers                                              |         |       | 1:39 |   3.3 |
-| COMPLETED Attempt to use pointers                                           |         |       | 1:48 |   3.6 |
-| COMPLETED Attempt to use pointers solo                                      |         |       | 0:20 |   0.7 |
-| STARTED Learn more about data structures                                    |         |       | 1:43 |   3.4 |
-| COMPLETED Watch Youtube tutorials                                           |         |       | 1:34 |   3.1 |
-| COMPLETED Write pointer and array                                           |         |       | 0:39 |   1.3 |
-| Review yesterdays work                                                      |         |       | 0:38 |   1.3 |
-| STARTED Attempt to use pointer, array and classes                           |         |       | 6:23 |  12.6 |
+| Stories                                                                     | 55:50   |       |      | 100.0 |
+| Active                                                                      |         | 55:50 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 5:16 |   9.4 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |   9.8 |
+| COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   1.8 |
+| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   1.3 |
+| COMPLETED Create teams and players                                          |         |       | 2:12 |   3.9 |
+| COMPLETED Read more on Classes                                              |         |       | 0:36 |   1.1 |
+| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   2.1 |
+| CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   0.6 |
+| COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   1.5 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       | 5:14 |   9.4 |
+| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   0.8 |
+| Practice Classes                                                            |         |       | 5:36 |  10.0 |
+| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |   5.8 |
+| Discussing the task at hand                                                 |         |       | 6:07 |  11.0 |
+| COMPLETED Fix the build                                                     |         |       | 0:14 |   0.4 |
+| Searching for research material                                             |         |       | 1:15 |   2.2 |
+| COMPLETED Learn about pointers                                              |         |       | 1:39 |   3.0 |
+| COMPLETED Attempt to use pointers                                           |         |       | 1:48 |   3.2 |
+| COMPLETED Attempt to use pointers solo                                      |         |       | 0:20 |   0.6 |
+| STARTED Learn more about data structures                                    |         |       | 1:43 |   3.1 |
+| COMPLETED Watch Youtube tutorials                                           |         |       | 1:51 |   3.3 |
+| COMPLETED Write pointer and array                                           |         |       | 0:39 |   1.2 |
+| Review yesterdays work                                                      |         |       | 0:38 |   1.1 |
+| STARTED Attempt to use pointer, array and classes                           |         |       | 6:23 |  11.4 |
+| Attempt to read and write in Employee                                       |         |       | 1:04 |   1.9 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-09 Fri 16:56]--[2018-02-09 Fri 17:09] =>  0:13
     CLOCK: [2018-02-08 Thu 16:58]--[2018-02-08 Thu 17:13] =>  0:15
     CLOCK: [2018-02-08 Thu 11:58]--[2018-02-08 Thu 12:07] =>  0:09
     CLOCK: [2018-02-08 Thu 10:52]--[2018-02-08 Thu 11:01] =>  0:09
@@ -189,6 +191,10 @@ Links:
 - Vectors (not so good, but helps) https://syntaxdb.com/ref/cpp/vectors
 - Vectors (better, more complicated) https://www.geeksforgeeks.org/vector-in-cpp-stl/
 *** STARTED Use Menu Classes for Teams menu
+    CLOCK: [2018-02-09 Fri 16:26]--[2018-02-09 Fri 16:56] =>  0:30
+    CLOCK: [2018-02-09 Fri 15:26]--[2018-02-09 Fri 15:51] =>  0:25
+    CLOCK: [2018-02-09 Fri 14:48]--[2018-02-09 Fri 15:14] =>  0:26
+    CLOCK: [2018-02-09 Fri 14:20]--[2018-02-09 Fri 14:46] =>  0:26
     CLOCK: [2018-02-02 Fri 13:23]--[2018-02-02 Fri 14:40] =>  1:17
     CLOCK: [2018-02-02 Fri 11:56]--[2018-02-02 Fri 12:17] =>  0:21
     CLOCK: [2018-02-02 Fri 10:40]--[2018-02-02 Fri 11:08] =>  0:28
@@ -261,6 +267,11 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-09 Fri 15:51]--[2018-02-09 Fri 16:26] =>  0:35
+    CLOCK: [2018-02-09 Fri 15:14]--[2018-02-09 Fri 15:26] =>  0:12
+    CLOCK: [2018-02-09 Fri 14:46]--[2018-02-09 Fri 14:48] =>  0:02
+    CLOCK: [2018-02-09 Fri 12:35]--[2018-02-09 Fri 12:57] =>  0:22
+    CLOCK: [2018-02-09 Fri 11:50]--[2018-02-09 Fri 12:06] =>  0:16
     CLOCK: [2018-02-08 Thu 16:34]--[2018-02-08 Thu 16:58] =>  0:24
     CLOCK: [2018-02-08 Thu 15:19]--[2018-02-08 Thu 15:41] =>  0:22
     CLOCK: [2018-02-08 Thu 11:30]--[2018-02-08 Thu 11:42] =>  0:12
@@ -287,6 +298,7 @@ Complete quiz's based on classes
 - remove line: //choose_teams();
 
 *** Searching for research material
+    CLOCK: [2018-02-09 Fri 09:02]--[2018-02-09 Fri 09:36] =>  0:34
     CLOCK: [2018-02-06 Tue 11:23]--[2018-02-06 Tue 11:45] =>  0:22
     CLOCK: [2018-02-05 Mon 09:50]--[2018-02-05 Mon 10:09] =>  0:19
 
@@ -361,6 +373,7 @@ Quiz:
 - Multiple quizzes: https://www.geeksforgeeks.org/data-structure-gq/
 
 *** COMPLETED Watch Youtube tutorials
+    CLOCK: [2018-02-09 Fri 09:36]--[2018-02-09 Fri 09:53] =>  0:17
     CLOCK: [2018-02-08 Thu 14:22]--[2018-02-08 Thu 14:40] =>  0:18
     CLOCK: [2018-02-06 Tue 16:34]--[2018-02-06 Tue 16:54] =>  0:20
     CLOCK: [2018-02-06 Tue 15:32]--[2018-02-06 Tue 16:28] =>  0:56
@@ -373,7 +386,9 @@ Links:
 - Classes: https://www.youtube.com/watch?v=2BP8NhxjrO0
 - Class vs Structs: https://www.youtube.com/watch?v=fLgTtaqqJp0
 
-- Constructors in classes  https://www.youtube.com/watch?v=CT2k4KbAQpo
+- Constructors in classes: https://www.youtube.com/watch?v=CT2k4KbAQpo
+
+- Read, Write Methods: https://www.youtube.com/watch?v=P7XGOBoVzW4&app=desktop
 
 *** COMPLETED Write pointer and array
     CLOSED: [2018-02-07 Wed 11:36]
@@ -420,5 +435,12 @@ Links:
 
 - The Rate will depend on Role
 
+*** Attempt to read and write in Employee
+    CLOCK: [2018-02-09 Fri 12:06]--[2018-02-09 Fri 12:34] =>  0:28
+    CLOCK: [2018-02-09 Fri 10:25]--[2018-02-09 Fri 11:01] =>  0:36
+
+- Write what was originally in the print
+- Read what was written to file
+- create option to read
 
 ** Deprecated
