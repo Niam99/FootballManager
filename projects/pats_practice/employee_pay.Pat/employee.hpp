@@ -15,6 +15,7 @@ public:
     float weeksPay;
 
     void print();
+    void read_write();
 };
 
 #endif
