@@ -9,13 +9,17 @@
 menu create_main_menu() {
     std::vector<menu_item> items;
 
-    menu_item teams;
-    teams.setup("Choose a team");
-    items.push_back(teams);
+    menu_item players;
+    players.setup("View Players");
+    items.push_back(players);
 
     menu_item info;
     info.setup("Information");
     items.push_back(info);
+
+    menu_item teams;
+    teams.setup("Teams");
+    items.push_back(teams);
 
     menu_item quit;
     quit.setup("Quit");
@@ -24,6 +28,26 @@ menu create_main_menu() {
     menu main_menu;
     main_menu.setup("Main Menu", "Choose an option: ", items);
     return main_menu;
+}
+
+menu create_team_menu() {
+    std::vector<menu_item> items;
+
+    menu_item man_u;
+    man_u.setup("Manchester-United");
+    items.push_back(man_u);
+
+    menu_item che;
+    che.setup("Chelsea");
+    items.push_back(che);
+
+    menu_item liv;
+    liv.setup("Liverpool");
+    items.push_back(liv);
+
+    menu team_menu;
+    team_menu.setup("Team Menu", "Choose an Team: ", items);
+    return team_menu;
 }
 
 std::vector<player> create_players() {
@@ -79,6 +103,7 @@ int main()
 {
     // create an instance of the menu class.
     menu main_menu = create_main_menu();
+    menu team_menu = create_team_menu();
     //showplayers()
 
     // "run" it
@@ -100,23 +125,23 @@ int main()
 
         //choose_teams();
 
-    } else {
-        std::cout << "user choose: " << result << std::endl;
     }
-    return 0;
+    // return 0;
     // handle the result of the menu.
-    if (result == 2) {
-        std::cout << "User exited.";
-    } else {
-        std::cout << "user chose: " << result << std::endl;
+
+    if (result == 1) {
+        std::cout << "User chose Information" <<  std::endl;
     }
-    return 0;
+
+    if (result == 2) {
+        std::cout << "User chose Teams" << std::endl;
+        create_team_menu();
+    }
 
     if (result == 3) {
-        std::cout << "This is working!" << std::endl;
-        choose_teams();
-    } else {
-        std::cout << "user choose: " << result << std::endl;
-    }
+        std::cout << "User Exited" << std::endl;
+        create_team_menu();
+    } 
+
     return 0;
 }

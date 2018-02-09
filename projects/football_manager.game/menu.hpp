@@ -9,7 +9,7 @@
 class menu {
 private:
     void draw();
-    void choose_teams();
+    //void choose_teams();
 
 public:
     void setup(std::string name, std::string prompt,
