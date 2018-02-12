@@ -1,17 +1,21 @@
 #include <iostream>
 #include <string>
+#include "league.hpp"
 
-void league() {
+void league::setup(std::string teamname, int win, int draw, int loss,
+    int played) {
 
-    class league {
+    teamname_ = name;
+    win_ = win;
+    draw_ = draw;
+    loss_ = loss;
+    played_ = played;
+}
 
-        std::string teamName;
-        int wins;
-        int loses;
-        int points;
-        int gamesPlayed;
-    };
-
-    std::cout << "working" << std::endl;
-
+void player::display() {
+    std::cout << "Team: " << teamname_ << std::endl;
+    std::cout << "Wins: " << win_ << std::endl;
+    std::cout << "Draws: " << draws_ << std::endl;
+    std::cout << "Losses: " << loss_ << std::endl;
+    std::cout << "Games Played: " << played_ << std::endl;
 }
