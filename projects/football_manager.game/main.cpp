@@ -5,6 +5,7 @@
 #include "choose_teams.hpp"
 #include "choose_player.hpp"
 #include "player.hpp"
+#include "league.hpp"
 
 menu create_main_menu() {
     std::vector<menu_item> items;
@@ -13,9 +14,9 @@ menu create_main_menu() {
     players.setup("View Players");
     items.push_back(players);
 
-    menu_item info;
-    info.setup("Information");
-    items.push_back(info);
+    menu_item league;
+    league.setup("League Information");
+    items.push_back(league);
 
     menu_item teams;
     teams.setup("Teams");
@@ -99,6 +100,16 @@ std::vector<player> create_players() {
     return players;
 }
 
+std::vector<league> create_league() {
+   league ManU;
+   ManU.setup("Manchester-United", 10, 5, 4, 19);
+   
+   std::vector<league> league1;
+   league1.push_back(ManU);
+   return league1;
+}
+
+
 int main()
 {
     // create an instance of the menu class.
@@ -131,6 +142,12 @@ int main()
 
     if (result == 1) {
         std::cout << "User chose Information" <<  std::endl;
+        std::vector<league> league1 = create_league();
+        for (int i = 0; i < league1.size(); ++i){
+            league1[i].display();
+            std::cout << std::endl;
+         }
+        
     }
 
     if (result == 2) {

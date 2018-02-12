@@ -1,5 +1,5 @@
-#ifndef PLAYERS_HPP
-#define PLAYERS_HPP
+#ifndef LEAGUE_HPP
+#define LEAGUE_HPP
 
 #include <iostream>
 #include <string>
