@@ -3,6 +3,8 @@
 #include<bits/stdc++.h>
 //#include "menu.hpp"
 #include "choose_teams.hpp"
+#include "choose_player.hpp"
+#include "player.hpp"
 
 void choose::choose_teams(){
 
@@ -41,34 +43,36 @@ void choose::choose_teams(){
         //int result = main_menu.run();
 
         if (selection == 1){
-            std::cout << "\nYou have selected:\n\n" << team[1] << std::endl
+            std::cout << "\nYou have selected:\n\n" << team[1]
             << std::endl;
 
-            team_player.GK = "David de Gea";
-            team_player.LB = "Daley Blind";
-            team_player.RB = "Antonio Valencia";
-            team_player.CB = "Victor Lindelöf";
-            team_player.CB2 = "Phil Jones";
-            team_player.LW = "Alexis Sánchez";
-            team_player.RW = "Anthony Martial";
-            team_player.CM = "Marouane Fellaini";
-            team_player.CM2 = "Paul Pogba";
-            team_player.CF = "Romelu Lukaku";
-            team_player.CF2 = "Zlatan Ibrahimovic";
+            choose_player();
+
+            // team_player.GK = "David de Gea";
+            // team_player.LB = "Daley Blind";
+            // team_player.RB = "Antonio Valencia";
+            // team_player.CB = "Victor Lindelöf";
+            // team_player.CB2 = "Phil Jones";
+            // team_player.LW = "Alexis Sánchez";
+            // team_player.RW = "Anthony Martial";
+            // team_player.CM = "Marouane Fellaini";
+            // team_player.CM2 = "Paul Pogba";
+            // team_player.CF = "Romelu Lukaku";
+            // team_player.CF2 = "Zlatan Ibrahimovic";
         }
 
-        std::cout << "Squad:\n"
-                  << "GK - " << team_player.GK << std::endl
-                  << "LB - " << team_player.LB << std::endl
-                  << "RB - " << team_player.RB << std::endl
-                  << "CB - " << team_player.CB << std::endl
-                  << "CB - " <<  team_player.CB2 << std::endl
-                  << "LW - " << team_player.LW << std::endl
-                  << "RW - " << team_player.RW << std::endl
-                  << "CM - " << team_player.CM << std::endl
-                  << "CM - " << team_player.CM2 << std::endl
-                  << "CF - " << team_player.CF << std::endl
-                  << "CF - " << team_player.CF2 << std::endl;
+        // std::cout << "Squad:\n"
+        //           << "GK - " << team_player.GK << std::endl
+        //           << "LB - " << team_player.LB << std::endl
+        //           << "RB - " << team_player.RB << std::endl
+        //           << "CB - " << team_player.CB << std::endl
+        //           << "CB - " <<  team_player.CB2 << std::endl
+        //           << "LW - " << team_player.LW << std::endl
+        //           << "RW - " << team_player.RW << std::endl
+        //           << "CM - " << team_player.CM << std::endl
+        //           << "CM - " << team_player.CM2 << std::endl
+        //           << "CF - " << team_player.CF << std::endl
+        //           << "CF - " << team_player.CF2 << std::endl;
 
         std::cout << "\nConfirm Selected team?" << std::endl;
 
