@@ -103,9 +103,15 @@ std::vector<player> create_players() {
 std::vector<league> create_league() {
    league ManU;
    ManU.setup("Manchester-United", 10, 5, 4, 19);
+   league Chelsea;
+   Chelsea.setup("Chelsea", 7, 7, 5, 19);
+   league Liverpool;
+   Liverpool.setup("Liverpool", 8, 8, 4, 19);
    
    std::vector<league> league1;
    league1.push_back(ManU);
+   league1.push_back(Chelsea);
+   league1.push_back(Liverpool);
    return league1;
 }
 
@@ -129,10 +135,7 @@ int main()
         std::vector<player> players = create_players();
         players[playerChoice].display();
 
-        //for (int i = 0; i < players.size(); ++i){
-        //    players[i].display();
-        //    std::cout << std::endl;
-        // }
+       
 
         //choose_teams();
 
