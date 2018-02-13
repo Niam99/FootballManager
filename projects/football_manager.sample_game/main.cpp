@@ -6,7 +6,7 @@
  * factory method to read league.
  */
 league read_league() {
-    std::string file_name("../../data/epl.data");
+    std::string file_name("../../../data/epl.data");
     std::cout << "Reading file: " << file_name << std::endl;
     std::ifstream input_stream(file_name);
     // if (input_stream) {

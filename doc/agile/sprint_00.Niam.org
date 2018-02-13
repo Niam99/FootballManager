@@ -474,8 +474,15 @@ https://www.youtube.com/watch?v=b9wialxvcVA
     CLOSED: [2018-02-13 Tue 13:58]
     CLOCK: [2018-02-13 Tue 12:37]--[2018-02-13 Tue 13:00] =>  0:23
 
-*** Review MC sample game
-    CLOCK: [2018-02-13 Tue 14:14]
+*** COMPLETED Read MC sample game
+    CLOSED: [2018-02-13 Tue 14:44]
+    CLOCK: [2018-02-13 Tue 14:19]--[2018-02-13 Tue 14:44] =>  0:25
+
+
+
+
+*** Build and test MC sample
+    CLOCK: [2018-02-13 Tue 14:45]
 
 
 ** Deprecated
