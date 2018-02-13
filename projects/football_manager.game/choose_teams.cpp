@@ -57,20 +57,18 @@ void choose::choose_teams(){
     bool teamConfirmed = false;
 
     while (teamSelected == false) {
-        std::vector <std::string> team;
         int selection;
         std::cout << "\nTeams:" << std::endl << std::endl;
-        
-        team.push_back("BLANK");
-        
-        team.push_back ("Manchester-United");
-        team.push_back("Chelsea");
-        team.push_back("Arsenal");
-        team.push_back("Manchester-City");
-        team.push_back("Liverpool");
+
+        team_player.team.push_back("BLANK");
+        team_player.team.push_back ("Manchester-United");
+        team_player.team.push_back("Chelsea");
+        team_player.team.push_back("Arsenal");
+        team_player.team.push_back("Manchester-City");
+        team_player.team.push_back("Liverpool");
 
         for (int i=1; i<team.size(); i++) {
-        std::cout<< "[" << i << "] " << team[i] << "\n";
+            std::cout<< "[" << i << "] " << team_player.team[i] << "\n";
 
         }
         

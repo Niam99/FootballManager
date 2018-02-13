@@ -126,7 +126,6 @@ int main()
     // "run" it
     int result = main_menu.run();
     if (result == 0 ){
-        //choose_teams();
         choose_player();
         int playerChoice;
         std::cout << "Choose a player to see details: ";
@@ -135,9 +134,6 @@ int main()
         std::vector<player> players = create_players();
         players[playerChoice].display();
 
-       
-
-        //choose_teams();
 
     }
     // return 0;
@@ -155,7 +151,8 @@ int main()
 
     if (result == 2) {
         std::cout << "User chose Teams" << std::endl;
-        create_team_menu();
+        choose team;
+        team.choose_teams();
     }
 
     if (result == 3) {

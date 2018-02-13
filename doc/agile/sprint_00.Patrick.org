@@ -450,6 +450,8 @@ Links:
 - create option to read
 
 *** STARTED Get Team Menu working
+    CLOCK: [2018-02-13 Tue 10:05]--[2018-02-13 Tue 10:14] =>  0:09
+    CLOCK: [2018-02-13 Tue 09:02]--[2018-02-13 Tue 09:43] =>  0:41
     CLOCK: [2018-02-12 Mon 14:25]--[2018-02-12 Mon 14:52] =>  0:27
     CLOCK: [2018-02-12 Mon 12:22]--[2018-02-12 Mon 13:36] =>  1:14
     CLOCK: [2018-02-12 Mon 11:11]--[2018-02-12 Mon 11:51] =>  0:40
@@ -458,5 +460,10 @@ Links:
     CLOCK: [2018-02-12 Mon 09:46]--[2018-02-12 Mon 09:59] =>  0:13
     CLOCK: [2018-02-12 Mon 09:01]--[2018-02-12 Mon 09:45] =>  0:44
 
+- Move Vector for teams from .cpp to class in .hpp
+- Attempt to give teams a rating out of 5
+  - rating should be placed in class
+- Get more teams in database
+- Add choose_teams(); to main
 
 ** Deprecated
