@@ -28,6 +28,9 @@ void team::read(std::istream& input_stream) {
     input_stream >> number_of_players;
     std::cout << "Total players: " << number_of_players << std::endl;
 
+    // skip the end of line
+    input_stream.ignore(1, '\n');
+
     // now we nead to read each player.
     for (int i = 0; i < number_of_players; ++i) {
         std::cout << "Reading player." << std::endl;
