@@ -6,6 +6,7 @@
 #include "choose_player.hpp"
 #include "player.hpp"
 #include "league.hpp"
+#include "game.hpp"
 
 menu create_main_menu() {
     std::vector<menu_item> items;
@@ -21,6 +22,10 @@ menu create_main_menu() {
     menu_item teams;
     teams.setup("Teams");
     items.push_back(teams);
+    
+    menu_item results;
+    results.setup("View results of played games");
+    items.push_back(results);
 
     menu_item quit;
     quit.setup("Quit");
@@ -115,6 +120,15 @@ std::vector<league> create_league() {
    return league1;
 }
 
+std::vector<game> create_game_result() {
+   game ManUVChelsea;
+   ManUVChelsea.setup("Manchester-United", "Chelsea", 4, 3);
+   
+   std::vector<game> games;
+   games.push_back(ManUVChelsea);
+   return games;
+}
+
 
 int main()
 {
@@ -140,7 +154,7 @@ int main()
     // handle the result of the menu.
 
     if (result == 1) {
-        std::cout << "User chose Information" <<  std::endl;
+        std::cout << "User chose league information" <<  std::endl;
         std::vector<league> league1 = create_league();
         for (int i = 0; i < league1.size(); ++i){
             league1[i].display();
@@ -154,8 +168,17 @@ int main()
         choose team;
         team.choose_teams();
     }
-
+    
     if (result == 3) {
+        std::cout << "User chose to view game results" << std::endl;
+        std::vector<game> games = create_game_result();
+        for (int i = 0; i < games.size(); ++i){
+            games[i].display();
+            std::cout << std::endl;
+         }
+    } 
+
+    if (result == 4) {
         std::cout << "User Exited" << std::endl;
         create_team_menu();
     } 
