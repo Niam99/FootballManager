@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include "player.hpp"
 
 class choose{
 
@@ -13,5 +14,10 @@ public:
 
     std::vector <std::string> team;
 };
+
+class choose{
+public:
+    
+}
 
 #endif
