@@ -496,5 +496,32 @@ Links:
 - Use MC's work to create new team menus from scratch
 - Create Data model
 - Add read and write
+---------------------
+- Breakdown
+
+- In team.hpp
+- Create team class
+  - Public:
+  - team (name, rating)
+  - name()
+  - read and write
+  - Private:
+  - name_
+
+- Create data file
+- Write team name / rating in data file
+
+- In team.cpp
+- Connect to team.hpp
+- Read team name / rating
+- Set variables in class to whats read in data file
+- Output team name / rating
+
+- When working
+- Add Players to data file
+- Add players to class
+- read players from data file
+- use for loop to cycle through players in file
+- Output players
 
 ** Deprecated

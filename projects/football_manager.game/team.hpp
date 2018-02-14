@@ -8,14 +8,12 @@
 class team {
 public:
 
-    team(std::string name, int rating,std::vector<player> players);
+    team(std::string name, int rating);
 
 public:
 
     std::string name();
-    std::vector<player> players();
 
 private:
     std::string name_;
-    std::vector<player> players_;
 }
