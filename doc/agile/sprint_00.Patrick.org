@@ -14,42 +14,43 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-13 Tue 18:29]
+#+CAPTION: Clock summary at [2018-02-14 Wed 14:28]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *68:15* |       |      | 100.0 |
+| *Total time*                                                                | *71:01* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 68:15   |       |      | 100.0 |
-| Active                                                                      |         | 68:15 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 5:50 |   8.5 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |   8.0 |
+| Stories                                                                     | 71:01   |       |      | 100.0 |
+| Active                                                                      |         | 71:01 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 5:50 |   8.2 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       | 5:28 |   7.7 |
 | COMPLETED Create League.cpp/hpp                                             |         |       | 0:59 |   1.4 |
-| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   1.1 |
-| COMPLETED Create teams and players                                          |         |       | 2:12 |   3.2 |
-| COMPLETED Read more on Classes                                              |         |       | 0:36 |   0.9 |
-| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   1.8 |
+| COMPLETED Create game.cpp/hpp                                               |         |       | 0:43 |   1.0 |
+| COMPLETED Create teams and players                                          |         |       | 2:12 |   3.1 |
+| COMPLETED Read more on Classes                                              |         |       | 0:36 |   0.8 |
+| COMPLETED Review and study MC's work                                        |         |       | 1:12 |   1.7 |
 | CANCELLED Try an make changes using MC's work                               |         |       | 0:20 |   0.5 |
 | COMPLETED Read about vectors to help add teams                              |         |       | 0:51 |   1.2 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       | 5:14 |   7.7 |
-| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   0.7 |
-| Practice Classes                                                            |         |       | 5:36 |   8.2 |
-| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |   4.8 |
-| Discussing the task at hand                                                 |         |       | 8:41 |  12.7 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       | 5:14 |   7.4 |
+| Magit and attempting to fix first conflict                                  |         |       | 0:27 |   0.6 |
+| Practice Classes                                                            |         |       | 5:36 |   7.9 |
+| COMPLETED Having trouble with Magit                                         |         |       | 3:15 |   4.6 |
+| Discussing the task at hand                                                 |         |       | 9:16 |  13.0 |
 | COMPLETED Fix the build                                                     |         |       | 0:14 |   0.3 |
 | Searching for research material                                             |         |       | 1:15 |   1.8 |
-| COMPLETED Learn about pointers                                              |         |       | 1:39 |   2.4 |
-| COMPLETED Attempt to use pointers                                           |         |       | 1:48 |   2.6 |
+| COMPLETED Learn about pointers                                              |         |       | 1:39 |   2.3 |
+| COMPLETED Attempt to use pointers                                           |         |       | 1:48 |   2.5 |
 | COMPLETED Attempt to use pointers solo                                      |         |       | 0:20 |   0.5 |
-| STARTED Learn more about data structures                                    |         |       | 1:43 |   2.5 |
-| COMPLETED Watch Youtube tutorials                                           |         |       | 1:51 |   2.7 |
-| COMPLETED Write pointer and array                                           |         |       | 0:39 |   1.0 |
+| STARTED Learn more about data structures                                    |         |       | 1:43 |   2.4 |
+| COMPLETED Watch Youtube tutorials                                           |         |       | 1:51 |   2.6 |
+| COMPLETED Write pointer and array                                           |         |       | 0:39 |   0.9 |
 | Review yesterdays work                                                      |         |       | 0:38 |   0.9 |
-| STARTED Attempt to use pointer, array and classes                           |         |       | 6:23 |   9.4 |
-| Attempt to read and write in Employee                                       |         |       | 1:04 |   1.6 |
-| STARTED Get Team Menu working                                               |         |       | 6:14 |   9.1 |
-| Evaluate and learn from MC's work                                           |         |       | 0:48 |   1.2 |
-| Use MC's work to strengthen mine                                            |         |       | 2:15 |   3.3 |
+| STARTED Attempt to use pointer, array and classes                           |         |       | 6:23 |   9.0 |
+| Attempt to read and write in Employee                                       |         |       | 1:04 |   1.5 |
+| STARTED Get Team Menu working                                               |         |       | 6:14 |   8.8 |
+| Evaluate and learn from MC's work                                           |         |       | 1:03 |   1.5 |
+| COMPLETED Fix the build                                                     |         |       | 0:30 |   0.7 |
+| Use MC's work to strengthen mine                                            |         |       | 3:41 |   5.2 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -272,6 +273,8 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-14 Wed 13:09]--[2018-02-14 Wed 13:31] =>  0:22
+    CLOCK: [2018-02-14 Wed 11:50]--[2018-02-14 Wed 12:03] =>  0:13
     CLOCK: [2018-02-13 Tue 15:09]--[2018-02-13 Tue 15:31] =>  0:22
     CLOCK: [2018-02-13 Tue 12:34]--[2018-02-13 Tue 13:03] =>  0:29
     CLOCK: [2018-02-13 Tue 11:17]--[2018-02-13 Tue 12:09] =>  0:52
@@ -475,10 +478,20 @@ Links:
 - Add choose_teams(); to main
 
 *** Evaluate and learn from MC's work
+    CLOCK: [2018-02-14 Wed 10:12]--[2018-02-14 Wed 10:27] =>  0:15
     CLOCK: [2018-02-13 Tue 14:41]--[2018-02-13 Tue 15:09] =>  0:28
     CLOCK: [2018-02-13 Tue 14:13]--[2018-02-13 Tue 14:33] =>  0:20
 
+*** COMPLETED Fix the build
+    CLOSED: [2018-02-14 Wed 10:10]
+    CLOCK: [2018-02-14 Wed 13:31]--[2018-02-14 Wed 13:52] =>  0:21
+    CLOCK: [2018-02-14 Wed 10:01]--[2018-02-14 Wed 10:10] =>  0:09
+
 *** Use MC's work to strengthen mine
+    CLOCK: [2018-02-14 Wed 12:03]--[2018-02-14 Wed 12:27] =>  0:24
+    CLOCK: [2018-02-14 Wed 11:12]--[2018-02-14 Wed 11:50] =>  0:38
+    CLOCK: [2018-02-14 Wed 10:40]--[2018-02-14 Wed 11:00] =>  0:20
+    CLOCK: [2018-02-14 Wed 10:27]--[2018-02-14 Wed 10:31] =>  0:04
     CLOCK: [2018-02-13 Tue 17:26]--[2018-02-13 Tue 17:52] =>  0:26
     CLOCK: [2018-02-13 Tue 16:51]--[2018-02-13 Tue 17:26] =>  0:35
     CLOCK: [2018-02-13 Tue 16:13]--[2018-02-13 Tue 16:45] =>  0:32
