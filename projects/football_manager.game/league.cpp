@@ -1,21 +1,46 @@
 #include <iostream>
-#include <string>
 #include "league.hpp"
 
-void league::setup(std::string teamname, int win, int draw, int loss,
-    int played) {
-
-    teamname_ = teamname;
-    win_ = win;
-    draw_ = draw;
-    loss_ = loss;
-    played_ = played;
+league::league() {
 }
 
-void league::display() {
-    std::cout << "Team: " << teamname_ << std::endl;
-    std::cout << "Wins: " << win_ << std::endl;
-    std::cout << "Draws: " << draw_ << std::endl;
-    std::cout << "Losses: " << loss_ << std::endl;
-    std::cout << "Games Played: " << played_ << std::endl;
+league::league(std::string name, std::vector<team> teams)
+    : name_(name), teams_(teams) {
 }
+
+std::string league::name() {
+    return name_;
+}
+
+std::vector<team> league::teams() {
+    return teams_;
+}
+
+void league::read(std::istream& input_stream) {
+    std::cout << "Reading league." << std::endl;
+
+    std::getline(input_stream, name_);
+    
+    std::cout << "Name:  " << name_ << std::endl;
+
+    
+    int number_of_teams;
+    input_stream >> number_of_teams;
+
+   
+    input_stream.ignore(1, '\n');
+
+    std::cout << "Total teams: " << number_of_teams << std::endl;
+
+    .
+    for (int i = 0; i < number_of_teams; ++i) {
+        std::cout << "Reading team" << std::endl;
+
+        
+        team t;
+
+        t.read(input_stream);
+
+        teams_.push_back(t);
+        std::cout << "Finished reading team" << std::endl;
+    }

@@ -1,20 +1,33 @@
 #ifndef LEAGUE_HPP
 #define LEAGUE_HPP
 
-#include <iostream>
 #include <string>
+#include <vector>
+#include <istream> 
+#include "team.hpp"
 
 class league {
 public:
-    void setup(std::string teamname, int win, int draw, int loss,
-        int played);
-    void display();
+    
+    league();
 
-    std::string teamname_;
-    int win_;
-    int draw_;
-    int loss_;
-    int played_;
+    
+    league(std::string name, std::vector<team> teams);
+
+public:
+    
+    std::string name();
+
+    
+    std::vector<team> teams();
+
+public: 
+    void read(std::istream& input_stream);
+
+
+private: 
+    std::string name_;
+    std::vector<team> teams_;
 };
 
 #endif
