@@ -141,7 +141,7 @@ int main()
 
     if (result == 1) {
         std::cout << "User chose league information" <<  std::endl;
-         }
+        //        }
         
     }
 
@@ -167,3 +167,4 @@ int main()
 
     return 0;
 }
+#
