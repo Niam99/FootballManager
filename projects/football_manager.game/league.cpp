@@ -32,7 +32,7 @@ void league::read(std::istream& input_stream) {
 
     std::cout << "Total teams: " << number_of_teams << std::endl;
 
-    .
+    
     for (int i = 0; i < number_of_teams; ++i) {
         std::cout << "Reading team" << std::endl;
 

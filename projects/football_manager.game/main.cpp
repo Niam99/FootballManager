@@ -105,20 +105,6 @@ std::vector<player> create_players() {
     return players;
 }
 
-std::vector<league> create_league() {
-   league ManU;
-   ManU.setup("Manchester-United", 10, 5, 4, 19);
-   league Chelsea;
-   Chelsea.setup("Chelsea", 7, 7, 5, 19);
-   league Liverpool;
-   Liverpool.setup("Liverpool", 8, 8, 4, 19);
-   
-   std::vector<league> league1;
-   league1.push_back(ManU);
-   league1.push_back(Chelsea);
-   league1.push_back(Liverpool);
-   return league1;
-}
 
 std::vector<game> create_game_result() {
    game ManUVChelsea;
@@ -155,10 +141,6 @@ int main()
 
     if (result == 1) {
         std::cout << "User chose league information" <<  std::endl;
-        std::vector<league> league1 = create_league();
-        for (int i = 0; i < league1.size(); ++i){
-            league1[i].display();
-            std::cout << std::endl;
          }
         
     }
