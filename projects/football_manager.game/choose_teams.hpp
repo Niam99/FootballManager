@@ -15,9 +15,9 @@ public:
     std::vector <std::string> team;
 };
 
-class choose{
-public:
+// class choose{
+// public:
     
-}
+// }
 
 #endif
