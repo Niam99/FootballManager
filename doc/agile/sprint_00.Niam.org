@@ -516,4 +516,12 @@ Added game class to main
     CLOSED: [2018-02-14 Wed 16:50]
     CLOCK: [2018-02-14 Wed 15:20]--[2018-02-14 Wed 16:20] =>  1:00
 
+*** COMPLETED Fix league
+    CLOSED: [2018-02-15 Thu 10:08]
+    CLOCK: [2018-02-15 Thu 09:15]--[2018-02-15 Thu 10:08] =>  0:53
+-- Missing bracket at end
+*** COMPLETED Look through sample main
+    CLOSED: [2018-02-15 Thu 11:05]
+    CLOCK: [2018-02-15 Thu 10:20]--[2018-02-15 Thu 11:05] =>  0:45
+
 ** Deprecated
