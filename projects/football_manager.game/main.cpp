@@ -13,11 +13,21 @@
 
 team read_team() {
     std::string file_name("../../../data/fgd.data");
-    std::cout << "Reading file: " << file_name << std::endl;
+    //std::cout << "Reading file: " << file_name << std::endl;
     std::ifstream input_stream(file_name.c_str());
     team t;
     t.read(input_stream);
-    std::cout << "Finished reading file: " << file_name << std::endl;
+    //std::cout << "Finished reading file: " << file_name << std::endl;
+    return t;
+}
+
+team chooseTeam() {
+    std::string file_name("../../../data/fgd.data");
+    // std::cout << "Reading file to select team: " << file_name << std::endl;
+    std::ifstream input_stream(file_name.c_str());
+    team t;
+    t.chooseTeam(input_stream);
+    // std::cout << "Finished reading file: " << file_name << std::endl;
     return t;
 }
 
@@ -190,5 +200,7 @@ int main()
         create_team_menu();
     } 
 
+    chooseTeam();
+    
     return 0;
 }

@@ -19,13 +19,26 @@ std::string team::name() {
 
 void team::read(std::istream& input_stream) {
     std::getline(input_stream, name_);
-
-    int option;
-
+    std::cout << "\nTeams" << std::endl;
     for(int i = 0; i < 20; ++i){
-        std::cout << "["<< i << "] " << name_ << std::endl;
+        std::cout << "["<< i << "] " << name_ << std::endl;;
         input_stream >> name_;
     }
 
-    input_stream.ignore(1, '\n');
+}
+
+void team::chooseTeam(std::istream& input_stream) {
+
+    int option;
+
+    std::cout << "Choose a team:";
+    std::cin >> option;
+
+    for (int j = 0; j < option; ++j){
+        std::getline(input_stream, name_);
+        input_stream >> name_;
+    }
+
+    std::cout << "\nYou have selected: " << name_
+                      << std::endl << std::endl;
 }

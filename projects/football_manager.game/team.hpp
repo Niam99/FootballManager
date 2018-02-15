@@ -13,6 +13,7 @@ public:
 
 public:
     void read(std::istream& input_stream);
+    void chooseTeam(std::istream& input_stream);
 
     std::string name();
     int rating ();
