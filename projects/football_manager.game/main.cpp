@@ -128,6 +128,16 @@ std::vector<game> create_game_result() {
    return games;
 }
 
+league read_league() {
+    std::string file_name("../../../data/epl.data");
+    std::cout << "Reading file: " << file_name << std::endl;
+    std::ifstream input_stream(file_name);
+    league l;
+    l.read(input_stream);
+    std::cout << "Finished reading file: " << file_name << std::endl;
+    return l;
+}
+
 
 int main()
 {
@@ -135,6 +145,7 @@ int main()
     menu main_menu = create_main_menu();
     menu team_menu = create_team_menu();
     //showplayers()
+    league l = read_league();
 
     // "run" it
     int result = main_menu.run();
@@ -154,10 +165,9 @@ int main()
 
     if (result == 1) {
         std::cout << "User chose league information" <<  std::endl;
-        //        }
-        
+        std::cout << "League: " << l.name() << std::endl;
+ 
     }
-
     if (result == 2) {
         // std::cout << "User chose Teams" << std::endl;
         // choose team;
@@ -182,4 +192,3 @@ int main()
 
     return 0;
 }
-#
