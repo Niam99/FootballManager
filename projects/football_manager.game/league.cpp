@@ -44,3 +44,4 @@ void league::read(std::istream& input_stream) {
         teams_.push_back(t);
         std::cout << "Finished reading team" << std::endl;
     }
+}
