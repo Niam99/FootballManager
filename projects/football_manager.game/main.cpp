@@ -130,7 +130,7 @@ std::vector<game> create_game_result() {
 
 league read_league() {
     std::string file_name("../../../data/epl.data");
-    std::cout << "Reading file: " << file_name << std::endl;
+    std::cout << "Reading file: " << ("../../../data/epl.data") << std::endl;
     std::ifstream input_stream(file_name);
     league l;
     l.read(input_stream);
