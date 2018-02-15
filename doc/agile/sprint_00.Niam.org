@@ -507,4 +507,13 @@ Added game class to main
     CLOSED: [2018-02-14 Wed 13:07]
     CLOCK: [2018-02-14 Wed 12:15]--[2018-02-14 Wed 13:06] =>  0:51
 -Change class to make it like sample
+*** COMPLETED Check through program for errors
+    CLOSED: [2018-02-14 Wed 16:49]
+    CLOCK: [2018-02-14 Wed 14:00]--[2018-02-14 Wed 15:00] =>  1:00
+-errors in main: extra curly
+-errors in league: stray .
+*** COMPLETED Practice IO
+    CLOSED: [2018-02-14 Wed 16:50]
+    CLOCK: [2018-02-14 Wed 15:20]--[2018-02-14 Wed 16:20] =>  1:00
+
 ** Deprecated
