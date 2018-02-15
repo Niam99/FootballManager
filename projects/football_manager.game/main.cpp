@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream>
 #include <fstream>
+#include <ostream>
 #include "menu.hpp"
 #include "menu_item.hpp"
 #include "choose_teams.hpp"
@@ -11,9 +12,9 @@
 #include "team.hpp"
 
 team read_team() {
-    std::string file_name("../../../data/fgd.data");
+     std::string file_name("../../../data/fgd.data");
     std::cout << "Reading file: " << file_name << std::endl;
-    std::ifstream input_stream(file_name);
+    std::ifstream input_stream("../../../data/fgd.data");
     team t;
     t.read(input_stream);
     std::cout << "Finished reading file: " << file_name << std::endl;
