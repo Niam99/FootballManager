@@ -1,5 +1,6 @@
 #include <vector>
 #include <iostream>
+#include <fstream>
 #include "menu.hpp"
 #include "menu_item.hpp"
 #include "choose_teams.hpp"
@@ -7,6 +8,17 @@
 #include "player.hpp"
 #include "league.hpp"
 #include "game.hpp"
+#include "team.hpp"
+
+team read_team() {
+    std::string file_name("../../../data/fgd.data");
+    std::cout << "Reading file: " << file_name << std::endl;
+    std::ifstream input_stream(file_name);
+    team t;
+    t.read(input_stream);
+    std::cout << "Finished reading file: " << file_name << std::endl;
+    return t;
+}
 
 menu create_main_menu() {
     std::vector<menu_item> items;
@@ -146,9 +158,11 @@ int main()
     }
 
     if (result == 2) {
-        std::cout << "User chose Teams" << std::endl;
-        choose team;
-        team.choose_teams();
+        // std::cout << "User chose Teams" << std::endl;
+        // choose team;
+        // team.choose_teams();
+
+        read_team();
     }
     
     if (result == 3) {
