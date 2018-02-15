@@ -12,9 +12,9 @@
 #include "team.hpp"
 
 team read_team() {
-     std::string file_name("../../../data/fgd.data");
+    std::string file_name("../../../data/fgd.data");
     std::cout << "Reading file: " << file_name << std::endl;
-    std::ifstream input_stream("../../../data/fgd.data");
+    std::ifstream input_stream(file_name.c_str());
     team t;
     t.read(input_stream);
     std::cout << "Finished reading file: " << file_name << std::endl;
