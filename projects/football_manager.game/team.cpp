@@ -37,9 +37,9 @@ void team::chooseTeam(std::istream& input_stream) {
 
     std::cout << "Choose a team:";
     std::cin >> option;
-    pointer1 = &carrySelection;
-    team::set_pointer(pointer1);
-    carrySelection = option;
+    // pointer1 = &carrySelection;
+    // team::set_pointer(pointer1);
+     carrySelection = option;
     
     for (int j = 0; j < option; ++j){
         std::getline(input_stream, name_);
@@ -47,5 +47,5 @@ void team::chooseTeam(std::istream& input_stream) {
     }
 
     std::cout << "\nYou have selected: " << name_
-                      << std::endl << std::endl;
+                      << std::endl;
 }

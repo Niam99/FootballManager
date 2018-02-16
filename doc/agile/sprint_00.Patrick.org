@@ -57,6 +57,7 @@ Stories you are working on this sprint.
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-16 Fri 16:43]--[2018-02-16 Fri 17:01] =>  0:18
     CLOCK: [2018-02-15 Thu 17:24]--[2018-02-15 Thu 18:00] =>  0:36
     CLOCK: [2018-02-13 Tue 17:52]--[2018-02-13 Tue 18:09] =>  0:17
     CLOCK: [2018-02-12 Mon 14:55]--[2018-02-12 Mon 15:12] =>  0:17
@@ -275,6 +276,9 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-16 Fri 15:10]--[2018-02-16 Fri 15:35] =>  0:25
+    CLOCK: [2018-02-16 Fri 14:18]--[2018-02-16 Fri 14:37] =>  0:19
+    CLOCK: [2018-02-16 Fri 12:01]--[2018-02-16 Fri 12:15] =>  0:14
     CLOCK: [2018-02-15 Thu 16:27]--[2018-02-15 Thu 16:36] =>  0:09
     CLOCK: [2018-02-15 Thu 15:50]--[2018-02-15 Thu 16:05] =>  0:15
     CLOCK: [2018-02-15 Thu 15:33]--[2018-02-15 Thu 15:34] =>  0:01
@@ -558,4 +562,21 @@ Links:
 - Write a list of teams in fgd.data
 - Use for loop to number each team and print one at a time
 - Attempt to allow play to select team from data file
+*** Print players in team
+    CLOCK: [2018-02-16 Fri 15:35]--[2018-02-16 Fri 16:43] =>  1:08
+    CLOCK: [2018-02-16 Fri 14:37]--[2018-02-16 Fri 15:10] =>  0:33
+    CLOCK: [2018-02-16 Fri 13:58]--[2018-02-16 Fri 14:18] =>  0:20
+    CLOCK: [2018-02-16 Fri 13:02]--[2018-02-16 Fri 13:41] =>  0:39
+    CLOCK: [2018-02-16 Fri 11:47]--[2018-02-16 Fri 12:01] =>  0:14
+    CLOCK: [2018-02-16 Fri 11:00]--[2018-02-16 Fri 11:20] =>  0:20
+
+- Once user chooses team
+- Output players in team
+
+- Players read from specific team data files
+- Use pointer
+  - Point to selected team
+  - Depending on team
+    - Choose which file to open
+- Read Players
 ** Deprecated

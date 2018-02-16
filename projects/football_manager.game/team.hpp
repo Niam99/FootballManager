@@ -23,9 +23,10 @@ public:
 public:
     int carrySelection;
     int* pointer1;
+    std::string name_;
+    
 
 private:
-    std::string name_;
     int rating_;
     std::vector<team> teams_;
 };

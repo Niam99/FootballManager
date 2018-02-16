@@ -21,11 +21,26 @@ team read_team() {
 
 team chooseTeam() {
     std::string file_name("../../../data/fgd.data");
-    // std::cout << "Reading file to select team: " << file_name << std::endl;
     std::ifstream input_stream(file_name.c_str());
     team t;
     t.chooseTeam(input_stream);
-    // std::cout << "Finished reading file: " << file_name << std::endl;
+
+    if (t.carrySelection == 0){
+        std::string file_name("../../../data/ars.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 11){
+        std::string file_name("../../../data/manu.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
     return t;
 }
 
@@ -96,23 +111,14 @@ league read_league() {
     return l;
 }
 
-void team::set_pointer(int* pointer1){
+// player read_player() {
     
-}
-
-player read_player() {
-    int passSelec;
-    
-    passSelec = t.*pointer1;
-    
-    if (passSelec == 11){
-        std::string file_name("../../../data/manu.data");
-        std::ifstream input_stream(file_name.c_str());
-        player p;
-        p.readPlayer(input_stream);
-        return p;
-    }
-}
+//         std::string file_name("../../../data/manu.data");
+//         std::ifstream input_stream(file_name.c_str());
+//         player p;
+//         p.readPlayer(input_stream);
+//         return p;
+// }
 
 player choosePlayer() {
     std::string file_name("../../../data/manu.data");
@@ -136,7 +142,7 @@ int main()
     // "run" it
     int result = main_menu.run();
     if (result == 0 ){
-        read_player();
+        //read_player();
         choosePlayer();
 
     }
@@ -171,7 +177,8 @@ int main()
     } 
 
     chooseTeam();
-    read_player();
+
+    //read_player();
     
     return 0;
 }
