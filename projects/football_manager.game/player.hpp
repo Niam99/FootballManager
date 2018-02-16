@@ -1,20 +1,25 @@
-#ifndef PLAYERS_HPP
-#define PLAYERS_HPP
+#ifndef PLAYER_HPP
+#define PLAYER_HPP
 
-#include <iostream>
 #include <string>
+#include <istream>
+#include "team.hpp"
 
 class player {
 public:
-    void setup(std::string name, std::string team, int attack, int defense,
-        std::string position);
-    void display();
+    player();
+    player(std::string name, int rating);
 
+public:
+    void readPlayer(std::istream& input_stream);
+    void choosePlayer(std::istream& input_stream);
+
+    std::string playerName();
+    int playerRating ();
+
+private:
     std::string name_;
-    std::string team_;
-    int attack_;
-    int defense_;
-    std::string position_;
+    int rating_;
 };
 
 #endif
