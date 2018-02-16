@@ -17,6 +17,10 @@ std::string team::name() {
     return name_;
 }
 
+void team::set_pointer(int* pointer1){
+    
+}
+
 void team::read(std::istream& input_stream) {
     std::getline(input_stream, name_);
     std::cout << "\nTeams" << std::endl;
@@ -33,7 +37,10 @@ void team::chooseTeam(std::istream& input_stream) {
 
     std::cout << "Choose a team:";
     std::cin >> option;
-
+    pointer1 = &carrySelection;
+    team::set_pointer(pointer1);
+    carrySelection = option;
+    
     for (int j = 0; j < option; ++j){
         std::getline(input_stream, name_);
         input_stream >> name_;

@@ -96,12 +96,22 @@ league read_league() {
     return l;
 }
 
+void team::set_pointer(int* pointer1){
+    
+}
+
 player read_player() {
-    std::string file_name("../../../data/manu.data");
-    std::ifstream input_stream(file_name.c_str());
-    player p;
-    p.readPlayer(input_stream);
-    return p;
+    int passSelec;
+    
+    passSelec = t.*pointer1;
+    
+    if (passSelec == 11){
+        std::string file_name("../../../data/manu.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        return p;
+    }
 }
 
 player choosePlayer() {
@@ -161,6 +171,7 @@ int main()
     } 
 
     chooseTeam();
+    read_player();
     
     return 0;
 }
