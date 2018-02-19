@@ -14,49 +14,55 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-15 Thu 18:01]
+#+CAPTION: Clock summary at [2018-02-19 Mon 20:13]
 | <75>                                                                        |         |       |       |       |
 | Headline                                                                    | Time    |       |       |     % |
 |-----------------------------------------------------------------------------+---------+-------+-------+-------|
-| *Total time*                                                                | *77:52* |       |       | 100.0 |
+| *Total time*                                                                | *88:23* |       |       | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+-------+-------|
-| Stories                                                                     | 77:52   |       |       | 100.0 |
-| Active                                                                      |         | 77:52 |       | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       |  6:26 |   8.3 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       |  5:28 |   7.0 |
-| COMPLETED Create League.cpp/hpp                                             |         |       |  0:59 |   1.3 |
-| COMPLETED Create game.cpp/hpp                                               |         |       |  0:43 |   0.9 |
-| COMPLETED Create teams and players                                          |         |       |  2:12 |   2.8 |
-| COMPLETED Read more on Classes                                              |         |       |  0:36 |   0.8 |
-| COMPLETED Review and study MC's work                                        |         |       |  1:12 |   1.5 |
+| Stories                                                                     | 88:23   |       |       | 100.0 |
+| Active                                                                      |         | 88:23 |       | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       |  7:09 |   8.1 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       |  5:28 |   6.2 |
+| COMPLETED Create League.cpp/hpp                                             |         |       |  0:59 |   1.1 |
+| COMPLETED Create game.cpp/hpp                                               |         |       |  0:43 |   0.8 |
+| COMPLETED Create teams and players                                          |         |       |  2:12 |   2.5 |
+| COMPLETED Read more on Classes                                              |         |       |  0:36 |   0.7 |
+| COMPLETED Review and study MC's work                                        |         |       |  1:12 |   1.4 |
 | CANCELLED Try an make changes using MC's work                               |         |       |  0:20 |   0.4 |
-| COMPLETED Read about vectors to help add teams                              |         |       |  0:51 |   1.1 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       |  5:14 |   6.7 |
-| Magit and attempting to fix first conflict                                  |         |       |  0:27 |   0.6 |
-| Practice Classes                                                            |         |       |  5:36 |   7.2 |
-| COMPLETED Having trouble with Magit                                         |         |       |  3:15 |   4.2 |
-| Discussing the task at hand                                                 |         |       | 10:15 |  13.2 |
-| Fix the build                                                               |         |       |  0:28 |   0.6 |
-| Searching for research material                                             |         |       |  1:15 |   1.6 |
-| COMPLETED Learn about pointers                                              |         |       |  1:39 |   2.1 |
-| COMPLETED Attempt to use pointers                                           |         |       |  1:48 |   2.3 |
+| COMPLETED Read about vectors to help add teams                              |         |       |  0:51 |   1.0 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       |  5:14 |   5.9 |
+| Magit and attempting to fix first conflict                                  |         |       |  0:27 |   0.5 |
+| Practice Classes                                                            |         |       |  5:36 |   6.3 |
+| COMPLETED Having trouble with Magit                                         |         |       |  3:15 |   3.7 |
+| Discussing the task at hand                                                 |         |       | 12:12 |  13.8 |
+| Fix the build                                                               |         |       |  0:28 |   0.5 |
+| Searching for research material                                             |         |       |  1:15 |   1.4 |
+| COMPLETED Learn about pointers                                              |         |       |  1:39 |   1.9 |
+| COMPLETED Attempt to use pointers                                           |         |       |  1:48 |   2.0 |
 | COMPLETED Attempt to use pointers solo                                      |         |       |  0:20 |   0.4 |
-| STARTED Learn more about data structures                                    |         |       |  1:43 |   2.2 |
-| COMPLETED Watch Youtube tutorials                                           |         |       |  1:51 |   2.4 |
-| COMPLETED Write pointer and array                                           |         |       |  0:39 |   0.8 |
-| Review yesterdays work                                                      |         |       |  0:38 |   0.8 |
-| STARTED Attempt to use pointer, array and classes                           |         |       |  6:23 |   8.2 |
-| Attempt to read and write in Employee                                       |         |       |  1:04 |   1.4 |
-| STARTED Get Team Menu working                                               |         |       |  6:14 |   8.0 |
-| Evaluate and learn from MC's work                                           |         |       |  1:03 |   1.3 |
+| STARTED Learn more about data structures                                    |         |       |  1:43 |   1.9 |
+| COMPLETED Watch Youtube tutorials                                           |         |       |  1:51 |   2.1 |
+| COMPLETED Write pointer and array                                           |         |       |  0:39 |   0.7 |
+| Review yesterdays work                                                      |         |       |  0:38 |   0.7 |
+| STARTED Attempt to use pointer, array and classes                           |         |       |  6:23 |   7.2 |
+| Attempt to read and write in Employee                                       |         |       |  1:04 |   1.2 |
+| STARTED Get Team Menu working                                               |         |       |  6:14 |   7.1 |
+| Evaluate and learn from MC's work                                           |         |       |  1:03 |   1.2 |
 | COMPLETED Fix the build                                                     |         |       |  0:30 |   0.6 |
-| Use MC's work to strengthen mine                                            |         |       |  6:10 |   7.9 |
-| Print complete list of teams                                                |         |       |  2:33 |   3.3 |
+| Use MC's work to strengthen mine                                            |         |       |  6:10 |   7.0 |
+| Print complete list of teams                                                |         |       |  2:33 |   2.9 |
+| Print players in team                                                       |         |       |  3:14 |   3.7 |
+| Review Fridays work                                                         |         |       |  0:44 |   0.8 |
+| Change if statements for carry selection                                    |         |       |  0:37 |   0.7 |
+| Add data files for each team                                                |         |       |  2:33 |   2.9 |
+| Watch YT videos on reading/writing                                          |         |       |  0:43 |   0.8 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-19 Mon 17:24]--[2018-02-19 Mon 17:49] =>  0:25
     CLOCK: [2018-02-16 Fri 16:43]--[2018-02-16 Fri 17:01] =>  0:18
     CLOCK: [2018-02-15 Thu 17:24]--[2018-02-15 Thu 18:00] =>  0:36
     CLOCK: [2018-02-13 Tue 17:52]--[2018-02-13 Tue 18:09] =>  0:17
@@ -276,6 +282,12 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-19 Mon 16:32]--[2018-02-19 Mon 16:41] =>  0:09
+    CLOCK: [2018-02-19 Mon 16:10]--[2018-02-19 Mon 16:16] =>  0:06
+    CLOCK: [2018-02-19 Mon 15:43]--[2018-02-19 Mon 15:46] =>  0:03
+    CLOCK: [2018-02-19 Mon 12:23]--[2018-02-19 Mon 12:37] =>  0:14
+    CLOCK: [2018-02-19 Mon 12:11]--[2018-02-19 Mon 12:17] =>  0:06
+    CLOCK: [2018-02-19 Mon 11:40]--[2018-02-19 Mon 12:01] =>  0:21
     CLOCK: [2018-02-16 Fri 15:10]--[2018-02-16 Fri 15:35] =>  0:25
     CLOCK: [2018-02-16 Fri 14:18]--[2018-02-16 Fri 14:37] =>  0:19
     CLOCK: [2018-02-16 Fri 12:01]--[2018-02-16 Fri 12:15] =>  0:14
@@ -579,4 +591,29 @@ Links:
   - Depending on team
     - Choose which file to open
 - Read Players
+*** Review Fridays work
+    CLOCK: [2018-02-19 Mon 09:55]--[2018-02-19 Mon 10:39] =>  0:44
+
+*** Change if statements for carry selection
+    CLOCK: [2018-02-19 Mon 11:33]--[2018-02-19 Mon 11:40] =>  0:07
+    CLOCK: [2018-02-19 Mon 10:39]--[2018-02-19 Mon 11:09] =>  0:30
+
+*** Add data files for each team
+    CLOCK: [2018-02-19 Mon 16:16]--[2018-02-19 Mon 16:32] =>  0:16
+    CLOCK: [2018-02-19 Mon 15:46]--[2018-02-19 Mon 16:10] =>  0:24
+    CLOCK: [2018-02-19 Mon 14:30]--[2018-02-19 Mon 15:43] =>  1:13
+    CLOCK: [2018-02-19 Mon 12:37]--[2018-02-19 Mon 13:17] =>  0:40
+
+- Use the manu.data as a template
+- Create .data file for each of the teams
+- Write the player into the files
+- Read from specific data file depending of selected team
+*** Watch YT videos on reading/writing
+    CLOCK: [2018-02-19 Mon 16:41]--[2018-02-19 Mon 17:24] =>  0:43
+
+- Reading Custom File Structures: https://www.youtube.com/watch?v=EjJY7yA5SWw
+- Writing Custom File Structures: https://www.youtube.com/watch?v=iGWhPwh3n-o
+- Reading and Writing to Files: https://www.youtube.com/watch?v=Iho2EdJgusQ
+- Working with files: https://www.youtube.com/watch?v=HcONWqVyvlg
+
 ** Deprecated
