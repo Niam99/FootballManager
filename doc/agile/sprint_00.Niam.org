@@ -593,4 +593,15 @@ add team data
 *** COMPLETED Add team data files
     CLOSED: [2018-02-19 Mon 11:32]
     CLOCK: [2018-02-19 Mon 10:48]--[2018-02-19 Mon 11:32] =>  0:44
+*** COMPLETED Discuss solution to league table
+    CLOSED: [2018-02-19 Mon 14:16]
+    CLOCK: [2018-02-19 Mon 11:30]--[2018-02-19 Mon 12:15] =>  0:45
+
+*** COMPLETED Research I/O for files
+    CLOSED: [2018-02-19 Mon 14:17]
+    CLOCK: [2018-02-19 Mon 12:15]--[2018-02-19 Mon 13:00] =>  0:45
+
+*** Test current program
+    CLOCK: [2018-02-19 Mon 14:18]
+
 ** Deprecated
