@@ -57,9 +57,128 @@ team chooseTeam() {
         // return p;
     }
 
+    if (t.carrySelection == 4){
+        std::string file_name("../../../data/che.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 5){
+        std::string file_name("../../../data/pal.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 6){
+        std::string file_name("../../../data/eve.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 7){
+        std::string file_name("../../../data/hud.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 8){
+        std::string file_name("../../../data/lei.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 9){
+        std::string file_name("../../../data/liv.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 10){
+        std::string file_name("../../../data/manc.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
 
     if (t.carrySelection == 11){
         std::string file_name("../../../data/manu.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 12){
+        std::string file_name("../../../data/new.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 13){
+        std::string file_name("../../../data/sot.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 14){
+        std::string file_name("../../../data/sto.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 15){
+        std::string file_name("../../../data/swa.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 16){
+        std::string file_name("../../../data/tot.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 17){
+        std::string file_name("../../../data/wat.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 18){
+        std::string file_name("../../../data/wba.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 19){
+        std::string file_name("../../../data/whu.data");
         std::ifstream input_stream(file_name.c_str());
         player p;
         p.readPlayer(input_stream);
