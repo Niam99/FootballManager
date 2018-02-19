@@ -33,6 +33,31 @@ team chooseTeam() {
         // return p;
     }
 
+    if (t.carrySelection == 1){
+        std::string file_name("../../../data/afcb.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 2){
+        std::string file_name("../../../data/bhalbion.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+    if (t.carrySelection == 3){
+        std::string file_name("../../../data/burn.data");
+        std::ifstream input_stream(file_name.c_str());
+        player p;
+        p.readPlayer(input_stream);
+        // return p;
+    }
+
+
     if (t.carrySelection == 11){
         std::string file_name("../../../data/manu.data");
         std::ifstream input_stream(file_name.c_str());
