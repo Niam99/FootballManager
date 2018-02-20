@@ -14,54 +14,56 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-19 Mon 20:13]
+#+CAPTION: Clock summary at [2018-02-20 Tue 13:27]
 | <75>                                                                        |         |       |       |       |
 | Headline                                                                    | Time    |       |       |     % |
 |-----------------------------------------------------------------------------+---------+-------+-------+-------|
-| *Total time*                                                                | *88:23* |       |       | 100.0 |
+| *Total time*                                                                | *92:08* |       |       | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+-------+-------|
-| Stories                                                                     | 88:23   |       |       | 100.0 |
-| Active                                                                      |         | 88:23 |       | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       |  7:09 |   8.1 |
-| COMPLETED Understanding Some Essentials of MaGit                            |         |       |  5:28 |   6.2 |
+| Stories                                                                     | 92:08   |       |       | 100.0 |
+| Active                                                                      |         | 92:08 |       | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       |  7:41 |   8.3 |
+| COMPLETED Understanding Some Essentials of MaGit                            |         |       |  5:28 |   5.9 |
 | COMPLETED Create League.cpp/hpp                                             |         |       |  0:59 |   1.1 |
 | COMPLETED Create game.cpp/hpp                                               |         |       |  0:43 |   0.8 |
-| COMPLETED Create teams and players                                          |         |       |  2:12 |   2.5 |
+| COMPLETED Create teams and players                                          |         |       |  2:12 |   2.4 |
 | COMPLETED Read more on Classes                                              |         |       |  0:36 |   0.7 |
-| COMPLETED Review and study MC's work                                        |         |       |  1:12 |   1.4 |
+| COMPLETED Review and study MC's work                                        |         |       |  1:12 |   1.3 |
 | CANCELLED Try an make changes using MC's work                               |         |       |  0:20 |   0.4 |
-| COMPLETED Read about vectors to help add teams                              |         |       |  0:51 |   1.0 |
-| STARTED Use Menu Classes for Teams menu                                     |         |       |  5:14 |   5.9 |
+| COMPLETED Read about vectors to help add teams                              |         |       |  0:51 |   0.9 |
+| STARTED Use Menu Classes for Teams menu                                     |         |       |  5:14 |   5.7 |
 | Magit and attempting to fix first conflict                                  |         |       |  0:27 |   0.5 |
-| Practice Classes                                                            |         |       |  5:36 |   6.3 |
-| COMPLETED Having trouble with Magit                                         |         |       |  3:15 |   3.7 |
-| Discussing the task at hand                                                 |         |       | 12:12 |  13.8 |
+| Practice Classes                                                            |         |       |  5:36 |   6.1 |
+| COMPLETED Having trouble with Magit                                         |         |       |  3:15 |   3.5 |
+| Discussing the task at hand                                                 |         |       | 12:35 |  13.7 |
 | Fix the build                                                               |         |       |  0:28 |   0.5 |
-| Searching for research material                                             |         |       |  1:15 |   1.4 |
-| COMPLETED Learn about pointers                                              |         |       |  1:39 |   1.9 |
+| Searching for research material                                             |         |       |  1:33 |   1.7 |
+| COMPLETED Learn about pointers                                              |         |       |  1:39 |   1.8 |
 | COMPLETED Attempt to use pointers                                           |         |       |  1:48 |   2.0 |
 | COMPLETED Attempt to use pointers solo                                      |         |       |  0:20 |   0.4 |
 | STARTED Learn more about data structures                                    |         |       |  1:43 |   1.9 |
-| COMPLETED Watch Youtube tutorials                                           |         |       |  1:51 |   2.1 |
+| COMPLETED Watch Youtube tutorials                                           |         |       |  1:51 |   2.0 |
 | COMPLETED Write pointer and array                                           |         |       |  0:39 |   0.7 |
 | Review yesterdays work                                                      |         |       |  0:38 |   0.7 |
-| STARTED Attempt to use pointer, array and classes                           |         |       |  6:23 |   7.2 |
+| STARTED Attempt to use pointer, array and classes                           |         |       |  6:23 |   6.9 |
 | Attempt to read and write in Employee                                       |         |       |  1:04 |   1.2 |
-| STARTED Get Team Menu working                                               |         |       |  6:14 |   7.1 |
-| Evaluate and learn from MC's work                                           |         |       |  1:03 |   1.2 |
-| COMPLETED Fix the build                                                     |         |       |  0:30 |   0.6 |
-| Use MC's work to strengthen mine                                            |         |       |  6:10 |   7.0 |
-| Print complete list of teams                                                |         |       |  2:33 |   2.9 |
-| Print players in team                                                       |         |       |  3:14 |   3.7 |
+| STARTED Get Team Menu working                                               |         |       |  6:14 |   6.8 |
+| Evaluate and learn from MC's work                                           |         |       |  1:03 |   1.1 |
+| COMPLETED Fix the build                                                     |         |       |  0:30 |   0.5 |
+| Use MC's work to strengthen mine                                            |         |       |  6:10 |   6.7 |
+| Print complete list of teams                                                |         |       |  2:33 |   2.8 |
+| Print players in team                                                       |         |       |  3:14 |   3.5 |
 | Review Fridays work                                                         |         |       |  0:44 |   0.8 |
 | Change if statements for carry selection                                    |         |       |  0:37 |   0.7 |
-| Add data files for each team                                                |         |       |  2:33 |   2.9 |
-| Watch YT videos on reading/writing                                          |         |       |  0:43 |   0.8 |
+| Add data files for each team                                                |         |       |  2:33 |   2.8 |
+| Watch YT videos on reading/writing                                          |         |       |  1:58 |   2.1 |
+| Practice: create organised list file                                        |         |       |  1:17 |   1.4 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-20 Tue 12:55]--[2018-02-20 Tue 13:27] =>  0:32
     CLOCK: [2018-02-19 Mon 17:24]--[2018-02-19 Mon 17:49] =>  0:25
     CLOCK: [2018-02-16 Fri 16:43]--[2018-02-16 Fri 17:01] =>  0:18
     CLOCK: [2018-02-15 Thu 17:24]--[2018-02-15 Thu 18:00] =>  0:36
@@ -282,6 +284,8 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-20 Tue 12:47]--[2018-02-20 Tue 12:55] =>  0:08
+    CLOCK: [2018-02-20 Tue 12:19]--[2018-02-20 Tue 12:34] =>  0:15
     CLOCK: [2018-02-19 Mon 16:32]--[2018-02-19 Mon 16:41] =>  0:09
     CLOCK: [2018-02-19 Mon 16:10]--[2018-02-19 Mon 16:16] =>  0:06
     CLOCK: [2018-02-19 Mon 15:43]--[2018-02-19 Mon 15:46] =>  0:03
@@ -337,6 +341,7 @@ Complete quiz's based on classes
 - remove line: //choose_teams();
 
 *** Searching for research material
+    CLOCK: [2018-02-20 Tue 09:10]--[2018-02-20 Tue 09:28] =>  0:18
     CLOCK: [2018-02-09 Fri 09:02]--[2018-02-09 Fri 09:36] =>  0:34
     CLOCK: [2018-02-06 Tue 11:23]--[2018-02-06 Tue 11:45] =>  0:22
     CLOCK: [2018-02-05 Mon 09:50]--[2018-02-05 Mon 10:09] =>  0:19
@@ -609,11 +614,27 @@ Links:
 - Write the player into the files
 - Read from specific data file depending of selected team
 *** Watch YT videos on reading/writing
+    CLOCK: [2018-02-20 Tue 10:39]--[2018-02-20 Tue 11:07] =>  0:28
+    CLOCK: [2018-02-20 Tue 09:28]--[2018-02-20 Tue 10:15] =>  0:47
     CLOCK: [2018-02-19 Mon 16:41]--[2018-02-19 Mon 17:24] =>  0:43
 
 - Reading Custom File Structures: https://www.youtube.com/watch?v=EjJY7yA5SWw
 - Writing Custom File Structures: https://www.youtube.com/watch?v=iGWhPwh3n-o
 - Reading and Writing to Files: https://www.youtube.com/watch?v=Iho2EdJgusQ
 - Working with files: https://www.youtube.com/watch?v=HcONWqVyvlg
+- Reading Rows and Columns from datafile Matrix: https://www.youtube.com/watch?v=4nz6rPzVm70&feature=youtu.be
+- File Reading, Data Parsing, Classes, etc: https://www.youtube.com/watch?v=NIoEVxe-rpk
+*** Practice: create organised list file
+    CLOCK: [2018-02-20 Tue 12:34]--[2018-02-20 Tue 12:47] =>  0:13
+    CLOCK: [2018-02-20 Tue 11:50]--[2018-02-20 Tue 12:19] =>  0:29
+    CLOCK: [2018-02-20 Tue 11:24]--[2018-02-20 Tue 11:47] =>  0:23
+    CLOCK: [2018-02-20 Tue 11:07]--[2018-02-20 Tue 11:19] =>  0:12
 
+- Write list of items in empty file
+- Read file
+- Assign a int to each line in file
+- Rewrite file in order of the items int's
+- Read file
+- If i can manage that
+  - read items in form of a table
 ** Deprecated

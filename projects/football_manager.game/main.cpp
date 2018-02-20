@@ -8,6 +8,7 @@
 #include "league.hpp"
 #include "game.hpp"
 #include "team.hpp"
+#include "table.hpp"
 
 team read_team() {
     std::string file_name("../../../data/fgd.data");
@@ -296,6 +297,9 @@ int main()
     if (result == 1) {
         std::cout << "User chose league information" <<  std::endl;
         std::cout << "League: " << l.name() << std::endl;
+
+        table tab;
+        tab.grabTeamName();
  
     }
     if (result == 2) {

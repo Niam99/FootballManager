@@ -1,5 +1,6 @@
 #include <iostream>
 #include "league.hpp"
+#include "table.hpp"
 
 league::league() {
 }
@@ -23,6 +24,8 @@ void league::read(std::istream& input_stream) {
     
     std::cout << "Name:  " << name_ << std::endl;
 
+    table t;
+    t.grabTeamName();
     
     int number_of_teams;
     input_stream >> number_of_teams;
