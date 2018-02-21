@@ -64,6 +64,7 @@ Stories you are working on this sprint.
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-21 Wed 16:53]--[2018-02-21 Wed 17:23] =>  0:30
     CLOCK: [2018-02-20 Tue 17:29]--[2018-02-20 Tue 17:44] =>  0:15
     CLOCK: [2018-02-20 Tue 12:55]--[2018-02-20 Tue 13:27] =>  0:32
     CLOCK: [2018-02-19 Mon 17:24]--[2018-02-19 Mon 17:49] =>  0:25
@@ -286,6 +287,9 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-21 Wed 15:06]--[2018-02-21 Wed 15:15] =>  0:09
+    CLOCK: [2018-02-21 Wed 12:21]--[2018-02-21 Wed 12:44] =>  0:23
+    CLOCK: [2018-02-21 Wed 11:35]--[2018-02-21 Wed 11:56] =>  0:21
     CLOCK: [2018-02-20 Tue 16:16]--[2018-02-20 Tue 16:40] =>  0:24
     CLOCK: [2018-02-20 Tue 12:47]--[2018-02-20 Tue 12:55] =>  0:08
     CLOCK: [2018-02-20 Tue 12:19]--[2018-02-20 Tue 12:34] =>  0:15
@@ -642,7 +646,27 @@ Links:
 - If i can manage that
   - read items in form of a table
 *** Attempt to create table using team data files
+    CLOCK: [2018-02-21 Wed 12:44]--[2018-02-21 Wed 13:29] =>  0:45
+    CLOCK: [2018-02-21 Wed 11:56]--[2018-02-21 Wed 12:20] =>  0:24
+    CLOCK: [2018-02-21 Wed 11:09]--[2018-02-21 Wed 11:35] =>  0:26
+    CLOCK: [2018-02-21 Wed 10:18]--[2018-02-21 Wed 11:02] =>  0:44
+    CLOCK: [2018-02-21 Wed 09:36]--[2018-02-21 Wed 10:17] =>  0:41
+    CLOCK: [2018-02-21 Wed 09:03]--[2018-02-21 Wed 09:36] =>  0:33
     CLOCK: [2018-02-20 Tue 16:40]--[2018-02-20 Tue 17:29] =>  0:49
     CLOCK: [2018-02-20 Tue 14:52]--[2018-02-20 Tue 16:16] =>  1:24
 
+*** Review MC's sample game
+    CLOCK: [2018-02-21 Wed 14:50]--[2018-02-21 Wed 15:04] =>  0:14
+    CLOCK: [2018-02-21 Wed 14:21]--[2018-02-21 Wed 14:49] =>  0:28
+
+*** Watch YT videos on Object Oriented Programming
+    CLOCK: [2018-02-21 Wed 15:16]--[2018-02-21 Wed 16:52] =>  1:36
+
+- Object-Oriented Programming:https://www.youtube.com/watch?v=lbXsrHGhBAU
+- What is Object-Oriented Programming (OOP)?: https://www.youtube.com/watch?v=YcbcfkLzgvs
+- Classes and Object-Oriented Programming (1/2): https://www.youtube.com/watch?v=vz1O9nRyZaY
+- Classes and Object-Oriented Programming (2/2): https://www.youtube.com/watch?v=b9wialxvcVA
+- MicroNugget: What is OOP?: https://www.youtube.com/watch?v=5VkrdKzKGlA
+- Pong & Object Oriented Programming: https://www.youtube.com/watch?v=KyTUN6_Z9TM
+- How to practice the OOP way of thinking: https://www.youtube.com/watch?v=R1jabnZ6f30
 ** Deprecated
