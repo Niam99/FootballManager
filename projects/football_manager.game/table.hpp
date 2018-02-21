@@ -12,6 +12,7 @@ public:
 
     std::string points_;
     std::string name_;
+    int position = 20;
     int fileNum = 1;
 };
 

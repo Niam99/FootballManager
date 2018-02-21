@@ -4,9 +4,10 @@
 #include "table.hpp"
 
 void table::grabTeamName(){
-    
-    std::cout << "/ / HERES THE TABLE / /"
-              << std::endl << std::endl;
+
+
+    std::string lastFile;
+
     if (fileNum == 1){
         std::string file_name("../../../data/afcb.data");
         std::ifstream input_stream(file_name.c_str());
@@ -26,6 +27,8 @@ void table::grabTeamName(){
             std::getline(input_stream, name_);
         }
 
+        lastFile = "../../../data/afcb.data";
+
         input_stream >> name_;
 
     }
@@ -41,24 +44,18 @@ void table::grabTeamName(){
         input_stream >> name_;
 
     }
-   
-    //std::getline(input_stream, name_);
-    // std::cout << "\nPlayers" << std::endl;
-    // for(int i = 0; i < 11; ++i){
-    //         std::getline(input_stream, name_);
-    // }
-
-    //input_stream >> name_;
-
+  
     grabTeamScore();
 }
 
 void table::grabTeamScore(){
 
+    std::string testString = "../../../data/afcb.data";
+
     if (fileNum == 1){
-        std::string file_name("../../../data/afcb.data");
+        std::string file_name(testString);
         std::ifstream input_stream(file_name.c_str());
-    
+
         for(int i = 0; i < 13; ++i){
             std::getline(input_stream, points_);
         }
@@ -88,28 +85,13 @@ void table::grabTeamScore(){
         input_stream >> points_;
     }
 
-// for(int i = 0; i < 13; ++i){
-    //     std::getline(input_stream, points_);
-    // }
-
-    // input_stream >> points_;
-
     std::cout << fileNum <<" | " << name_ << ".......[" << points_ << "]"
               << std::endl;
 
     fileNum += 1;
-    
+
     if (fileNum < 4){
-        grabTeamScore();
+        grabTeamName();
     }
 
-//input_stream >> name_;
-    //input_stream >> points_;
 }
-
-// void table::createTable(){
-
-//     std::cout << "1 | " << name_ << ".......[" << points_ << "]"
-//               << std::endl;
-//     grabTeamScore();
-// }
