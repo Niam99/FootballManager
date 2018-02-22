@@ -1,1 +1,0 @@
-void choose_player();

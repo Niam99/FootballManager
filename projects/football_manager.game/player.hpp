@@ -3,23 +3,22 @@
 
 #include <string>
 #include <istream>
-#include "team.hpp"
 
 class player {
 public:
     player();
-    player(std::string name, int rating);
+    player(std::string name, std::string position);
 
 public:
-    void readPlayer(std::istream& input_stream);
-    void choosePlayer(std::istream& input_stream);
+    std::string name();
+    std::string position();
 
-    std::string playerName();
-    int playerRating ();
+public:
+    void read(std::istream& input_stream);
 
 private:
     std::string name_;
-    int rating_;
+    std::string position_;
 };
 
 #endif
