@@ -697,6 +697,7 @@ https://www.youtube.com/watch?v=b9wialxvcVA (Programming help (OOP tutorial pt2)
     CLOSED: [2018-02-22 Thu 15:08]
     CLOCK: [2018-02-22 Thu 14:40]--[2018-02-22 Thu 15:07] =>  0:27
 
+*** Create team class
 ** Deprecated
 
 ** Notes

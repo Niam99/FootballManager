@@ -3,29 +3,22 @@
 
 #include <string>
 #include <vector>
-#include <istream> 
+#include <istream>
 #include "team.hpp"
 
 class league {
 public:
-    
     league();
-
-    
     league(std::string name, std::vector<team> teams);
 
 public:
-    
     std::string name();
-
-    
     std::vector<team> teams();
 
-public: 
+public:
     void read(std::istream& input_stream);
 
-
-private: 
+private:
     std::string name_;
     std::vector<team> teams_;
 };

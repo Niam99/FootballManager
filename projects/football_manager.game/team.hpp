@@ -9,26 +9,18 @@
 class team {
 public:
     team();
-    team(std::string name, int rating);
+    team(std::string name, std::vector<player> players);
+
+public:
+    std::string name();
+    std::vector<player> players();
 
 public:
     void read(std::istream& input_stream);
-    void chooseTeam(std::istream& input_stream);
-    void set_pointer(int* pointer1);
-
-    std::string name();
-    int rating ();
-    std::vector<team> teams();
-
-public:
-    int carrySelection;
-    int* pointer1;
-    std::string name_;
-    
 
 private:
-    int rating_;
-    std::vector<team> teams_;
+    std::string name_;
+    std::vector<player> players_;
 };
 
 #endif
