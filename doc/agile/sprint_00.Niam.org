@@ -708,7 +708,9 @@ https://www.youtube.com/watch?v=b9wialxvcVA (Programming help (OOP tutorial pt2)
 
 *** COMPLETED Attempt to fix build
     CLOSED: [2018-02-23 Fri 09:42]
+    CLOCK: [2018-02-23 Fri 09:42]--[2018-02-23 Fri 10:37] =>  0:55
     CLOCK: [2018-02-23 Fri 09:00]--[2018-02-23 Fri 09:42] =>  0:42
+
 
 ** Deprecated
 ** Notes
