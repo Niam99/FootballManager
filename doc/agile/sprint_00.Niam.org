@@ -12,14 +12,14 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-22 Thu 15:08]
+#+CAPTION: Clock summary at [2018-02-22 Thu 16:01]
 | <75>                                                                        |          |        |      |       |
 | Headline                                                                    | Time     |        |      |     % |
 |-----------------------------------------------------------------------------+----------+--------+------+-------|
-| *Total time*                                                                | *107:47* |        |      | 100.0 |
+| *Total time*                                                                | *108:37* |        |      | 100.0 |
 |-----------------------------------------------------------------------------+----------+--------+------+-------|
-| Stories                                                                     | 107:47   |        |      | 100.0 |
-| Active                                                                      |          | 107:47 |      | 100.0 |
+| Stories                                                                     | 108:37   |        |      | 100.0 |
+| Active                                                                      |          | 108:37 |      | 100.0 |
 | STARTED Sprint and product backlog grooming                                 |          |        | 0:58 |   0.9 |
 | COMPLETED Add gpg                                                           |          |        | 1:32 |   1.4 |
 | COMPLETED Test commits to branch                                            |          |        | 0:28 |   0.4 |
@@ -30,11 +30,11 @@
 | COMPLETED Build main                                                        |          |        | 2:10 |   2.0 |
 | COMPLETED Discuss task                                                      |          |        | 0:31 |   0.5 |
 | COMPLETED Create a Menu class                                               |          |        | 0:52 |   0.8 |
-| COMPLETED Fix menu class                                                    |          |        | 1:41 |   1.6 |
+| COMPLETED Fix menu class                                                    |          |        | 1:41 |   1.5 |
 | COMPLETED Research classes                                                  |          |        | 1:49 |   1.7 |
 | COMPLETED Add new option to list                                            |          |        | 0:19 |   0.3 |
 | COMPLETED Create players class                                              |          |        | 0:21 |   0.3 |
-| POSTPONED Fix player class                                                  |          |        | 2:00 |   1.9 |
+| POSTPONED Fix player class                                                  |          |        | 2:00 |   1.8 |
 | STARTED create setup function in player class                               |          |        | 1:30 |   1.4 |
 | STARTED create display function in player class                             |          |        | 0:20 |   0.3 |
 | COMPLETED Create vector for players                                         |          |        | 1:00 |   0.9 |
@@ -42,7 +42,7 @@
 | COMPLETED Research classes                                                  |          |        | 2:56 |   2.7 |
 | COMPLETED Dealing with conflicts in magit                                   |          |        | 2:19 |   2.1 |
 | COMPLETED Practice implementing class with functions                        |          |        | 0:26 |   0.4 |
-| COMPLETED Research classes                                                  |          |        | 1:41 |   1.6 |
+| COMPLETED Research classes                                                  |          |        | 1:41 |   1.5 |
 | COMPLETED Add detail to players                                             |          |        | 1:00 |   0.9 |
 | COMPLETED Add new player                                                    |          |        | 0:46 |   0.7 |
 | COMPLETED Show detail of select player only                                 |          |        | 0:29 |   0.4 |
@@ -99,7 +99,7 @@
 | COMPLETED Build and test MC game                                            |          |        | 1:00 |   0.9 |
 | COMPLETED Research parts of code                                            |          |        | 0:33 |   0.5 |
 | COMPLETED Research IO/Myfile                                                |          |        | 0:40 |   0.6 |
-| COMPLETED Review sample program                                             |          |        | 2:00 |   1.9 |
+| COMPLETED Review sample program                                             |          |        | 2:00 |   1.8 |
 | COMPLETED Fix league class                                                  |          |        | 0:51 |   0.8 |
 | COMPLETED Check through program for errors                                  |          |        | 1:00 |   0.9 |
 | COMPLETED Practice IO                                                       |          |        | 1:00 |   0.9 |
@@ -129,13 +129,14 @@
 | COMPLETED Review table.cpp                                                  |          |        | 0:30 |   0.5 |
 | COMPLETED Discuss tasks/data model                                          |          |        | 0:30 |   0.5 |
 | COMPLETED Review sample program                                             |          |        | 1:10 |   1.1 |
-| COMPLETED Watch OOP videos                                                  |          |        | 1:34 |   1.5 |
-| COMPLETED Review OOP videos                                                 |          |        | 0:55 |   0.9 |
+| COMPLETED Watch OOP videos                                                  |          |        | 1:34 |   1.4 |
+| COMPLETED Review OOP videos                                                 |          |        | 0:55 |   0.8 |
 | COMPLETED Read OOP tutorial                                                 |          |        | 1:14 |   1.1 |
 | COMPLETED Read std::sort                                                    |          |        | 0:37 |   0.6 |
 | COMPLETED Read std::find                                                    |          |        | 0:57 |   0.9 |
-| COMPLETED Discuss tasks                                                     |          |        | 0:55 |   0.9 |
+| COMPLETED Discuss tasks                                                     |          |        | 0:55 |   0.8 |
 | COMPLETED Create player class                                               |          |        | 0:27 |   0.4 |
+| COMPLETED Fix data model                                                    |          |        | 0:50 |   0.8 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -697,9 +698,19 @@ https://www.youtube.com/watch?v=b9wialxvcVA (Programming help (OOP tutorial pt2)
     CLOSED: [2018-02-22 Thu 15:08]
     CLOCK: [2018-02-22 Thu 14:40]--[2018-02-22 Thu 15:07] =>  0:27
 
-*** Create team class
-** Deprecated
+*** COMPLETED Fix data model
+    CLOSED: [2018-02-22 Thu 16:00]
+    CLOCK: [2018-02-22 Thu 15:10]--[2018-02-22 Thu 16:00] =>  0:50
 
+*** COMPLETED Look at PGs diagram
+    CLOSED: [2018-02-22 Thu 16:45]
+    CLOCK: [2018-02-22 Thu 16:00]--[2018-02-22 Thu 16:30] =>  0:30
+
+*** COMPLETED Attempt to fix build
+    CLOSED: [2018-02-23 Fri 09:42]
+    CLOCK: [2018-02-23 Fri 09:00]--[2018-02-23 Fri 09:42] =>  0:42
+
+** Deprecated
 ** Notes
 links to look at later:
 https://www.youtube.com/watch?v=F9JWpTXFOzM
