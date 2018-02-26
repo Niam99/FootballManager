@@ -71,6 +71,7 @@ Stories you are working on this sprint.
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-02-26 Mon 17:01]--[2018-02-26 Mon 17:12] =>  0:11
     CLOCK: [2018-02-22 Thu 16:50]--[2018-02-22 Thu 17:27] =>  0:37
     CLOCK: [2018-02-21 Wed 16:53]--[2018-02-21 Wed 17:23] =>  0:30
     CLOCK: [2018-02-20 Tue 17:29]--[2018-02-20 Tue 17:44] =>  0:15
@@ -295,6 +296,8 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-02-26 Mon 16:34]--[2018-02-26 Mon 16:35] =>  0:01
+    CLOCK: [2018-02-26 Mon 14:31]--[2018-02-26 Mon 15:04] =>  0:33
     CLOCK: [2018-02-26 Mon 11:48]--[2018-02-26 Mon 12:42] =>  0:54
     CLOCK: [2018-02-22 Thu 13:33]--[2018-02-22 Thu 14:30] =>  0:57
     CLOCK: [2018-02-22 Thu 11:21]--[2018-02-22 Thu 11:29] =>  0:08
@@ -709,4 +712,11 @@ Links:
     CLOCK: [2018-02-26 Mon 11:02]--[2018-02-26 Mon 11:47] =>  0:45
 
 - Add variable to corresponding classes
+*** Use variables stored on data file
+    CLOCK: [2018-02-26 Mon 16:22]--[2018-02-26 Mon 16:34] =>  0:12
+    CLOCK: [2018-02-26 Mon 15:40]--[2018-02-26 Mon 16:15] =>  0:35
+
+*** Watch How to CREATE/INSTANTIATE OBJECTS in C++
+    CLOCK: [2018-02-26 Mon 16:47]--[2018-02-26 Mon 17:01] =>  0:14
+
 ** Deprecated
