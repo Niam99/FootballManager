@@ -14,6 +14,14 @@ public:
     std::string name_;
     int position = 20;
     int fileNum = 1;
+
+    //-----New variables, added after diagram
+/*
+    int wins;
+    int loses;
+    int draws;
+    int gamesPlayed;
+*/
 };
 
 #endif
