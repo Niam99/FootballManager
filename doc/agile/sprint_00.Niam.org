@@ -756,10 +756,19 @@ https://www.youtube.com/playlist?list=PLKeuJMFpWfxeLpamM60a8irUpJEjGuTwh
 
 *** COMPLETED Discuss tasks
     CLOSED: [2018-02-26 Mon 11:57]
+    CLOCK: [2018-02-26 Mon 14:15]--[2018-02-26 Mon 15:06] =>  0:51
     CLOCK: [2018-02-26 Mon 12:00]--[2018-02-26 Mon 12:30] =>  0:30
     CLOCK: [2018-02-26 Mon 11:30]--[2018-02-26 Mon 12:00] =>  0:30
 -- variables added by PG
 -- Not used
+
+*** COMPLETED Review PG changes
+    CLOSED: [2018-02-26 Mon 14:33]
+    CLOCK: [2018-02-26 Mon 14:00]--[2018-02-26 Mon 14:15] =>  0:15
+
+*** POSTPONED Practice using variables from file
+    CLOSED: [2018-02-26 Mon 16:44]
+    CLOCK: [2018-02-26 Mon 15:07]--[2018-02-26 Mon 16:43] =>  1:36
 
 ** Deprecated
 ** Notes
