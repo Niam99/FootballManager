@@ -84,7 +84,7 @@ int main()
     // handle the result of the menu.
 
     if (result == 1) {
-        league l = read_league();
+        //league l = read_league();
         std::cout << "User chose league information" <<  std::endl;
         std::cout << "League: " << l.name() << std::endl;
         for (team t : l.teams()) {
@@ -112,11 +112,20 @@ int main()
         //              << std::endl;
         //    }
         // }
-        league l = read_league();
+        //league l = read_league();
         for (team t : l.teams()) {
         std::cout << "Team: " << t.name() << std::endl;
         }
-      
+        //std::string name;
+        //name = t.name();
+        //if (name == "Arsenal") {
+        //std:cout << "Players for " << t.name() << std::endl;
+        //    for (player p : t.players()) {
+        //    std::cout << "Name: " << p.name() << std::endl
+        //              << " Position: " << p.position()
+        //              << std::endl;
+        //    }
+        // }
     }
     
     if (result == 3) {
