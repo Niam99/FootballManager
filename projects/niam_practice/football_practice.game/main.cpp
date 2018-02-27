@@ -10,22 +10,22 @@
 
 menu create_main_menu() {
     std::vector<menu_item> items;
-
-    menu_item players;
-    players.setup("View Players");
-    items.push_back(players);
-
-    menu_item league;
-    league.setup("League Information");
-    items.push_back(league);
-
-    menu_item teams;
-    teams.setup("Teams");
-    items.push_back(teams);
     
     menu_item results;
     results.setup("View results of played games");
     items.push_back(results);
+
+    menu_item league;
+    league.setup("View League info");
+    items.push_back(league);
+
+    menu_item teams;
+    teams.setup("League teams");
+    items.push_back(teams);
+
+    menu_item players;
+    players.setup("players");
+    items.push_back(players);
 
     menu_item quit;
     quit.setup("Quit");
@@ -57,9 +57,9 @@ menu create_team_menu() {
 }
 
 league read_league() {
-    std::string file_name("../../../data/epl.data");
-    std::cout << "Reading file: " << ("../../../data/epl.data") << std::endl;
-    std::ifstream input_stream("../../../data/epl.data");
+    std::string file_name("../../../../data/epl.data");
+    std::cout << "Reading file: " << ("../../../../data/epl.data") << std::endl;
+    std::ifstream input_stream("../../../../data/epl.data");
     league l;
     l.read(input_stream);
     std::cout << "Finished reading file: " << file_name << std::endl;
@@ -102,7 +102,7 @@ int main()
  
     }
     if (result == 2) {
-        std::cout << "user chose option 2" << std::endl;
+        std::cout << "user chose to view teams" << std::endl;
         //league l = read_league();
         //if (t.name() == "Arsenal") {
         //    t.name();
@@ -112,6 +112,11 @@ int main()
         //              << std::endl;
         //    }
         // }
+        league l = read_league();
+        for (team t : l.teams()) {
+        std::cout << "Team: " << t.name() << std::endl;
+        }
+      
     }
     
     if (result == 3) {
