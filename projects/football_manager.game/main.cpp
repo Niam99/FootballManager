@@ -7,6 +7,7 @@
 #include "player.hpp"
 #include "league.hpp"
 #include "team.hpp"
+#include "table.hpp"
 
 menu create_main_menu() {
     std::vector<menu_item> items;
@@ -97,8 +98,8 @@ int main()
     }
 
 
-        //table tab;
-        //tab.grabTeamName();
+        table tab;
+        tab.grabTeamName();
  
     }
     if (result == 2) {

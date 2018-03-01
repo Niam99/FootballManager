@@ -14,16 +14,16 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-28 Wed 17:39]
+#+CAPTION: Clock summary at [2018-03-01 Thu 17:16]
 | <75>                                                                        |          |        |       |       |
 | Headline                                                                    | Time     |        |       |     % |
 |-----------------------------------------------------------------------------+----------+--------+-------+-------|
-| *Total time*                                                                | *119:19* |        |       | 100.0 |
+| *Total time*                                                                | *123:43* |        |       | 100.0 |
 |-----------------------------------------------------------------------------+----------+--------+-------+-------|
-| Stories                                                                     | 119:19   |        |       | 100.0 |
-| Active                                                                      |          | 119:19 |       | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |          |        |  9:32 |   8.0 |
-| COMPLETED Understanding Some Essentials of MaGit                            |          |        |  5:28 |   4.6 |
+| Stories                                                                     | 123:43   |        |       | 100.0 |
+| Active                                                                      |          | 123:43 |       | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |          |        | 10:01 |   8.1 |
+| COMPLETED Understanding Some Essentials of MaGit                            |          |        |  5:28 |   4.4 |
 | COMPLETED Create League.cpp/hpp                                             |          |        |  0:59 |   0.8 |
 | COMPLETED Create game.cpp/hpp                                               |          |        |  0:43 |   0.6 |
 | COMPLETED Create teams and players                                          |          |        |  2:12 |   1.8 |
@@ -31,52 +31,55 @@ Stories you are working on this sprint.
 | COMPLETED Review and study MC's work                                        |          |        |  1:12 |   1.0 |
 | CANCELLED Try an make changes using MC's work                               |          |        |  0:20 |   0.3 |
 | COMPLETED Read about vectors to help add teams                              |          |        |  0:51 |   0.7 |
-| STARTED Use Menu Classes for Teams menu                                     |          |        |  5:14 |   4.4 |
+| STARTED Use Menu Classes for Teams menu                                     |          |        |  5:14 |   4.2 |
 | Magit and attempting to fix first conflict                                  |          |        |  0:27 |   0.4 |
-| Practice Classes                                                            |          |        |  5:36 |   4.7 |
-| COMPLETED Having trouble with Magit                                         |          |        |  3:15 |   2.7 |
-| Discussing the task at hand                                                 |          |        | 16:45 |  14.0 |
+| Practice Classes                                                            |          |        |  5:36 |   4.5 |
+| COMPLETED Having trouble with Magit                                         |          |        |  3:15 |   2.6 |
+| Discussing the task at hand                                                 |          |        | 17:37 |  14.2 |
 | Fix the build                                                               |          |        |  0:28 |   0.4 |
-| Searching for research material                                             |          |        |  3:45 |   3.1 |
-| COMPLETED Learn about pointers                                              |          |        |  1:39 |   1.4 |
+| Searching for research material                                             |          |        |  3:45 |   3.0 |
+| COMPLETED Learn about pointers                                              |          |        |  1:39 |   1.3 |
 | COMPLETED Attempt to use pointers                                           |          |        |  1:48 |   1.5 |
 | COMPLETED Attempt to use pointers solo                                      |          |        |  0:20 |   0.3 |
 | STARTED Learn more about data structures                                    |          |        |  1:43 |   1.4 |
-| COMPLETED Watch Youtube tutorials                                           |          |        |  1:51 |   1.6 |
+| COMPLETED Watch Youtube tutorials                                           |          |        |  1:51 |   1.5 |
 | COMPLETED Write pointer and array                                           |          |        |  0:39 |   0.5 |
 | Review yesterdays work                                                      |          |        |  0:38 |   0.5 |
-| STARTED Attempt to use pointer, array and classes                           |          |        |  6:23 |   5.3 |
+| STARTED Attempt to use pointer, array and classes                           |          |        |  6:23 |   5.2 |
 | Attempt to read and write in Employee                                       |          |        |  1:04 |   0.9 |
-| STARTED Get Team Menu working                                               |          |        |  6:14 |   5.2 |
-| Evaluate and learn from MC's work                                           |          |        |  1:03 |   0.9 |
+| STARTED Get Team Menu working                                               |          |        |  6:14 |   5.0 |
+| Evaluate and learn from MC's work                                           |          |        |  1:03 |   0.8 |
 | COMPLETED Fix the build                                                     |          |        |  0:30 |   0.4 |
-| Use MC's work to strengthen mine                                            |          |        |  6:10 |   5.2 |
+| Use MC's work to strengthen mine                                            |          |        |  6:10 |   5.0 |
 | Print complete list of teams                                                |          |        |  2:33 |   2.1 |
-| Print players in team                                                       |          |        |  3:14 |   2.7 |
+| Print players in team                                                       |          |        |  3:14 |   2.6 |
 | Review Fridays work                                                         |          |        |  1:13 |   1.0 |
 | Change if statements for carry selection                                    |          |        |  0:37 |   0.5 |
 | Add data files for each team                                                |          |        |  2:33 |   2.1 |
 | Watch YT videos on reading/writing                                          |          |        |  1:58 |   1.6 |
 | Practice: create organised list file                                        |          |        |  1:34 |   1.3 |
-| Attempt to create table using team data files                               |          |        |  5:46 |   4.8 |
+| Attempt to create table using team data files                               |          |        |  5:46 |   4.7 |
 | Review MC's sample game                                                     |          |        |  0:42 |   0.6 |
-| Watch YT videos on Object Oriented Programming                              |          |        |  2:37 |   2.2 |
-| Read Object-Oriented Programming (OOP)                                      |          |        |  1:55 |   1.6 |
+| Watch YT videos on Object Oriented Programming                              |          |        |  2:37 |   2.1 |
+| Read Object-Oriented Programming (OOP)                                      |          |        |  1:55 |   1.5 |
 | Create Diagram for football game                                            |          |        |  1:04 |   0.9 |
 | Edit fgd.data                                                               |          |        |  0:44 |   0.6 |
 | Fix football game diagram                                                   |          |        |  0:37 |   0.5 |
 | Setup classes based on diagram                                              |          |        |  0:45 |   0.6 |
-| Use variables stored on data file                                           |          |        |  0:47 |   0.7 |
+| Use variables stored on data file                                           |          |        |  0:47 |   0.6 |
 | Watch How to CREATE/INSTANTIATE OBJECTS in C++                              |          |        |  0:14 |   0.2 |
 | Watch Inheritance and Class Hierarchies                                     |          |        |  0:31 |   0.4 |
 | Watch Object Lifetime in C++                                                |          |        |  0:13 |   0.2 |
 | Read Object Oriented Memory Management                                      |          |        |  0:15 |   0.2 |
-| Find Information on creating objects                                        |          |        |  2:02 |   1.7 |
+| Find Information on creating objects                                        |          |        |  2:02 |   1.6 |
+| Attempt to create table using only epl.data                                 |          |        |  2:47 |   2.2 |
+| Add new team to epl.data to test table                                      |          |        |  0:16 |   0.2 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-03-01 Thu 16:47]--[2018-03-01 Thu 17:16] =>  0:29
     CLOCK: [2018-02-28 Wed 16:54]--[2018-02-28 Wed 17:12] =>  0:18
     CLOCK: [2018-02-26 Mon 17:01]--[2018-02-26 Mon 17:12] =>  0:11
     CLOCK: [2018-02-22 Thu 16:50]--[2018-02-22 Thu 17:27] =>  0:37
@@ -303,6 +306,11 @@ Complete quiz's based on classes
 - and always make sure you are paying a lot of attention to what magit is saying
 
 *** Discussing the task at hand
+    CLOCK: [2018-03-01 Thu 16:10]--[2018-03-01 Thu 16:11] =>  0:01
+    CLOCK: [2018-03-01 Thu 15:21]--[2018-03-01 Thu 15:29] =>  0:08
+    CLOCK: [2018-03-01 Thu 14:05]--[2018-03-01 Thu 14:38] =>  0:33
+    CLOCK: [2018-03-01 Thu 12:10]--[2018-03-01 Thu 12:16] =>  0:06
+    CLOCK: [2018-03-01 Thu 10:57]--[2018-03-01 Thu 11:01] =>  0:04
     CLOCK: [2018-02-28 Wed 16:13]--[2018-02-28 Wed 16:14] =>  0:01
     CLOCK: [2018-02-28 Wed 11:35]--[2018-02-28 Wed 11:54] =>  0:19
     CLOCK: [2018-02-26 Mon 16:34]--[2018-02-26 Mon 16:35] =>  0:01
@@ -744,5 +752,15 @@ Links:
     CLOCK: [2018-02-28 Wed 15:34]--[2018-02-28 Wed 16:02] =>  0:28
     CLOCK: [2018-02-28 Wed 14:49]--[2018-02-28 Wed 15:14] =>  0:25
     CLOCK: [2018-02-28 Wed 13:53]--[2018-02-28 Wed 14:27] =>  0:34
+
+*** Attempt to create table using only epl.data
+    CLOCK: [2018-03-01 Thu 15:29]--[2018-03-01 Thu 16:10] =>  0:41
+    CLOCK: [2018-03-01 Thu 14:53]--[2018-03-01 Thu 15:16] =>  0:23
+    CLOCK: [2018-03-01 Thu 12:20]--[2018-03-01 Thu 13:06] =>  0:46
+    CLOCK: [2018-03-01 Thu 11:32]--[2018-03-01 Thu 12:10] =>  0:38
+    CLOCK: [2018-03-01 Thu 11:11]--[2018-03-01 Thu 11:30] =>  0:19
+
+*** Add new team to epl.data to test table
+    CLOCK: [2018-03-01 Thu 16:26]--[2018-03-01 Thu 16:42] =>  0:16
 
 ** Deprecated
