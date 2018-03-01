@@ -10,22 +10,22 @@
 
 menu create_main_menu() {
     std::vector<menu_item> items;
-
-    menu_item players;
-    players.setup("View Players");
-    items.push_back(players);
-
-    menu_item league;
-    league.setup("League Information");
-    items.push_back(league);
-
-    menu_item teams;
-    teams.setup("Teams");
-    items.push_back(teams);
     
     menu_item results;
     results.setup("View results of played games");
     items.push_back(results);
+
+    menu_item league;
+    league.setup("View League info");
+    items.push_back(league);
+
+    menu_item teams;
+    teams.setup("League teams");
+    items.push_back(teams);
+
+    menu_item players;
+    players.setup("players");
+    items.push_back(players);
 
     menu_item quit;
     quit.setup("Quit");
@@ -84,7 +84,7 @@ int main()
     // handle the result of the menu.
 
     if (result == 1) {
-        league l = read_league();
+        //league l = read_league();
         std::cout << "User chose league information" <<  std::endl;
         std::cout << "League: " << l.name() << std::endl;
         for (team t : l.teams()) {
@@ -102,8 +102,10 @@ int main()
  
     }
     if (result == 2) {
-        std::cout << "." << std::endl;
-        
+        std::cout << "user chose to view teams" << std::endl;
+        for (team t : l.teams()) {
+        std::cout << "Team: " << t.name() << std::endl;
+        }
     }
     
     if (result == 3) {
@@ -115,6 +117,7 @@ int main()
         std::cout << "User Exited" << std::endl;
         create_team_menu();
     } 
-    
+    //table tab;
+    //tab.grabTeamName();
     return 0;
 }

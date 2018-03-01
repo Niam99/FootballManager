@@ -805,6 +805,21 @@ https://stackoverflow.com/questions/12378271/what-does-an-object-look-like-in-me
 http://www.bogotobogo.com/cplusplus/memoryallocation.php
 https://ineed.coffee/wp-content/uploads/2011/04/object-oriented-memory-management-java-c++.pdf
 https://www.youtube.com/watch?v=iNuTwvD6ciI
+*** COMPLETED Research class objects/ research getline
+    CLOSED: [2018-03-01 Thu 12:02]
+    CLOCK: [2018-03-01 Thu 09:30]--[2018-03-01 Thu 12:01] =>  2:31
+https://www.ntu.edu.sg/home/ehchua/programming/cpp/cp5_OOPExamples.html
+https://stackoverflow.com/questions/6182147/how-to-getline-from-specific-line-in-a-file-c
+
+*** COMPLETED Discus tasks
+    CLOSED: [2018-03-01 Thu 13:41]
+    CLOCK: [2018-03-01 Thu 12:10]--[2018-03-01 Thu 12:40] =>  0:30
+
+*** Research getline
+    CLOCK: [2018-03-01 Thu 13:42]--[2018-03-01 Thu 14:13] =>  0:31
+*** Add team code to main project
+    CLOCK: [2018-03-01 Thu 14:13]
+
 ** Deprecated
 ** Notes
 links to look at later:
