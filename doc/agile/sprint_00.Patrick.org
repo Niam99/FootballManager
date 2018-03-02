@@ -14,55 +14,55 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-01 Thu 17:16]
+#+CAPTION: Clock summary at [2018-03-02 Fri 17:08]
 | <75>                                                                        |          |        |       |       |
 | Headline                                                                    | Time     |        |       |     % |
 |-----------------------------------------------------------------------------+----------+--------+-------+-------|
-| *Total time*                                                                | *123:43* |        |       | 100.0 |
+| *Total time*                                                                | *129:31* |        |       | 100.0 |
 |-----------------------------------------------------------------------------+----------+--------+-------+-------|
-| Stories                                                                     | 123:43   |        |       | 100.0 |
-| Active                                                                      |          | 123:43 |       | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |          |        | 10:01 |   8.1 |
-| COMPLETED Understanding Some Essentials of MaGit                            |          |        |  5:28 |   4.4 |
+| Stories                                                                     | 129:31   |        |       | 100.0 |
+| Active                                                                      |          | 129:31 |       | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |          |        | 10:19 |   8.0 |
+| COMPLETED Understanding Some Essentials of MaGit                            |          |        |  5:28 |   4.2 |
 | COMPLETED Create League.cpp/hpp                                             |          |        |  0:59 |   0.8 |
 | COMPLETED Create game.cpp/hpp                                               |          |        |  0:43 |   0.6 |
-| COMPLETED Create teams and players                                          |          |        |  2:12 |   1.8 |
+| COMPLETED Create teams and players                                          |          |        |  2:12 |   1.7 |
 | COMPLETED Read more on Classes                                              |          |        |  0:36 |   0.5 |
-| COMPLETED Review and study MC's work                                        |          |        |  1:12 |   1.0 |
+| COMPLETED Review and study MC's work                                        |          |        |  1:12 |   0.9 |
 | CANCELLED Try an make changes using MC's work                               |          |        |  0:20 |   0.3 |
 | COMPLETED Read about vectors to help add teams                              |          |        |  0:51 |   0.7 |
-| STARTED Use Menu Classes for Teams menu                                     |          |        |  5:14 |   4.2 |
-| Magit and attempting to fix first conflict                                  |          |        |  0:27 |   0.4 |
-| Practice Classes                                                            |          |        |  5:36 |   4.5 |
-| COMPLETED Having trouble with Magit                                         |          |        |  3:15 |   2.6 |
-| Discussing the task at hand                                                 |          |        | 17:37 |  14.2 |
+| STARTED Use Menu Classes for Teams menu                                     |          |        |  5:14 |   4.0 |
+| Magit and attempting to fix first conflict                                  |          |        |  0:27 |   0.3 |
+| Practice Classes                                                            |          |        |  5:36 |   4.3 |
+| COMPLETED Having trouble with Magit                                         |          |        |  3:15 |   2.5 |
+| Discussing the task at hand                                                 |          |        | 17:37 |  13.6 |
 | Fix the build                                                               |          |        |  0:28 |   0.4 |
-| Searching for research material                                             |          |        |  3:45 |   3.0 |
+| Searching for research material                                             |          |        |  3:45 |   2.9 |
 | COMPLETED Learn about pointers                                              |          |        |  1:39 |   1.3 |
-| COMPLETED Attempt to use pointers                                           |          |        |  1:48 |   1.5 |
+| COMPLETED Attempt to use pointers                                           |          |        |  1:48 |   1.4 |
 | COMPLETED Attempt to use pointers solo                                      |          |        |  0:20 |   0.3 |
-| STARTED Learn more about data structures                                    |          |        |  1:43 |   1.4 |
-| COMPLETED Watch Youtube tutorials                                           |          |        |  1:51 |   1.5 |
+| STARTED Learn more about data structures                                    |          |        |  1:43 |   1.3 |
+| COMPLETED Watch Youtube tutorials                                           |          |        |  1:51 |   1.4 |
 | COMPLETED Write pointer and array                                           |          |        |  0:39 |   0.5 |
 | Review yesterdays work                                                      |          |        |  0:38 |   0.5 |
-| STARTED Attempt to use pointer, array and classes                           |          |        |  6:23 |   5.2 |
-| Attempt to read and write in Employee                                       |          |        |  1:04 |   0.9 |
-| STARTED Get Team Menu working                                               |          |        |  6:14 |   5.0 |
+| STARTED Attempt to use pointer, array and classes                           |          |        |  6:23 |   4.9 |
+| Attempt to read and write in Employee                                       |          |        |  1:04 |   0.8 |
+| STARTED Get Team Menu working                                               |          |        |  6:14 |   4.8 |
 | Evaluate and learn from MC's work                                           |          |        |  1:03 |   0.8 |
 | COMPLETED Fix the build                                                     |          |        |  0:30 |   0.4 |
-| Use MC's work to strengthen mine                                            |          |        |  6:10 |   5.0 |
-| Print complete list of teams                                                |          |        |  2:33 |   2.1 |
-| Print players in team                                                       |          |        |  3:14 |   2.6 |
-| Review Fridays work                                                         |          |        |  1:13 |   1.0 |
+| Use MC's work to strengthen mine                                            |          |        |  6:10 |   4.8 |
+| Print complete list of teams                                                |          |        |  2:33 |   2.0 |
+| Print players in team                                                       |          |        |  3:14 |   2.5 |
+| Review Fridays work                                                         |          |        |  1:13 |   0.9 |
 | Change if statements for carry selection                                    |          |        |  0:37 |   0.5 |
-| Add data files for each team                                                |          |        |  2:33 |   2.1 |
-| Watch YT videos on reading/writing                                          |          |        |  1:58 |   1.6 |
-| Practice: create organised list file                                        |          |        |  1:34 |   1.3 |
-| Attempt to create table using team data files                               |          |        |  5:46 |   4.7 |
-| Review MC's sample game                                                     |          |        |  0:42 |   0.6 |
-| Watch YT videos on Object Oriented Programming                              |          |        |  2:37 |   2.1 |
+| Add data files for each team                                                |          |        |  2:33 |   2.0 |
+| Watch YT videos on reading/writing                                          |          |        |  1:58 |   1.5 |
+| Practice: create organised list file                                        |          |        |  1:34 |   1.2 |
+| Attempt to create table using team data files                               |          |        |  5:46 |   4.5 |
+| Review MC's sample game                                                     |          |        |  0:42 |   0.5 |
+| Watch YT videos on Object Oriented Programming                              |          |        |  2:37 |   2.0 |
 | Read Object-Oriented Programming (OOP)                                      |          |        |  1:55 |   1.5 |
-| Create Diagram for football game                                            |          |        |  1:04 |   0.9 |
+| Create Diagram for football game                                            |          |        |  1:04 |   0.8 |
 | Edit fgd.data                                                               |          |        |  0:44 |   0.6 |
 | Fix football game diagram                                                   |          |        |  0:37 |   0.5 |
 | Setup classes based on diagram                                              |          |        |  0:45 |   0.6 |
@@ -72,13 +72,17 @@ Stories you are working on this sprint.
 | Watch Object Lifetime in C++                                                |          |        |  0:13 |   0.2 |
 | Read Object Oriented Memory Management                                      |          |        |  0:15 |   0.2 |
 | Find Information on creating objects                                        |          |        |  2:02 |   1.6 |
-| Attempt to create table using only epl.data                                 |          |        |  2:47 |   2.2 |
+| Attempt to create table using only epl.data                                 |          |        |  2:47 |   2.1 |
 | Add new team to epl.data to test table                                      |          |        |  0:16 |   0.2 |
+| Attempt to get W / L / D working in table                                   |          |        |  3:38 |   2.8 |
+| Research reading and storing ints from data file                            |          |        |  1:52 |   1.4 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-03-02 Fri 16:51]--[2018-03-02 Fri 17:08] =>  0:17
+    CLOCK: [2018-03-02 Fri 17:06]--[2018-03-02 Fri 17:07] =>  0:01
     CLOCK: [2018-03-01 Thu 16:47]--[2018-03-01 Thu 17:16] =>  0:29
     CLOCK: [2018-02-28 Wed 16:54]--[2018-02-28 Wed 17:12] =>  0:18
     CLOCK: [2018-02-26 Mon 17:01]--[2018-02-26 Mon 17:12] =>  0:11
@@ -762,5 +766,29 @@ Links:
 
 *** Add new team to epl.data to test table
     CLOCK: [2018-03-01 Thu 16:26]--[2018-03-01 Thu 16:42] =>  0:16
+
+*** Attempt to get W / L / D working in table
+    CLOCK: [2018-03-02 Fri 16:31]--[2018-03-02 Fri 16:46] =>  0:15
+    CLOCK: [2018-03-02 Fri 15:19]--[2018-03-02 Fri 16:02] =>  0:43
+    CLOCK: [2018-03-02 Fri 14:29]--[2018-03-02 Fri 15:03] =>  0:34
+    CLOCK: [2018-03-02 Fri 13:04]--[2018-03-02 Fri 13:25] =>  0:21
+    CLOCK: [2018-03-02 Fri 12:19]--[2018-03-02 Fri 12:57] =>  0:38
+    CLOCK: [2018-03-02 Fri 09:06]--[2018-03-02 Fri 10:13] =>  1:07
+
+- Add corresponding ints in team class
+- Write values in epl.data
+- Copy same method for printing team name
+- Attempt only wins first
+
+*** Research reading and storing ints from data file
+    CLOCK: [2018-03-02 Fri 16:02]--[2018-03-02 Fri 16:27] =>  0:25
+    CLOCK: [2018-03-02 Fri 11:43]--[2018-03-02 Fri 12:15] =>  0:32
+    CLOCK: [2018-03-02 Fri 10:55]--[2018-03-02 Fri 11:24] =>  0:29
+    CLOCK: [2018-03-02 Fri 10:21]--[2018-03-02 Fri 10:47] =>  0:26
+
+- http://www.cplusplus.com/forum/beginner/70136/
+- https://stackoverflow.com/questions/14516915/read-numeric-data-from-a-text-file-in-c
+- https://stackoverflow.com/questions/4827301/how-to-read-integer-value-from-file-in-c
+- Reading a text file that has integers using c++:https://www.youtube.com/watch?v=LOTz1b0MP_Y
 
 ** Deprecated
