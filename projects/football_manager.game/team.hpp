@@ -9,11 +9,12 @@
 class team {
 public:
     team();
-    team(std::string name, std::vector<player> players);
+    team(std::string name, std::vector<player> players, int wins);
 
 public:
     std::string name();
     std::vector<player> players();
+    int wins();
 
 public:
     void read(std::istream& input_stream);
@@ -21,6 +22,7 @@ public:
 private:
     std::string name_;
     std::vector<player> players_;
+    int wins_;
 };
 
 #endif
