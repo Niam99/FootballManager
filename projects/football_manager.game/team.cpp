@@ -23,8 +23,7 @@ int team::wins(){
 void team::read(std::istream& input_stream) {
     std::getline(input_stream, name_);
     std::cout << "Reading team: " << name_ << std::endl;
-
-    int number_of_wins;
+    //int number_of_wins;
     //std::getline(input_stream, wins_);
     input_stream >> number_of_wins;
     std::cout << "Wins: " << number_of_wins << std::endl;

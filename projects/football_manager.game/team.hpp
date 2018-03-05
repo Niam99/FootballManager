@@ -15,7 +15,7 @@ public:
     std::string name();
     std::vector<player> players();
     int wins();
-
+    int number_of_wins;
 public:
     void read(std::istream& input_stream);
 
