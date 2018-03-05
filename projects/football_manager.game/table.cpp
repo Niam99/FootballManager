@@ -59,9 +59,12 @@ void table::grabTeamName(){
 
     league l = read_league_for_table();
     int place = 1;
-    std::cout << "  | W | L | D | English Premier League" << std::endl;
+    std::cout << "\n\n  | W | L | D | English Premier League" << std::endl;
     for (team t : l.teams()) {
-        std::cout << place << " | " << t.number_of_wins << " | / | / | "
+        std::cout << place << " | "
+                  << t.number_of_wins << " | "
+                  << t.number_of_losses << " | "
+                  << t.number_of_draws << " | "
                   << t.name() << ".....[0]" << std::endl;
         place++;
     }
