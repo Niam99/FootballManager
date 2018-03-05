@@ -12,14 +12,14 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-02-28 Wed 16:46]
+#+CAPTION: Clock summary at [2018-03-05 Mon 09:09]
 | <75>                                                                        |          |        |      |       |
 | Headline                                                                    | Time     |        |      |     % |
 |-----------------------------------------------------------------------------+----------+--------+------+-------|
-| *Total time*                                                                | *134:07* |        |      | 100.0 |
+| *Total time*                                                                | *138:19* |        |      | 100.0 |
 |-----------------------------------------------------------------------------+----------+--------+------+-------|
-| Stories                                                                     | 134:07   |        |      | 100.0 |
-| Active                                                                      |          | 134:07 |      | 100.0 |
+| Stories                                                                     | 138:19   |        |      | 100.0 |
+| Active                                                                      |          | 138:19 |      | 100.0 |
 | STARTED Sprint and product backlog grooming                                 |          |        | 0:58 |   0.7 |
 | COMPLETED Add gpg                                                           |          |        | 1:32 |   1.1 |
 | COMPLETED Test commits to branch                                            |          |        | 0:28 |   0.3 |
@@ -30,34 +30,34 @@
 | COMPLETED Build main                                                        |          |        | 2:10 |   1.6 |
 | COMPLETED Discuss task                                                      |          |        | 0:31 |   0.4 |
 | COMPLETED Create a Menu class                                               |          |        | 0:52 |   0.6 |
-| COMPLETED Fix menu class                                                    |          |        | 1:41 |   1.3 |
-| COMPLETED Research classes                                                  |          |        | 1:49 |   1.4 |
+| COMPLETED Fix menu class                                                    |          |        | 1:41 |   1.2 |
+| COMPLETED Research classes                                                  |          |        | 1:49 |   1.3 |
 | COMPLETED Add new option to list                                            |          |        | 0:19 |   0.2 |
 | COMPLETED Create players class                                              |          |        | 0:21 |   0.3 |
-| POSTPONED Fix player class                                                  |          |        | 2:00 |   1.5 |
+| POSTPONED Fix player class                                                  |          |        | 2:00 |   1.4 |
 | STARTED create setup function in player class                               |          |        | 1:30 |   1.1 |
 | STARTED create display function in player class                             |          |        | 0:20 |   0.2 |
 | COMPLETED Create vector for players                                         |          |        | 1:00 |   0.7 |
 | COMPLETED Read through fixed player class                                   |          |        | 1:07 |   0.8 |
-| COMPLETED Research classes                                                  |          |        | 2:56 |   2.2 |
+| COMPLETED Research classes                                                  |          |        | 2:56 |   2.1 |
 | COMPLETED Dealing with conflicts in magit                                   |          |        | 2:19 |   1.7 |
 | COMPLETED Practice implementing class with functions                        |          |        | 0:26 |   0.3 |
-| COMPLETED Research classes                                                  |          |        | 1:41 |   1.3 |
+| COMPLETED Research classes                                                  |          |        | 1:41 |   1.2 |
 | COMPLETED Add detail to players                                             |          |        | 1:00 |   0.7 |
 | COMPLETED Add new player                                                    |          |        | 0:46 |   0.6 |
-| COMPLETED Show detail of select player only                                 |          |        | 0:29 |   0.4 |
+| COMPLETED Show detail of select player only                                 |          |        | 0:29 |   0.3 |
 | COMPLETED Discuss task                                                      |          |        | 0:33 |   0.4 |
 | COMPLETED Add the rest of the players                                       |          |        | 0:39 |   0.5 |
 | COMPLETED Testing program                                                   |          |        | 1:00 |   0.7 |
 | COMPLETED Learning about pointers- videos                                   |          |        | 1:00 |   0.7 |
 | COMPLETED Pointers - research                                               |          |        | 1:30 |   1.1 |
 | COMPLETED Pointers - tutorials                                              |          |        | 1:00 |   0.7 |
-| COMPLETED Pointers - examples                                               |          |        | 0:45 |   0.6 |
+| COMPLETED Pointers - examples                                               |          |        | 0:45 |   0.5 |
 | COMPLETED Pointers - program                                                |          |        | 0:46 |   0.6 |
-| COMPLETED Testing program                                                   |          |        | 0:45 |   0.6 |
+| COMPLETED Testing program                                                   |          |        | 0:45 |   0.5 |
 | COMPLETED Discussing program                                                |          |        | 0:30 |   0.4 |
 | COMPLETED Review pointers                                                   |          |        | 1:00 |   0.7 |
-| COMPLETED Research pointers to data structures                              |          |        | 1:01 |   0.8 |
+| COMPLETED Research pointers to data structures                              |          |        | 1:01 |   0.7 |
 | COMPLETED Pointers with array program                                       |          |        | 0:56 |   0.7 |
 | COMPLETED Data structures reading                                           |          |        | 0:54 |   0.7 |
 | COMPLETED Pointers and classes                                              |          |        | 1:00 |   0.7 |
@@ -70,7 +70,7 @@
 | COMPLETED Looking at PGs program                                            |          |        | 0:28 |   0.3 |
 | COMPLETED Testing employee program                                          |          |        | 1:04 |   0.8 |
 | COMPLETED comparing w/ PG                                                   |          |        | 0:23 |   0.3 |
-| COMPLETED Add another function to employee program                          |          |        | 1:09 |   0.9 |
+| COMPLETED Add another function to employee program                          |          |        | 1:09 |   0.8 |
 | COMPLETED Research class constructors                                       |          |        | 1:00 |   0.7 |
 | COMPLETED Help PG split files                                               |          |        | 0:28 |   0.3 |
 | COMPLETED Class constructor and multiple files Video                        |          |        | 0:54 |   0.7 |
@@ -78,7 +78,7 @@
 | COMPLETED Allow user to add employee/object                                 |          |        | 0:56 |   0.7 |
 | COMPLETED Discuss tasks                                                     |          |        | 0:30 |   0.4 |
 | COMPLETED Research tasks                                                    |          |        | 0:36 |   0.4 |
-| COMPLETED Watch classes video                                               |          |        | 0:53 |   0.7 |
+| COMPLETED Watch classes video                                               |          |        | 0:53 |   0.6 |
 | COMPLETED Employee IO program                                               |          |        | 1:03 |   0.8 |
 | COMPLETED Test Employee IO program                                          |          |        | 1:00 |   0.7 |
 | COMPLETED Review player class in FM                                         |          |        | 0:38 |   0.5 |
@@ -89,9 +89,9 @@
 | COMPLETED Add league class to main                                          |          |        | 0:30 |   0.4 |
 | COMPLETED Discuss tasks                                                     |          |        | 0:30 |   0.4 |
 | COMPLETED Review changes                                                    |          |        | 1:06 |   0.8 |
-| COMPLETED Add more team data to league                                      |          |        | 0:37 |   0.5 |
-| COMPLETED Testing                                                           |          |        | 1:02 |   0.8 |
-| COMPLETED Review code/research tasks                                        |          |        | 1:01 |   0.8 |
+| COMPLETED Add more team data to league                                      |          |        | 0:37 |   0.4 |
+| COMPLETED Testing                                                           |          |        | 1:02 |   0.7 |
+| COMPLETED Review code/research tasks                                        |          |        | 1:01 |   0.7 |
 | COMPLETED Start game class                                                  |          |        | 1:00 |   0.7 |
 | COMPLETED Discuss game and look through code                                |          |        | 1:19 |   1.0 |
 | COMPLETED Add game to main                                                  |          |        | 0:23 |   0.3 |
@@ -99,12 +99,12 @@
 | COMPLETED Build and test MC game                                            |          |        | 1:00 |   0.7 |
 | COMPLETED Research parts of code                                            |          |        | 0:33 |   0.4 |
 | COMPLETED Research IO/Myfile                                                |          |        | 0:40 |   0.5 |
-| COMPLETED Review sample program                                             |          |        | 2:00 |   1.5 |
+| COMPLETED Review sample program                                             |          |        | 2:00 |   1.4 |
 | COMPLETED Fix league class                                                  |          |        | 0:51 |   0.6 |
 | COMPLETED Check through program for errors                                  |          |        | 1:00 |   0.7 |
 | COMPLETED Practice IO                                                       |          |        | 1:00 |   0.7 |
-| COMPLETED Fix league                                                        |          |        | 0:53 |   0.7 |
-| COMPLETED Look through sample main                                          |          |        | 0:45 |   0.6 |
+| COMPLETED Fix league                                                        |          |        | 0:53 |   0.6 |
+| COMPLETED Look through sample main                                          |          |        | 0:45 |   0.5 |
 | COMPLETED Review changes                                                    |          |        | 0:15 |   0.2 |
 | COMPLETED Add league function to main                                       |          |        | 0:56 |   0.7 |
 | COMPLETED Fix travis error                                                  |          |        | 0:25 |   0.3 |
@@ -113,26 +113,26 @@
 | COMPLETED Make player class                                                 |          |        | 1:00 |   0.7 |
 | COMPLETED Implement player class                                            |          |        | 0:56 |   0.7 |
 | COMPLETED Discuss solution for view players based on team                   |          |        | 1:00 |   0.7 |
-| COMPLETED Try to implement a solution                                       |          |        | 1:52 |   1.4 |
+| COMPLETED Try to implement a solution                                       |          |        | 1:52 |   1.3 |
 | COMPLETED Review program                                                    |          |        | 1:00 |   0.7 |
 | COMPLETED Discuss tasks/changes                                             |          |        | 0:30 |   0.4 |
 | COMPLETED Add team data files                                               |          |        | 0:44 |   0.5 |
-| COMPLETED Discuss solution to league table                                  |          |        | 0:45 |   0.6 |
-| COMPLETED Research I/O for files                                            |          |        | 0:45 |   0.6 |
+| COMPLETED Discuss solution to league table                                  |          |        | 0:45 |   0.5 |
+| COMPLETED Research I/O for files                                            |          |        | 0:45 |   0.5 |
 | COMPLETED Test current program                                              |          |        | 0:40 |   0.5 |
 | COMPLETED Watch videos about read/write custom files                        |          |        | 0:59 |   0.7 |
 | COMPLETED Write program to practice reading custom files                    |          |        | 0:40 |   0.5 |
 | COMPLETED Watch read/write videos                                           |          |        | 1:46 |   1.3 |
-| COMPLETED Add variables to read/write program                               |          |        | 1:18 |   1.0 |
+| COMPLETED Add variables to read/write program                               |          |        | 1:18 |   0.9 |
 | POSTPONED Add class to read/write program                                   |          |        | 3:32 |   2.6 |
-| COMPLETED Research about istream/fstream                                    |          |        | 1:02 |   0.8 |
+| COMPLETED Research about istream/fstream                                    |          |        | 1:02 |   0.7 |
 | COMPLETED Review table.cpp                                                  |          |        | 0:30 |   0.4 |
 | COMPLETED Discuss tasks/data model                                          |          |        | 0:30 |   0.4 |
-| COMPLETED Review sample program                                             |          |        | 1:10 |   0.9 |
-| COMPLETED Watch OOP videos                                                  |          |        | 1:34 |   1.2 |
+| COMPLETED Review sample program                                             |          |        | 1:10 |   0.8 |
+| COMPLETED Watch OOP videos                                                  |          |        | 1:34 |   1.1 |
 | COMPLETED Review OOP videos                                                 |          |        | 0:55 |   0.7 |
 | COMPLETED Read OOP tutorial                                                 |          |        | 1:14 |   0.9 |
-| COMPLETED Read std::sort                                                    |          |        | 0:37 |   0.5 |
+| COMPLETED Read std::sort                                                    |          |        | 0:37 |   0.4 |
 | COMPLETED Read std::find                                                    |          |        | 0:57 |   0.7 |
 | COMPLETED Discuss tasks                                                     |          |        | 0:55 |   0.7 |
 | COMPLETED Create player class                                               |          |        | 0:27 |   0.3 |
@@ -146,14 +146,18 @@
 | COMPLETED Review diagram                                                    |          |        | 0:40 |   0.5 |
 | COMPLETED Review program                                                    |          |        | 1:30 |   1.1 |
 | COMPLETED watch oop playlist                                                |          |        | 1:00 |   0.7 |
-| COMPLETED Discuss tasks                                                     |          |        | 1:51 |   1.4 |
+| COMPLETED Discuss tasks                                                     |          |        | 1:51 |   1.3 |
 | COMPLETED Review PG changes                                                 |          |        | 0:15 |   0.2 |
-| COMPLETED Practice using variables from file                                |          |        | 4:25 |   3.3 |
+| COMPLETED Practice using variables from file                                |          |        | 4:25 |   3.2 |
 | COMPLETED Watch OOP video                                                   |          |        | 0:31 |   0.4 |
-| POSTPONED Display players of 1 team                                         |          |        | 4:00 |   3.0 |
+| POSTPONED Display players of 1 team                                         |          |        | 4:00 |   2.9 |
 | COMPLETED Discuss tasks                                                     |          |        | 0:21 |   0.3 |
-| COMPLETED Watch oop video                                                   |          |        | 0:53 |   0.7 |
+| COMPLETED Watch oop video                                                   |          |        | 0:53 |   0.6 |
 | COMPLETED Research objects in memory                                        |          |        | 3:57 |   2.9 |
+| COMPLETED Research class objects/ research getline                          |          |        | 2:31 |   1.8 |
+| COMPLETED Discus tasks                                                      |          |        | 0:30 |   0.4 |
+| COMPLETED Research getline                                                  |          |        | 0:31 |   0.4 |
+| COMPLETED Add team code to main project                                     |          |        | 0:40 |   0.5 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -815,10 +819,12 @@ https://stackoverflow.com/questions/6182147/how-to-getline-from-specific-line-in
     CLOSED: [2018-03-01 Thu 13:41]
     CLOCK: [2018-03-01 Thu 12:10]--[2018-03-01 Thu 12:40] =>  0:30
 
-*** Research getline
+*** COMPLETED Research getline
+    CLOSED: [2018-03-01 Thu 15:48]
     CLOCK: [2018-03-01 Thu 13:42]--[2018-03-01 Thu 14:13] =>  0:31
-*** Add team code to main project
-    CLOCK: [2018-03-01 Thu 14:13]
+*** COMPLETED Add team code to main project
+    CLOSED: [2018-03-01 Thu 15:48]
+    CLOCK: [2018-03-01 Thu 14:20]--[2018-03-01 Thu 15:00] =>  1:00
 
 ** Deprecated
 ** Notes
