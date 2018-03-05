@@ -826,6 +826,21 @@ https://stackoverflow.com/questions/6182147/how-to-getline-from-specific-line-in
     CLOSED: [2018-03-01 Thu 15:48]
     CLOCK: [2018-03-01 Thu 14:20]--[2018-03-01 Thu 15:00] =>  1:00
 
+*** COMPLETED Review program and changes
+    CLOSED: [2018-03-05 Mon 11:04]
+    CLOCK: [2018-03-05 Mon 09:13]--[2018-03-05 Mon 11:03] =>  1:50
+-- test code
+--- random values for table
+-- points in data file under team name
+*** COMPLETED Attempt to fix table
+    CLOSED: [2018-03-05 Mon 14:00]
+    CLOCK: [2018-03-05 Mon 14:00]--[2018-03-05 Mon 15:10] =>  1:10
+    CLOCK: [2018-03-05 Mon 11:05]--[2018-03-05 Mon 13:05] =>  2:00
+-- points are read as : Wins:0 but value displayed in table is random
+-- in team.cpp variable read is number of wins, but in table.cpp its t.wins?
+*** Review fix
+    CLOCK: [2018-03-05 Mon 15:13]
+
 ** Deprecated
 ** Notes
 links to look at later:
