@@ -10,7 +10,7 @@ class team {
 public:
     team();
     team(std::string name, std::vector<player> players,
-        int wins ,int losses,int draws);
+        int wins, int losses, int draws, int points);
 
 public:
     std::string name();
@@ -21,6 +21,9 @@ public:
     int number_of_losses;
     int draws();
     int number_of_draws;
+    int points;
+
+    //int totalPoints;
 public:
     void read(std::istream& input_stream);
 

@@ -65,7 +65,9 @@ void table::grabTeamName(){
                   << t.number_of_wins << " | "
                   << t.number_of_losses << " | "
                   << t.number_of_draws << " | "
-                  << t.name() << ".....[0]" << std::endl;
+                  << t.name() << ".....["
+                  << (t.number_of_wins * 3) + t.number_of_draws  << "]"
+                  << std::endl;
         place++;
     }
 

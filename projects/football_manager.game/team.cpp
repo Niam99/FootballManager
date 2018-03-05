@@ -5,7 +5,7 @@ team::team() {
 }
 
 team::team(std::string name, std::vector<player> players,
-    int wins, int losses, int draws)
+    int wins, int losses, int draws, int points)
     : name_(name), players_(players)
     , wins_(wins), losses_(losses), draws_(draws){
 }
@@ -43,7 +43,7 @@ void team::read(std::istream& input_stream) {
     input_stream.ignore(1, '\n');
 
     input_stream >> number_of_draws;
-    std::cout << "Wins: " << number_of_draws << std::endl;
+    std::cout << "Draws: " << number_of_draws << std::endl;
     input_stream.ignore(1, '\n');
 
     int number_of_players;
