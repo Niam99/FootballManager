@@ -8,5 +8,4 @@ add_executable(football_manager.game
   player.cpp
   team.cpp
   league.cpp
-  standings_table_entry.cpp
-  standings_table.cpp)
+  table.cpp)

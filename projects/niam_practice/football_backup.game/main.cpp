@@ -7,6 +7,7 @@
 #include "player.hpp"
 #include "league.hpp"
 #include "team.hpp"
+#include "table.hpp"
 
 menu create_main_menu() {
     std::vector<menu_item> items;
@@ -97,7 +98,8 @@ int main()
     }
 
 
-
+        table tab;
+        tab.grabTeamName();
  
     }
     if (result == 2) {
@@ -116,6 +118,7 @@ int main()
         std::cout << "User Exited" << std::endl;
         create_team_menu();
     } 
-
+    //table tab;
+    //tab.grabTeamName();
     return 0;
 }
