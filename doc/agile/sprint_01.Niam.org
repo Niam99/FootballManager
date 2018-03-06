@@ -12,17 +12,18 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-06 Tue 12:19]
+#+CAPTION: Clock summary at [2018-03-06 Tue 13:57]
 | <75>                                                                        |        |      |      |       |
 | Headline                                                                    | Time   |      |      |     % |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *2:48* |      |      | 100.0 |
+| *Total time*                                                                | *3:08* |      |      | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 2:48   |      |      | 100.0 |
-| Active                                                                      |        | 2:48 |      | 100.0 |
-| COMPLETED Clone hedgr                                                       |        |      | 0:30 |  17.9 |
-| COMPLETED Diagram                                                           |        |      | 1:00 |  35.7 |
-| COMPLETED Create table standings classes                                    |        |      | 1:18 |  46.4 |
+| Stories                                                                     | 3:08   |      |      | 100.0 |
+| Active                                                                      |        | 3:08 |      | 100.0 |
+| COMPLETED Clone hedgr                                                       |        |      | 0:30 |  16.0 |
+| COMPLETED Diagram                                                           |        |      | 1:00 |  31.9 |
+| COMPLETED Create table standings classes                                    |        |      | 1:18 |  41.5 |
+| COMPLETED Review                                                            |        |      | 0:20 |  10.6 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -49,4 +50,18 @@ Discuss
 4. create table_standings_entry
 5. add the properties
 
+*** COMPLETED Review
+    CLOSED: [2018-03-06 Tue 13:53]
+    CLOCK: [2018-03-06 Tue 12:30]--[2018-03-06 Tue 12:50] =>  0:20
+- Look at PG changes
+- Look at diagram (match/matchday)
+*** Create match classes
+    CLOCK: [2018-03-06 Tue 13:54]
+0 - create list of objectives
+1 - think about match object in real life terms
+2 - remove any match related code
+3 - create match class files
+4 - add properties
+5 - create match day class
+6 - add properties
 ** Deprecated
