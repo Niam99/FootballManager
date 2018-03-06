@@ -20,18 +20,6 @@ void team::read(std::istream& input_stream) {
     std::getline(input_stream, name_);
     std::cout << "Reading team: " << name_ << std::endl;
 
-    // input_stream >> number_of_wins;
-    // std::cout << "Wins: " << number_of_wins << std::endl;
-    // input_stream.ignore(1, '\n');
-
-    // input_stream >> number_of_losses;
-    // std::cout << "Losses: " << number_of_losses << std::endl;
-    // input_stream.ignore(1, '\n');
-
-    // input_stream >> number_of_draws;
-    // std::cout << "Draws: " << number_of_draws << std::endl;
-    // input_stream.ignore(1, '\n');
-
     int number_of_players;
     input_stream >> number_of_players;
     std::cout << "Total players: " << number_of_players << std::endl;
