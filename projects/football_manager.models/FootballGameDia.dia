@@ -1050,7 +1050,7 @@
         <dia:point val="35.0625,-6.4"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="34.3125,-7.15;51.0325,2.6"/>
+        <dia:rectangle val="34.3125,-7.15;51.0325,1.8"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1121,7 +1121,7 @@
         <dia:point val="45,7.8"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="32.435,7.05;45.75,16.6"/>
+        <dia:rectangle val="32.435,7.05;45.75,15.8"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1192,7 +1192,7 @@
         <dia:point val="72,15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="56.615,7.75;72.75,16.6"/>
+        <dia:rectangle val="56.615,7.75;72.75,15.8"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1263,7 +1263,7 @@
         <dia:point val="55.485,30.95"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="54.735,17.75;78.995,32.55"/>
+        <dia:rectangle val="54.735,17.75;78.995,31.75"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1648,7 +1648,7 @@
         <dia:point val="83.025,-10"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="82.275,-13.05;98.915,-9.2"/>
+        <dia:rectangle val="82.275,-13.8;98.915,-9.2"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1719,7 +1719,7 @@
         <dia:point val="85.59,15"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="84.84,11.2;99.4288,16.6"/>
+        <dia:rectangle val="84.84,11.2;99.4288,15.8"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -2000,76 +2000,22 @@
     </dia:object>
     <dia:object type="UML - Note" version="0" id="O14">
       <dia:attribute name="obj_pos">
-        <dia:point val="4,-13"/>
+        <dia:point val="3,-13"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="3.95,-13.05;20.735,-8.85"/>
+        <dia:rectangle val="2.95,-13.05;20.505,-7.25"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="4,-13"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="16.685000000000002"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="4.0999999999999996"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000000000001"/>
-      </dia:attribute>
-      <dia:attribute name="line_colour">
-        <dia:color val="#000000"/>
-      </dia:attribute>
-      <dia:attribute name="fill_colour">
-        <dia:color val="#ffffff"/>
-      </dia:attribute>
-      <dia:attribute name="text">
-        <dia:composite type="text">
-          <dia:attribute name="string">
-            <dia:string>#Football Manager is a simple console game
-to manage football teams.
-
-#</dia:string>
-          </dia:attribute>
-          <dia:attribute name="font">
-            <dia:font family="monospace" style="0" name="Courier"/>
-          </dia:attribute>
-          <dia:attribute name="height">
-            <dia:real val="0.80000000000000004"/>
-          </dia:attribute>
-          <dia:attribute name="pos">
-            <dia:point val="4.35,-11.755"/>
-          </dia:attribute>
-          <dia:attribute name="color">
-            <dia:color val="#000000"/>
-          </dia:attribute>
-          <dia:attribute name="alignment">
-            <dia:enum val="0"/>
-          </dia:attribute>
-        </dia:composite>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="UML - Note" version="0" id="O15">
-      <dia:attribute name="obj_pos">
-        <dia:point val="4,-6"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="3.95,-6.05;21.505,-2.65"/>
-      </dia:attribute>
-      <dia:attribute name="meta">
-        <dia:composite type="dict"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="4,-6"/>
+        <dia:point val="3,-13"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="17.455000000000002"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="3.3000000000000003"/>
+        <dia:real val="5.7000000000000002"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
@@ -2083,7 +2029,10 @@ to manage football teams.
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>##DOGEN yarn.dia.comment=true
+            <dia:string>#Football Manager is a simple console game
+to manage football teams.
+
+#DOGEN yarn.dia.comment=true
 #DOGEN yarn.model_modules=kandonga.accounts
 #DOGEN yarn.input_language=cpp#</dia:string>
           </dia:attribute>
@@ -2094,7 +2043,7 @@ to manage football teams.
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="4.35,-4.755"/>
+            <dia:point val="3.35,-11.755"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
