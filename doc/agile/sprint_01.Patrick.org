@@ -1,0 +1,808 @@
+#+title: Sprint Backlog 00 for Patrick
+#+options: date:nil toc:nil author:nil num:nil
+#+todo: STARTED | COMPLETED CANCELLED POSTPONED
+#+tags: { story(s) epic(e) }
+
+* Mission Statement
+
+- Create a Football Manager Game
+
+* Stories
+
+Stories you are working on this sprint.
+
+** Active
+
+#+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
+#+CAPTION: Clock summary at [2018-03-05 Mon 18:31]
+| <75>                                                                        |          |        |       |       |
+| Headline                                                                    | Time     |        |       |     % |
+|-----------------------------------------------------------------------------+----------+--------+-------+-------|
+| *Total time*                                                                | *135:05* |        |       | 100.0 |
+|-----------------------------------------------------------------------------+----------+--------+-------+-------|
+| Stories                                                                     | 135:05   |        |       | 100.0 |
+| Active                                                                      |          | 135:05 |       | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |          |        | 10:38 |   7.9 |
+| COMPLETED Understanding Some Essentials of MaGit                            |          |        |  5:28 |   4.0 |
+| COMPLETED Create League.cpp/hpp                                             |          |        |  0:59 |   0.7 |
+| COMPLETED Create game.cpp/hpp                                               |          |        |  0:43 |   0.5 |
+| COMPLETED Create teams and players                                          |          |        |  2:12 |   1.6 |
+| COMPLETED Read more on Classes                                              |          |        |  0:36 |   0.4 |
+| COMPLETED Review and study MC's work                                        |          |        |  1:12 |   0.9 |
+| CANCELLED Try an make changes using MC's work                               |          |        |  0:20 |   0.2 |
+| COMPLETED Read about vectors to help add teams                              |          |        |  0:51 |   0.6 |
+| STARTED Use Menu Classes for Teams menu                                     |          |        |  5:14 |   3.9 |
+| Magit and attempting to fix first conflict                                  |          |        |  0:27 |   0.3 |
+| Practice Classes                                                            |          |        |  5:36 |   4.1 |
+| COMPLETED Having trouble with Magit                                         |          |        |  3:15 |   2.4 |
+| Discussing the task at hand                                                 |          |        | 18:55 |  14.0 |
+| Fix the build                                                               |          |        |  0:28 |   0.3 |
+| Searching for research material                                             |          |        |  3:45 |   2.8 |
+| COMPLETED Learn about pointers                                              |          |        |  1:39 |   1.2 |
+| COMPLETED Attempt to use pointers                                           |          |        |  1:48 |   1.3 |
+| COMPLETED Attempt to use pointers solo                                      |          |        |  0:20 |   0.2 |
+| STARTED Learn more about data structures                                    |          |        |  1:43 |   1.3 |
+| COMPLETED Watch Youtube tutorials                                           |          |        |  1:51 |   1.4 |
+| COMPLETED Write pointer and array                                           |          |        |  0:39 |   0.5 |
+| Review yesterdays work                                                      |          |        |  0:38 |   0.5 |
+| STARTED Attempt to use pointer, array and classes                           |          |        |  6:23 |   4.7 |
+| Attempt to read and write in Employee                                       |          |        |  1:04 |   0.8 |
+| STARTED Get Team Menu working                                               |          |        |  6:14 |   4.6 |
+| Evaluate and learn from MC's work                                           |          |        |  1:03 |   0.8 |
+| COMPLETED Fix the build                                                     |          |        |  0:30 |   0.4 |
+| Use MC's work to strengthen mine                                            |          |        |  6:10 |   4.6 |
+| Print complete list of teams                                                |          |        |  2:33 |   1.9 |
+| Print players in team                                                       |          |        |  3:14 |   2.4 |
+| Review Fridays work                                                         |          |        |  1:55 |   1.4 |
+| Change if statements for carry selection                                    |          |        |  0:37 |   0.5 |
+| Add data files for each team                                                |          |        |  2:33 |   1.9 |
+| Watch YT videos on reading/writing                                          |          |        |  1:58 |   1.5 |
+| Practice: create organised list file                                        |          |        |  1:34 |   1.2 |
+| Attempt to create table using team data files                               |          |        |  5:46 |   4.3 |
+| Review MC's sample game                                                     |          |        |  0:42 |   0.5 |
+| Watch YT videos on Object Oriented Programming                              |          |        |  2:37 |   1.9 |
+| Read Object-Oriented Programming (OOP)                                      |          |        |  1:55 |   1.4 |
+| Create Diagram for football game                                            |          |        |  1:04 |   0.8 |
+| Edit fgd.data                                                               |          |        |  0:44 |   0.5 |
+| Fix football game diagram                                                   |          |        |  0:37 |   0.5 |
+| Setup classes based on diagram                                              |          |        |  0:45 |   0.6 |
+| Use variables stored on data file                                           |          |        |  0:47 |   0.6 |
+| Watch How to CREATE/INSTANTIATE OBJECTS in C++                              |          |        |  0:14 |   0.2 |
+| Watch Inheritance and Class Hierarchies                                     |          |        |  0:31 |   0.4 |
+| Watch Object Lifetime in C++                                                |          |        |  0:13 |   0.2 |
+| Read Object Oriented Memory Management                                      |          |        |  0:15 |   0.2 |
+| Find Information on creating objects                                        |          |        |  2:02 |   1.5 |
+| Attempt to create table using only epl.data                                 |          |        |  2:47 |   2.1 |
+| Add new team to epl.data to test table                                      |          |        |  0:16 |   0.2 |
+| Attempt to get W / L / D working in table                                   |          |        |  6:53 |   5.1 |
+| Research reading and storing ints from data file                            |          |        |  1:52 |   1.4 |
+#+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
+#+end:
+
+
+*** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-03-05 Mon 16:54]--[2018-03-05 Mon 17:13] =>  0:19
+    CLOCK: [2018-03-02 Fri 16:51]--[2018-03-02 Fri 17:08] =>  0:17
+    CLOCK: [2018-03-02 Fri 17:06]--[2018-03-02 Fri 17:07] =>  0:01
+    CLOCK: [2018-03-01 Thu 16:47]--[2018-03-01 Thu 17:16] =>  0:29
+    CLOCK: [2018-02-28 Wed 16:54]--[2018-02-28 Wed 17:12] =>  0:18
+    CLOCK: [2018-02-26 Mon 17:01]--[2018-02-26 Mon 17:12] =>  0:11
+    CLOCK: [2018-02-22 Thu 16:50]--[2018-02-22 Thu 17:27] =>  0:37
+    CLOCK: [2018-02-21 Wed 16:53]--[2018-02-21 Wed 17:23] =>  0:30
+    CLOCK: [2018-02-20 Tue 17:29]--[2018-02-20 Tue 17:44] =>  0:15
+    CLOCK: [2018-02-20 Tue 12:55]--[2018-02-20 Tue 13:27] =>  0:32
+    CLOCK: [2018-02-19 Mon 17:24]--[2018-02-19 Mon 17:49] =>  0:25
+    CLOCK: [2018-02-16 Fri 16:43]--[2018-02-16 Fri 17:01] =>  0:18
+    CLOCK: [2018-02-15 Thu 17:24]--[2018-02-15 Thu 18:00] =>  0:36
+    CLOCK: [2018-02-13 Tue 17:52]--[2018-02-13 Tue 18:09] =>  0:17
+    CLOCK: [2018-02-12 Mon 14:55]--[2018-02-12 Mon 15:12] =>  0:17
+    CLOCK: [2018-02-09 Fri 16:56]--[2018-02-09 Fri 17:09] =>  0:13
+    CLOCK: [2018-02-08 Thu 16:58]--[2018-02-08 Thu 17:13] =>  0:15
+    CLOCK: [2018-02-08 Thu 11:58]--[2018-02-08 Thu 12:07] =>  0:09
+    CLOCK: [2018-02-08 Thu 10:52]--[2018-02-08 Thu 11:01] =>  0:09
+    CLOCK: [2018-02-07 Wed 16:52]--[2018-02-07 Wed 17:05] =>  0:13
+    CLOCK: [2018-02-07 Wed 11:18]--[2018-02-07 Wed 11:53] =>  0:35
+    CLOCK: [2018-02-06 Tue 16:57]--[2018-02-06 Tue 17:09] =>  0:12
+    CLOCK: [2018-02-06 Tue 11:45]--[2018-02-06 Tue 11:50] =>  0:05
+    CLOCK: [2018-02-05 Mon 17:19]--[2018-02-05 Mon 17:39] =>  0:20
+    CLOCK: [2018-02-05 Mon 11:54]--[2018-02-05 Mon 12:07] =>  0:13
+    CLOCK: [2018-02-05 Mon 10:26]--[2018-02-05 Mon 10:46] =>  0:20
+    CLOCK: [2018-02-02 Fri 17:46]--[2018-02-02 Fri 18:16] =>  0:30
+    CLOCK: [2018-02-01 Thu 16:47]--[2018-02-01 Thu 16:55] =>  0:08
+    CLOCK: [2018-01-31 Wed 16:51]--[2018-01-31 Wed 17:17] =>  0:26
+    CLOCK: [2018-01-31 Wed 13:12]--[2018-01-31 Wed 13:23] =>  0:11
+    CLOCK: [2018-01-30 Tue 18:03]--[2018-01-30 Tue 18:18] =>  0:15
+    CLOCK: [2018-01-30 Tue 12:10]--[2018-01-30 Tue 12:19] =>  0:09
+    CLOCK: [2018-01-30 Tue 09:01]--[2018-01-30 Tue 09:54] =>  0:53
+
+Updates to sprint and product backlog.
+
+*** COMPLETED Understanding Some Essentials of MaGit
+    CLOSED: [2018-01-30 Tue 09:47]
+    CLOCK: [2018-01-29 Mon 17:56]--[2018-01-29 Mon 18:19] =>  0:23
+    CLOCK: [2018-01-29 Mon 17:14]--[2018-01-29 Mon 17:54] =>  0:40
+    CLOCK: [2018-01-29 Mon 14:36]--[2018-01-29 Mon 16:05] =>  1:29
+    CLOCK: [2018-01-29 Mon 09:52]--[2018-01-29 Mon 12:48] =>  2:56
+
+Notes on magit pushing
+
+1. first make sure all files have been either committed or stashed.
+2. Then in magit type b b master to change to master.
+3. Then pull master with F u.
+4. Then go back to your branch with b b development.
+5. Rebase the branch. In magit r e master.
+6. now go back to master b b master.
+7. merge your branch into master: m m development.
+8. if all has gone well, you can push master to remote: P u.
+9. go back to your branch and do work.
+
+Links:
+
+- https://github.com/jkitchin/magit-tutorial
+
+*** COMPLETED Create a personal branch
+    CLOSED: [2018-01-30 Tue 09:48]
+
+Simple branching workflow:
+
+- make sure you have ido-mode on as it makes it much easier to select
+  the branches.
+- create a new branch in magit: Type b c. The starting point should be
+  master.Then give it a name (e.g. development).
+- do work as usual, commit etc. When you want to push:
+  1. first make sure all files have been either committed or stashed.
+  2. Then in magit type b b master to change to master.
+  3. Then pull master with F u.
+  4. Then go back to your branch with b b development.
+  5. Rebase the branch. In magit r e master.
+  6. now go back to master b b master.
+  7. merge your branch into master: m m development.
+  8. if all has gone well, you can push master to remote: P u.
+  9. go back to your branch and do work.
+
+*** COMPLETED Create League.cpp/hpp
+    CLOSED: [2018-01-30 Tue 11:25]
+    CLOCK: [2018-01-30 Tue 10:26]--[2018-01-30 Tue 11:25] =>  0:59
+
+- Created league.cpp/hpp
+- Connected it to main.cpp
+- Updated CMakeLists.txt
+- Compile
+- Test to see if working
+
+*** COMPLETED Create game.cpp/hpp
+    CLOSED: [2018-01-30 Tue 12:18]
+    CLOCK: [2018-01-30 Tue 11:26]--[2018-01-30 Tue 12:09] =>  0:43
+
+- Created game.cpp/hpp
+- Connected it to main.cpp
+- Updated CMakeLists.txt
+- Compile
+- Test to see if working
+
+*** COMPLETED Create teams and players
+    CLOSED: [2018-01-31 Wed 13:18]
+    CLOCK: [2018-01-31 Wed 11:46]--[2018-01-31 Wed 12:29] =>  0:43
+    CLOCK: [2018-01-31 Wed 10:30]--[2018-01-31 Wed 11:27] =>  0:57
+    CLOCK: [2018-01-30 Tue 16:37]--[2018-01-30 Tue 17:09] =>  0:32
+
+- Make appropriate cpp files
+- Use diagram on Dia for correct vars
+- Use for players: https://www.premierleague.com/players
+- Input players and teams
+- If all goes well see if you can create a table in league and place vars from teams
+
+- Try to create a list of teams using what MC wrote for menus
+- Use vector the make list
+
+- Started from scratch
+- Got a list of team
+- User can select team
+
+*** COMPLETED Read more on Classes
+    CLOSED: [2018-01-30 Tue 18:00]
+    CLOCK: [2018-01-30 Tue 13:36]--[2018-01-30 Tue 14:12] =>  0:36
+
+Links:
+- Classes https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm
+- Constructors https://www.geeksforgeeks.org/constructors-c/
+
+*** COMPLETED Review and study MC's work
+    CLOSED: [2018-01-30 Tue 18:07]
+    CLOCK: [2018-01-30 Tue 14:12]--[2018-01-30 Tue 15:24] =>  1:12
+
+- Read and try to understand MC's changes to:
+> main.cpp
+> menu.cpp/hpp
+> menu_item.cpp/hpp
+
+Notes:
+- Need work on Vectors (100%)
+- and referencing other files (not so much)
+
+*** CANCELLED Try an make changes using MC's work
+    CLOSED: [2018-02-02 Fri 17:57]
+    CLOCK: [2018-01-30 Tue 15:28]--[2018-01-30 Tue 15:48] =>  0:20
+
+- Discuss with NI what MC wrote
+
+*** COMPLETED Read about vectors to help add teams
+    CLOSED: [2018-01-30 Tue 18:18]
+    CLOCK: [2018-01-30 Tue 17:11]--[2018-01-30 Tue 18:02] =>  1:03
+
+Links:
+- Vector as string https://stackoverflow.com/questions/4268886/initialize-a-vector-array-of-strings
+- Vectors (not so good, but helps) https://syntaxdb.com/ref/cpp/vectors
+- Vectors (better, more complicated) https://www.geeksforgeeks.org/vector-in-cpp-stl/
+*** STARTED Use Menu Classes for Teams menu
+    CLOCK: [2018-02-09 Fri 16:26]--[2018-02-09 Fri 16:56] =>  0:30
+    CLOCK: [2018-02-09 Fri 15:26]--[2018-02-09 Fri 15:51] =>  0:25
+    CLOCK: [2018-02-09 Fri 14:48]--[2018-02-09 Fri 15:14] =>  0:26
+    CLOCK: [2018-02-09 Fri 14:20]--[2018-02-09 Fri 14:46] =>  0:26
+    CLOCK: [2018-02-02 Fri 13:23]--[2018-02-02 Fri 14:40] =>  1:17
+    CLOCK: [2018-02-02 Fri 11:56]--[2018-02-02 Fri 12:17] =>  0:21
+    CLOCK: [2018-02-02 Fri 10:40]--[2018-02-02 Fri 11:08] =>  0:28
+    CLOCK: [2018-01-31 Wed 14:34]--[2018-01-31 Wed 15:55] =>  1:21
+- Create team class (in .hpp)
+- Member called name
+- See if it can be used from choose_team.cpp
+
+*** Magit and attempting to fix first conflict
+    CLOCK: [2018-01-31 Wed 15:57]--[2018-01-31 Wed 16:24] =>  0:27
+*** Practice Classes
+    CLOCK: [2018-02-06 Tue 15:16]--[2018-02-06 Tue 15:25] =>  0:09
+    CLOCK: [2018-02-02 Fri 16:52]--[2018-02-02 Fri 17:46] =>  0:54
+    CLOCK: [2018-02-02 Fri 16:14]--[2018-02-02 Fri 16:34] =>  0:20
+    CLOCK: [2018-02-02 Fri 15:24]--[2018-02-02 Fri 16:00] =>  0:36
+    CLOCK: [2018-02-02 Fri 09:39]--[2018-02-02 Fri 10:37] =>  0:58
+    CLOCK: [2018-02-01 Thu 15:55]--[2018-02-01 Thu 16:42] =>  0:47
+    CLOCK: [2018-02-01 Thu 12:01]--[2018-02-01 Thu 12:31] =>  0:30
+    CLOCK: [2018-02-01 Thu 10:09]--[2018-02-01 Thu 10:56] =>  0:47
+    CLOCK: [2018-02-01 Thu 09:01]--[2018-02-01 Thu 09:36] =>  0:35
+
+
+Reading material:
+- http://www.dev-hq.net/c++/10--simple-classes
+- http://www.learncpp.com/cpp-tutorial/82-classes-and-class-members/
+- http://www.cplusplus.com/doc/tutorial/classes/
+
+- When finished reading, do quiz:http://www.sanfoundry.com/c-plus-plus-quiz-classes/
+- Create some practice files in NI's repo
+- Make test.cpp/hpp
+- Use these files to practice what you just learnt
+
+Create and Employee wage displayer
+- touch filename.cpp/hpp
+- touch cmakelists.txt
+- touch main.cpp
+- Use: http://www.learncpp.com/cpp-tutorial/82-classes-and-class-members/
+- Successfully push work with no conflicts
+
+Watch Youtube video:
+- https://www.youtube.com/watch?v=J17xa1zu9UI
+
+Complete quiz's based on classes
+- https://www.geeksforgeeks.org/c-plus-plus-gq/class-and-object-gq/
+- https://www.cprogramming.com/tutorial/quiz/quiz12.html
+- http://gplsi.dlsi.ua.es/proyectos/examinador/test.php?id=16&lang=en
+
+*** COMPLETED Having trouble with Magit
+    CLOSED: [2018-02-01 Thu 11:56]
+    CLOCK: [2018-02-01 Thu 14:45]--[2018-02-01 Thu 15:41] =>  0:56
+    CLOCK: [2018-02-01 Thu 13:26]--[2018-02-01 Thu 14:45] =>  1:19
+    CLOCK: [2018-02-01 Thu 10:56]--[2018-02-01 Thu 11:56] =>  1:00
+
+- so you need to drop the commits you have merged already into master
+- for that you do
+- l l
+- this is a process basically
+- do ll (lower case L)
+- find the last commit that was in master
+- put the cursor over it
+- and press x
+- magit will then say something like master~2
+- 2 being how many commits back you are going
+- if you press enter it will then revert those commits in the current branch - should always be master
+- you can then stash whatever is in the index
+- z z "some name"
+- at this point you are now in a place where master can pull again
+- the rest is more or less as usual
+- so write down this process - call it handling master conflicts or something
+- and always make sure you are paying a lot of attention to what magit is saying
+
+*** Discussing the task at hand
+    CLOCK: [2018-03-05 Mon 14:39]--[2018-03-05 Mon 15:10] =>  0:31
+    CLOCK: [2018-03-05 Mon 11:50]--[2018-03-05 Mon 12:23] =>  0:33
+    CLOCK: [2018-03-05 Mon 11:00]--[2018-03-05 Mon 11:14] =>  0:14
+    CLOCK: [2018-03-01 Thu 16:10]--[2018-03-01 Thu 16:11] =>  0:01
+    CLOCK: [2018-03-01 Thu 15:21]--[2018-03-01 Thu 15:29] =>  0:08
+    CLOCK: [2018-03-01 Thu 14:05]--[2018-03-01 Thu 14:38] =>  0:33
+    CLOCK: [2018-03-01 Thu 12:10]--[2018-03-01 Thu 12:16] =>  0:06
+    CLOCK: [2018-03-01 Thu 10:57]--[2018-03-01 Thu 11:01] =>  0:04
+    CLOCK: [2018-02-28 Wed 16:13]--[2018-02-28 Wed 16:14] =>  0:01
+    CLOCK: [2018-02-28 Wed 11:35]--[2018-02-28 Wed 11:54] =>  0:19
+    CLOCK: [2018-02-26 Mon 16:34]--[2018-02-26 Mon 16:35] =>  0:01
+    CLOCK: [2018-02-26 Mon 14:31]--[2018-02-26 Mon 15:04] =>  0:33
+    CLOCK: [2018-02-26 Mon 11:48]--[2018-02-26 Mon 12:42] =>  0:54
+    CLOCK: [2018-02-22 Thu 13:33]--[2018-02-22 Thu 14:30] =>  0:57
+    CLOCK: [2018-02-22 Thu 11:21]--[2018-02-22 Thu 11:29] =>  0:08
+    CLOCK: [2018-02-21 Wed 15:06]--[2018-02-21 Wed 15:15] =>  0:09
+    CLOCK: [2018-02-21 Wed 12:21]--[2018-02-21 Wed 12:44] =>  0:23
+    CLOCK: [2018-02-21 Wed 11:35]--[2018-02-21 Wed 11:56] =>  0:21
+    CLOCK: [2018-02-20 Tue 16:16]--[2018-02-20 Tue 16:40] =>  0:24
+    CLOCK: [2018-02-20 Tue 12:47]--[2018-02-20 Tue 12:55] =>  0:08
+    CLOCK: [2018-02-20 Tue 12:19]--[2018-02-20 Tue 12:34] =>  0:15
+    CLOCK: [2018-02-19 Mon 16:32]--[2018-02-19 Mon 16:41] =>  0:09
+    CLOCK: [2018-02-19 Mon 16:10]--[2018-02-19 Mon 16:16] =>  0:06
+    CLOCK: [2018-02-19 Mon 15:43]--[2018-02-19 Mon 15:46] =>  0:03
+    CLOCK: [2018-02-19 Mon 12:23]--[2018-02-19 Mon 12:37] =>  0:14
+    CLOCK: [2018-02-19 Mon 12:11]--[2018-02-19 Mon 12:17] =>  0:06
+    CLOCK: [2018-02-19 Mon 11:40]--[2018-02-19 Mon 12:01] =>  0:21
+    CLOCK: [2018-02-16 Fri 15:10]--[2018-02-16 Fri 15:35] =>  0:25
+    CLOCK: [2018-02-16 Fri 14:18]--[2018-02-16 Fri 14:37] =>  0:19
+    CLOCK: [2018-02-16 Fri 12:01]--[2018-02-16 Fri 12:15] =>  0:14
+    CLOCK: [2018-02-15 Thu 16:27]--[2018-02-15 Thu 16:36] =>  0:09
+    CLOCK: [2018-02-15 Thu 15:50]--[2018-02-15 Thu 16:05] =>  0:15
+    CLOCK: [2018-02-15 Thu 15:33]--[2018-02-15 Thu 15:34] =>  0:01
+    CLOCK: [2018-02-15 Thu 14:46]--[2018-02-15 Thu 15:11] =>  0:25
+    CLOCK: [2018-02-15 Thu 12:36]--[2018-02-15 Thu 12:38] =>  0:02
+    CLOCK: [2018-02-15 Thu 10:26]--[2018-02-15 Thu 10:33] =>  0:07
+    CLOCK: [2018-02-14 Wed 13:09]--[2018-02-14 Wed 13:31] =>  0:22
+    CLOCK: [2018-02-14 Wed 11:50]--[2018-02-14 Wed 12:03] =>  0:13
+    CLOCK: [2018-02-13 Tue 15:09]--[2018-02-13 Tue 15:31] =>  0:22
+    CLOCK: [2018-02-13 Tue 12:34]--[2018-02-13 Tue 13:03] =>  0:29
+    CLOCK: [2018-02-13 Tue 11:17]--[2018-02-13 Tue 12:09] =>  0:52
+    CLOCK: [2018-02-12 Mon 14:52]--[2018-02-12 Mon 14:55] =>  0:03
+    CLOCK: [2018-02-12 Mon 14:11]--[2018-02-12 Mon 14:25] =>  0:14
+    CLOCK: [2018-02-12 Mon 11:51]--[2018-02-12 Mon 12:22] =>  0:31
+    CLOCK: [2018-02-12 Mon 11:08]--[2018-02-12 Mon 11:11] =>  0:03
+    CLOCK: [2018-02-09 Fri 15:51]--[2018-02-09 Fri 16:26] =>  0:35
+    CLOCK: [2018-02-09 Fri 15:14]--[2018-02-09 Fri 15:26] =>  0:12
+    CLOCK: [2018-02-09 Fri 14:46]--[2018-02-09 Fri 14:48] =>  0:02
+    CLOCK: [2018-02-09 Fri 12:35]--[2018-02-09 Fri 12:57] =>  0:22
+    CLOCK: [2018-02-09 Fri 11:50]--[2018-02-09 Fri 12:06] =>  0:16
+    CLOCK: [2018-02-08 Thu 16:34]--[2018-02-08 Thu 16:58] =>  0:24
+    CLOCK: [2018-02-08 Thu 15:19]--[2018-02-08 Thu 15:41] =>  0:22
+    CLOCK: [2018-02-08 Thu 11:30]--[2018-02-08 Thu 11:42] =>  0:12
+    CLOCK: [2018-02-08 Thu 11:01]--[2018-02-08 Thu 11:11] =>  0:10
+    CLOCK: [2018-02-08 Thu 10:18]--[2018-02-08 Thu 10:26] =>  0:08
+    CLOCK: [2018-02-07 Wed 16:03]--[2018-02-07 Wed 16:34] =>  0:31
+    CLOCK: [2018-02-07 Wed 15:39]--[2018-02-07 Wed 15:41] =>  0:02
+    CLOCK: [2018-02-07 Wed 14:44]--[2018-02-07 Wed 14:50] =>  0:06
+    CLOCK: [2018-02-07 Wed 14:05]--[2018-02-07 Wed 14:29] =>  0:24
+    CLOCK: [2018-02-07 Wed 10:53]--[2018-02-07 Wed 11:10] =>  0:17
+    CLOCK: [2018-02-05 Mon 16:57]--[2018-02-05 Mon 17:19] =>  0:22
+    CLOCK: [2018-02-05 Mon 15:17]--[2018-02-05 Mon 15:37] =>  0:20
+    CLOCK: [2018-02-02 Fri 16:34]--[2018-02-02 Fri 16:40] =>  0:06
+    CLOCK: [2018-02-02 Fri 16:01]--[2018-02-02 Fri 16:03] =>  0:02
+    CLOCK: [2018-02-02 Fri 14:51]--[2018-02-02 Fri 15:13] =>  0:22
+    CLOCK: [2018-02-02 Fri 11:08]--[2018-02-02 Fri 11:39] =>  0:31
+    CLOCK: [2018-02-02 Fri 09:30]--[2018-02-02 Fri 09:37] =>  0:07
+    CLOCK: [2018-02-02 Fri 09:01]--[2018-02-02 Fri 09:15] =>  0:14
+
+*** Fix the build
+    CLOCK: [2018-02-15 Thu 11:08]--[2018-02-15 Thu 11:22] =>  0:14
+    CLOCK: [2018-02-02 Fri 09:15]--[2018-02-02 Fri 09:29] =>  0:14
+
+- remove line: //choose_teams();
+
+*** Searching for research material
+    CLOCK: [2018-02-28 Wed 11:54]--[2018-02-28 Wed 12:45] =>  0:51
+    CLOCK: [2018-02-28 Wed 09:46]--[2018-02-28 Wed 11:07] =>  1:21
+    CLOCK: [2018-02-20 Tue 09:10]--[2018-02-20 Tue 09:28] =>  0:18
+    CLOCK: [2018-02-09 Fri 09:02]--[2018-02-09 Fri 09:36] =>  0:34
+    CLOCK: [2018-02-06 Tue 11:23]--[2018-02-06 Tue 11:45] =>  0:22
+    CLOCK: [2018-02-05 Mon 09:50]--[2018-02-05 Mon 10:09] =>  0:19
+
+*** COMPLETED Learn about pointers
+    CLOSED: [2018-02-05 Mon 17:41]
+    CLOCK: [2018-02-05 Mon 13:20]--[2018-02-05 Mon 13:48] =>  0:28
+    CLOCK: [2018-02-05 Mon 11:21]--[2018-02-05 Mon 11:54] =>  0:33
+    CLOCK: [2018-02-05 Mon 10:46]--[2018-02-05 Mon 11:13] =>  0:27
+    CLOCK: [2018-02-05 Mon 09:12]--[2018-02-05 Mon 09:23] =>  0:11
+
+
+Pointer Notes:
+
+- "So how do we modify the value of a local variable of a function inside another function. Pointer is the solution to such problems."
+
+Watch Youtube videos about pointers:
+- Introduction to Pointers  https://www.youtube.com/watch?v=W0aE-w61Cb8
+- Pointers and Dynamic Memory https://www.youtube.com/watch?v=CSVRA4_xOkw
+
+Text tutorials for pointers:
+- https://gist.github.com/ericandrewlewis/720c374c29bbafadedc9
+- http://www.learncpp.com/cpp-tutorial/67-introduction-to-pointers/
+
+Use for examples:
+- http://www.hellgeeks.com/pointers-in-c/
+
+Quiz:
+- http://digital.cs.usu.edu/~bugs/quizzes/pointers.html
+- https://www.cprogramming.com/tutorial/quiz/quiz6.html
+- https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/
+
+*** COMPLETED Attempt to use pointers
+    CLOSED: [2018-02-05 Mon 17:41]
+    CLOCK: [2018-02-05 Mon 16:50]--[2018-02-05 Mon 16:57] =>  0:07
+    CLOCK: [2018-02-05 Mon 15:51]--[2018-02-05 Mon 16:35] =>  0:44
+    CLOCK: [2018-02-05 Mon 14:59]--[2018-02-05 Mon 15:17] =>  0:18
+    CLOCK: [2018-02-05 Mon 13:52]--[2018-02-05 Mon 14:31] =>  0:39
+
+- Has employees (2 for now)
+- Different postions in company with different pay rates
+- Input how many hours person worked
+- Use pointers to point to the different wages
+- After pointing to hr/rate, sum with hours worked
+- Output name and paycheck
+- Attempt to include more employees in goes well
+- Try (hard) to use vectors to list employees
+
+*** COMPLETED Attempt to use pointers solo
+    CLOSED: [2018-02-06 Tue 11:48]
+    CLOCK: [2018-02-06 Tue 10:43]--[2018-02-06 Tue 11:03] =>  0:20
+
+- Test yourself
+- Create something similar to yesterday
+- use little to no help from the internet
+
+*** STARTED Learn more about data structures
+    CLOCK: [2018-02-06 Tue 14:32]--[2018-02-06 Tue 15:01] =>  0:29
+    CLOCK: [2018-02-06 Tue 13:31]--[2018-02-06 Tue 14:19] =>  0:48
+    CLOCK: [2018-02-06 Tue 11:53]--[2018-02-06 Tue 12:19] =>  0:26
+
+Youtube videos:
+- Crash Course Computer Science: https://www.youtube.com/watch?v=DuDz6B4cqVc
+- Data Structures, Heaps: https://www.youtube.com/watch?v=t0Cq6tVNRBA
+- Data Structures, Tries: https://www.youtube.com/watch?v=zIjfhVPRZCg
+
+Text sites:
+- http://www.cplusplus.com/doc/tutorial/structures/
+- List of all Data Structures & more: https://www.geeksforgeeks.org/data-structures/
+
+Quiz:
+- http://careerride.com/test.aspx?type=Data-structure
+- Multiple quizzes: https://www.geeksforgeeks.org/data-structure-gq/
+
+*** COMPLETED Watch Youtube tutorials
+    CLOCK: [2018-02-09 Fri 09:36]--[2018-02-09 Fri 09:53] =>  0:17
+    CLOCK: [2018-02-08 Thu 14:22]--[2018-02-08 Thu 14:40] =>  0:18
+    CLOCK: [2018-02-06 Tue 16:34]--[2018-02-06 Tue 16:54] =>  0:20
+    CLOCK: [2018-02-06 Tue 15:32]--[2018-02-06 Tue 16:28] =>  0:56
+
+Links:
+- Create/Instantiate Objects:  https://www.youtube.com/watch?v=Ks97R1knQDY
+- Stack vs Heap: https://www.youtube.com/watch?v=wJ1L2nSIV1s&t=967s
+- The NEW Keyword: https://www.youtube.com/watch?v=NUZdUSqsCs4
+
+- Classes: https://www.youtube.com/watch?v=2BP8NhxjrO0
+- Class vs Structs: https://www.youtube.com/watch?v=fLgTtaqqJp0
+
+- Constructors in classes: https://www.youtube.com/watch?v=CT2k4KbAQpo
+
+- Read, Write Methods: https://www.youtube.com/watch?v=P7XGOBoVzW4&app=desktop
+
+*** COMPLETED Write pointer and array
+    CLOSED: [2018-02-07 Wed 11:36]
+    CLOCK: [2018-02-07 Wed 10:12]--[2018-02-07 Wed 10:51] =>  0:39
+- Link: http://www.worldbestlearningcenter.com/index_files/cpp-pointers-exercises.htm
+*** Review yesterdays work
+    CLOCK: [2018-02-07 Wed 09:05]--[2018-02-07 Wed 09:43] =>  0:38
+
+*** STARTED Attempt to use pointer, array and classes
+    CLOCK: [2018-02-08 Thu 16:28]--[2018-02-08 Thu 16:34] =>  0:06
+    CLOCK: [2018-02-08 Thu 15:41]--[2018-02-08 Thu 16:07] =>  0:26
+    CLOCK: [2018-02-08 Thu 14:40]--[2018-02-08 Thu 15:19] =>  0:39
+    CLOCK: [2018-02-08 Thu 13:22]--[2018-02-08 Thu 14:20] =>  0:58
+    CLOCK: [2018-02-08 Thu 11:42]--[2018-02-08 Thu 11:58] =>  0:16
+    CLOCK: [2018-02-08 Thu 11:18]--[2018-02-08 Thu 11:30] =>  0:12
+    CLOCK: [2018-02-08 Thu 10:26]--[2018-02-08 Thu 10:52] =>  0:26
+    CLOCK: [2018-02-08 Thu 09:48]--[2018-02-08 Thu 10:18] =>  0:30
+    CLOCK: [2018-02-08 Thu 09:04]--[2018-02-08 Thu 09:38] =>  0:34
+    CLOCK: [2018-02-07 Wed 16:34]--[2018-02-07 Wed 16:52] =>  0:18
+    CLOCK: [2018-02-07 Wed 15:41]--[2018-02-07 Wed 16:03] =>  0:22
+    CLOCK: [2018-02-07 Wed 14:50]--[2018-02-07 Wed 15:27] =>  0:37
+    CLOCK: [2018-02-07 Wed 14:29]--[2018-02-07 Wed 14:44] =>  0:15
+    CLOCK: [2018-02-07 Wed 13:32]--[2018-02-07 Wed 14:05] =>  0:33
+    CLOCK: [2018-02-07 Wed 11:53]--[2018-02-07 Wed 12:04] =>  0:11
+
+- Task is similar to "Attempt to use pointers"
+
+- Create class with vars:
+- string, Role
+- string, Name
+- int, Hours
+- double, Rate
+- double, Weeks Wage
+- int array, overtime
+
+- overtime can be an array of 5, one for each day
+- Define an employee
+- User input all vars of class
+
+- output:
+- Name: xx Role: xx
+- Hours: xx Overtime: xx
+- Weeks Wage: xx
+
+- The Rate will depend on Role
+
+*** Attempt to read and write in Employee
+    CLOCK: [2018-02-09 Fri 12:06]--[2018-02-09 Fri 12:34] =>  0:28
+    CLOCK: [2018-02-09 Fri 10:25]--[2018-02-09 Fri 11:01] =>  0:36
+
+- Write what was originally in the print
+- Read what was written to file
+- create option to read
+
+*** STARTED Get Team Menu working
+    CLOCK: [2018-02-13 Tue 12:09]--[2018-02-13 Tue 12:30] =>  0:21
+    CLOCK: [2018-02-13 Tue 10:10]--[2018-02-13 Tue 10:59] =>  0:49
+    CLOCK: [2018-02-13 Tue 10:05]--[2018-02-13 Tue 10:14] =>  0:09
+    CLOCK: [2018-02-13 Tue 09:02]--[2018-02-13 Tue 09:43] =>  0:41
+    CLOCK: [2018-02-12 Mon 14:25]--[2018-02-12 Mon 14:52] =>  0:27
+    CLOCK: [2018-02-12 Mon 12:22]--[2018-02-12 Mon 13:36] =>  1:14
+    CLOCK: [2018-02-12 Mon 11:11]--[2018-02-12 Mon 11:51] =>  0:40
+    CLOCK: [2018-02-12 Mon 10:39]--[2018-02-12 Mon 11:08] =>  0:29
+    CLOCK: [2018-02-12 Mon 10:12]--[2018-02-12 Mon 10:39] =>  0:27
+    CLOCK: [2018-02-12 Mon 09:46]--[2018-02-12 Mon 09:59] =>  0:13
+    CLOCK: [2018-02-12 Mon 09:01]--[2018-02-12 Mon 09:45] =>  0:44
+
+- Move Vector for teams from .cpp to class in .hpp
+- Attempt to give teams a rating out of 5
+  - rating should be placed in class
+- Get more teams in database
+- Add choose_teams(); to main
+
+*** Evaluate and learn from MC's work
+    CLOCK: [2018-02-14 Wed 10:12]--[2018-02-14 Wed 10:27] =>  0:15
+    CLOCK: [2018-02-13 Tue 14:41]--[2018-02-13 Tue 15:09] =>  0:28
+    CLOCK: [2018-02-13 Tue 14:13]--[2018-02-13 Tue 14:33] =>  0:20
+
+*** COMPLETED Fix the build
+    CLOSED: [2018-02-14 Wed 10:10]
+    CLOCK: [2018-02-14 Wed 13:31]--[2018-02-14 Wed 13:52] =>  0:21
+    CLOCK: [2018-02-14 Wed 10:01]--[2018-02-14 Wed 10:10] =>  0:09
+
+*** Use MC's work to strengthen mine
+    CLOCK: [2018-02-15 Thu 11:22]--[2018-02-15 Thu 11:55] =>  0:33
+    CLOCK: [2018-02-15 Thu 10:34]--[2018-02-15 Thu 11:08] =>  0:34
+    CLOCK: [2018-02-15 Thu 09:04]--[2018-02-15 Thu 10:26] =>  1:22
+    CLOCK: [2018-02-14 Wed 12:03]--[2018-02-14 Wed 12:27] =>  0:24
+    CLOCK: [2018-02-14 Wed 11:12]--[2018-02-14 Wed 11:50] =>  0:38
+    CLOCK: [2018-02-14 Wed 10:40]--[2018-02-14 Wed 11:00] =>  0:20
+    CLOCK: [2018-02-14 Wed 10:27]--[2018-02-14 Wed 10:31] =>  0:04
+    CLOCK: [2018-02-13 Tue 17:26]--[2018-02-13 Tue 17:52] =>  0:26
+    CLOCK: [2018-02-13 Tue 16:51]--[2018-02-13 Tue 17:26] =>  0:35
+    CLOCK: [2018-02-13 Tue 16:13]--[2018-02-13 Tue 16:45] =>  0:32
+    CLOCK: [2018-02-13 Tue 15:31]--[2018-02-13 Tue 16:13] =>  0:42
+
+- Compare mine and MC
+- break down MC's work
+- not anything that looks unfamiliar
+- repeat until comfortable
+- when comfortable
+  - take pieces of MC's work
+  - combine it with mine
+
+- Create new cpp/hpp file for teams
+- Use MC's work to create new team menus from scratch
+- Create Data model
+- Add read and write
+---------------------
+- Breakdown
+
+- In team.hpp
+- Create team class
+  - Public:
+  - team (name, rating)
+  - name()
+  - read and write
+  - Private:
+  - name_
+
+- Create data file
+- Write team name / rating in data file
+
+- In team.cpp
+- Connect to team.hpp
+- Read team name / rating
+- Set variables in class to whats read in data file
+- Output team name / rating
+
+- When working
+- Add Players to data file
+- Add players to class
+- read players from data file
+- use for loop to cycle through players in file
+- Output players
+*** Print complete list of teams
+    CLOCK: [2018-02-15 Thu 16:36]--[2018-02-15 Thu 17:24] =>  0:48
+    CLOCK: [2018-02-15 Thu 16:05]--[2018-02-15 Thu 16:27] =>  0:22
+    CLOCK: [2018-02-15 Thu 15:34]--[2018-02-15 Thu 15:50] =>  0:16
+    CLOCK: [2018-02-15 Thu 15:11]--[2018-02-15 Thu 15:33] =>  0:22
+    CLOCK: [2018-02-15 Thu 12:38]--[2018-02-15 Thu 13:10] =>  0:32
+    CLOCK: [2018-02-15 Thu 12:23]--[2018-02-15 Thu 12:36] =>  0:13
+
+- Write a list of teams in fgd.data
+- Use for loop to number each team and print one at a time
+- Attempt to allow play to select team from data file
+*** Print players in team
+    CLOCK: [2018-02-16 Fri 15:35]--[2018-02-16 Fri 16:43] =>  1:08
+    CLOCK: [2018-02-16 Fri 14:37]--[2018-02-16 Fri 15:10] =>  0:33
+    CLOCK: [2018-02-16 Fri 13:58]--[2018-02-16 Fri 14:18] =>  0:20
+    CLOCK: [2018-02-16 Fri 13:02]--[2018-02-16 Fri 13:41] =>  0:39
+    CLOCK: [2018-02-16 Fri 11:47]--[2018-02-16 Fri 12:01] =>  0:14
+    CLOCK: [2018-02-16 Fri 11:00]--[2018-02-16 Fri 11:20] =>  0:20
+
+- Once user chooses team
+- Output players in team
+
+- Players read from specific team data files
+- Use pointer
+  - Point to selected team
+  - Depending on team
+    - Choose which file to open
+- Read Players
+*** Review Fridays work
+    CLOCK: [2018-03-05 Mon 09:04]--[2018-03-05 Mon 09:46] =>  0:42
+    CLOCK: [2018-02-26 Mon 09:03]--[2018-02-26 Mon 09:32] =>  0:29
+    CLOCK: [2018-02-19 Mon 09:55]--[2018-02-19 Mon 10:39] =>  0:44
+
+*** Change if statements for carry selection
+    CLOCK: [2018-02-19 Mon 11:33]--[2018-02-19 Mon 11:40] =>  0:07
+    CLOCK: [2018-02-19 Mon 10:39]--[2018-02-19 Mon 11:09] =>  0:30
+
+*** Add data files for each team
+    CLOCK: [2018-02-19 Mon 16:16]--[2018-02-19 Mon 16:32] =>  0:16
+    CLOCK: [2018-02-19 Mon 15:46]--[2018-02-19 Mon 16:10] =>  0:24
+    CLOCK: [2018-02-19 Mon 14:30]--[2018-02-19 Mon 15:43] =>  1:13
+    CLOCK: [2018-02-19 Mon 12:37]--[2018-02-19 Mon 13:17] =>  0:40
+
+- Use the manu.data as a template
+- Create .data file for each of the teams
+- Write the player into the files
+- Read from specific data file depending of selected team
+*** Watch YT videos on reading/writing
+    CLOCK: [2018-02-20 Tue 10:39]--[2018-02-20 Tue 11:07] =>  0:28
+    CLOCK: [2018-02-20 Tue 09:28]--[2018-02-20 Tue 10:15] =>  0:47
+    CLOCK: [2018-02-19 Mon 16:41]--[2018-02-19 Mon 17:24] =>  0:43
+
+- Reading Custom File Structures: https://www.youtube.com/watch?v=EjJY7yA5SWw
+- Writing Custom File Structures: https://www.youtube.com/watch?v=iGWhPwh3n-o
+- Reading and Writing to Files: https://www.youtube.com/watch?v=Iho2EdJgusQ
+- Working with files: https://www.youtube.com/watch?v=HcONWqVyvlg
+- Reading Rows and Columns from datafile Matrix: https://www.youtube.com/watch?v=4nz6rPzVm70&feature=youtu.be
+- File Reading, Data Parsing, Classes, etc: https://www.youtube.com/watch?v=NIoEVxe-rpk
+*** Practice: create organised list file
+    CLOCK: [2018-02-20 Tue 14:35]--[2018-02-20 Tue 14:52] =>  0:17
+    CLOCK: [2018-02-20 Tue 12:34]--[2018-02-20 Tue 12:47] =>  0:13
+    CLOCK: [2018-02-20 Tue 11:50]--[2018-02-20 Tue 12:19] =>  0:29
+    CLOCK: [2018-02-20 Tue 11:24]--[2018-02-20 Tue 11:47] =>  0:23
+    CLOCK: [2018-02-20 Tue 11:07]--[2018-02-20 Tue 11:19] =>  0:12
+
+- Write list of items in empty file
+- Read file
+- Assign a int to each line in file
+- Rewrite file in order of the items int's
+- Read file
+- If i can manage that
+  - read items in form of a table
+*** Attempt to create table using team data files
+    CLOCK: [2018-02-21 Wed 12:44]--[2018-02-21 Wed 13:29] =>  0:45
+    CLOCK: [2018-02-21 Wed 11:56]--[2018-02-21 Wed 12:20] =>  0:24
+    CLOCK: [2018-02-21 Wed 11:09]--[2018-02-21 Wed 11:35] =>  0:26
+    CLOCK: [2018-02-21 Wed 10:18]--[2018-02-21 Wed 11:02] =>  0:44
+    CLOCK: [2018-02-21 Wed 09:36]--[2018-02-21 Wed 10:17] =>  0:41
+    CLOCK: [2018-02-21 Wed 09:03]--[2018-02-21 Wed 09:36] =>  0:33
+    CLOCK: [2018-02-20 Tue 16:40]--[2018-02-20 Tue 17:29] =>  0:49
+    CLOCK: [2018-02-20 Tue 14:52]--[2018-02-20 Tue 16:16] =>  1:24
+
+*** Review MC's sample game
+    CLOCK: [2018-02-21 Wed 14:50]--[2018-02-21 Wed 15:04] =>  0:14
+    CLOCK: [2018-02-21 Wed 14:21]--[2018-02-21 Wed 14:49] =>  0:28
+
+*** Watch YT videos on Object Oriented Programming
+    CLOCK: [2018-02-22 Thu 09:01]--[2018-02-22 Thu 10:02] =>  1:01
+    CLOCK: [2018-02-21 Wed 15:16]--[2018-02-21 Wed 16:52] =>  1:36
+
+- Object-Oriented Programming:https://www.youtube.com/watch?v=lbXsrHGhBAU
+- What is Object-Oriented Programming (OOP)?: https://www.youtube.com/watch?v=YcbcfkLzgvs
+- Classes and Object-Oriented Programming (1/2): https://www.youtube.com/watch?v=vz1O9nRyZaY
+- Classes and Object-Oriented Programming (2/2): https://www.youtube.com/watch?v=b9wialxvcVA
+- MicroNugget: What is OOP?: https://www.youtube.com/watch?v=5VkrdKzKGlA
+- Pong & Object Oriented Programming: https://www.youtube.com/watch?v=KyTUN6_Z9TM
+- How to practice the OOP way of thinking: https://www.youtube.com/watch?v=R1jabnZ6f30
+*** Read Object-Oriented Programming (OOP)
+    CLOCK: [2018-02-22 Thu 11:29]--[2018-02-22 Thu 12:16] =>  0:47
+    CLOCK: [2018-02-22 Thu 11:04]--[2018-02-22 Thu 11:21] =>  0:17
+    CLOCK: [2018-02-22 Thu 10:33]--[2018-02-22 Thu 10:57] =>  0:24
+    CLOCK: [2018-02-22 Thu 10:02]--[2018-02-22 Thu 10:29] =>  0:27
+
+- http://www.cplusplus.com/reference/string/string/find/
+- http://www.cplusplus.com/articles/NhA0RXSz/
+- https://www.ntu.edu.sg/home/ehchua/programming/cpp/cp3_OOP.html
+
+*** Create Diagram for football game
+    CLOCK: [2018-02-22 Thu 15:20]--[2018-02-22 Thu 15:38] =>  0:18
+    CLOCK: [2018-02-22 Thu 14:49]--[2018-02-22 Thu 15:20] =>  0:31
+    CLOCK: [2018-02-22 Thu 14:30]--[2018-02-22 Thu 14:45] =>  0:15
+
+*** Edit fgd.data
+    CLOCK: [2018-02-22 Thu 16:01]--[2018-02-22 Thu 16:45] =>  0:44
+
+*** Fix football game diagram
+    CLOCK: [2018-02-26 Mon 10:12]--[2018-02-26 Mon 10:49] =>  0:37
+
+- Change arrows to aggregation arrows
+
+*** Setup classes based on diagram
+    CLOCK: [2018-02-26 Mon 11:02]--[2018-02-26 Mon 11:47] =>  0:45
+
+- Add variable to corresponding classes
+*** Use variables stored on data file
+    CLOCK: [2018-02-26 Mon 16:22]--[2018-02-26 Mon 16:34] =>  0:12
+    CLOCK: [2018-02-26 Mon 15:40]--[2018-02-26 Mon 16:15] =>  0:35
+
+*** Watch How to CREATE/INSTANTIATE OBJECTS in C++
+    CLOCK: [2018-02-26 Mon 16:47]--[2018-02-26 Mon 17:01] =>  0:14
+
+*** Watch Inheritance and Class Hierarchies
+    CLOCK: [2018-02-28 Wed 09:15]--[2018-02-28 Wed 09:46] =>  0:31
+
+*** Watch Object Lifetime in C++
+    CLOCK: [2018-02-28 Wed 11:07]--[2018-02-28 Wed 11:20] =>  0:13
+
+*** Read Object Oriented Memory Management
+    CLOCK: [2018-02-28 Wed 11:20]--[2018-02-28 Wed 11:35] =>  0:15
+
+*** Find Information on creating objects
+    CLOCK: [2018-02-28 Wed 16:16]--[2018-02-28 Wed 16:51] =>  0:35
+    CLOCK: [2018-02-28 Wed 15:34]--[2018-02-28 Wed 16:02] =>  0:28
+    CLOCK: [2018-02-28 Wed 14:49]--[2018-02-28 Wed 15:14] =>  0:25
+    CLOCK: [2018-02-28 Wed 13:53]--[2018-02-28 Wed 14:27] =>  0:34
+
+*** Attempt to create table using only epl.data
+    CLOCK: [2018-03-01 Thu 15:29]--[2018-03-01 Thu 16:10] =>  0:41
+    CLOCK: [2018-03-01 Thu 14:53]--[2018-03-01 Thu 15:16] =>  0:23
+    CLOCK: [2018-03-01 Thu 12:20]--[2018-03-01 Thu 13:06] =>  0:46
+    CLOCK: [2018-03-01 Thu 11:32]--[2018-03-01 Thu 12:10] =>  0:38
+    CLOCK: [2018-03-01 Thu 11:11]--[2018-03-01 Thu 11:30] =>  0:19
+
+*** Add new team to epl.data to test table
+    CLOCK: [2018-03-01 Thu 16:26]--[2018-03-01 Thu 16:42] =>  0:16
+
+*** Attempt to get W / L / D working in table
+    CLOCK: [2018-03-05 Mon 16:13]--[2018-03-05 Mon 16:54] =>  0:41
+    CLOCK: [2018-03-05 Mon 15:29]--[2018-03-05 Mon 16:06] =>  0:37
+    CLOCK: [2018-03-05 Mon 14:30]--[2018-03-05 Mon 14:39] =>  0:09
+    CLOCK: [2018-03-05 Mon 12:43]--[2018-03-05 Mon 13:22] =>  0:39
+    CLOCK: [2018-03-05 Mon 11:29]--[2018-03-05 Mon 11:48] =>  0:19
+    CLOCK: [2018-03-05 Mon 11:14]--[2018-03-05 Mon 11:24] =>  0:10
+    CLOCK: [2018-03-05 Mon 09:46]--[2018-03-05 Mon 10:26] =>  0:40
+    CLOCK: [2018-03-02 Fri 16:31]--[2018-03-02 Fri 16:46] =>  0:15
+    CLOCK: [2018-03-02 Fri 15:19]--[2018-03-02 Fri 16:02] =>  0:43
+    CLOCK: [2018-03-02 Fri 14:29]--[2018-03-02 Fri 15:03] =>  0:34
+    CLOCK: [2018-03-02 Fri 13:04]--[2018-03-02 Fri 13:25] =>  0:21
+    CLOCK: [2018-03-02 Fri 12:19]--[2018-03-02 Fri 12:57] =>  0:38
+    CLOCK: [2018-03-02 Fri 09:06]--[2018-03-02 Fri 10:13] =>  1:07
+
+- Add corresponding ints in team class
+- Write values in epl.data
+- Copy same method for printing team name
+- Attempt only wins first
+- Add losses and draws to table
+- Add points to table using wins and draws to calculate
+
+*** Research reading and storing ints from data file
+    CLOCK: [2018-03-02 Fri 16:02]--[2018-03-02 Fri 16:27] =>  0:25
+    CLOCK: [2018-03-02 Fri 11:43]--[2018-03-02 Fri 12:15] =>  0:32
+    CLOCK: [2018-03-02 Fri 10:55]--[2018-03-02 Fri 11:24] =>  0:29
+    CLOCK: [2018-03-02 Fri 10:21]--[2018-03-02 Fri 10:47] =>  0:26
+
+- http://www.cplusplus.com/forum/beginner/70136/
+- https://stackoverflow.com/questions/14516915/read-numeric-data-from-a-text-file-in-c
+- https://stackoverflow.com/questions/4827301/how-to-read-integer-value-from-file-in-c
+- Reading a text file that has integers using c++:https://www.youtube.com/watch?v=LOTz1b0MP_Y
+
+** Deprecated

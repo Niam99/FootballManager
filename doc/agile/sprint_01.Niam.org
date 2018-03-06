@@ -1,0 +1,27 @@
+#+title: Sprint Backlog 01 for Niam
+#+options: date:nil toc:nil author:nil num:nil
+#+todo: STARTED | COMPLETED CANCELLED POSTPONED
+#+tags: { story(s) epic(e) }
+
+* Mission Statement
+
+- create football manager program
+
+* Stories
+
+** Active
+
+#+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
+#+CAPTION: Clock summary at [2018-03-06 Tue 09:23]
+| <75>                                                                        |        |   |   |     |
+| Headline                                                                    | Time   |   |   |   % |
+|-----------------------------------------------------------------------------+--------+---+---+-----|
+| *Total time*                                                                | *0:00* |   |   | 0.0 |
+#+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
+#+end:
+
+*** STARTED Sprint and product backlog grooming                       :story:
+
+Updates to sprint and product backlog
+
+** Deprecated
