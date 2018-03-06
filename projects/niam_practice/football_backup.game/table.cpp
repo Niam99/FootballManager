@@ -17,107 +17,22 @@ league read_league_for_table() {
 
 void table::grabTeamName(){
 
-
-    // std::string lastFile;
-
-    // if (fileNum == 1){
-    //     std::string file_name("../../../data/afcb.data");
-    //     std::ifstream input_stream(file_name.c_str());
-
-    //     for(int i = 0; i < 11; ++i){
-    //         std::getline(input_stream, name_);
-    //     }
-
-    //     input_stream >> name_;
+    // league l = read_league_for_table();
+    // int place = 1;
+    // std::cout << "\n\n  | W | L | D | English Premier League" << std::endl;
+    // for (team t : l.teams()) {
+    //     std::cout << place << " | "
+    //               << t.number_of_wins << " | "
+    //               << t.number_of_losses << " | "
+    //               << t.number_of_draws << " | "
+    //               << t.name() << ".....["
+    //               << (t.number_of_wins * 3) + t.number_of_draws  << "]"
+    //               << std::endl;
+    //     place++;
     // }
-
-    // if (fileNum == 2){
-    //     std::string file_name("../../../data/ars.data");
-    //     std::ifstream input_stream(file_name.c_str());
-
-    //     for(int i = 0; i < 11; ++i){
-    //         std::getline(input_stream, name_);
-    //     }
-
-    //     lastFile = "../../../data/afcb.data";
-
-    //     input_stream >> name_;
-
-    // }
-
-    // if (fileNum == 3){
-    //     std::string file_name("../../../data/bhalbion.data");
-    //     std::ifstream input_stream(file_name.c_str());
-
-    //     for(int i = 0; i < 11; ++i){
-    //         std::getline(input_stream, name_);
-    //     }
-
-    //     input_stream >> name_;
-
-    // }
-
-    league l = read_league_for_table();
-    int place = 1;
-    std::cout << "\n\n  | W | L | D | English Premier League" << std::endl;
-    for (team t : l.teams()) {
-        std::cout << place << " | "
-                  << t.number_of_wins << " | "
-                  << t.number_of_losses << " | "
-                  << t.number_of_draws << " | "
-                  << t.name() << ".....["
-                  << (t.number_of_wins * 3) + t.number_of_draws  << "]"
-                  << std::endl;
-        place++;
-    }
-
-    //grabTeamScore();
 }
 
 void table::grabTeamScore(){
 
-    // std::string testString = "../../../data/afcb.data";
-
-    // if (fileNum == 1){
-    //     std::string file_name(testString);
-    //     std::ifstream input_stream(file_name.c_str());
-
-    //     for(int i = 0; i < 13; ++i){
-    //         std::getline(input_stream, points_);
-    //     }
-
-    //     input_stream >> points_;
-    // }
-
-    // if (fileNum == 2){
-    //     std::string file_name("../../../data/ars.data");
-    //     std::ifstream input_stream(file_name.c_str());
-
-    //     for(int i = 0; i < 13; ++i){
-    //         std::getline(input_stream, points_);
-    //     }
-
-    //     input_stream >> points_;
-    // }
-
-    // if (fileNum == 3){
-    //     std::string file_name("../../../data/bhalbion.data");
-    //     std::ifstream input_stream(file_name.c_str());
-
-    //     for(int i = 0; i < 13; ++i){
-    //         std::getline(input_stream, points_);
-    //     }
-
-    //     input_stream >> points_;
-    // }
-
-    // std::cout << fileNum <<" | " << name_ << ".......[" << points_ << "]"
-    //           << std::endl;
-
-    // fileNum += 1;
-
-    // if (fileNum < 4){
-    //     grabTeamName();
-    // }
-
+  
 }
