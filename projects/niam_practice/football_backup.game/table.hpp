@@ -5,12 +5,12 @@
 #include <istream>
 
 class table {
-public:
 
+public:
     void grabTeamName();
     void grabTeamScore();
 
-    std::string points_;
+public:
     std::string name_;
     int position = 20;
     int fileNum = 1;
