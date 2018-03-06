@@ -14,22 +14,24 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-06 Tue 15:00]
+#+CAPTION: Clock summary at [2018-03-06 Tue 15:59]
 | <75>                                                                        |        |      |      |       |
 | Headline                                                                    | Time   |      |      |     % |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *0:37* |      |      | 100.0 |
+| *Total time*                                                                | *1:12* |      |      | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 0:37   |      |      | 100.0 |
-| Active                                                                      |        | 0:37 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |        |      | 0:03 |   8.1 |
-| COMPLETED Change variables from team to table                               |        |      | 0:21 |  56.8 |
-| COMPLETED Remove commented code in team.cpp/hpp                             |        |      | 0:13 |  35.1 |
+| Stories                                                                     | 1:12   |      |      | 100.0 |
+| Active                                                                      |        | 1:12 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |        |      | 0:07 |   9.7 |
+| COMPLETED Change variables from team to table                               |        |      | 0:21 |  29.2 |
+| COMPLETED Remove commented code in team.cpp/hpp                             |        |      | 0:13 |  18.1 |
+| COMPLETED Add new teams and players to epl.data                             |        |      | 0:31 |  43.1 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-03-06 Tue 15:54]--[2018-03-06 Tue 15:58] =>  0:04
     CLOCK: [2018-03-06 Tue 14:57]--[2018-03-06 Tue 15:00] =>  0:03
 
 Updates to sprint and product backlog.
@@ -46,7 +48,10 @@ Updates to sprint and product backlog.
     CLOSED: [2018-03-06 Tue 14:57]
     CLOCK: [2018-03-06 Tue 14:43]--[2018-03-06 Tue 14:56] =>  0:13
 
-*** STARTED Add new teams and players to epl.data
+*** COMPLETED Add new teams and players to epl.data
+    CLOSED: [2018-03-06 Tue 15:55]
+    CLOCK: [2018-03-06 Tue 15:35]--[2018-03-06 Tue 15:54] =>  0:19
+    CLOCK: [2018-03-06 Tue 15:15]--[2018-03-06 Tue 15:27] =>  0:12
 
 - Link: https://www.premierleague.com/players
 
