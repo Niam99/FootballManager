@@ -14,7 +14,7 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-05 Mon 18:31]
+#+CAPTION: Clock summary at [2018-03-06 Tue 09:27]
 | <75>                                                                        |          |        |       |       |
 | Headline                                                                    | Time     |        |       |     % |
 |-----------------------------------------------------------------------------+----------+--------+-------+-------|
@@ -31,51 +31,51 @@ Stories you are working on this sprint.
 | COMPLETED Review and study MC's work                                        |          |        |  1:12 |   0.9 |
 | CANCELLED Try an make changes using MC's work                               |          |        |  0:20 |   0.2 |
 | COMPLETED Read about vectors to help add teams                              |          |        |  0:51 |   0.6 |
-| STARTED Use Menu Classes for Teams menu                                     |          |        |  5:14 |   3.9 |
-| Magit and attempting to fix first conflict                                  |          |        |  0:27 |   0.3 |
-| Practice Classes                                                            |          |        |  5:36 |   4.1 |
+| COMPLETED Use Menu Classes for Teams menu                                   |          |        |  5:14 |   3.9 |
+| COMPLETED Magit and attempting to fix first conflict                        |          |        |  0:27 |   0.3 |
+| COMPLETED Practice Classes                                                  |          |        |  5:36 |   4.1 |
 | COMPLETED Having trouble with Magit                                         |          |        |  3:15 |   2.4 |
-| Discussing the task at hand                                                 |          |        | 18:55 |  14.0 |
-| Fix the build                                                               |          |        |  0:28 |   0.3 |
-| Searching for research material                                             |          |        |  3:45 |   2.8 |
+| COMPLETED Discussing the task at hand                                       |          |        | 18:55 |  14.0 |
+| COMPLETED Fix the build                                                     |          |        |  0:28 |   0.3 |
+| COMPLETED Searching for research material                                   |          |        |  3:45 |   2.8 |
 | COMPLETED Learn about pointers                                              |          |        |  1:39 |   1.2 |
 | COMPLETED Attempt to use pointers                                           |          |        |  1:48 |   1.3 |
 | COMPLETED Attempt to use pointers solo                                      |          |        |  0:20 |   0.2 |
-| STARTED Learn more about data structures                                    |          |        |  1:43 |   1.3 |
+| COMPLETED Learn more about data structures                                  |          |        |  1:43 |   1.3 |
 | COMPLETED Watch Youtube tutorials                                           |          |        |  1:51 |   1.4 |
 | COMPLETED Write pointer and array                                           |          |        |  0:39 |   0.5 |
-| Review yesterdays work                                                      |          |        |  0:38 |   0.5 |
-| STARTED Attempt to use pointer, array and classes                           |          |        |  6:23 |   4.7 |
-| Attempt to read and write in Employee                                       |          |        |  1:04 |   0.8 |
-| STARTED Get Team Menu working                                               |          |        |  6:14 |   4.6 |
-| Evaluate and learn from MC's work                                           |          |        |  1:03 |   0.8 |
+| COMPLETED Review yesterdays work                                            |          |        |  0:38 |   0.5 |
+| COMPLETED Attempt to use pointer, array and classes                         |          |        |  6:23 |   4.7 |
+| COMPLETED Attempt to read and write in Employee                             |          |        |  1:04 |   0.8 |
+| COMPLETED Get Team Menu working                                             |          |        |  6:14 |   4.6 |
+| COMPLETED Evaluate and learn from MC's work                                 |          |        |  1:03 |   0.8 |
 | COMPLETED Fix the build                                                     |          |        |  0:30 |   0.4 |
-| Use MC's work to strengthen mine                                            |          |        |  6:10 |   4.6 |
-| Print complete list of teams                                                |          |        |  2:33 |   1.9 |
-| Print players in team                                                       |          |        |  3:14 |   2.4 |
-| Review Fridays work                                                         |          |        |  1:55 |   1.4 |
-| Change if statements for carry selection                                    |          |        |  0:37 |   0.5 |
-| Add data files for each team                                                |          |        |  2:33 |   1.9 |
-| Watch YT videos on reading/writing                                          |          |        |  1:58 |   1.5 |
-| Practice: create organised list file                                        |          |        |  1:34 |   1.2 |
-| Attempt to create table using team data files                               |          |        |  5:46 |   4.3 |
-| Review MC's sample game                                                     |          |        |  0:42 |   0.5 |
-| Watch YT videos on Object Oriented Programming                              |          |        |  2:37 |   1.9 |
-| Read Object-Oriented Programming (OOP)                                      |          |        |  1:55 |   1.4 |
-| Create Diagram for football game                                            |          |        |  1:04 |   0.8 |
-| Edit fgd.data                                                               |          |        |  0:44 |   0.5 |
-| Fix football game diagram                                                   |          |        |  0:37 |   0.5 |
-| Setup classes based on diagram                                              |          |        |  0:45 |   0.6 |
-| Use variables stored on data file                                           |          |        |  0:47 |   0.6 |
-| Watch How to CREATE/INSTANTIATE OBJECTS in C++                              |          |        |  0:14 |   0.2 |
-| Watch Inheritance and Class Hierarchies                                     |          |        |  0:31 |   0.4 |
-| Watch Object Lifetime in C++                                                |          |        |  0:13 |   0.2 |
-| Read Object Oriented Memory Management                                      |          |        |  0:15 |   0.2 |
-| Find Information on creating objects                                        |          |        |  2:02 |   1.5 |
-| Attempt to create table using only epl.data                                 |          |        |  2:47 |   2.1 |
-| Add new team to epl.data to test table                                      |          |        |  0:16 |   0.2 |
-| Attempt to get W / L / D working in table                                   |          |        |  6:53 |   5.1 |
-| Research reading and storing ints from data file                            |          |        |  1:52 |   1.4 |
+| COMPLETED Use MC's work to strengthen mine                                  |          |        |  6:10 |   4.6 |
+| COMPLETED Print complete list of teams                                      |          |        |  2:33 |   1.9 |
+| COMPLETED Print players in team                                             |          |        |  3:14 |   2.4 |
+| COMPLETED Review Fridays work                                               |          |        |  1:55 |   1.4 |
+| COMPLETED Change if statements for carry selection                          |          |        |  0:37 |   0.5 |
+| COMPLETED Add data files for each team                                      |          |        |  2:33 |   1.9 |
+| COMPLETED Watch YT videos on reading/writing                                |          |        |  1:58 |   1.5 |
+| COMPLETED Practice: create organised list file                              |          |        |  1:34 |   1.2 |
+| COMPLETED Attempt to create table using team data files                     |          |        |  5:46 |   4.3 |
+| COMPLETED Review MC's sample game                                           |          |        |  0:42 |   0.5 |
+| COMPLETED Watch YT videos on Object Oriented Programming                    |          |        |  2:37 |   1.9 |
+| COMPLETED Read Object-Oriented Programming (OOP)                            |          |        |  1:55 |   1.4 |
+| COMPLETED Create Diagram for football game                                  |          |        |  1:04 |   0.8 |
+| COMPLETED Edit fgd.data                                                     |          |        |  0:44 |   0.5 |
+| COMPLETED Fix football game diagram                                         |          |        |  0:37 |   0.5 |
+| COMPLETED Setup classes based on diagram                                    |          |        |  0:45 |   0.6 |
+| COMPLETED Use variables stored on data file                                 |          |        |  0:47 |   0.6 |
+| COMPLETED Watch How to CREATE/INSTANTIATE OBJECTS in C++                    |          |        |  0:14 |   0.2 |
+| COMPLETED Watch Inheritance and Class Hierarchies                           |          |        |  0:31 |   0.4 |
+| COMPLETED Watch Object Lifetime in C++                                      |          |        |  0:13 |   0.2 |
+| COMPLETED Read Object Oriented Memory Management                            |          |        |  0:15 |   0.2 |
+| COMPLETED Find Information on creating objects                              |          |        |  2:02 |   1.5 |
+| COMPLETED Attempt to create table using only epl.data                       |          |        |  2:47 |   2.1 |
+| COMPLETED Add new team to epl.data to test table                            |          |        |  0:16 |   0.2 |
+| COMPLETED Attempt to get W / L / D working in table                         |          |        |  6:53 |   5.1 |
+| COMPLETED Research reading and storing ints from data file                  |          |        |  1:52 |   1.4 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -234,7 +234,8 @@ Links:
 - Vector as string https://stackoverflow.com/questions/4268886/initialize-a-vector-array-of-strings
 - Vectors (not so good, but helps) https://syntaxdb.com/ref/cpp/vectors
 - Vectors (better, more complicated) https://www.geeksforgeeks.org/vector-in-cpp-stl/
-*** STARTED Use Menu Classes for Teams menu
+*** COMPLETED Use Menu Classes for Teams menu
+    CLOSED: [2018-03-06 Tue 09:24]
     CLOCK: [2018-02-09 Fri 16:26]--[2018-02-09 Fri 16:56] =>  0:30
     CLOCK: [2018-02-09 Fri 15:26]--[2018-02-09 Fri 15:51] =>  0:25
     CLOCK: [2018-02-09 Fri 14:48]--[2018-02-09 Fri 15:14] =>  0:26
@@ -247,9 +248,11 @@ Links:
 - Member called name
 - See if it can be used from choose_team.cpp
 
-*** Magit and attempting to fix first conflict
+*** COMPLETED Magit and attempting to fix first conflict
+    CLOSED: [2018-03-06 Tue 09:24]
     CLOCK: [2018-01-31 Wed 15:57]--[2018-01-31 Wed 16:24] =>  0:27
-*** Practice Classes
+*** COMPLETED Practice Classes
+    CLOSED: [2018-03-06 Tue 09:24]
     CLOCK: [2018-02-06 Tue 15:16]--[2018-02-06 Tue 15:25] =>  0:09
     CLOCK: [2018-02-02 Fri 16:52]--[2018-02-02 Fri 17:46] =>  0:54
     CLOCK: [2018-02-02 Fri 16:14]--[2018-02-02 Fri 16:34] =>  0:20
@@ -310,7 +313,8 @@ Complete quiz's based on classes
 - so write down this process - call it handling master conflicts or something
 - and always make sure you are paying a lot of attention to what magit is saying
 
-*** Discussing the task at hand
+*** COMPLETED Discussing the task at hand
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-03-05 Mon 14:39]--[2018-03-05 Mon 15:10] =>  0:31
     CLOCK: [2018-03-05 Mon 11:50]--[2018-03-05 Mon 12:23] =>  0:33
     CLOCK: [2018-03-05 Mon 11:00]--[2018-03-05 Mon 11:14] =>  0:14
@@ -380,13 +384,15 @@ Complete quiz's based on classes
     CLOCK: [2018-02-02 Fri 09:30]--[2018-02-02 Fri 09:37] =>  0:07
     CLOCK: [2018-02-02 Fri 09:01]--[2018-02-02 Fri 09:15] =>  0:14
 
-*** Fix the build
+*** COMPLETED Fix the build
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-15 Thu 11:08]--[2018-02-15 Thu 11:22] =>  0:14
     CLOCK: [2018-02-02 Fri 09:15]--[2018-02-02 Fri 09:29] =>  0:14
 
 - remove line: //choose_teams();
 
-*** Searching for research material
+*** COMPLETED Searching for research material
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-28 Wed 11:54]--[2018-02-28 Wed 12:45] =>  0:51
     CLOCK: [2018-02-28 Wed 09:46]--[2018-02-28 Wed 11:07] =>  1:21
     CLOCK: [2018-02-20 Tue 09:10]--[2018-02-20 Tue 09:28] =>  0:18
@@ -446,7 +452,8 @@ Quiz:
 - Create something similar to yesterday
 - use little to no help from the internet
 
-*** STARTED Learn more about data structures
+*** COMPLETED Learn more about data structures
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-06 Tue 14:32]--[2018-02-06 Tue 15:01] =>  0:29
     CLOCK: [2018-02-06 Tue 13:31]--[2018-02-06 Tue 14:19] =>  0:48
     CLOCK: [2018-02-06 Tue 11:53]--[2018-02-06 Tue 12:19] =>  0:26
@@ -486,10 +493,12 @@ Links:
     CLOSED: [2018-02-07 Wed 11:36]
     CLOCK: [2018-02-07 Wed 10:12]--[2018-02-07 Wed 10:51] =>  0:39
 - Link: http://www.worldbestlearningcenter.com/index_files/cpp-pointers-exercises.htm
-*** Review yesterdays work
+*** COMPLETED Review yesterdays work
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-07 Wed 09:05]--[2018-02-07 Wed 09:43] =>  0:38
 
-*** STARTED Attempt to use pointer, array and classes
+*** COMPLETED Attempt to use pointer, array and classes
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-08 Thu 16:28]--[2018-02-08 Thu 16:34] =>  0:06
     CLOCK: [2018-02-08 Thu 15:41]--[2018-02-08 Thu 16:07] =>  0:26
     CLOCK: [2018-02-08 Thu 14:40]--[2018-02-08 Thu 15:19] =>  0:39
@@ -527,7 +536,8 @@ Links:
 
 - The Rate will depend on Role
 
-*** Attempt to read and write in Employee
+*** COMPLETED Attempt to read and write in Employee
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-09 Fri 12:06]--[2018-02-09 Fri 12:34] =>  0:28
     CLOCK: [2018-02-09 Fri 10:25]--[2018-02-09 Fri 11:01] =>  0:36
 
@@ -535,7 +545,8 @@ Links:
 - Read what was written to file
 - create option to read
 
-*** STARTED Get Team Menu working
+*** COMPLETED Get Team Menu working
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-13 Tue 12:09]--[2018-02-13 Tue 12:30] =>  0:21
     CLOCK: [2018-02-13 Tue 10:10]--[2018-02-13 Tue 10:59] =>  0:49
     CLOCK: [2018-02-13 Tue 10:05]--[2018-02-13 Tue 10:14] =>  0:09
@@ -554,7 +565,8 @@ Links:
 - Get more teams in database
 - Add choose_teams(); to main
 
-*** Evaluate and learn from MC's work
+*** COMPLETED Evaluate and learn from MC's work
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-14 Wed 10:12]--[2018-02-14 Wed 10:27] =>  0:15
     CLOCK: [2018-02-13 Tue 14:41]--[2018-02-13 Tue 15:09] =>  0:28
     CLOCK: [2018-02-13 Tue 14:13]--[2018-02-13 Tue 14:33] =>  0:20
@@ -564,7 +576,8 @@ Links:
     CLOCK: [2018-02-14 Wed 13:31]--[2018-02-14 Wed 13:52] =>  0:21
     CLOCK: [2018-02-14 Wed 10:01]--[2018-02-14 Wed 10:10] =>  0:09
 
-*** Use MC's work to strengthen mine
+*** COMPLETED Use MC's work to strengthen mine
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-15 Thu 11:22]--[2018-02-15 Thu 11:55] =>  0:33
     CLOCK: [2018-02-15 Thu 10:34]--[2018-02-15 Thu 11:08] =>  0:34
     CLOCK: [2018-02-15 Thu 09:04]--[2018-02-15 Thu 10:26] =>  1:22
@@ -616,7 +629,8 @@ Links:
 - read players from data file
 - use for loop to cycle through players in file
 - Output players
-*** Print complete list of teams
+*** COMPLETED Print complete list of teams
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-15 Thu 16:36]--[2018-02-15 Thu 17:24] =>  0:48
     CLOCK: [2018-02-15 Thu 16:05]--[2018-02-15 Thu 16:27] =>  0:22
     CLOCK: [2018-02-15 Thu 15:34]--[2018-02-15 Thu 15:50] =>  0:16
@@ -627,7 +641,9 @@ Links:
 - Write a list of teams in fgd.data
 - Use for loop to number each team and print one at a time
 - Attempt to allow play to select team from data file
-*** Print players in team
+
+*** COMPLETED Print players in team
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-02-16 Fri 15:35]--[2018-02-16 Fri 16:43] =>  1:08
     CLOCK: [2018-02-16 Fri 14:37]--[2018-02-16 Fri 15:10] =>  0:33
     CLOCK: [2018-02-16 Fri 13:58]--[2018-02-16 Fri 14:18] =>  0:20
@@ -644,16 +660,20 @@ Links:
   - Depending on team
     - Choose which file to open
 - Read Players
-*** Review Fridays work
+
+*** COMPLETED Review Fridays work
+    CLOSED: [2018-03-06 Tue 09:25]
     CLOCK: [2018-03-05 Mon 09:04]--[2018-03-05 Mon 09:46] =>  0:42
     CLOCK: [2018-02-26 Mon 09:03]--[2018-02-26 Mon 09:32] =>  0:29
     CLOCK: [2018-02-19 Mon 09:55]--[2018-02-19 Mon 10:39] =>  0:44
 
-*** Change if statements for carry selection
+*** COMPLETED Change if statements for carry selection
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-19 Mon 11:33]--[2018-02-19 Mon 11:40] =>  0:07
     CLOCK: [2018-02-19 Mon 10:39]--[2018-02-19 Mon 11:09] =>  0:30
 
-*** Add data files for each team
+*** COMPLETED Add data files for each team
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-19 Mon 16:16]--[2018-02-19 Mon 16:32] =>  0:16
     CLOCK: [2018-02-19 Mon 15:46]--[2018-02-19 Mon 16:10] =>  0:24
     CLOCK: [2018-02-19 Mon 14:30]--[2018-02-19 Mon 15:43] =>  1:13
@@ -663,7 +683,9 @@ Links:
 - Create .data file for each of the teams
 - Write the player into the files
 - Read from specific data file depending of selected team
-*** Watch YT videos on reading/writing
+
+*** COMPLETED Watch YT videos on reading/writing
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-20 Tue 10:39]--[2018-02-20 Tue 11:07] =>  0:28
     CLOCK: [2018-02-20 Tue 09:28]--[2018-02-20 Tue 10:15] =>  0:47
     CLOCK: [2018-02-19 Mon 16:41]--[2018-02-19 Mon 17:24] =>  0:43
@@ -674,7 +696,9 @@ Links:
 - Working with files: https://www.youtube.com/watch?v=HcONWqVyvlg
 - Reading Rows and Columns from datafile Matrix: https://www.youtube.com/watch?v=4nz6rPzVm70&feature=youtu.be
 - File Reading, Data Parsing, Classes, etc: https://www.youtube.com/watch?v=NIoEVxe-rpk
-*** Practice: create organised list file
+
+*** COMPLETED Practice: create organised list file
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-20 Tue 14:35]--[2018-02-20 Tue 14:52] =>  0:17
     CLOCK: [2018-02-20 Tue 12:34]--[2018-02-20 Tue 12:47] =>  0:13
     CLOCK: [2018-02-20 Tue 11:50]--[2018-02-20 Tue 12:19] =>  0:29
@@ -688,7 +712,9 @@ Links:
 - Read file
 - If i can manage that
   - read items in form of a table
-*** Attempt to create table using team data files
+
+*** COMPLETED Attempt to create table using team data files
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-21 Wed 12:44]--[2018-02-21 Wed 13:29] =>  0:45
     CLOCK: [2018-02-21 Wed 11:56]--[2018-02-21 Wed 12:20] =>  0:24
     CLOCK: [2018-02-21 Wed 11:09]--[2018-02-21 Wed 11:35] =>  0:26
@@ -698,11 +724,13 @@ Links:
     CLOCK: [2018-02-20 Tue 16:40]--[2018-02-20 Tue 17:29] =>  0:49
     CLOCK: [2018-02-20 Tue 14:52]--[2018-02-20 Tue 16:16] =>  1:24
 
-*** Review MC's sample game
+*** COMPLETED Review MC's sample game
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-21 Wed 14:50]--[2018-02-21 Wed 15:04] =>  0:14
     CLOCK: [2018-02-21 Wed 14:21]--[2018-02-21 Wed 14:49] =>  0:28
 
-*** Watch YT videos on Object Oriented Programming
+*** COMPLETED Watch YT videos on Object Oriented Programming
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-22 Thu 09:01]--[2018-02-22 Thu 10:02] =>  1:01
     CLOCK: [2018-02-21 Wed 15:16]--[2018-02-21 Wed 16:52] =>  1:36
 
@@ -713,7 +741,9 @@ Links:
 - MicroNugget: What is OOP?: https://www.youtube.com/watch?v=5VkrdKzKGlA
 - Pong & Object Oriented Programming: https://www.youtube.com/watch?v=KyTUN6_Z9TM
 - How to practice the OOP way of thinking: https://www.youtube.com/watch?v=R1jabnZ6f30
-*** Read Object-Oriented Programming (OOP)
+
+*** COMPLETED Read Object-Oriented Programming (OOP)
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-22 Thu 11:29]--[2018-02-22 Thu 12:16] =>  0:47
     CLOCK: [2018-02-22 Thu 11:04]--[2018-02-22 Thu 11:21] =>  0:17
     CLOCK: [2018-02-22 Thu 10:33]--[2018-02-22 Thu 10:57] =>  0:24
@@ -723,56 +753,70 @@ Links:
 - http://www.cplusplus.com/articles/NhA0RXSz/
 - https://www.ntu.edu.sg/home/ehchua/programming/cpp/cp3_OOP.html
 
-*** Create Diagram for football game
+*** COMPLETED Create Diagram for football game
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-22 Thu 15:20]--[2018-02-22 Thu 15:38] =>  0:18
     CLOCK: [2018-02-22 Thu 14:49]--[2018-02-22 Thu 15:20] =>  0:31
     CLOCK: [2018-02-22 Thu 14:30]--[2018-02-22 Thu 14:45] =>  0:15
 
-*** Edit fgd.data
+*** COMPLETED Edit fgd.data
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-22 Thu 16:01]--[2018-02-22 Thu 16:45] =>  0:44
 
-*** Fix football game diagram
+*** COMPLETED Fix football game diagram
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-26 Mon 10:12]--[2018-02-26 Mon 10:49] =>  0:37
 
 - Change arrows to aggregation arrows
 
-*** Setup classes based on diagram
+*** COMPLETED Setup classes based on diagram
+    CLOSED: [2018-03-06 Tue 09:26]
     CLOCK: [2018-02-26 Mon 11:02]--[2018-02-26 Mon 11:47] =>  0:45
 
 - Add variable to corresponding classes
-*** Use variables stored on data file
+
+*** COMPLETED Use variables stored on data file
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-02-26 Mon 16:22]--[2018-02-26 Mon 16:34] =>  0:12
     CLOCK: [2018-02-26 Mon 15:40]--[2018-02-26 Mon 16:15] =>  0:35
 
-*** Watch How to CREATE/INSTANTIATE OBJECTS in C++
+*** COMPLETED Watch How to CREATE/INSTANTIATE OBJECTS in C++
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-02-26 Mon 16:47]--[2018-02-26 Mon 17:01] =>  0:14
 
-*** Watch Inheritance and Class Hierarchies
+*** COMPLETED Watch Inheritance and Class Hierarchies
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-02-28 Wed 09:15]--[2018-02-28 Wed 09:46] =>  0:31
 
-*** Watch Object Lifetime in C++
+*** COMPLETED Watch Object Lifetime in C++
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-02-28 Wed 11:07]--[2018-02-28 Wed 11:20] =>  0:13
 
-*** Read Object Oriented Memory Management
+*** COMPLETED Read Object Oriented Memory Management
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-02-28 Wed 11:20]--[2018-02-28 Wed 11:35] =>  0:15
 
-*** Find Information on creating objects
+*** COMPLETED Find Information on creating objects
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-02-28 Wed 16:16]--[2018-02-28 Wed 16:51] =>  0:35
     CLOCK: [2018-02-28 Wed 15:34]--[2018-02-28 Wed 16:02] =>  0:28
     CLOCK: [2018-02-28 Wed 14:49]--[2018-02-28 Wed 15:14] =>  0:25
     CLOCK: [2018-02-28 Wed 13:53]--[2018-02-28 Wed 14:27] =>  0:34
 
-*** Attempt to create table using only epl.data
+*** COMPLETED Attempt to create table using only epl.data
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-03-01 Thu 15:29]--[2018-03-01 Thu 16:10] =>  0:41
     CLOCK: [2018-03-01 Thu 14:53]--[2018-03-01 Thu 15:16] =>  0:23
     CLOCK: [2018-03-01 Thu 12:20]--[2018-03-01 Thu 13:06] =>  0:46
     CLOCK: [2018-03-01 Thu 11:32]--[2018-03-01 Thu 12:10] =>  0:38
     CLOCK: [2018-03-01 Thu 11:11]--[2018-03-01 Thu 11:30] =>  0:19
 
-*** Add new team to epl.data to test table
+*** COMPLETED Add new team to epl.data to test table
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-03-01 Thu 16:26]--[2018-03-01 Thu 16:42] =>  0:16
 
-*** Attempt to get W / L / D working in table
+*** COMPLETED Attempt to get W / L / D working in table
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-03-05 Mon 16:13]--[2018-03-05 Mon 16:54] =>  0:41
     CLOCK: [2018-03-05 Mon 15:29]--[2018-03-05 Mon 16:06] =>  0:37
     CLOCK: [2018-03-05 Mon 14:30]--[2018-03-05 Mon 14:39] =>  0:09
@@ -794,7 +838,8 @@ Links:
 - Add losses and draws to table
 - Add points to table using wins and draws to calculate
 
-*** Research reading and storing ints from data file
+*** COMPLETED Research reading and storing ints from data file
+    CLOSED: [2018-03-06 Tue 09:27]
     CLOCK: [2018-03-02 Fri 16:02]--[2018-03-02 Fri 16:27] =>  0:25
     CLOCK: [2018-03-02 Fri 11:43]--[2018-03-02 Fri 12:15] =>  0:32
     CLOCK: [2018-03-02 Fri 10:55]--[2018-03-02 Fri 11:24] =>  0:29
