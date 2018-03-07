@@ -7,17 +7,12 @@
 
 class game{
 public:
-    game();
-    //Not sure if needed
-    //game_setup(std::string name, std::string team_name);
-
-public:
-    std::vector<user> user();
-    int current_match_day;
+    game_setup(std::vector<user> users, int current_match_day);
 
 private:
+    std::vector<user> users_;
+    int current_match_day_;
 
-    std::vector<user> user_;
 };
 
 #endif

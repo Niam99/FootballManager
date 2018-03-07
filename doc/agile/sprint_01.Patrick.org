@@ -14,22 +14,25 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-07 Wed 11:49]
+#+CAPTION: Clock summary at [2018-03-07 Wed 16:22]
 | <75>                                                                        |        |      |      |       |
 | Headline                                                                    | Time   |      |      |     % |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *2:36* |      |      | 100.0 |
+| *Total time*                                                                | *3:39* |      |      | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 2:36   |      |      | 100.0 |
-| Active                                                                      |        | 2:36 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |        |      | 0:18 |  11.5 |
-| COMPLETED Change variables from team to table                               |        |      | 0:21 |  13.5 |
-| COMPLETED Remove commented code in team.cpp/hpp                             |        |      | 0:13 |   8.3 |
-| COMPLETED Add new teams and players to epl.data                             |        |      | 0:31 |  19.9 |
-| COMPLETED Create user.hpp                                                   |        |      | 0:12 |   7.7 |
-| STARTED Clean up files                                                      |        |      | 0:15 |   9.6 |
-| COMPLETED Add constructors to user.hpp                                      |        |      | 0:24 |  15.4 |
-| COMPLETED Add class to game.hpp                                             |        |      | 0:22 |  14.1 |
+| Stories                                                                     | 3:39   |      |      | 100.0 |
+| Active                                                                      |        | 3:39 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |        |      | 0:18 |   8.2 |
+| COMPLETED Change variables from team to table                               |        |      | 0:21 |   9.6 |
+| COMPLETED Remove commented code in team.cpp/hpp                             |        |      | 0:13 |   5.9 |
+| COMPLETED Add new teams and players to epl.data                             |        |      | 0:31 |  14.2 |
+| COMPLETED Create user.hpp                                                   |        |      | 0:12 |   5.5 |
+| STARTED Clean up files                                                      |        |      | 0:15 |   6.8 |
+| COMPLETED Add constructors to user.hpp                                      |        |      | 0:24 |  11.0 |
+| COMPLETED Add class to game.hpp                                             |        |      | 0:22 |  10.0 |
+| COMPLETED Set next task                                                     |        |      | 0:16 |   7.3 |
+| COMPLETED Clean game.cpp/hpp                                                |        |      | 0:29 |  13.2 |
+| COMPLETED Add game.cpp                                                      |        |      | 0:18 |   8.2 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -99,5 +102,32 @@ Updates to sprint and product backlog.
 - Add to class:
   - vector<user>
   - int current_match_day
+
+*** COMPLETED Set next task
+    CLOSED: [2018-03-07 Wed 15:45]
+    CLOCK: [2018-03-07 Wed 14:55]--[2018-03-07 Wed 15:11] =>  0:16
+
+*** COMPLETED Clean game.cpp/hpp
+    CLOSED: [2018-03-07 Wed 16:22]
+    CLOCK: [2018-03-07 Wed 15:14]--[2018-03-07 Wed 15:43] =>  0:29
+
+- Uncomment out correct constructor
+- Remove game();
+- Change:
+  - game_setup(std::vector<user> user, int current_match_day);
+- To:
+  - game_setup(std::vector<user> users, int current_match_day);
+- Make current_match_day private
+- Add:
+  - std::vector<user> users_;
+  - int current_match_day_;
+
+*** COMPLETED Add game.cpp
+    CLOSED: [2018-03-07 Wed 16:22]
+    CLOCK: [2018-03-07 Wed 15:48]--[2018-03-07 Wed 16:06] =>  0:18
+- Connect game.hpp
+- Write Function:
+  - game::game_setup(std::vector<user> users, int current_match_day)
+    : users_(users), current_match_day_(current_match_day)
 
 ** Deprecated
