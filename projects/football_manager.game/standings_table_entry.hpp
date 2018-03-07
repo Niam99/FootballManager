@@ -6,8 +6,8 @@
 
 class standings_table_entry {
 public:
-    table_entry(std::string team_name, int wins, int losses, int draws, int points,
-               int games_played);
+    standings_table_entry(std::string team_name, int wins, int losses,
+        int draws,int points, int games_played);
     void display();
 
 private:
