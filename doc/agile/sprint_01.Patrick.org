@@ -14,19 +14,22 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-06 Tue 16:55]
+#+CAPTION: Clock summary at [2018-03-07 Wed 11:49]
 | <75>                                                                        |        |      |      |       |
 | Headline                                                                    | Time   |      |      |     % |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *1:35* |      |      | 100.0 |
+| *Total time*                                                                | *2:36* |      |      | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 1:35   |      |      | 100.0 |
-| Active                                                                      |        | 1:35 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |        |      | 0:18 |  18.9 |
-| COMPLETED Change variables from team to table                               |        |      | 0:21 |  22.1 |
-| COMPLETED Remove commented code in team.cpp/hpp                             |        |      | 0:13 |  13.7 |
-| COMPLETED Add new teams and players to epl.data                             |        |      | 0:31 |  32.6 |
-| STARTED Create user.hpp                                                     |        |      | 0:12 |  12.6 |
+| Stories                                                                     | 2:36   |      |      | 100.0 |
+| Active                                                                      |        | 2:36 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |        |      | 0:18 |  11.5 |
+| COMPLETED Change variables from team to table                               |        |      | 0:21 |  13.5 |
+| COMPLETED Remove commented code in team.cpp/hpp                             |        |      | 0:13 |   8.3 |
+| COMPLETED Add new teams and players to epl.data                             |        |      | 0:31 |  19.9 |
+| COMPLETED Create user.hpp                                                   |        |      | 0:12 |   7.7 |
+| STARTED Clean up files                                                      |        |      | 0:15 |   9.6 |
+| COMPLETED Add constructors to user.hpp                                      |        |      | 0:24 |  15.4 |
+| COMPLETED Add class to game.hpp                                             |        |      | 0:22 |  14.1 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -61,13 +64,40 @@ Updates to sprint and product backlog.
 - Only and one player per team
 - And add players position
 
-*** STARTED Create user.hpp
+*** COMPLETED Create user.hpp
+    CLOSED: [2018-03-06 Tue 16:56]
     CLOCK: [2018-03-06 Tue 16:43]--[2018-03-06 Tue 16:55] =>  0:12
 
 - Create user.hpp file
 - Create class for user
 - Add to class:
-    - string name
-    - string team_name
+  - string name
+  - string team_name
+
+*** STARTED Clean up files
+    CLOCK: [2018-03-07 Wed 09:13]--[2018-03-07 Wed 09:28] =>  0:15
+
+- Remove white-spaces
+- Break line that are too long
+- Delete any commented out code
+
+*** COMPLETED Add constructors to user.hpp
+    CLOSED: [2018-03-07 Wed 10:55]
+    CLOCK: [2018-03-07 Wed 09:30]--[2018-03-07 Wed 09:54] =>  0:24
+
+- Read on Constructors:
+  - http://www.cplusplus.com/doc/tutorial/classes/
+
+- Default constructor, user();
+- One with arguments, user(argument1, argument2);
+
+*** COMPLETED Add class to game.hpp
+    CLOSED: [2018-03-07 Wed 11:49]
+    CLOCK: [2018-03-07 Wed 11:27]--[2018-03-07 Wed 11:49] =>  0:22
+
+- Reference diagram
+- Add to class:
+  - vector<user>
+  - int current_match_day
 
 ** Deprecated

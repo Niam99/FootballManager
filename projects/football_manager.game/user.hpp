@@ -7,6 +7,7 @@
 class user{
 public:
     user();
+    user_setup(std::string name, std::string team_name);
 
 public:
     std::string name();
