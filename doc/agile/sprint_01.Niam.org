@@ -12,23 +12,26 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-06 Tue 16:00]
+#+CAPTION: Clock summary at [2018-03-06 Tue 16:54]
 | <75>                                                                        |        |      |      |       |
 | Headline                                                                    | Time   |      |      |     % |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *5:14* |      |      | 100.0 |
+| *Total time*                                                                | *6:07* |      |      | 100.0 |
 |-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 5:14   |      |      | 100.0 |
-| Active                                                                      |        | 5:14 |      | 100.0 |
-| COMPLETED Clone hedgr                                                       |        |      | 0:30 |   9.6 |
-| COMPLETED Diagram                                                           |        |      | 1:00 |  19.1 |
-| COMPLETED Create table standings classes                                    |        |      | 1:18 |  24.8 |
-| COMPLETED Review                                                            |        |      | 0:20 |   6.4 |
-| COMPLETED Create match classes                                              |        |      | 2:06 |  40.1 |
+| Stories                                                                     | 6:07   |      |      | 100.0 |
+| Active                                                                      |        | 6:07 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |        |      | 0:30 |   8.2 |
+| COMPLETED Clone hedgr                                                       |        |      | 0:30 |   8.2 |
+| COMPLETED Diagram                                                           |        |      | 1:00 |  16.3 |
+| COMPLETED Create table standings classes                                    |        |      | 1:18 |  21.3 |
+| COMPLETED Review                                                            |        |      | 0:20 |   5.4 |
+| COMPLETED Create match classes                                              |        |      | 2:06 |  34.3 |
+| COMPLETED Test Program                                                      |        |      | 0:23 |   6.3 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-03-06 Tue 16:00]--[2018-03-06 Tue 16:30] =>  0:30
 
 Updates to sprint and product backlog
 
@@ -67,4 +70,17 @@ Discuss
 4 - add properties
 5 - create match day class
 6 - add properties
+*** COMPLETED Test Program
+    CLOSED: [2018-03-06 Tue 16:54]
+    CLOCK: [2018-03-06 Tue 16:30]--[2018-03-06 Tue 16:53] =>  0:23
+- check changes
+- check what works
+*** COMPLETED Discuss tasks
+    CLOSED: [2018-03-07 Wed 09:19]
+    CLOCK: [2018-03-07 Wed 09:00]--[2018-03-07 Wed 09:19] =>  0:19
+
+*** COMPLETED Add constructors to table class
+    CLOSED: [2018-03-07 Wed 09:31]
+    CLOCK: [2018-03-07 Wed 09:15]--[2018-03-07 Wed 09:31] =>  0:16
+
 ** Deprecated

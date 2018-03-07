@@ -8,7 +8,7 @@
 
 class standings_table {
 public:
-    void setup(std::vector<standings_table_entry> table);
+    standings_table(std::vector<standings_table_entry> table);
 
 private:
     std::vector<standings_table_entry> table_;

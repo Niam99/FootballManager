@@ -2,6 +2,6 @@
 #include <string>
 #include "standings_table.hpp"
 
-void standings_table::setup(std::vector<standings_table_entry> table) {
+void standings_table::standings_table(std::vector<standings_table_entry> table) {
     table_ = table;
 }
