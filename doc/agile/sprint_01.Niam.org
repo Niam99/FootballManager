@@ -12,21 +12,24 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-06 Tue 16:54]
-| <75>                                                                        |        |      |      |       |
-| Headline                                                                    | Time   |      |      |     % |
-|-----------------------------------------------------------------------------+--------+------+------+-------|
-| *Total time*                                                                | *6:07* |      |      | 100.0 |
-|-----------------------------------------------------------------------------+--------+------+------+-------|
-| Stories                                                                     | 6:07   |      |      | 100.0 |
-| Active                                                                      |        | 6:07 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |        |      | 0:30 |   8.2 |
-| COMPLETED Clone hedgr                                                       |        |      | 0:30 |   8.2 |
-| COMPLETED Diagram                                                           |        |      | 1:00 |  16.3 |
-| COMPLETED Create table standings classes                                    |        |      | 1:18 |  21.3 |
-| COMPLETED Review                                                            |        |      | 0:20 |   5.4 |
-| COMPLETED Create match classes                                              |        |      | 2:06 |  34.3 |
-| COMPLETED Test Program                                                      |        |      | 0:23 |   6.3 |
+#+CAPTION: Clock summary at [2018-03-07 Wed 14:45]
+| <75>                                                                        |         |       |      |       |
+| Headline                                                                    | Time    |       |      |     % |
+|-----------------------------------------------------------------------------+---------+-------+------+-------|
+| *Total time*                                                                | *11:51* |       |      | 100.0 |
+|-----------------------------------------------------------------------------+---------+-------+------+-------|
+| Stories                                                                     | 11:51   |       |      | 100.0 |
+| Active                                                                      |         | 11:51 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:30 |   4.2 |
+| COMPLETED Clone hedgr                                                       |         |       | 0:30 |   4.2 |
+| COMPLETED Diagram                                                           |         |       | 1:00 |   8.4 |
+| COMPLETED Create table standings classes                                    |         |       | 1:18 |  11.0 |
+| COMPLETED Review                                                            |         |       | 0:20 |   2.8 |
+| COMPLETED Create match classes                                              |         |       | 2:06 |  17.7 |
+| COMPLETED Test Program                                                      |         |       | 0:23 |   3.2 |
+| COMPLETED Discuss tasks                                                     |         |       | 0:19 |   2.7 |
+| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   4.1 |
+| COMPLETED Add to table classes                                              |         |       | 4:56 |  41.6 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -81,6 +84,29 @@ Discuss
 
 *** COMPLETED Add constructors to table class
     CLOSED: [2018-03-07 Wed 09:31]
+    CLOCK: [2018-03-07 Wed 09:32]--[2018-03-07 Wed 09:45] =>  0:13
     CLOCK: [2018-03-07 Wed 09:15]--[2018-03-07 Wed 09:31] =>  0:16
+
+*** COMPLETED Add to table classes
+    CLOSED: [2018-03-07 Wed 14:45]
+    CLOCK: [2018-03-07 Wed 09:49]--[2018-03-07 Wed 14:45] =>  4:56
+
+1. class table_standings does not have a display method
+2. add a test for your work
+in order to do a test just do something simple like create a function in main that creates a dummy table
+
+and calls display on it
+
+test_table_standings() for example
+
+then call it from main just to test
+
+when doing the test just create standings with "random" data, e.g. team="my team" games =12, etc
+
+dont bother reading it etc, should be really simple and self contained, you just want to instantiate a table quickly to see if the display is right
+
+actually maybe the team names should be vaguely sensible since that affects the display
+
+also i think patrick already wrote some code to display a table somewhere, have a look at that pls
 
 ** Deprecated

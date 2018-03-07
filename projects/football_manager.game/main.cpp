@@ -7,12 +7,14 @@
 #include "player.hpp"
 #include "league.hpp"
 #include "team.hpp"
+#include "standings_table_entry.hpp"
+#include "standings_table.hpp"
 
 menu create_main_menu() {
     std::vector<menu_item> items;
     
     menu_item results;
-    results.setup("View results of played games");
+    results.setup("View table");
     items.push_back(results);
 
     menu_item league;
@@ -66,8 +68,24 @@ league read_league() {
     return l;
 }
 
+standings_table create_table() {
+    std::vector<standings_table_entry> t;
+    standings_table_entry manu("Man-United", 9, 1, 1, 19, 11);
+    t.push_back(manu);
+    standings_table_entry chel("Chelsea   ", 8, 2, 1, 20, 11);
+    t.push_back(chel);
+    standings_table_entry liv("Liverpool ", 4, 4, 4, 12, 12);
+    t.push_back(liv);
+    standings_table_entry mcity("Man-City  ", 8, 2, 1, 17, 11);
+    t.push_back(mcity);
+    standings_table_entry tots("Tottenham ", 6, 3, 1, 11, 11);
+    t.push_back(tots);
+    standings_table st(t);
+    st.display();
+}
+
 int main()
-{
+{   
     // create an instance of the menu class.
     menu main_menu = create_main_menu();
     menu team_menu = create_team_menu();
@@ -77,8 +95,8 @@ int main()
     // "run" it
     int result = main_menu.run();
     if (result == 0 ){
-        std::cout << "." << std::endl;
-
+        std::cout << "User viewing table." << std::endl;
+        standings_table table_ = create_table();
     }
     // return 0;
     // handle the result of the menu.
