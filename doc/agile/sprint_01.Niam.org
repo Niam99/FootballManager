@@ -12,24 +12,25 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-07 Wed 14:45]
+#+CAPTION: Clock summary at [2018-03-07 Wed 16:48]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *11:51* |       |      | 100.0 |
+| *Total time*                                                                | *13:23* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 11:51   |       |      | 100.0 |
-| Active                                                                      |         | 11:51 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 0:30 |   4.2 |
-| COMPLETED Clone hedgr                                                       |         |       | 0:30 |   4.2 |
-| COMPLETED Diagram                                                           |         |       | 1:00 |   8.4 |
-| COMPLETED Create table standings classes                                    |         |       | 1:18 |  11.0 |
-| COMPLETED Review                                                            |         |       | 0:20 |   2.8 |
-| COMPLETED Create match classes                                              |         |       | 2:06 |  17.7 |
-| COMPLETED Test Program                                                      |         |       | 0:23 |   3.2 |
-| COMPLETED Discuss tasks                                                     |         |       | 0:19 |   2.7 |
-| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   4.1 |
-| COMPLETED Add to table classes                                              |         |       | 4:56 |  41.6 |
+| Stories                                                                     | 13:23   |       |      | 100.0 |
+| Active                                                                      |         | 13:23 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:30 |   3.7 |
+| COMPLETED Clone hedgr                                                       |         |       | 0:30 |   3.7 |
+| COMPLETED Diagram                                                           |         |       | 1:00 |   7.5 |
+| COMPLETED Create table standings classes                                    |         |       | 1:18 |   9.7 |
+| COMPLETED Review                                                            |         |       | 0:20 |   2.5 |
+| COMPLETED Create match classes                                              |         |       | 2:06 |  15.7 |
+| COMPLETED Test Program                                                      |         |       | 0:23 |   2.9 |
+| COMPLETED Discuss tasks                                                     |         |       | 0:19 |   2.4 |
+| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   3.6 |
+| COMPLETED Add to table classes                                              |         |       | 4:56 |  36.9 |
+| COMPLETED Fix table function                                                |         |       | 1:32 |  11.5 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -109,4 +110,19 @@ actually maybe the team names should be vaguely sensible since that affects the 
 
 also i think patrick already wrote some code to display a table somewhere, have a look at that pls
 
+*** COMPLETED Fix table function
+    CLOSED: [2018-03-07 Wed 16:47]
+    CLOCK: [2018-03-07 Wed 15:15]--[2018-03-07 Wed 16:47] =>  1:32
+
+1. clean up generation using my approach above
+
+t.push_back(standings_table_entry("Man-United", 9, 1, 1, 19, 11));
+
+2. update team names to be the longest possible so you can test the width
+http://en.cppreference.com/w/cpp/io/manip/setw
+e.g.
+
+
+    std::cout << "no setw:" << 42 << '\n'
+              << "setw(6):" << std::setw(6) << 42 << '\
 ** Deprecated

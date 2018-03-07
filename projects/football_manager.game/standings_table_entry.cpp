@@ -15,7 +15,7 @@ standings_table_entry::standings_table_entry(std::string team_name,
 
 void standings_table_entry::display() {
     //std::cout << "Club         |    W   |    L    |    D    |    Pts    |   MP   |" << std::endl; 
-    std::cout << team_name_ << "        " << wins_ << "        " << losses_ << "         "
+    std::cout << team_name_ << "           " << wins_ << "        " << losses_ << "         "
               << draws_ << "          " << points_ << "        " << games_played_ 
               << std::endl;     
 

@@ -68,9 +68,15 @@ league read_league() {
     return l;
 }
 
-standings_table create_table() {
+void create_table() {
     std::vector<standings_table_entry> t;
-    standings_table_entry manu("Man-United", 9, 1, 1, 19, 11);
+    t.push_back(standings_table_entry("Manchester United   ", 9, 1, 1, 19, 11));
+    t.push_back(standings_table_entry("Chelsea             ", 8, 2, 1, 20, 11));
+    t.push_back(standings_table_entry("Liverpool           ", 4, 3, 4, 12, 11));
+    t.push_back(standings_table_entry("Manchester City     ", 8, 2, 1, 17, 11));
+    t.push_back(standings_table_entry("Tottenham Hotspur   ", 6, 3, 1, 11, 11));
+
+    /*standings_table_entry manu("Man-United", 9, 1, 1, 19, 11);
     t.push_back(manu);
     standings_table_entry chel("Chelsea   ", 8, 2, 1, 20, 11);
     t.push_back(chel);
@@ -79,7 +85,7 @@ standings_table create_table() {
     standings_table_entry mcity("Man-City  ", 8, 2, 1, 17, 11);
     t.push_back(mcity);
     standings_table_entry tots("Tottenham ", 6, 3, 1, 11, 11);
-    t.push_back(tots);
+    t.push_back(tots); */
     standings_table st(t);
     st.display();
 }
@@ -96,7 +102,7 @@ int main()
     int result = main_menu.run();
     if (result == 0 ){
         std::cout << "User viewing table." << std::endl;
-        standings_table table_ = create_table();
+        create_table();
     }
     // return 0;
     // handle the result of the menu.
