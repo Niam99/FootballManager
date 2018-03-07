@@ -2,7 +2,7 @@
 #include <string>
 #include "standings_table_entry.hpp"
 
-void standings_table_entry::standings_table_entry(std::string team_name,
+standings_table_entry::standings_table_entry(std::string team_name,
     int wins,int losses,int draws, int points,int games_played) {
     std::cout << "constructor called" << std::endl;
     team_name_ = team_name;
