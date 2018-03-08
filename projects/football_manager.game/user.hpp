@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 
-class user{
+class user {
 public:
     user();
     user_setup(std::string name, std::string team_name);

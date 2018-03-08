@@ -5,14 +5,14 @@
 #include <iostream>
 #include "user.hpp"
 
-class game{
+class game {
 public:
+    game();
     game_setup(std::vector<user> users, int current_match_day);
 
 private:
     std::vector<user> users_;
     int current_match_day_;
-
 };
 
 #endif
