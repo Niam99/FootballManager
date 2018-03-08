@@ -12,27 +12,29 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-08 Thu 10:46]
+#+CAPTION: Clock summary at [2018-03-08 Thu 15:07]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *14:58* |       |      | 100.0 |
+| *Total time*                                                                | *18:28* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 14:58   |       |      | 100.0 |
-| Active                                                                      |         | 14:58 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 0:30 |   3.3 |
-| COMPLETED Clone hedgr                                                       |         |       | 0:30 |   3.3 |
-| COMPLETED Diagram                                                           |         |       | 1:00 |   6.7 |
-| COMPLETED Create table standings classes                                    |         |       | 1:18 |   8.7 |
-| COMPLETED Review                                                            |         |       | 0:20 |   2.2 |
-| COMPLETED Create match classes                                              |         |       | 2:06 |  14.0 |
-| COMPLETED Test Program                                                      |         |       | 0:23 |   2.6 |
-| COMPLETED Discuss tasks                                                     |         |       | 0:19 |   2.1 |
-| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   3.2 |
-| COMPLETED Add to table classes                                              |         |       | 4:56 |  33.0 |
-| COMPLETED Fix table function                                                |         |       | 1:32 |  10.2 |
-| COMPLETED Add setw to table                                                 |         |       | 1:00 |   6.7 |
-| COMPLETED Discuss tasks                                                     |         |       | 0:35 |   3.9 |
+| Stories                                                                     | 18:28   |       |      | 100.0 |
+| Active                                                                      |         | 18:28 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:30 |   2.7 |
+| COMPLETED Clone hedgr                                                       |         |       | 0:30 |   2.7 |
+| COMPLETED Diagram                                                           |         |       | 1:00 |   5.4 |
+| COMPLETED Create table standings classes                                    |         |       | 1:18 |   7.0 |
+| COMPLETED Review                                                            |         |       | 0:20 |   1.8 |
+| COMPLETED Create match classes                                              |         |       | 2:06 |  11.4 |
+| COMPLETED Test Program                                                      |         |       | 0:23 |   2.1 |
+| COMPLETED Discuss tasks                                                     |         |       | 0:19 |   1.7 |
+| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   2.6 |
+| COMPLETED Add to table classes                                              |         |       | 4:56 |  26.7 |
+| COMPLETED Fix table function                                                |         |       | 1:32 |   8.3 |
+| COMPLETED Add setw to table                                                 |         |       | 1:00 |   5.4 |
+| COMPLETED Discuss tasks                                                     |         |       | 0:35 |   3.2 |
+| COMPLETED Analyse code                                                      |         |       | 2:21 |  12.7 |
+| COMPLETED fix table bug                                                     |         |       | 1:09 |   6.2 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -151,5 +153,13 @@ and see the standings
 it links up the data model with the game engine
 
 pls pull then spend the rest of your day analysing the code and making small changes
+
+*** COMPLETED Analyse code
+    CLOSED: [2018-03-08 Thu 13:56]
+    CLOCK: [2018-03-08 Thu 10:47]--[2018-03-08 Thu 13:08] =>  2:21
+
+*** COMPLETED fix table bug
+    CLOSED: [2018-03-08 Thu 15:06]
+    CLOCK: [2018-03-08 Thu 13:57]--[2018-03-08 Thu 15:06] =>  1:09
 
 ** Deprecated
