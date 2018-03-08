@@ -3,6 +3,8 @@
 #include <iomanip>
 #include "standings_table_entry.hpp"
 
+standings_table_entry::standings_table_entry() {}
+
 standings_table_entry::standings_table_entry(std::string team_name,
     int wins,int losses,int draws, int points,int games_played) {
     std::cout << "constructor called" << std::endl;
@@ -15,17 +17,10 @@ standings_table_entry::standings_table_entry(std::string team_name,
 }
 
 void standings_table_entry::display() {
-    //std::cout << "Club         |    W   |    L    |    D    |    Pts    |   MP   |" << std::endl; 
-    std::cout << std::setw(20) << team_name_; 
+    // should not be any spaces where, use setw everywhere
+    std::cout << std::setw(20) << team_name_;
     std::cout << "           " << wins_ << "        " << losses_ << "         "
-              << draws_ << "          " << points_ << "        " << games_played_ 
-              << std::endl;     
-
-
-    //std::cout << team_name_ << std::endl;
-    //std::cout << wins_ << std::endl;
-    //std::cout << losses_ << std::endl;
-    //std::cout << draws_ << std::endl;
-    //std::cout << points_ << std::endl;
-    //std::cout << games_played_ << std::endl;
+              << draws_ << "          " << points_ << "        "
+              << games_played_
+              << std::endl;
 }

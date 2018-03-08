@@ -11,4 +11,7 @@ add_executable(football_manager.game
   standings_table_entry.cpp
   standings_table.cpp
   match.cpp
-  match_day.cpp)
+  match_day.cpp
+  engine.cpp
+  game.cpp
+  user.cpp)

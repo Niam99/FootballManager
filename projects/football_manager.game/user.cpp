@@ -1,13 +1,11 @@
 #include <iostream>
 #include <string>
-#inlcude "user.hpp"
+#include "user.hpp"
 
-user::user(){
-}
+user::user() {}
 
-user::user_setup(std::string name, std::string team_name)
-    : name_(name), team_name_(team_name);{
-}
+user::user(std::string name, std::string team_name)
+    : name_(name), team_name_(team_name) {}
 
 std::string user::name() {
     return name_;

@@ -7,16 +7,14 @@
 #include "menu_item.hpp"
 
 class menu {
+public:
+    menu(std::string name, std::string prompt, std::vector<menu_item> items);
+
 private:
-    void draw();
-    //void choose_teams();
+    void display();
 
 public:
-    void setup(std::string name, std::string prompt,
-        std::vector<menu_item> items);
     int run();
-    void setup(std::string team_name, std::string prompt,
-        std::vector <std::string> team);
 
 private:
     std::string name_;

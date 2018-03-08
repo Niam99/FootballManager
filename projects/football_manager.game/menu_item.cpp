@@ -1,11 +1,10 @@
 #include <iostream>
 #include "menu_item.hpp"
 
-void menu_item::setup(std::string name) {
+menu_item::menu_item(std::string name) {
     name_ = name;
 }
 
-void menu_item::draw(int position) {
+void menu_item::display(int position) {
     std::cout << "[" << position << "]" << " " << name_ << std::endl;
 }
-  

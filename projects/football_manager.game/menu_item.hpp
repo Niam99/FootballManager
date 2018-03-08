@@ -5,8 +5,10 @@
 
 class menu_item {
 public:
-    void setup(std::string name);
-    void draw(int position);
+    menu_item(std::string name);
+
+public:
+    void display(int position);
 
 private:
     std::string name_;

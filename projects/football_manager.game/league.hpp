@@ -21,11 +21,6 @@ public:
 private:
     std::string name_;
     std::vector<team> teams_;
-
-     //-----New variables, added after diagram
-/*
-    int numOfTeams;
-*/
 };
 
 #endif
