@@ -16,9 +16,6 @@ std::string user::team_name() {
 }
 
 void user::display(){
-    //engine e;
-    //for (user u: u.users()) {
-        std::cout << "User name: " << name()
-                  <<  " Team: " << team_name() << std::endl;
-        //}
+    std::cout << "User name: " << name()
+              <<  " Team: " << team_name() << std::endl;
 }
