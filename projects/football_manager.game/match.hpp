@@ -6,8 +6,10 @@
 
 class match {
 public:
-    void setup(std::string home_team_name, int home_score, std::string away_team_name,
-               int away_score, int minutes);
+    match();
+    match(std::string home_team_name, int home_score,
+          std::string away_team_name,int away_score,
+          int minutes);
     void display();
 
 private:

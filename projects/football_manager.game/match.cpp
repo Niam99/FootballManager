@@ -2,8 +2,11 @@
 #include <string>
 #include "match.hpp"
 
-void match::setup(std::string home_team_name, int home_score, std::string away_team_name,
-               int away_score, int minutes) {
+match::match() {}
+
+match::match(std::string home_team_name, int home_score,
+             std::string away_team_name, int away_score,
+             int minutes) {
     home_team_name_ = home_team_name;
     home_score_ = home_score;
     away_team_name_ = away_team_name;

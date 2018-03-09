@@ -8,10 +8,11 @@
 
 class match_day {
 public:
-    void setup(std::vector<match> day);
-
+    match_day():
+    match_day(std::vector<match> matches);
+    void display();
 private:
-    std::vector<match> day_;
+    std::vector<match> matches_;
 };
 
 #endif
