@@ -10,7 +10,7 @@ match_day::match_day(std::vector<match> matches) {
 }
 
 void match_day::display() {
-   for (match_day& i:matches_) {
+   for (match& i:matches_) {
         i.display();
     }
 }

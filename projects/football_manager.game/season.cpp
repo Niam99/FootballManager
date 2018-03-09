@@ -4,7 +4,7 @@
 
 season::season() {}
 
-season::season(std::vector<match_day> match_days) {
+season::season(int start_year, int end_year, std::vector<match_day> match_days) {
     start_year_ = start_year;
     end_year_ = end_year;
     match_days_ = match_days;
@@ -12,7 +12,7 @@ season::season(std::vector<match_day> match_days) {
 
 void season::display() {
     std::cout << "Start date: " << start_year_ << std::endl;
-    for (season& i:match_days_) {
+    for (match_day& i:match_days_) {
         i.display();
     }
     std::cout << "End date: " << end_year_ << std::endl;

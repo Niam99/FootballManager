@@ -12,32 +12,32 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-09 Fri 11:54]
+#+CAPTION: Clock summary at [2018-03-09 Fri 15:03]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *22:07* |       |      | 100.0 |
+| *Total time*                                                                | *23:17* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 22:07   |       |      | 100.0 |
-| Active                                                                      |         | 22:07 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 0:30 |   2.3 |
-| COMPLETED Clone hedgr                                                       |         |       | 0:30 |   2.3 |
-| COMPLETED Diagram                                                           |         |       | 1:00 |   4.5 |
-| COMPLETED Create table standings classes                                    |         |       | 1:18 |   5.9 |
-| COMPLETED Review                                                            |         |       | 0:20 |   1.5 |
-| COMPLETED Create match classes                                              |         |       | 2:06 |   9.5 |
-| COMPLETED Test Program                                                      |         |       | 0:23 |   1.7 |
+| Stories                                                                     | 23:17   |       |      | 100.0 |
+| Active                                                                      |         | 23:17 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 0:30 |   2.1 |
+| COMPLETED Clone hedgr                                                       |         |       | 0:30 |   2.1 |
+| COMPLETED Diagram                                                           |         |       | 1:00 |   4.3 |
+| COMPLETED Create table standings classes                                    |         |       | 1:18 |   5.6 |
+| COMPLETED Review                                                            |         |       | 0:20 |   1.4 |
+| COMPLETED Create match classes                                              |         |       | 2:06 |   9.0 |
+| COMPLETED Test Program                                                      |         |       | 0:23 |   1.6 |
 | COMPLETED Discuss tasks                                                     |         |       | 0:19 |   1.4 |
-| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   2.2 |
-| COMPLETED Add to table classes                                              |         |       | 4:56 |  22.3 |
-| COMPLETED Fix table function                                                |         |       | 1:32 |   6.9 |
-| COMPLETED Add setw to table                                                 |         |       | 1:00 |   4.5 |
-| COMPLETED Discuss tasks                                                     |         |       | 0:35 |   2.6 |
-| COMPLETED Analyse code                                                      |         |       | 2:21 |  10.6 |
-| COMPLETED fix table bug                                                     |         |       | 1:09 |   5.2 |
-| COMPLETED Test code                                                         |         |       | 1:00 |   4.5 |
-| COMPLETED Fix quit bug                                                      |         |       | 1:00 |   4.5 |
-| POSTPONED Fix match and add season                                          |         |       | 1:39 |   7.5 |
+| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   2.1 |
+| COMPLETED Add to table classes                                              |         |       | 4:56 |  21.2 |
+| COMPLETED Fix table function                                                |         |       | 1:32 |   6.6 |
+| COMPLETED Add setw to table                                                 |         |       | 1:00 |   4.3 |
+| COMPLETED Discuss tasks                                                     |         |       | 0:35 |   2.5 |
+| COMPLETED Analyse code                                                      |         |       | 2:21 |  10.1 |
+| COMPLETED fix table bug                                                     |         |       | 1:09 |   4.9 |
+| COMPLETED Test code                                                         |         |       | 1:00 |   4.3 |
+| COMPLETED Fix quit bug                                                      |         |       | 1:00 |   4.3 |
+| COMPLETED Fix match and add season                                          |         |       | 2:49 |  12.1 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -174,8 +174,9 @@ Test
     CLOSED: [2018-03-09 Fri 09:58]
     CLOCK: [2018-03-09 Fri 09:00]--[2018-03-09 Fri 10:00] =>  1:00
 
-*** POSTPONED Fix match and add season
-    CLOSED: [2018-03-09 Fri 11:54]
+*** COMPLETED Fix match and add season
+    CLOSED: [2018-03-09 Fri 15:03]
+    CLOCK: [2018-03-09 Fri 13:53]--[2018-03-09 Fri 15:03] =>  1:10
     CLOCK: [2018-03-09 Fri 10:15]--[2018-03-09 Fri 11:54] =>  1:39
 1. name the variables as per diagram e.g. in match you called:
 

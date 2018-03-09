@@ -8,7 +8,7 @@
 
 class match_day {
 public:
-    match_day():
+    match_day();
     match_day(std::vector<match> matches);
     void display();
 private:
