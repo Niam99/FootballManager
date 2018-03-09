@@ -67,10 +67,10 @@ bool engine::do_add_users() {
                       << std::endl << std::endl;
 
             // display all the setup users in the game so far.
-            for (user u : game_.users()) {
-                std::cout << "User name: " << u.name()
-                          <<  " Team: " << u.team_name() << std::endl;
-            }
+            user displayU;
+            displayU.display();
+          
+
 
             // read the user name from the user. note that we are not
             // checking that the user name is new - we should not

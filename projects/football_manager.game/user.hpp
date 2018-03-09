@@ -9,6 +9,9 @@ public:
     user(std::string name, std::string team_name);
 
 public:
+    void display();
+
+public:
     std::string name();
     std::string team_name();
 
