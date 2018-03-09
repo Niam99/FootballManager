@@ -124,10 +124,11 @@ menu engine::create_in_game_menu() {
     return m;
 }
 
-bool engine::do_game() {
+void engine::do_game() {
     // now run the game logic. We need to loop forever until the user
     // decides to quit.
     int user_choice;
+    bool quit_choice;
     do {
         std::cout << "here!" << std::endl;
         menu m = create_in_game_menu();
@@ -150,12 +151,13 @@ bool engine::do_game() {
 
             if (quit == "Y" || quit == "y") {
                 // user has confirmed they wanted to quit.
-                return false;
-            } else
-                return true;
+                quit_choice = true;
+            } else {
+                quit_choice = false;
+            }
         }
         std::cout << "here2!" << std::endl;
-    } while (true);
+    } while (quit_choice == false);
 }
 void engine::run() {
     // first we read all our team data.

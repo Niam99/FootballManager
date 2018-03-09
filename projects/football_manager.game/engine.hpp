@@ -58,7 +58,7 @@ private:
      * @return This function returns true if the user decided to start
      * the game, and false if the user decided to quit.
      */
-    bool do_game();
+    void do_game();
 
 public:
     /**
