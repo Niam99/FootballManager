@@ -46,6 +46,9 @@ menu engine::create_main_menu() {
 
 season engine::create_season() {
     std::vector<match_day> match_days;
+    std::vector<match> matches;
+    matches.push_back(match("Manchester-United", 0,"Liverpool",0,0));
+    match_days.push_back(match_day(matches));
     season s(2017, 2018, match_days);
     s.display();
     return s;
