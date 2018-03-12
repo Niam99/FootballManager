@@ -155,8 +155,12 @@ void engine::do_game() {
             continue;
         } else if (user_choice == 2) {
             std::cout << "Team Management" << std::endl;
-            user uD;
-            uD.display();
+            for (user uTM : game_.users()) {
+                uTM.display();
+            }
+
+            //user uD;
+            //uD.display();
             //std::cout << game_.users().size() << std::endl;
             continue;
         } else if (user_choice == 3) {
