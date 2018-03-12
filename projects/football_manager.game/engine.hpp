@@ -5,6 +5,7 @@
 #include "game.hpp"
 #include "standings_table.hpp"
 #include "league.hpp"
+#include "season.hpp"
 
 /**
  * @brief Contains all of the game engine logic.
@@ -24,6 +25,7 @@ private:
      * after reading the league.
      */
     standings_table create_standings_table();
+    season create_season();
 
 private:
     /**
@@ -70,6 +72,7 @@ private:
     game game_;
     league league_;
     standings_table standings_table_;
+    season season_;
 };
 
 #endif

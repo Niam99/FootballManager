@@ -43,6 +43,14 @@ menu engine::create_main_menu() {
     return m;
 }
 
+
+season engine::create_season() {
+    std::vector<match_day> match_days;
+    season s(2017, 2018, match_days);
+    s.display();
+    return s;
+}
+
 bool engine::do_add_users() {
     // print a basic blurb explaining what the game is about.
     std::cout << "Welcome to Football Manager!" << std::endl << std::endl
@@ -172,6 +180,11 @@ void engine::run() {
     bool start_game = do_add_users();
 
     if (start_game) {
+        std::cout << "CREATING SEASON" << std::endl;
+
+        // creates season object
+        season s = create_season();
+
         std::cout << "Starting Season 2017/2018!" << std::endl;
         do_game();
         std::cout << "Thanks for playing the game!" << std::endl;
