@@ -46,9 +46,25 @@ menu engine::create_main_menu() {
 
 season engine::create_season() {
     std::vector<match_day> match_days;
-    std::vector<match> matches;
-    matches.push_back(match("Manchester-United", 0,"Liverpool",0,0));
-    match_days.push_back(match_day(matches));
+
+    std::vector<match> day1;
+    day1.push_back(match("Manchester-United", 0,"Liverpool",0,0));
+    day1.push_back(match("Chelsea", 0,"Arsenal",0,0));
+    day1.push_back(match("Tottenham Hotspur", 0,"Everton",0,0));
+    match_days.push_back(match_day(day1));
+
+    std::vector<match> day2;
+    day2.push_back(match("Liverpool", 0,"Manchester United",0,0));
+    day2.push_back(match("Arsenal", 0,"Chelsea",0,0));
+    day2.push_back(match("Everton", 0,"Tottenham Hotspur",0,0));
+    match_days.push_back(match_day(day2));
+
+    std::vector<match> day3;
+    day3.push_back(match("Manchester City", 0,"Manchester United",0,0));
+    day3.push_back(match("Leicester City", 0,"Chelsea",0,0));
+    day3.push_back(match("Arsenal", 0,"Tottenham Hotspur",0,0));
+    match_days.push_back(match_day(day3));
+
     season s(2017, 2018, match_days);
     s.display();
     return s;

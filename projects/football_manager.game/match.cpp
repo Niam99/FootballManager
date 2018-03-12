@@ -18,6 +18,7 @@ void match::display() {
     std::cout << "Home team: " << home_team_name_ << " Score: " << home_score_  << std::endl;
     std::cout << "Away team: " << away_team_name_ << " Score: " << away_score_ << std::endl;
     std::cout << "Match Time: " << minutes_ << std::endl;
+    std::cout << std::endl;
 }
      
         

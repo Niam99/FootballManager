@@ -10,8 +10,11 @@ match_day::match_day(std::vector<match> matches) {
 }
 
 void match_day::display() {
+   int match_no = 1;
    for (match& i:matches_) {
+        std::cout << "Match " << match_no << std::endl;
         i.display();
+        match_no = match_no + 1;
     }
 }
 

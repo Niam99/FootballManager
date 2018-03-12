@@ -12,36 +12,36 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-12 Mon 15:02]
+#+CAPTION: Clock summary at [2018-03-12 Mon 16:08]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *31:04* |       |      | 100.0 |
+| *Total time*                                                                | *32:10* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 31:04   |       |      | 100.0 |
-| Active                                                                      |         | 31:04 |      | 100.0 |
+| Stories                                                                     | 32:10   |       |      | 100.0 |
+| Active                                                                      |         | 32:10 |      | 100.0 |
 | STARTED Sprint and product backlog grooming                                 |         |       | 0:30 |   1.6 |
 | COMPLETED Clone hedgr                                                       |         |       | 0:30 |   1.6 |
-| COMPLETED Diagram                                                           |         |       | 1:00 |   3.2 |
-| COMPLETED Create table standings classes                                    |         |       | 1:18 |   4.2 |
-| COMPLETED Review                                                            |         |       | 0:20 |   1.1 |
-| COMPLETED Create match classes                                              |         |       | 2:06 |   6.8 |
+| COMPLETED Diagram                                                           |         |       | 1:00 |   3.1 |
+| COMPLETED Create table standings classes                                    |         |       | 1:18 |   4.0 |
+| COMPLETED Review                                                            |         |       | 0:20 |   1.0 |
+| COMPLETED Create match classes                                              |         |       | 2:06 |   6.5 |
 | COMPLETED Test Program                                                      |         |       | 0:23 |   1.2 |
 | COMPLETED Discuss tasks                                                     |         |       | 0:19 |   1.0 |
-| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   1.6 |
-| COMPLETED Add to table classes                                              |         |       | 4:56 |  15.9 |
-| COMPLETED Fix table function                                                |         |       | 1:32 |   4.9 |
-| COMPLETED Add setw to table                                                 |         |       | 1:00 |   3.2 |
-| COMPLETED Discuss tasks                                                     |         |       | 0:35 |   1.9 |
-| COMPLETED Analyse code                                                      |         |       | 2:21 |   7.6 |
-| COMPLETED fix table bug                                                     |         |       | 1:09 |   3.7 |
-| COMPLETED Test code                                                         |         |       | 1:00 |   3.2 |
-| COMPLETED Fix quit bug                                                      |         |       | 1:00 |   3.2 |
-| COMPLETED Fix match and add season                                          |         |       | 2:49 |   9.1 |
-| COMPLETED Review                                                            |         |       | 1:45 |   5.6 |
-| COMPLETED Go through last weeks work                                        |         |       | 1:00 |   3.2 |
+| COMPLETED Add constructors to table class                                   |         |       | 0:29 |   1.5 |
+| COMPLETED Add to table classes                                              |         |       | 4:56 |  15.3 |
+| COMPLETED Fix table function                                                |         |       | 1:32 |   4.8 |
+| COMPLETED Add setw to table                                                 |         |       | 1:00 |   3.1 |
+| COMPLETED Discuss tasks                                                     |         |       | 0:35 |   1.8 |
+| COMPLETED Analyse code                                                      |         |       | 2:21 |   7.3 |
+| COMPLETED fix table bug                                                     |         |       | 1:09 |   3.6 |
+| COMPLETED Test code                                                         |         |       | 1:00 |   3.1 |
+| COMPLETED Fix quit bug                                                      |         |       | 1:00 |   3.1 |
+| COMPLETED Fix match and add season                                          |         |       | 2:49 |   8.8 |
+| COMPLETED Review                                                            |         |       | 1:45 |   5.4 |
+| COMPLETED Go through last weeks work                                        |         |       | 1:00 |   3.1 |
 | COMPLETED Discuss tasks                                                     |         |       | 0:40 |   2.1 |
-| Create game                                                                 |         |       | 4:22 |  14.1 |
+| COMPLETED Create match fixtures                                             |         |       | 5:28 |  17.0 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -216,10 +216,14 @@ ah also we need default constructors for both match and match day
 *** COMPLETED Discuss tasks
     CLOSED: [2018-03-12 Mon 11:00]
     CLOCK: [2018-03-12 Mon 10:00]--[2018-03-12 Mon 10:40] =>  0:40
-*** Create game
+*** COMPLETED Create match fixtures
+    CLOSED: [2018-03-12 Mon 16:08]
+    CLOCK: [2018-03-12 Mon 15:02]--[2018-03-12 Mon 16:08] =>  1:06
     CLOCK: [2018-03-12 Mon 13:00]--[2018-03-12 Mon 15:02] =>  2:02
     CLOCK: [2018-03-12 Mon 12:05]--[2018-03-12 Mon 13:00] =>  0:55
     CLOCK: [2018-03-12 Mon 10:40]--[2018-03-12 Mon 12:05] =>  1:25
 -add season to engine
 -created match fixtures
+-created separate days for matches
+-made multiple matches for multiple days
 ** Deprecated
