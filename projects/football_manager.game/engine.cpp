@@ -125,6 +125,7 @@ menu engine::create_in_game_menu() {
     std::vector<menu_item> items;
     items.push_back(menu_item("Play next game"));
     items.push_back(menu_item("See standings"));
+    items.push_back(menu_item("Team Management"));
     items.push_back(menu_item("Quit game"));
 
     menu m("In game Menu", "Choose an option: ", items);
@@ -150,6 +151,12 @@ void engine::do_game() {
             standings_table_.display();
             continue;
         } else if (user_choice == 2) {
+            std::cout << "Team Management" << std::endl;
+            user uD;
+            uD.display();
+            //std::cout << game_.users().size() << std::endl;
+            continue;
+        } else if (user_choice == 3) {
             // if the user decides to quit, we should make sure its not a
             // mistake.
             std::cout << "Are you sure you want to quit? Y/N" << std::endl;
