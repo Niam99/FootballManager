@@ -14,45 +14,46 @@ Stories you are working on this sprint.
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-12 Mon 17:14]
+#+CAPTION: Clock summary at [2018-03-13 Tue 11:54]
 | <75>                                                                        |         |       |      |       |
 | Headline                                                                    | Time    |       |      |     % |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| *Total time*                                                                | *17:43* |       |      | 100.0 |
+| *Total time*                                                                | *19:33* |       |      | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+------+-------|
-| Stories                                                                     | 17:43   |       |      | 100.0 |
-| Active                                                                      |         | 17:43 |      | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       | 2:00 |  11.3 |
-| STARTED Discussing task at hand                                             |         |       | 0:52 |   4.9 |
-| STARTED Writing next task                                                   |         |       | 0:23 |   2.2 |
-| COMPLETED Change variables from team to table                               |         |       | 0:21 |   2.0 |
-| COMPLETED Remove commented code in team.cpp/hpp                             |         |       | 0:13 |   1.2 |
-| COMPLETED Add new teams and players to epl.data                             |         |       | 0:31 |   2.9 |
-| COMPLETED Create user.hpp                                                   |         |       | 0:12 |   1.1 |
-| STARTED Clean up files                                                      |         |       | 0:15 |   1.4 |
-| COMPLETED Add constructors to user.hpp                                      |         |       | 0:24 |   2.3 |
-| COMPLETED Add class to game.hpp                                             |         |       | 0:22 |   2.1 |
-| COMPLETED Set next task                                                     |         |       | 0:16 |   1.5 |
-| COMPLETED Clean game.cpp/hpp                                                |         |       | 0:29 |   2.7 |
-| COMPLETED Add game.cpp                                                      |         |       | 0:18 |   1.7 |
-| COMPLETED Add user.cpp                                                      |         |       | 0:12 |   1.1 |
-| COMPLETED Clean game and user.hpp/cpp                                       |         |       | 0:44 |   4.1 |
-| CANCELLED Look and attempt to fix "quit" bug                                |         |       | 0:12 |   1.1 |
-| COMPLETED Study session on Constructors                                     |         |       | 2:04 |  11.7 |
-| COMPLETED Review last push                                                  |         |       | 0:08 |   0.8 |
-| COMPLETED Make users display from users.cpp                                 |         |       | 1:24 |   7.9 |
-| STARTED Veiw MC's comment on commits                                        |         |       | 0:49 |   4.6 |
-| COMPLETED Read through engine.cpp                                           |         |       | 0:27 |   2.5 |
-| COMPLETED Look at NI's changes                                              |         |       | 0:15 |   1.4 |
-| POSTPONED Create display method for match_day                               |         |       | 0:35 |   3.3 |
-| COMPLETED Review last Fridays work                                          |         |       | 1:04 |   6.0 |
-| STARTED Attempt team management option                                      |         |       | 2:39 |  15.0 |
-| STARTED Go through NI's season changes                                      |         |       | 0:34 |   3.2 |
+| Stories                                                                     | 19:33   |       |      | 100.0 |
+| Active                                                                      |         | 19:33 |      | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       | 2:18 |  11.8 |
+| STARTED Discussing task at hand                                             |         |       | 0:57 |   4.9 |
+| STARTED Writing next task                                                   |         |       | 0:23 |   2.0 |
+| COMPLETED Change variables from team to table                               |         |       | 0:21 |   1.8 |
+| COMPLETED Remove commented code in team.cpp/hpp                             |         |       | 0:13 |   1.1 |
+| COMPLETED Add new teams and players to epl.data                             |         |       | 0:31 |   2.6 |
+| COMPLETED Create user.hpp                                                   |         |       | 0:12 |   1.0 |
+| STARTED Clean up files                                                      |         |       | 0:15 |   1.3 |
+| COMPLETED Add constructors to user.hpp                                      |         |       | 0:24 |   2.0 |
+| COMPLETED Add class to game.hpp                                             |         |       | 0:22 |   1.9 |
+| COMPLETED Set next task                                                     |         |       | 0:16 |   1.4 |
+| COMPLETED Clean game.cpp/hpp                                                |         |       | 0:29 |   2.5 |
+| COMPLETED Add game.cpp                                                      |         |       | 0:18 |   1.5 |
+| COMPLETED Add user.cpp                                                      |         |       | 0:12 |   1.0 |
+| COMPLETED Clean game and user.hpp/cpp                                       |         |       | 0:44 |   3.8 |
+| CANCELLED Look and attempt to fix "quit" bug                                |         |       | 0:12 |   1.0 |
+| COMPLETED Study session on Constructors                                     |         |       | 2:04 |  10.6 |
+| COMPLETED Review last push                                                  |         |       | 0:08 |   0.7 |
+| COMPLETED Make users display from users.cpp                                 |         |       | 1:24 |   7.2 |
+| STARTED Veiw MC's comment on commits                                        |         |       | 0:49 |   4.2 |
+| COMPLETED Read through engine.cpp                                           |         |       | 0:27 |   2.3 |
+| COMPLETED Look at NI's changes                                              |         |       | 0:15 |   1.3 |
+| POSTPONED Create display method for match_day                               |         |       | 0:35 |   3.0 |
+| COMPLETED Review last Fridays work                                          |         |       | 1:04 |   5.5 |
+| STARTED Attempt team management option                                      |         |       | 4:06 |  21.0 |
+| STARTED Go through NI's season changes                                      |         |       | 0:34 |   2.9 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
 
 *** STARTED Sprint and product backlog grooming                       :story:
+    CLOCK: [2018-03-13 Tue 10:23]--[2018-03-13 Tue 10:41] =>  0:18
     CLOCK: [2018-03-12 Mon 17:02]--[2018-03-12 Mon 17:11] =>  0:09
     CLOCK: [2018-03-12 Mon 13:10]--[2018-03-12 Mon 13:26] =>  0:16
     CLOCK: [2018-03-12 Mon 10:28]--[2018-03-12 Mon 10:42] =>  0:14
@@ -67,6 +68,7 @@ Stories you are working on this sprint.
 Updates to sprint and product backlog.
 
 *** STARTED Discussing task at hand
+    CLOCK: [2018-03-13 Tue 10:18]--[2018-03-13 Tue 10:23] =>  0:05
     CLOCK: [2018-03-12 Mon 12:21]--[2018-03-12 Mon 12:31] =>  0:10
     CLOCK: [2018-03-12 Mon 11:52]--[2018-03-12 Mon 12:07] =>  0:15
     CLOCK: [2018-03-12 Mon 10:10]--[2018-03-12 Mon 10:18] =>  0:08
@@ -294,6 +296,9 @@ Updates to sprint and product backlog.
 - Go over what work was don last week
 - Attempt to make tasks
 *** STARTED Attempt team management option
+    CLOCK: [2018-03-13 Tue 10:41]--[2018-03-13 Tue 11:16] =>  0:35
+    CLOCK: [2018-03-13 Tue 09:48]--[2018-03-13 Tue 10:18] =>  0:30
+    CLOCK: [2018-03-13 Tue 09:02]--[2018-03-13 Tue 09:24] =>  0:22
     CLOCK: [2018-03-12 Mon 16:23]--[2018-03-12 Mon 16:39] =>  0:16
     CLOCK: [2018-03-12 Mon 15:40]--[2018-03-12 Mon 16:05] =>  0:25
     CLOCK: [2018-03-12 Mon 14:31]--[2018-03-12 Mon 15:03] =>  0:32
@@ -303,6 +308,7 @@ Updates to sprint and product backlog.
 
 - End result:
   - A Team management option in game menu
+  - Select user that want to make changes
   - Displays current 11 players
   - Displays substitutes
   - User types in player in current team
@@ -310,27 +316,42 @@ Updates to sprint and product backlog.
   - Type "Done" when finished
   - Returns to in game menu
 
-- Done
+- Done:
   - Locate "In game" menu in engine.cpp
   - Add Team Management option
     - Add as option 2
     - Move quit to option 3
-  - Select user that want to make changes
-  - Display currently selected team
 
 - To do:
   - Create teamManagement.cpp/hpp
   - Make class in hpp
   - Create:
-    - Inside user.hpp
+    - Inside teamManagement.hpp
       - void display();
-    - Inside user.cpp
-      - void user::display(){}
+    - Inside teamManagement.cpp
+      - void teamManagement::display(){}
   - In engine.cpp, move Team Management option contents
-  - To teamMangent.cpp, display()
+  - To teamManagement.cpp, display()
   - Connect teamManagement.hpp to engine.cpp
   - Add teamManageent to CMakeLists
   - Check if still works
+
+- Issues:
+  - Cant access Name and Team
+    - Detail:
+      - Inside team_management.cpp
+      - uTM.display, name and team blank
+      - Cant access game_ in engine.cpp
+    - Fix?:
+      - Attach engine.hpp to team_management.cpp
+      - Create instance of engine
+      - Add for loop from engine.cpp
+        - for (user uTM : game_.users()) {
+                uTM.display();
+            }
+      - Change "game_.users()"
+        - To, e.game_.users()
+      - Run
 
 *** STARTED Go through NI's season changes
     CLOCK: [2018-03-12 Mon 15:03]--[2018-03-12 Mon 15:23] =>  0:20

@@ -15,4 +15,5 @@ add_executable(football_manager.game
   engine.cpp
   game.cpp
   user.cpp
-  season.cpp)
+  season.cpp
+  team_management.cpp)

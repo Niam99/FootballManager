@@ -1,6 +1,7 @@
 #include <fstream>
 #include <ostream>
 #include "engine.hpp"
+#include "team_management.hpp"
 
 engine::engine() {}
 
@@ -180,9 +181,9 @@ void engine::do_game() {
             continue;
         } else if (user_choice == 2) {
             std::cout << "Team Management" << std::endl;
-            for (user uTM : game_.users()) {
-                uTM.display();
-            }
+
+            team_management t;
+            t.display();
 
             //user uD;
             //uD.display();
