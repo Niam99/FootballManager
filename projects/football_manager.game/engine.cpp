@@ -48,6 +48,8 @@ menu engine::create_main_menu() {
 season engine::create_season() {
     std::vector<match_day> match_days;
     team t;
+    
+    //WORKING - HARD CODED MATCH FIXTURES
     std::vector<match> day1;
     day1.push_back(match("Manchester-United", 0,"Liverpool",0,0));
     day1.push_back(match("Chelsea", 0,"Arsenal",0,0));
@@ -66,14 +68,44 @@ season engine::create_season() {
     day3.push_back(match("Arsenal", 0,"Tottenham Hotspur",0,0));
     match_days.push_back(match_day(day3));
     
-    for(team t : league_.teams()) {
+    
+    //NOT WORKING
+   /* for(team t : league_.teams()) {
+        bool diff_team = false;
+        std::string team1;
+        std::string team2;
+        do {
+            team1 = t.name();
+            team2 = t.name();
+            if (team1 != team2) {
+                diff_team = true;
+            }
+        } while (diff_team == false);
         std::vector<match> test;
-        test.push_back(match(t.name(),0,t.name(),0,0));
+        test.push_back(match(team1,0,team2,0,0));
         match_days.push_back(match_day(test));
-    }
-    //std::vector<match> test;
-    //test.push_back(match(t.name(), 0,t.name(),0,0));
-    //match_days.push_back(match_day(test));
+    } */
+    
+    //NOT WORKING
+    /*std::string team1;
+    std::string team2;
+    bool diff_team = false;
+    do {
+        std::string team1;
+        std::string team2;
+        for(team t : league_.teams()) {
+            team1 = t.name();
+        }
+        for(team t : league_.teams()) {
+            team2 = t.name();
+        }
+        if (team1 != team2) {
+                diff_team = true;
+        }
+    } while (diff_team == false);
+    std::vector<match> test;
+    test.push_back(match(team1,0,team2,0,0));
+    match_days.push_back(match_day(test)); */
 
     season s(2017, 2018, match_days);
     s.display();
