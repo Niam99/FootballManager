@@ -69,7 +69,7 @@ season engine::create_season() {
     match_days.push_back(match_day(day3));
     
     
-    //NOT WORKING
+    //Attempt 1 - BUG( 2 teams same)
    /* for(team t : league_.teams()) {
         bool diff_team = false;
         std::string team1;
@@ -86,7 +86,7 @@ season engine::create_season() {
         match_days.push_back(match_day(test));
     } */
     
-    //NOT WORKING
+    //Attempt 2 - BUG( 2 teams same)
     /*std::string team1;
     std::string team2;
     bool diff_team = false;
@@ -106,6 +106,19 @@ season engine::create_season() {
     std::vector<match> test;
     test.push_back(match(team1,0,team2,0,0));
     match_days.push_back(match_day(test)); */
+
+    // Attempt 3 - BUG( 2 teams same)
+    /*std::string team1;
+    std::string team2; 
+    for(team t : league_.teams()) {
+        team1 = t.name();
+        for(team t : league_.teams()) {
+            team2 = t.name();
+        }
+    }
+    std::vector<match> test;
+    test.push_back(match(team1,0,team2,0,0));
+    match_days.push_back(match_day(test));*/
 
     season s(2017, 2018, match_days);
     s.display();
