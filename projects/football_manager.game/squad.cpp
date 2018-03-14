@@ -1,22 +1,22 @@
 #include <iostream>
-#include "team.hpp"
+#include "squad.hpp"
 
-team::team() {
+squad::squad() {
 }
 
-team::team(std::string name, std::vector<player> players)
+squad::squad(std::string name, std::vector<player> players)
     : name_(name), players_(players){
 }
 
-std::string team::name() {
+std::string squad::name() {
     return name_;
 }
 
-std::vector<player> team::players() {
+std::vector<player> squad::players() {
     return players_;
 }
 
-void team::read(std::istream& input_stream) {
+void squad::read(std::istream& input_stream) {
     std::getline(input_stream, name_);
     std::cout << "Reading team: " << name_ << std::endl;
 

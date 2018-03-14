@@ -4,23 +4,23 @@
 #include <string>
 #include <vector>
 #include <istream>
-#include "team.hpp"
+#include "squad.hpp"
 
 class league {
 public:
     league();
-    league(std::string name, std::vector<team> teams);
+    league(std::string name, std::vector<squad> squads);
 
 public:
     std::string name();
-    std::vector<team> teams();
+    std::vector<squad> squads();
 
 public:
     void read(std::istream& input_stream);
 
 private:
     std::string name_;
-    std::vector<team> teams_;
+    std::vector<squad> squads_;
 };
 
 #endif

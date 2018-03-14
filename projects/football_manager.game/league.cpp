@@ -4,16 +4,16 @@
 league::league() {
 }
 
-league::league(std::string name, std::vector<team> teams)
-    : name_(name), teams_(teams) {
+league::league(std::string name, std::vector<squad> squads)
+    : name_(name), squads_(squads) {
 }
 
 std::string league::name() {
     return name_;
 }
 
-std::vector<team> league::teams() {
-    return teams_;
+std::vector<squad> league::squads() {
+    return squads_;
 }
 
 void league::read(std::istream& input_stream) {
@@ -27,9 +27,9 @@ void league::read(std::istream& input_stream) {
     std::cout << "Total teams: " << number_of_teams << std::endl;
     for (int i = 0; i < number_of_teams; ++i) {
         std::cout << "Reading team" << std::endl;
-        team t;
-        t.read(input_stream);
-        teams_.push_back(t);
+        squad s;
+        s.read(input_stream);
+        squads_.push_back(s);
         std::cout << "Finished reading team" << std::endl;
     }
     std::cout << "Finished reading league." << std::endl;

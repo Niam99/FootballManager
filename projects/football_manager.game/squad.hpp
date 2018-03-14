@@ -1,15 +1,15 @@
-#ifndef TEAM_HPP
-#define TEAM_HPP
+#ifndef SQUAD_HPP
+#define SQUAD_HPP
 
 #include <string>
 #include <vector>
 #include <istream>
 #include "player.hpp"
 
-class team {
+class squad {
 public:
-    team();
-    team(std::string name, std::vector<player> players);
+    squad();
+    squad(std::string name, std::vector<player> players);
 
 public:
     std::string name();

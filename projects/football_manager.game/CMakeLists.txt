@@ -6,7 +6,7 @@ add_executable(football_manager.game
   menu.cpp
   menu_item.cpp
   player.cpp
-  team.cpp
+  squad.cpp
   league.cpp
   standings_table_entry.cpp
   standings_table.cpp

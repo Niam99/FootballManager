@@ -17,8 +17,8 @@ league engine::read_league() {
 
 standings_table engine::create_standings_table() {
     std::vector<standings_table_entry> te;
-    for(team t : league_.teams()) {
-        te.push_back(standings_table_entry(t.name(), 0, 0, 0, 0, 0));
+    for(squad sq : league_.squads()) {
+        te.push_back(standings_table_entry(sq.name(), 0, 0, 0, 0, 0));
     }
     standings_table st(te);
     return st;
@@ -26,11 +26,11 @@ standings_table engine::create_standings_table() {
 
 menu engine::create_teams_menu() {
     std::vector<menu_item> items;
-    for(team t : league_.teams()) {
-        items.push_back(menu_item(t.name()));
+    for(squad sq : league_.squads()) {
+        items.push_back(menu_item(sq.name()));
     }
 
-    menu m("Team Menu", "Choose an option: ", items);
+    menu m("Squad Menu", "Choose an option: ", items);
     return m;
 }
 
@@ -47,7 +47,7 @@ menu engine::create_main_menu() {
 
 season engine::create_season() {
     std::vector<match_day> match_days;
-    team t;
+    squad sq;
     
     //WORKING - HARD CODED MATCH FIXTURES
     std::vector<match> day1;
@@ -172,7 +172,7 @@ bool engine::do_add_users() {
 
             // the user has chosen a team in the menu, now we need to
             // figure out which team corresponds to this number.
-            std::string team_name = league_.teams()[team_choice].name();
+            std::string team_name = league_.squads()[team_choice].name();
 
             // finally we can create a new user and add it to the
             // game.
