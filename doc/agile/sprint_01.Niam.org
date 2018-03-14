@@ -233,10 +233,60 @@ ah also we need default constructors for both match and match day
     CLOCK: [2018-03-13 Tue 09:00]--[2018-03-13 Tue 09:46] =>  0:46
 
 *** Make match by using file
+    CLOCK: [2018-03-14 Wed 14:00]
+    CLOCK: [2018-03-14 Wed 09:00]--[2018-03-14 Wed 13:00] =>  4:00
     CLOCK: [2018-03-13 Tue 15:00]--[2018-03-13 Tue 16:49] =>  1:49
     CLOCK: [2018-03-13 Tue 13:45]--[2018-03-13 Tue 15:00] =>  1:15
     CLOCK: [2018-03-13 Tue 11:50]--[2018-03-13 Tue 13:00] =>  1:10
     CLOCK: [2018-03-13 Tue 10:00]--[2018-03-13 Tue 11:44] =>  1:44
 -got team names from file to make matches
+
+eh eh Niam i think i know why your loops are not working :-)
+
+you have
+
+for(team t : league_.teams()) {
++        bool diff_team = false;
++        std::string team1;
++        std::string team2;
++        do {
++            team1 = t.name();
++            team2 = t.name();
++            if (team1 != team2) {
++                diff_team = true;
++            }
+
+it would help to so a std::cout of the variables by the by
+
+but if you look at the loop is saying
+
+t is each team in league_.teams()
+
+therefore doing t.name() twice means you simply have the same team 2 times :-)
+
+so therefore this is always false
+
+team1 = t.name();
++            team2 = t.name();
++            if (team1 != team2) {
+
+so nothing will ever happen
+
+what you really need is to do two loops
+
+say call the first one t1
+
+and the second one t2
+
+for(team t1 : league_.teams()) {
+
+for(team t2 : league_.teams()) {
+
+then when you do
+
+ team1 = t1.name();
+team2 = t2.name();
+
+this will result in different teams (most of the time)
 
 ** Deprecated

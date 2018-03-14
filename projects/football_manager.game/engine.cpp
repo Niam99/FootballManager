@@ -47,10 +47,31 @@ menu engine::create_main_menu() {
 
 season engine::create_season() {
     std::vector<match_day> match_days;
-    squad sq;
-    
+    squad sq;    
+    /*bool diff_team = false;
+    std::string team1;
+    std::string team2;
+    do {
+        for(team t1 : league_.teams()) {
+            team1 = t1.name();
+            std::cout << team1;
+            for(team t2 : league_.teams()) {
+                team2 = t2.name();
+                std::cout << team2;
+            }
+        std::cout << team1;
+        std::cout << team2;
+        }
+        if (team1 != team2) {
+                diff_team = true;
+        }
+    } while (diff_team == false);
+    std::vector<match> test;
+    test.push_back(match(team1,0,team2,0,0));
+    match_days.push_back(match_day(test));*/
+
     //WORKING - HARD CODED MATCH FIXTURES
-    std::vector<match> day1;
+    /*std::vector<match> day1;
     day1.push_back(match("Manchester-United", 0,"Liverpool",0,0));
     day1.push_back(match("Chelsea", 0,"Arsenal",0,0));
     day1.push_back(match("Tottenham Hotspur", 0,"Everton",0,0));
@@ -66,7 +87,7 @@ season engine::create_season() {
     day3.push_back(match("Manchester City", 0,"Manchester United",0,0));
     day3.push_back(match("Leicester City", 0,"Chelsea",0,0));
     day3.push_back(match("Arsenal", 0,"Tottenham Hotspur",0,0));
-    match_days.push_back(match_day(day3));
+    match_days.push_back(match_day(day3));*/
     
     
     //Attempt 1 - BUG( 2 teams same)
@@ -119,7 +140,7 @@ season engine::create_season() {
     std::vector<match> test;
     test.push_back(match(team1,0,team2,0,0));
     match_days.push_back(match_day(test));*/
-
+    
     season s(2017, 2018, match_days);
     s.display();
     return s;
