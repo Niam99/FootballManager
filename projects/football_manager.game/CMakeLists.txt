@@ -16,4 +16,5 @@ add_executable(football_manager.game
   game.cpp
   user.cpp
   season.cpp
-  team_management.cpp)
+  team_management.cpp
+  club.hpp)
