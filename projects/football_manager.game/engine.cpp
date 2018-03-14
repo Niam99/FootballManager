@@ -48,27 +48,24 @@ menu engine::create_main_menu() {
 season engine::create_season() {
     std::vector<match_day> match_days;
     squad sq;    
-    /*bool diff_team = false;
+
     std::string team1;
     std::string team2;
-    do {
-        for(team t1 : league_.teams()) {
-            team1 = t1.name();
-            std::cout << team1;
-            for(team t2 : league_.teams()) {
-                team2 = t2.name();
-                std::cout << team2;
-            }
+    for(squad t1 : league_.squads()) {
+        team1 = t1.name();
         std::cout << team1;
-        std::cout << team2;
-        }
-        if (team1 != team2) {
-                diff_team = true;
-        }
-    } while (diff_team == false);
-    std::vector<match> test;
-    test.push_back(match(team1,0,team2,0,0));
-    match_days.push_back(match_day(test));*/
+        for(squad t2 : league_.squads()) {
+            team2 = t2.name();
+            std::cout << team2;
+            if (team1 != team2) {
+            std::cout << "teams are diff, adding match" << std::endl;
+            std::vector<match> test;
+            test.push_back(match(team1,0,team2,0,0));
+            match_days.push_back(match_day(test));
+
+           }
+       }
+    }
 
     //WORKING - HARD CODED MATCH FIXTURES
     /*std::vector<match> day1;
