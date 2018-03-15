@@ -6,6 +6,7 @@
 #include "standings_table.hpp"
 #include "league.hpp"
 #include "season.hpp"
+#include "team_management.hpp"
 
 /**
  * @brief Contains all of the game engine logic.
@@ -54,6 +55,8 @@ private:
      */
     menu create_in_game_menu();
 
+    menu create_management_menu();
+
     /**
      * @brief Runs the game.
      *
@@ -61,6 +64,8 @@ private:
      * the game, and false if the user decided to quit.
      */
     void do_game();
+
+    void create_team_management_menu();
 
 public:
     /**
@@ -73,6 +78,7 @@ private:
     league league_;
     standings_table standings_table_;
     season season_;
+    
 };
 
 #endif

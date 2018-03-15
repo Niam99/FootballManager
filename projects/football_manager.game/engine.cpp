@@ -223,7 +223,19 @@ menu engine::create_in_game_menu() {
     menu m("In game Menu", "Choose an option: ", items);
     return m;
 }
+menu engine::create_management_menu() {
+ 
+        std::vector<menu_item> items;
 
+        for (user u : game_.users()) {
+            items.push_back(menu_item(u.name() + " -- " + u.team_name()));
+        }
+        int user_choice;
+        menu m("Users", "Choose an User: ", user_choice);
+        return m;
+
+
+}
 void engine::do_game() {
     // now run the game logic. We need to loop forever until the user
     // decides to quit.
@@ -242,18 +254,13 @@ void engine::do_game() {
             // user wants to see the table.
             standings_table_.display();
             continue;
+
         } else if (user_choice == 2) {
             std::cout << "Team Management" << std::endl;
-
-            team_management t;
-            t.display();
-            //for (user u : game_.users()) {
-            // u.display();
-                //}
-            //user uD;
-            //uD.display();
-            //std::cout << game_.users().size() << std::endl;
+            menu m = create_management_menu();
+            m.run();
             continue;
+
         } else if (user_choice == 3) {
             // if the user decides to quit, we should make sure its not a
             // mistake.

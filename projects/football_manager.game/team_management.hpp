@@ -7,10 +7,14 @@
 class team_management {
 public:
     team_management();
+    team_management(std::string name);
 
 public:
     void display();
 
+public:
+    std::string name;
+    
 private:
     game game_;
 };
