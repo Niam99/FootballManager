@@ -231,7 +231,7 @@ menu engine::create_management_menu() {
             items.push_back(menu_item(u.name() + " -- " + u.team_name()));
         }
         int user_choice;
-        menu m("Users", "Choose an User: ", user_choice);
+        menu m("Users", "Choose an User: ", items);
         return m;
 
 
