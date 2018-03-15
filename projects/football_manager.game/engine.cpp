@@ -247,7 +247,9 @@ void engine::do_game() {
 
             team_management t;
             t.display();
-
+            //for (user u : game_.users()) {
+            // u.display();
+                //}
             //user uD;
             //uD.display();
             //std::cout << game_.users().size() << std::endl;

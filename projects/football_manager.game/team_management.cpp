@@ -7,11 +7,11 @@
 team_management::team_management() {}
 
 void team_management::display(){
-    //engine e;
-    //for (user uTM : e.game_.users()) {
-    //          uTM.display();
-    //      }
-    user uTM;
-    uTM.display();
-    
+
+    for (user uTM : game_.users()) {
+         uTM.display();
+     }
+
+//user uTM;
+//uTM.display();    
 }
