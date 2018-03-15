@@ -51,6 +51,7 @@ season engine::create_season() {
 
     std::string team1;
     std::string team2;
+    
     for(squad t1 : league_.squads()) {
         team1 = t1.name();
         std::cout << team1;
@@ -58,14 +59,30 @@ season engine::create_season() {
             team2 = t2.name();
             std::cout << team2;
             if (team1 != team2) {
-            std::cout << "teams are diff, adding match" << std::endl;
-            std::vector<match> test;
-            test.push_back(match(team1,0,team2,0,0));
-            match_days.push_back(match_day(test));
-
+                std::vector<match> test;
+                std::cout << "teams are diff, adding match" << std::endl;
+                test.push_back(match(team1,0,team2,0,0));
+                match_days.push_back(match_day(test));
            }
        }
     }
+
+    // This attempt sucsessfully splits up multiple matches into day
+    // But matches are impossible as 1 team plays multiple matches 
+    /*for(squad t1 : league_.squads()) {
+        team1 = t1.name();
+        std::cout << team1;
+        std::vector<match> test;
+        for(squad t2 : league_.squads()) {
+            team2 = t2.name();
+            std::cout << team2;
+            if (team1 != team2) {
+                std::cout << "teams are diff, adding match" << std::endl;
+                test.push_back(match(team1,0,team2,0,0));
+           }
+       }
+     match_days.push_back(match_day(test));
+     } */
 
     //WORKING - HARD CODED MATCH FIXTURES
     /*std::vector<match> day1;
@@ -85,58 +102,6 @@ season engine::create_season() {
     day3.push_back(match("Leicester City", 0,"Chelsea",0,0));
     day3.push_back(match("Arsenal", 0,"Tottenham Hotspur",0,0));
     match_days.push_back(match_day(day3));*/
-    
-    
-    //Attempt 1 - BUG( 2 teams same)
-   /* for(team t : league_.teams()) {
-        bool diff_team = false;
-        std::string team1;
-        std::string team2;
-        do {
-            team1 = t.name();
-            team2 = t.name();
-            if (team1 != team2) {
-                diff_team = true;
-            }
-        } while (diff_team == false);
-        std::vector<match> test;
-        test.push_back(match(team1,0,team2,0,0));
-        match_days.push_back(match_day(test));
-    } */
-    
-    //Attempt 2 - BUG( 2 teams same)
-    /*std::string team1;
-    std::string team2;
-    bool diff_team = false;
-    do {
-        std::string team1;
-        std::string team2;
-        for(team t : league_.teams()) {
-            team1 = t.name();
-        }
-        for(team t : league_.teams()) {
-            team2 = t.name();
-        }
-        if (team1 != team2) {
-                diff_team = true;
-        }
-    } while (diff_team == false);
-    std::vector<match> test;
-    test.push_back(match(team1,0,team2,0,0));
-    match_days.push_back(match_day(test)); */
-
-    // Attempt 3 - BUG( 2 teams same)
-    /*std::string team1;
-    std::string team2; 
-    for(team t : league_.teams()) {
-        team1 = t.name();
-        for(team t : league_.teams()) {
-            team2 = t.name();
-        }
-    }
-    std::vector<match> test;
-    test.push_back(match(team1,0,team2,0,0));
-    match_days.push_back(match_day(test));*/
     
     season s(2017, 2018, match_days);
     s.display();
