@@ -189,18 +189,31 @@ menu engine::create_in_game_menu() {
     return m;
 }
 menu engine::create_management_menu() {
- 
-        std::vector<menu_item> items;
+    std::vector<menu_item> items;
 
-        for (user u : game_.users()) {
-            items.push_back(menu_item(u.name() + " -- " + u.team_name()));
-        }
-        int user_choice;
-        menu m("Users", "Choose an User: ", items);
-        return m;
+    for (user u : game_.users()) {
+        items.push_back(menu_item(u.name() + " -- " + u.team_name()));
+    }
+    do_team_management();
 
-
+    menu m("Users", "Choose an User: ", items);
+    return m;
 }
+
+bool engine::do_team_management() {
+    int user_choice;
+
+    do {
+        menu tM = create_management_menu();
+        user_choice = tM.run();
+
+        if (user_choice == 0) {
+            std::cout << "Well i got this going for me" << std::endl;
+        }
+
+    } while (user_choice == 0);
+}
+
 void engine::do_game() {
     // now run the game logic. We need to loop forever until the user
     // decides to quit.

@@ -49,6 +49,8 @@ private:
      */
     bool do_add_users();
 
+    bool do_team_management();
+
     /**
      * @brief Creates the in-game menu. This is the menu after the game
      * has started.
@@ -76,6 +78,7 @@ public:
 private:
     game game_;
     league league_;
+    team_management teamMan_; 
     standings_table standings_table_;
     season season_;
     
