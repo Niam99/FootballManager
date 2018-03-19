@@ -197,8 +197,9 @@ menu engine::create_management_menu() {
     }
 
     do_team_management();
+    menu m("Users", "Choose an User: ", items);
+    return m;
 
-    
 //     menu m("Users", "Choose an User: ", items);
 //     do {
 //         menu tM = create_management_menu();
@@ -213,7 +214,7 @@ menu engine::create_management_menu() {
  }
 
 bool engine::do_team_management() {
-
+    return false;
     // int user_choice;
     // bool quit_choice;
     // do {

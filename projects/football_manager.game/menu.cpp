@@ -10,14 +10,14 @@ menu::menu(std::string name, std::string prompt, std::vector<menu_item> items) {
 
 void menu::display() {
     std::cout << name_ << std::endl;
-    for (int i = 0; i < items_.size(); ++i) {
+    for (unsigned int i = 0; i < items_.size(); ++i) {
         items_[i].display(i);
     }
     std::cout << prompt_;
 }
 
 int menu::run() {
-    int user_choice;
+    unsigned int user_choice = 0;
     bool choice_valid = false;
 
     do {
@@ -29,4 +29,5 @@ int menu::run() {
         else
             std::cout << "Please enter a valid menu choice." << std::endl;
     } while (choice_valid == false);
+    return user_choice; // keep compiler happy.
 }
