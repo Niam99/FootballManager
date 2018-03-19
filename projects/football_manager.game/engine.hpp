@@ -81,7 +81,6 @@ private:
     team_management teamMan_; 
     standings_table standings_table_;
     season season_;
-    
 };
 
 #endif

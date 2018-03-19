@@ -208,10 +208,13 @@ menu engine::create_management_menu() {
 //         if (user_choice == 0) {
 //             std::cout << "Well i got this going for me" << std::endl;
 //         }
+    // std::vector<menu_item> items;
 
-//     } while (user_choice == 0);
-//     return m;
- }
+    // for (user u : game_.users()) {
+    //     items.push_back(menu_item(u.name() + " -- " +
+    //     u.team_name()))
+    return m;
+}
 
 bool engine::do_team_management() {
     return false;
@@ -239,6 +242,7 @@ bool engine::do_team_management() {
 
     //     }
     // } while (user_choice == 0); 
+
 }
 
 void engine::do_game() {
@@ -263,7 +267,7 @@ void engine::do_game() {
         } else if (user_choice == 2) {
             std::cout << "Team Management" << std::endl;
             menu m = create_management_menu();
-            m.run();
+             m.run();
             continue;
 
         } else if (user_choice == 3) {
