@@ -13,40 +13,42 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-16 Fri 16:49]
+#+CAPTION: Clock summary at [2018-03-19 Mon 14:10]
 | <75>                                                                        |         |       |       |       |
 | Headline                                                                    | Time    |       |       |     % |
 |-----------------------------------------------------------------------------+---------+-------+-------+-------|
-| *Total time*                                                                | *60:02* |       |       | 100.0 |
+| *Total time*                                                                | *64:03* |       |       | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+-------+-------|
-| Stories                                                                     | 60:02   |       |       | 100.0 |
-| Active                                                                      |         | 60:02 |       | 100.0 |
+| Stories                                                                     | 64:03   |       |       | 100.0 |
+| Active                                                                      |         | 64:03 |       | 100.0 |
 | STARTED Sprint and product backlog grooming                                 |         |       |  0:30 |   0.8 |
 | COMPLETED Clone hedgr                                                       |         |       |  0:30 |   0.8 |
-| COMPLETED Diagram                                                           |         |       |  1:00 |   1.7 |
-| COMPLETED Create table standings classes                                    |         |       |  1:18 |   2.2 |
-| COMPLETED Review                                                            |         |       |  0:20 |   0.6 |
-| COMPLETED Create match classes                                              |         |       |  2:06 |   3.5 |
+| COMPLETED Diagram                                                           |         |       |  1:00 |   1.6 |
+| COMPLETED Create table standings classes                                    |         |       |  1:18 |   2.0 |
+| COMPLETED Review                                                            |         |       |  0:20 |   0.5 |
+| COMPLETED Create match classes                                              |         |       |  2:06 |   3.3 |
 | COMPLETED Test Program                                                      |         |       |  0:23 |   0.6 |
 | COMPLETED Discuss tasks                                                     |         |       |  0:19 |   0.5 |
 | COMPLETED Add constructors to table class                                   |         |       |  0:29 |   0.8 |
-| COMPLETED Add to table classes                                              |         |       |  4:56 |   8.2 |
-| COMPLETED Fix table function                                                |         |       |  1:32 |   2.6 |
-| COMPLETED Add setw to table                                                 |         |       |  1:00 |   1.7 |
-| COMPLETED Discuss tasks                                                     |         |       |  0:35 |   1.0 |
-| COMPLETED Analyse code                                                      |         |       |  2:21 |   3.9 |
-| COMPLETED fix table bug                                                     |         |       |  1:09 |   1.9 |
-| COMPLETED Test code                                                         |         |       |  1:00 |   1.7 |
-| COMPLETED Fix quit bug                                                      |         |       |  1:00 |   1.7 |
-| COMPLETED Fix match and add season                                          |         |       |  2:49 |   4.7 |
-| COMPLETED Review                                                            |         |       |  1:45 |   2.9 |
-| COMPLETED Go through last weeks work                                        |         |       |  1:00 |   1.7 |
-| COMPLETED Discuss tasks                                                     |         |       |  0:40 |   1.1 |
-| COMPLETED Create match fixtures                                             |         |       |  5:28 |   9.1 |
-| COMPLETED Review                                                            |         |       |  0:46 |   1.3 |
-| COMPLETED Make match by using file                                          |         |       |  9:58 |  16.6 |
-| Make matches                                                                |         |       | 14:19 |  23.8 |
-| Research for match problem                                                  |         |       |  2:49 |   4.7 |
+| COMPLETED Add to table classes                                              |         |       |  4:56 |   7.7 |
+| COMPLETED Fix table function                                                |         |       |  1:32 |   2.4 |
+| COMPLETED Add setw to table                                                 |         |       |  1:00 |   1.6 |
+| COMPLETED Discuss tasks                                                     |         |       |  0:35 |   0.9 |
+| COMPLETED Analyse code                                                      |         |       |  2:21 |   3.7 |
+| COMPLETED fix table bug                                                     |         |       |  1:09 |   1.8 |
+| COMPLETED Test code                                                         |         |       |  1:00 |   1.6 |
+| COMPLETED Fix quit bug                                                      |         |       |  1:00 |   1.6 |
+| COMPLETED Fix match and add season                                          |         |       |  2:49 |   4.4 |
+| COMPLETED Review                                                            |         |       |  1:45 |   2.7 |
+| COMPLETED Go through last weeks work                                        |         |       |  1:00 |   1.6 |
+| COMPLETED Discuss tasks                                                     |         |       |  0:40 |   1.0 |
+| COMPLETED Create match fixtures                                             |         |       |  5:28 |   8.5 |
+| COMPLETED Review                                                            |         |       |  0:46 |   1.2 |
+| COMPLETED Make match by using file                                          |         |       |  9:58 |  15.6 |
+| Make matches                                                                |         |       | 14:19 |  22.4 |
+| Research for match problem                                                  |         |       |  2:49 |   4.4 |
+| CANCELLED try fixing match with std::shuffle                                |         |       |  2:31 |   3.9 |
+| COMPLETED write permutations out                                            |         |       |  1:30 |   2.3 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -307,3 +309,37 @@ has same teams playing in one day
 https://stackoverflow.com/questions/6926433/how-to-shuffle-a-stdvector
 http://en.cppreference.com/w/cpp/algorithm/random_shuffle
 -- tried to implement in code. not sure how
+*** CANCELLED try fixing match with std::shuffle
+    CLOSED: [2018-03-19 Mon 11:31]
+    CLOCK: [2018-03-19 Mon 09:00]--[2018-03-19 Mon 11:31] =>  2:31
+
+#include <algorithm>
+#include <random>
+#include <chrono>
+
+// failed attempt to randomise vectors
+     /*for(squad t1 : league_.squads()) {
+        team1 = t1.name();
+        std::cout << team1;
+        std::vector<match> test;
+        for(squad t2 : league_.squads()) {
+            team2 = t2.name();
+            std::cout << team2;
+            if (team1 != team2) {
+                //std::vector<match> test;
+                std::cout << "teams are diff, adding match" << std::endl;
+                test.push_back(match(team1,0,team2,0,0));
+                //match_days.push_back(match_day(test));
+           }
+       match_days.push_back(match_day(test));
+       unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+       std::shuffle(test.begin(), test.end(), std::default_random_engine(seed));
+       }
+    }
+    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+    std::shuffle(match_days.begin(), match_days.end(), std::default_random_engine(seed));*/
+*** COMPLETED write permutations out
+    CLOSED: [2018-03-19 Mon 14:10]
+    CLOCK: [2018-03-19 Mon 11:30]--[2018-03-19 Mon 13:00] =>  1:30
+-- discuss task
+-- write out permutation
