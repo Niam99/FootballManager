@@ -233,9 +233,12 @@ menu engine::create_management_menu() {
         items.push_back(menu_item(u.name() + " -- " + u.team_name()));
     }
 
-    do_team_management();
     menu m("Users", "Choose an User: ", items);
+
+    
     return m;
+    
+    // do_team_management();
 
 //     menu m("Users", "Choose an User: ", items);
 //     do {
@@ -250,36 +253,10 @@ menu engine::create_management_menu() {
     // for (user u : game_.users()) {
     //     items.push_back(menu_item(u.name() + " -- " +
     //     u.team_name()))
-    return m;
 }
 
-bool engine::do_team_management() {
-    return false;
-    // int user_choice;
-    // bool quit_choice;
-    // do {
-    //     std::cout << "here!" << std::endl;
-    //     menu m = create_management_menu();
-    //     user_choice = m.run();
-
-    //     if (user_choice == 0) {
-    //         std::cout << "OPTION 1 <<------" << std::endl;
-    //         // FIXME: add logic to play a game.
-    //         continue;
-    //     } else if (user_choice == 1) {
-    //         // user wants to see the table.
-    //         standings_table_.display();
-    //         continue;
-
-    //     } else if (user_choice == 2) {
-    //         std::cout << "OPTION 2 <<------" << std::endl;
-    //         menu m = create_management_menu();
-    //         m.run();
-    //         continue;
-
-    //     }
-    // } while (user_choice == 0); 
-
+void engine::do_team_management() {
+    std::cout << "<<<<Enter selection working>>>>" << std::endl;
 }
 
 void engine::do_game() {

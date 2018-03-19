@@ -519,7 +519,7 @@ Updates to sprint and product backlog.
     - Inside, bool engine::do_team_management() {}
       - add necessary lines here
 
-- Issues:
+- (old)Issues:
   - I keep running into a Seg Error
     - Cause:
       - I think it happens when i try to run the do_team_management() function
@@ -534,5 +534,14 @@ Updates to sprint and product backlog.
       -                   
       - Segmentation fault
   - Seg fault must not be located inside engine.cpp
-  -
+
+- Seg Fault Fix
+  - Could be worng but:
+    - the missing return statement in the functions caused it
+
+- Issues:
+  - When running do_team_management
+  - it outputs before create_management_menu
+  - Even though create_management_menu need to be running to start do_team_management
+
 ** Deprecated
