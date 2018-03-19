@@ -11,6 +11,10 @@ public:
     match_day();
     match_day(std::vector<match> matches);
     void display();
+
+public:
+    std::vector<match>& matches();
+
 private:
     std::vector<match> matches_;
 };

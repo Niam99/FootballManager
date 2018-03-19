@@ -46,29 +46,66 @@ menu engine::create_main_menu() {
 
 
 season engine::create_season() {
+    // vector with all of the match days for an entire season.
     std::vector<match_day> match_days;
-    squad sq;    
 
-    std::string team1;
-    std::string team2;
-    
+    unsigned int total_teams = league_.squads().size();
+
+    // we know up front how many match days there are, so create them
+    // all empty. Times two because we play home and away. Minus two
+    // because a team does not play against itself.
+    unsigned int total_match_days = total_teams * 2 - 2;
+    match_days.resize(total_match_days);
+
+    // first we loop through all of the squads (clubs, really) in the
+    // league. This will generate all of the home games for a given
+    // team.
+    std::string home_team;
+    std::string away_team;
+    unsigned int match_day_displacement = 0;
     for(squad t1 : league_.squads()) {
-        team1 = t1.name();
-        std::cout << team1;
+        home_team = t1.name();
+        std::cout << "Home team: " << home_team << std::endl;
+
+        // how we loop through all of the away teams to generate all
+        // the home matches for the first team.
+        unsigned int i = 0;
         for(squad t2 : league_.squads()) {
-            team2 = t2.name();
-            std::cout << team2;
-            if (team1 != team2) {
-                std::vector<match> test;
-                std::cout << "teams are diff, adding match" << std::endl;
-                test.push_back(match(team1,0,team2,0,0));
-                match_days.push_back(match_day(test));
-           }
-       }
+            std::cout << "i: " << i << std::endl;
+            away_team = t2.name();
+            std::cout << "Away team: " << away_team << std::endl;
+
+            // we do not want to consider games where the home team is
+            // the same as the away team.
+            if (home_team != away_team) {
+                // first we need to compute the actual match day in
+                // which to place this game. Note that we wrap around
+                // when we reach the maximum number of match days in a
+                // season.
+                unsigned int actual_match_day =
+                    (i + match_day_displacement) % total_match_days;
+
+                std::cout << "Actual match day: " << actual_match_day
+                          << std::endl;
+
+                match_days[actual_match_day].matches()
+                    .push_back(match(home_team, 0, away_team, 0, 0));
+
+                // note that we only increment i if we have a real
+                // game (e.g. skip team playing against itself).
+                i = i + 1;
+            }
+        }
+
+        // the displacement shifts teams by a fixed amount. Try
+        // playing with values here. For example, see what happens
+        // when you subtract -1 instead of -2.
+        match_day_displacement = match_day_displacement + total_teams - 2;
+        std::cout << "Displacement: " << match_day_displacement << std::endl;
     }
 
     // This attempt sucsessfully splits up multiple matches into day
-    // But matches are impossible as 1 team plays multiple matches 
+    // But matches are impossible as 1 team plays multiple matches
     /*for(squad t1 : league_.squads()) {
         team1 = t1.name();
         std::cout << team1;
@@ -102,7 +139,7 @@ season engine::create_season() {
     day3.push_back(match("Leicester City", 0,"Chelsea",0,0));
     day3.push_back(match("Arsenal", 0,"Tottenham Hotspur",0,0));
     match_days.push_back(match_day(day3));*/
-    
+
     season s(2017, 2018, match_days);
     s.display();
     return s;
@@ -301,7 +338,7 @@ void engine::run() {
     bool start_game = do_add_users();
 
     if (start_game) {
-        std::cout << "CREATING SEASON" << std::endl;
+        std::cout << "Creating season" << std::endl;
 
         // creates season object
         season s = create_season();

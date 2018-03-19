@@ -18,3 +18,6 @@ void match_day::display() {
     }
 }
 
+std::vector<match>& match_day::matches() {
+    return matches_;
+}
