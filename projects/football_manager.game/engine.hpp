@@ -28,6 +28,13 @@ private:
     standings_table create_standings_table();
     season create_season();
 
+    /**
+     * @brief Implements the rotation algorithm from this article:
+     *
+     * @link http://www.cplusplus.com/reference/algorithm/rotate
+     */
+    season create_season_rotate();
+
 private:
     /**
      * @brief Creates the teams menu. League must have been loaded

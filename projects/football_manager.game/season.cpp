@@ -14,10 +14,10 @@ void season::display() {
     int day_no = 1;
     std::cout << "Start date: " << start_year_ << std::endl;
     for (match_day& i:match_days_) {
-        std::cout << "Day " << day_no << std::endl;
+        std::cout << "Day " << day_no << " (" << i.matches().size() << ")"
+                  << std::endl;
         i.display();
         day_no = day_no + 1;
     }
     std::cout << "End date: " << end_year_ << std::endl;
 }
-

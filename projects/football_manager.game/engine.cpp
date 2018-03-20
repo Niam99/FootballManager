@@ -1,5 +1,8 @@
+#include <list>
 #include <fstream>
 #include <ostream>
+#include <algorithm>
+#include <iterator>
 #include "engine.hpp"
 #include "team_management.hpp"
 
@@ -44,6 +47,57 @@ menu engine::create_main_menu() {
     return m;
 }
 
+season engine::create_season_rotate() {
+    std::list<std::string> team_names;
+
+    // first we copy across the team names into the list.
+    for(squad s : league_.squads()) {
+        team_names.push_back(s.name());
+    }
+
+    const unsigned int total_teams = league_.squads().size();
+    const unsigned int total_match_days = total_teams * 2 - 2;
+    const unsigned int total_games_in_match_day = total_teams / 2;
+
+    std::vector<match_day> match_days;
+    match_days.resize(total_match_days);
+
+    for(unsigned int match_day = 0; match_day < total_match_days; ++match_day) {
+        std::string home_team;
+        std::string away_team;
+
+        std::list<std::string>::iterator home_iterator(team_names.begin());
+        std::list<std::string>::reverse_iterator
+            away_iterator(team_names.rend());
+
+        for(unsigned int game_in_match_day = 0;
+            game_in_match_day < total_games_in_match_day;
+            ++game_in_match_day) {
+
+            home_team = *home_iterator;
+            away_team = *away_iterator;
+
+            match_days[match_day].matches()
+                .push_back(match(home_team, 0, away_team, 0, 0));
+
+            ++home_iterator;
+            ++away_iterator;
+        }
+
+        std::string first_team = team_names.front();
+        team_names.pop_front();
+
+        std::list<std::string>::iterator middle = team_names.begin();
+        std::advance(middle, match_day);
+        std::rotate(team_names.begin(), middle, team_names.end());
+
+        team_names.push_front(first_team);
+    }
+
+    season s(2017, 2018, match_days);
+    s.display();
+    return s;
+}
 
 season engine::create_season() {
     // vector with all of the match days for an entire season.
@@ -62,7 +116,7 @@ season engine::create_season() {
     // team.
     std::string home_team;
     std::string away_team;
-    unsigned int match_day_displacement = 0;
+    // unsigned int match_day_displacement = 0;
     for(squad t1 : league_.squads()) {
         home_team = t1.name();
         std::cout << "Home team: " << home_team << std::endl;
@@ -83,7 +137,7 @@ season engine::create_season() {
                 // when we reach the maximum number of match days in a
                 // season.
                 unsigned int actual_match_day =
-                    (i + match_day_displacement) % total_match_days;
+                    (i + total_teams) % total_match_days;
 
                 std::cout << "Actual match day: " << actual_match_day
                           << std::endl;
@@ -94,14 +148,14 @@ season engine::create_season() {
                 // note that we only increment i if we have a real
                 // game (e.g. skip team playing against itself).
                 i = i + 1;
+
+                // the displacement shifts teams by a fixed amount. Try
+                // playing with values here. For example, see what happens
+                // when you subtract -1 instead of -2.
+                // match_day_displacement = match_day_displacement + total_teams;
+                // std::cout << "Displacement: " << match_day_displacement << std::endl;
             }
         }
-
-        // the displacement shifts teams by a fixed amount. Try
-        // playing with values here. For example, see what happens
-        // when you subtract -1 instead of -2.
-        match_day_displacement = match_day_displacement + total_teams - 2;
-        std::cout << "Displacement: " << match_day_displacement << std::endl;
     }
 
     // This attempt sucsessfully splits up multiple matches into day
@@ -318,7 +372,7 @@ void engine::run() {
         std::cout << "Creating season" << std::endl;
 
         // creates season object
-        season s = create_season();
+        season s = create_season_rotate();
 
         std::cout << "Starting Season 2017/2018!" << std::endl;
         do_game();
