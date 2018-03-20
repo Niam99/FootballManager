@@ -13,42 +13,44 @@
 ** Active
 
 #+begin: clocktable :maxlevel 3 :scope subtree :indent nil :emphasize nil :scope file :narrow 75 :formula %
-#+CAPTION: Clock summary at [2018-03-19 Mon 14:10]
+#+CAPTION: Clock summary at [2018-03-20 Tue 09:29]
 | <75>                                                                        |         |       |       |       |
 | Headline                                                                    | Time    |       |       |     % |
 |-----------------------------------------------------------------------------+---------+-------+-------+-------|
-| *Total time*                                                                | *64:03* |       |       | 100.0 |
+| *Total time*                                                                | *66:47* |       |       | 100.0 |
 |-----------------------------------------------------------------------------+---------+-------+-------+-------|
-| Stories                                                                     | 64:03   |       |       | 100.0 |
-| Active                                                                      |         | 64:03 |       | 100.0 |
-| STARTED Sprint and product backlog grooming                                 |         |       |  0:30 |   0.8 |
-| COMPLETED Clone hedgr                                                       |         |       |  0:30 |   0.8 |
-| COMPLETED Diagram                                                           |         |       |  1:00 |   1.6 |
-| COMPLETED Create table standings classes                                    |         |       |  1:18 |   2.0 |
+| Stories                                                                     | 66:47   |       |       | 100.0 |
+| Active                                                                      |         | 66:47 |       | 100.0 |
+| STARTED Sprint and product backlog grooming                                 |         |       |  0:30 |   0.7 |
+| COMPLETED Clone hedgr                                                       |         |       |  0:30 |   0.7 |
+| COMPLETED Diagram                                                           |         |       |  1:00 |   1.5 |
+| COMPLETED Create table standings classes                                    |         |       |  1:18 |   1.9 |
 | COMPLETED Review                                                            |         |       |  0:20 |   0.5 |
-| COMPLETED Create match classes                                              |         |       |  2:06 |   3.3 |
+| COMPLETED Create match classes                                              |         |       |  2:06 |   3.1 |
 | COMPLETED Test Program                                                      |         |       |  0:23 |   0.6 |
 | COMPLETED Discuss tasks                                                     |         |       |  0:19 |   0.5 |
-| COMPLETED Add constructors to table class                                   |         |       |  0:29 |   0.8 |
-| COMPLETED Add to table classes                                              |         |       |  4:56 |   7.7 |
-| COMPLETED Fix table function                                                |         |       |  1:32 |   2.4 |
-| COMPLETED Add setw to table                                                 |         |       |  1:00 |   1.6 |
+| COMPLETED Add constructors to table class                                   |         |       |  0:29 |   0.7 |
+| COMPLETED Add to table classes                                              |         |       |  4:56 |   7.4 |
+| COMPLETED Fix table function                                                |         |       |  1:32 |   2.3 |
+| COMPLETED Add setw to table                                                 |         |       |  1:00 |   1.5 |
 | COMPLETED Discuss tasks                                                     |         |       |  0:35 |   0.9 |
-| COMPLETED Analyse code                                                      |         |       |  2:21 |   3.7 |
-| COMPLETED fix table bug                                                     |         |       |  1:09 |   1.8 |
-| COMPLETED Test code                                                         |         |       |  1:00 |   1.6 |
-| COMPLETED Fix quit bug                                                      |         |       |  1:00 |   1.6 |
-| COMPLETED Fix match and add season                                          |         |       |  2:49 |   4.4 |
-| COMPLETED Review                                                            |         |       |  1:45 |   2.7 |
-| COMPLETED Go through last weeks work                                        |         |       |  1:00 |   1.6 |
+| COMPLETED Analyse code                                                      |         |       |  2:21 |   3.5 |
+| COMPLETED fix table bug                                                     |         |       |  1:09 |   1.7 |
+| COMPLETED Test code                                                         |         |       |  1:00 |   1.5 |
+| COMPLETED Fix quit bug                                                      |         |       |  1:00 |   1.5 |
+| COMPLETED Fix match and add season                                          |         |       |  2:49 |   4.2 |
+| COMPLETED Review                                                            |         |       |  1:45 |   2.6 |
+| COMPLETED Go through last weeks work                                        |         |       |  1:00 |   1.5 |
 | COMPLETED Discuss tasks                                                     |         |       |  0:40 |   1.0 |
-| COMPLETED Create match fixtures                                             |         |       |  5:28 |   8.5 |
-| COMPLETED Review                                                            |         |       |  0:46 |   1.2 |
-| COMPLETED Make match by using file                                          |         |       |  9:58 |  15.6 |
-| Make matches                                                                |         |       | 14:19 |  22.4 |
-| Research for match problem                                                  |         |       |  2:49 |   4.4 |
-| CANCELLED try fixing match with std::shuffle                                |         |       |  2:31 |   3.9 |
-| COMPLETED write permutations out                                            |         |       |  1:30 |   2.3 |
+| COMPLETED Create match fixtures                                             |         |       |  5:28 |   8.2 |
+| COMPLETED Review                                                            |         |       |  0:46 |   1.1 |
+| COMPLETED Make match by using file                                          |         |       |  9:58 |  14.9 |
+| Make matches                                                                |         |       | 14:19 |  21.4 |
+| Research for match problem                                                  |         |       |  2:49 |   4.2 |
+| CANCELLED try fixing match with std::shuffle                                |         |       |  2:31 |   3.8 |
+| COMPLETED write permutations out                                            |         |       |  1:30 |   2.2 |
+| COMPLETED Discuss tasks                                                     |         |       |  2:04 |   3.1 |
+| Review match changes                                                        |         |       |  0:40 |   1.0 |
 #+TBLFM: $5='(org-clock-time% @3$2 $2..$4);%.1f
 #+end:
 
@@ -343,3 +345,86 @@ http://en.cppreference.com/w/cpp/algorithm/random_shuffle
     CLOCK: [2018-03-19 Mon 11:30]--[2018-03-19 Mon 13:00] =>  1:30
 -- discuss task
 -- write out permutation
+*** COMPLETED Discuss tasks
+    CLOSED: [2018-03-19 Mon 16:07]
+    CLOCK: [2018-03-19 Mon 14:00]--[2018-03-19 Mon 16:04] =>  2:04
+he first thing to notice is you do not need real team names
+
+you just need something to symbolise the team name such as t1 - t6
+
+this helps when thinking mathematically, because details like team names are not relevant to the problem at hand.
+
+second, if you were to do this like a mathematician you would have chosen a combinatorial approach like say start by doing t1 against all teams
+so
+t1 v t2
+t1 v t3
+t1 v t4
+t1 v t5
+t1 v t6
+ok now i have run out of t1 games. then
+t2 v t1
+t2 v t3
+t2 v t4
+t2 v t5
+t2 v t6
+and so forth.
+ok now notice two things
+a "day"
+is effectively spread out
+each "match day" is the first line on each loop
+the sum of the first lines
+t1 v t2
+(actually you need a quick hack to stop t2 v t1)
+but other than that
+hm or even better actually, this solves the home and away in one go
+so effectively what you want in your algorithm is:
+"keep going forward, until you find a game with current team (in this case t2) which does not have a team that is already in the games played"
+thats kind of what you would be doing manually right
+t2 v t1 should be skipped because
+t1 v t2 is already in
+so then if you skip that, you get
+t2 v t3
+now t2 is done, so you need to go into t3
+but t3 is done too so you move to t4
+ok cool so to summarise, your algo needs some way of knowing what teams are already on the current match day
+and if the team is already in the match day, skip that team.
+so now if you map this back into the code.
+1. you already have the main loop, e.g. t1 v t2, t1 v t3 etc
+the second loop needs to "remember" which teams have already played on a given match day (because they were a home team)
+and skip them as an away team
+i'll write down some comments on the code with these examples, maybe that will help you
+
+------
+
+it doesn't completely sort our problem - just a quick hack really, i'm sure there are problems but its just to give you a gist of the solution
+
+the key thing about it is maths though, it requires some kind of geometric thinking about how to tackle the problem
+
+e.g. create a grid with the teams as per above
+
+then line up the outputs with the data coming out of loops
+
+the lining up is the thing that determines correctness - i called it "displacement"
+
+one way to go about it is to convert this into an equation and solve it for the correct displacement value
+
+the other way, which is how most programmers do it, is to simply try random stuff and observe how things change :-
+
+:-)
+wow thats a big smiley man :-)
+
+until you build an intuition as to what the algo is doing
+
+16:03
+ok looking at it now
+Marco, 16:03
+i need to get on with my stuff so i dont have the time to make it a bit more obvious but hopefully it gives you a start
+
+16:03
+ok
+Marco, 16:04
+by the by % is the modulus operator
+https://stackoverflow.com/questions/12556946/how-does-the-modulus-operator-work
+*** Review match changes
+    CLOCK: [2018-03-19 Mon 16:07]--[2018-03-19 Mon 16:47] =>  0:40
+** Deprecated
