@@ -56,7 +56,7 @@ private:
      */
     bool do_add_users();
 
-    void do_team_management();
+    bool do_team_management();
 
     /**
      * @brief Creates the in-game menu. This is the menu after the game

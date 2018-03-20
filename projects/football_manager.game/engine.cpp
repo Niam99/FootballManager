@@ -268,7 +268,18 @@ bool engine::do_add_users() {
     } while (user_choice == 0);
     return true;
 }
+menu engine::create_management_menu() {
+    std::vector<menu_item> items;
+    for (user u : game_.users()) {
+        items.push_back(menu_item(u.name() + " -- " + u.team_name()));
 
+        for(squad sq : league_.squads()) {
+        items.push_back(menu_item(sq.name()));
+        }
+    }
+    menu m("Users", "Choose an User: ", items);
+    return m;
+}
 menu engine::create_in_game_menu() {
     std::vector<menu_item> items;
     items.push_back(menu_item("Play next game"));
@@ -279,38 +290,33 @@ menu engine::create_in_game_menu() {
     menu m("In game Menu", "Choose an option: ", items);
     return m;
 }
-menu engine::create_management_menu() {
-    std::vector<menu_item> items;
-    //int user_choice;
 
-    for (user u : game_.users()) {
-        items.push_back(menu_item(u.name() + " -- " + u.team_name()));
-    }
-
-    menu m("Users", "Choose an User: ", items);
-
-    
-    return m;
-    
-    // do_team_management();
-
-//     menu m("Users", "Choose an User: ", items);
-//     do {
-//         menu tM = create_management_menu();
-//         user_choice = tM.run();
-
-//         if (user_choice == 0) {
-//             std::cout << "Well i got this going for me" << std::endl;
-//         }
-    // std::vector<menu_item> items;
-
-    // for (user u : game_.users()) {
-    //     items.push_back(menu_item(u.name() + " -- " +
-    //     u.team_name()))
-}
-
-void engine::do_team_management() {
+bool engine::do_team_management() {
     std::cout << "<<<<Enter selection working>>>>" << std::endl;
+    int user_choice;
+    do {
+        menu m = create_management_menu();
+        user_choice = m.run();
+
+        // user has decided to add more users.
+        if (user_choice == 0) {
+            std::cout << "Adding a new user!" << std::endl;
+
+                } else if (user_choice == 2) {
+            // if the user decides to quit, we should make sure its not a
+            // mistake.
+            std::cout << "Are you sure you want to quit? Y/N" << std::endl;
+            std::string quit;
+            std::cin >> quit;
+
+            if (quit == "Y" || quit == "y") {
+                // user has confirmed they wanted to quit.
+                return false;
+            } else
+                return true;
+        }
+    } while (user_choice == 0);
+    return true;
 }
 
 void engine::do_game() {
