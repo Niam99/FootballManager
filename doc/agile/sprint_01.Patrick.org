@@ -91,6 +91,7 @@ Stories you are working on this sprint.
 Updates to sprint and product backlog.
 
 *** STARTED Discussing task at hand
+    CLOCK: [2018-03-21 Wed 14:13]--[2018-03-21 Wed 14:18] =>  0:05
     CLOCK: [2018-03-20 Tue 14:36]--[2018-03-20 Tue 14:54] =>  0:18
     CLOCK: [2018-03-20 Tue 11:47]--[2018-03-20 Tue 12:02] =>  0:15
     CLOCK: [2018-03-19 Mon 13:37]--[2018-03-19 Mon 13:58] =>  0:21
@@ -493,6 +494,8 @@ Updates to sprint and product backlog.
 - Try to get back without just undoing
 
 *** STARTED Allow player to select their user and team from management option
+    CLOCK: [2018-03-21 Wed 10:09]--[2018-03-21 Wed 10:49] =>  0:40
+    CLOCK: [2018-03-21 Wed 09:26]--[2018-03-21 Wed 09:45] =>  0:19
     CLOCK: [2018-03-20 Tue 14:08]--[2018-03-20 Tue 14:36] =>  0:28
     CLOCK: [2018-03-20 Tue 12:26]--[2018-03-20 Tue 13:11] =>  0:45
     CLOCK: [2018-03-20 Tue 10:23]--[2018-03-20 Tue 10:51] =>  0:28
@@ -558,5 +561,21 @@ Updates to sprint and product backlog.
 *** COMPLETED MC helping fix mistakes
     CLOSED: [2018-03-20 Tue 16:56]
     CLOCK: [2018-03-20 Tue 15:54]--[2018-03-20 Tue 16:56] =>  1:02
+
+*** Print players for first user in Team Management
+    CLOCK: [2018-03-21 Wed 15:31]--[2018-03-21 Wed 16:09] =>  0:38
+    CLOCK: [2018-03-21 Wed 14:55]--[2018-03-21 Wed 15:23] =>  0:28
+    CLOCK: [2018-03-21 Wed 14:18]--[2018-03-21 Wed 14:44] =>  0:26
+    CLOCK: [2018-03-21 Wed 13:45]--[2018-03-21 Wed 14:11] =>  0:26
+    CLOCK: [2018-03-21 Wed 12:05]--[2018-03-21 Wed 12:36] =>  0:31
+    CLOCK: [2018-03-21 Wed 11:35]--[2018-03-21 Wed 11:47] =>  0:12
+
+- Use similar for loop
+- In Diagram:
+  - Locate players and see how they are connected
+- Find some way to tie players to engine.cpp
+- Use the for loop to print players for user selected team
+- Set for loop cap to 11
+- Get it to print after showing user name and team
 
 ** Deprecated

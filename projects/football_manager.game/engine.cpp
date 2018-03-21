@@ -5,6 +5,7 @@
 #include <iterator>
 #include "engine.hpp"
 #include "team_management.hpp"
+#include "squad.hpp"
 
 engine::engine() {}
 
@@ -298,12 +299,13 @@ bool engine::do_add_users() {
 menu engine::create_management_menu() {
     std::vector<menu_item> items;
     for (user u : game_.users()) {
-        items.push_back(menu_item(u.name() + " -- " + u.team_name()));
-
-        for(squad sq : league_.squads()) {
-        items.push_back(menu_item(sq.name()));
-        }
+        items.push_back(menu_item(u.name() + " -- " + u.team_name()));   
     }
+
+    // for (squad& i:league_.squads) {
+    //     i.display();
+    // }
+
     menu m("Users", "Choose an User: ", items);
     return m;
 }
