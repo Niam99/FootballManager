@@ -427,4 +427,30 @@ by the by % is the modulus operator
 https://stackoverflow.com/questions/12556946/how-does-the-modulus-operator-work
 *** Review match changes
     CLOCK: [2018-03-19 Mon 16:07]--[2018-03-19 Mon 16:47] =>  0:40
+*** Review MC match fix
+    CLOCK: [2018-03-20 Tue 09:00]--[2018-03-20 Tue 11:52] =>  2:52
+-read through code
+-test code
+-bug: first match every day is arsenal vs empty
+-look for things to research:
+--lists
+--round robin: https://stackoverflow.com/questions/6648512/scheduling-algorithm-for-a-round-robin-tournament
+--tournament maths: https://nrich.maths.org/1443
+
+*** COMPLETED Research lists
+    CLOSED: [2018-03-20 Tue 13:30]
+    CLOCK: [2018-03-20 Tue 11:53]--[2018-03-20 Tue 13:00] =>  1:07
+http://en.cppreference.com/w/cpp/container/list
+https://www.youtube.com/watch?v=lSIoWv92rrU
+*** COMPLETED Research match algorithm
+    CLOSED: [2018-03-20 Tue 16:04]
+    CLOCK: [2018-03-20 Tue 13:57]--[2018-03-20 Tue 16:04] =>  2:07
+--round robin: https://stackoverflow.com/questions/6648512/scheduling-algorithm-for-a-round-robin-tournament
+--tournament maths: https://nrich.maths.org/1443
+--read code, to see algorithm
+*** COMPLETED Research Vector/list resize
+    CLOSED: [2018-03-20 Tue 16:48]
+    CLOCK: [2018-03-20 Tue 16:06]--[2018-03-20 Tue 16:48] =>  0:42
+http://www.cplusplus.com/reference/vector/vector/resize/
+
 ** Deprecated
