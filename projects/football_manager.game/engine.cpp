@@ -55,6 +55,12 @@ season engine::create_season_rotate() {
         team_names.push_back(s.name());
     }
 
+    std::cout << "Created list. Size: " << team_names.size()
+              << " Contents: " << std::endl;
+    for (std::string tn : team_names) {
+        std::cout << tn << std::endl;
+    }
+
     const unsigned int total_teams = league_.squads().size();
     const unsigned int total_match_days = total_teams * 2 - 2;
     const unsigned int total_games_in_match_day = total_teams / 2;
@@ -63,19 +69,26 @@ season engine::create_season_rotate() {
     match_days.resize(total_match_days);
 
     for(unsigned int match_day = 0; match_day < total_match_days; ++match_day) {
+        std::cout << "Match day: " << match_day << std::endl;
+
         std::string home_team;
         std::string away_team;
 
         std::list<std::string>::iterator home_iterator(team_names.begin());
         std::list<std::string>::reverse_iterator
-            away_iterator(team_names.rend());
+            away_iterator(team_names.rbegin());
 
         for(unsigned int game_in_match_day = 0;
             game_in_match_day < total_games_in_match_day;
             ++game_in_match_day) {
+            std::cout << "Game in match day: " << game_in_match_day
+                      << std::endl;
 
             home_team = *home_iterator;
+            std::cout << "Home team: " << home_team << std::endl;
+
             away_team = *away_iterator;
+            std::cout << "Away team: " << home_team << std::endl;
 
             match_days[match_day].matches()
                 .push_back(match(home_team, 0, away_team, 0, 0));
@@ -84,14 +97,28 @@ season engine::create_season_rotate() {
             ++away_iterator;
         }
 
+        std::cout << "Before rotate" << std::endl;
+        for (std::string tn : team_names) {
+            std::cout << tn << std::endl;
+        }
+
         std::string first_team = team_names.front();
         team_names.pop_front();
 
         std::list<std::string>::iterator middle = team_names.begin();
+        std::cout << "Advancing by " << match_day << std::endl;
         std::advance(middle, match_day);
+
+        std::cout << "Rotating" << std::endl;
+
         std::rotate(team_names.begin(), middle, team_names.end());
 
         team_names.push_front(first_team);
+
+        std::cout << "After rotate" << std::endl;
+        for (std::string tn : team_names) {
+            std::cout << tn << std::endl;
+        }
     }
 
     season s(2017, 2018, match_days);
